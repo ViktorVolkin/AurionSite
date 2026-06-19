@@ -1,0 +1,9 @@
+.burgerIcon {
+	height: 100%;
+	width: auto;
+	color: var(--accent);
+}
+
+.inherit {
+	display: contents;
+}

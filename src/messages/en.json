@@ -1,0 +1,362 @@
+{
+	"mainPage": {
+		"intro": {
+			"eyebrow": "Global Mobility & Residency",
+			"title": "Where you live should be a <highlight>choice</highlight>, not a limitation",
+			"info": "147 residency permits secured across 8 jurisdictions since 2018",
+			"firstButton": {
+				"text": "Book a Consultation"
+			},
+			"decidedBy": [
+				"years of practice",
+				"residency permits issued",
+				"jurisdictions covered",
+				"months average approval time"
+			]
+		},
+
+		"possibilities": {
+			"eyebrow": "Jurisdictions",
+			"title": "Eight jurisdictions. One standard of case management.",
+			"additionalInfo": "We match the jurisdiction to your profile, not the other way around. Each destination is managed by an on-site team.",
+			"blocks": {
+				"montenegro": {
+					"title": "Montenegro",
+					"importantText": "Residency based on passive income",
+					"ourExperience": "Operating in Montenegro since 2013. We manage your case from the initial consultation to the issuance of your card.",
+					"term": { "question": "Timeframe", "answer": "3–4 months" },
+					"finance": {
+						"question": "Financial requirement",
+						"answer": "from €3,650 / year"
+					},
+					"hook": "A direct path to residency without property purchase. Ideal for passive income earners and remote professionals."
+				},
+				"spain": {
+					"title": "Spain",
+					"importantText": "Digital Nomad Visa / Non-Lucrative Residency",
+					"ourExperience": "Full support from apostille to local registration in Spain. Our on-site partner handles all communications with the consulate.",
+					"term": { "question": "Timeframe", "answer": "2–3 months" },
+					"finance": {
+						"question": "Financial requirement",
+						"answer": "from €2,650 / mo income"
+					},
+					"hook": "Schengen residency with living rights for the entire family. Income can be verified via remote employment or contracts."
+				},
+				"serbia": {
+					"title": "Serbia",
+					"importantText": "Temporary Residence Permit",
+					"ourExperience": "Assisting with address registration, bank account opening, and residency application. We know the local compliance specifics of each district.",
+					"term": { "question": "Timeframe", "answer": "2–3 months" },
+					"finance": {
+						"question": "Financial requirement",
+						"answer": "lease agreement / business incorporation"
+					},
+					"hook": "A clear pathway to permanent residency in three years. Minimal physical presence requirements."
+				},
+				"france": {
+					"title": "France",
+					"importantText": "Passive Resident Visa / Talent Passport",
+					"ourExperience": "We prepare your dossier tailored to Prefecture requirements, monitor timeframes, and guide you through every stage.",
+					"term": { "question": "Timeframe", "answer": "3–5 months" },
+					"finance": {
+						"question": "Financial requirement",
+						"answer": "from €1,800 / mo income"
+					},
+					"hook": "One of the few paths to the EU without real estate investment. Suitable for professionals and independent earners."
+				},
+				"malta": {
+					"title": "Malta",
+					"importantText": "Residency / Citizenship by Investment",
+					"ourExperience": "Working alongside licensed Maltese agents. Comprehensive guidance through the naturalization track.",
+					"term": { "question": "Timeframe", "answer": "12–36 months" },
+					"finance": {
+						"question": "Financial requirement",
+						"answer": "from €150,000"
+					},
+					"hook": "The only EU citizenship via naturalization through an investment track. The passport grants visa-free access to 185 countries."
+				},
+				"greece": {
+					"title": "Greece",
+					"importantText": "Golden Visa / Residency by Real Estate Investment",
+					"ourExperience": "We coordinate legal support for the transaction and the residency application in a single streamlined process.",
+					"term": { "question": "Timeframe", "answer": "3–6 months" },
+					"finance": {
+						"question": "Financial requirement",
+						"answer": "from €250,000"
+					},
+					"hook": "The most accessible Golden Visa in the EU. Zero physical presence requirements—the card remains valid under any travel schedule."
+				},
+				"cyprus": {
+					"title": "Cyprus",
+					"importantText": "Residency by Income / Investment",
+					"ourExperience": "Helping restructure assets for Cypriot residency. We collaborate directly with local attorneys and banks.",
+					"term": { "question": "Timeframe", "answer": "2–4 months" },
+					"finance": {
+						"question": "Financial requirement",
+						"answer": "from €30,000 / year income"
+					},
+					"hook": "Low tax burden and an English-speaking environment. Residency without mandatory stay requirements, tailored for business."
+				},
+				"hungary": {
+					"title": "Hungary",
+					"importantText": "Guest Investor Visa / Residency by Investment",
+					"ourExperience": "Monitoring the program since its launch. Guiding clients based on current regulations without outdated templates.",
+					"term": { "question": "Timeframe", "answer": "1–3 months" },
+					"finance": {
+						"question": "Financial requirement",
+						"answer": "from €500,000 (investment)"
+					},
+					"hook": "A new program with a secure entry point into the EU. Well-suited for digital entrepreneurs and investors."
+				},
+				"armenia": {
+					"title": "Armenia",
+					"importantText": "Residency via Sole Proprietorship / LLC Registration",
+					"ourExperience": "We incorporate your company and process residency within a single trip. Experts in Yerevan banking compliance.",
+					"term": { "question": "Timeframe", "answer": "1–2 months" },
+					"finance": {
+						"question": "Financial requirement",
+						"answer": "Sole Proprietorship / LLC registration"
+					},
+					"hook": "A fast track for entrepreneurs and IT professionals. Residency without real estate investment requirements."
+				},
+				"georgia": {
+					"title": "Georgia",
+					"importantText": "Residency based on Investment / Employment",
+					"ourExperience": "We manage real estate acquisition and residency registration concurrently. Working directly with the local registry.",
+					"term": { "question": "Timeframe", "answer": "1–2 months" },
+					"finance": {
+						"question": "Financial requirement",
+						"answer": "from $100,000 (investment)"
+					},
+					"hook": "Territorial taxation system. One of the fastest residency options in the region."
+				},
+				"uae": {
+					"title": "UAE",
+					"importantText": "Golden Visa / Remote Work Visa",
+					"ourExperience": "Processing in Dubai and Abu Dhabi, including Emirates ID and bank account opening. Designed for investors and founders.",
+					"term": { "question": "Timeframe", "answer": "4–6 weeks" },
+					"finance": {
+						"question": "Financial requirement",
+						"answer": "from AED 2,000,000 (Golden)"
+					},
+					"hook": "Zero personal income tax and a residency status valid for up to 10 years."
+				},
+				"portugal": {
+					"title": "Portugal",
+					"importantText": "D7 / Passive Income Residency",
+					"ourExperience": "We arrange NIF, bank accounts, and residency applications remotely. Complete support during your AIMA interview.",
+					"term": { "question": "Timeframe", "answer": "4–8 months" },
+					"finance": {
+						"question": "Financial requirement",
+						"answer": "from €820 / mo income"
+					},
+					"hook": "A straight path to permanent residency and citizenship in 5 years. No mandatory real estate investment required."
+				},
+				"italy": {
+					"title": "Italy",
+					"importantText": "Elective Residency Visa (Passive Income)",
+					"ourExperience": "Assisting with document translation and legalization for the Italian consulate. Rigorous monitoring of submission deadlines.",
+					"term": { "question": "Timeframe", "answer": "3–6 months" },
+					"finance": {
+						"question": "Financial requirement",
+						"answer": "from €32,000 / year income"
+					},
+					"hook": "Residency for independent earners and retirees without working rights. Full access to the Italian national healthcare system."
+				},
+				"thailand": {
+					"title": "Thailand",
+					"importantText": "Long-Term Resident / Elite Visa",
+					"ourExperience": "Selecting the optimal visa track tailored to your profile—from remote work to retirement options.",
+					"term": { "question": "Timeframe", "answer": "1–3 months" },
+					"finance": {
+						"question": "Financial requirement",
+						"answer": "from $80,000 (Elite) / income"
+					},
+					"hook": "A 5-to-10-year visa without strict real estate ties. Suitable for remote professionals and retirees."
+				},
+				"vanuatu": {
+					"title": "Vanuatu",
+					"importantText": "Citizenship by Investment",
+					"ourExperience": "Coordinating due diligence and remote application processing. One of the fastest passport issuance timelines globally.",
+					"term": { "question": "Timeframe", "answer": "1–2 months" },
+					"finance": {
+						"question": "Financial requirement",
+						"answer": "from $130,000 (contribution)"
+					},
+					"hook": "Visa-free access to Schengen and the UK. The fastest citizenship-by-investment program available."
+				}
+			}
+		},
+		"process": {
+			"eyebrow": "Process",
+			"title": "Three stages. From profile evaluation to your residency card.",
+			"cards": {
+				"step_1": {
+					"title": "Initial Assessment",
+					"text": "We evaluate your profile, income sources, and objectives. Our team selects the optimal jurisdiction and program where your case has the highest probability of success."
+				},
+				"step_2": {
+					"title": "Document Preparation",
+					"text": "We compile the full application package, managing professional translation and notarization. Every document is rigorously vetted before submission to the authorities."
+				},
+				"step_3": {
+					"title": "Approval & Post-Landing",
+					"text": "We submit the file, monitor its processing status, and provide comprehensive post-approval support: bank account opening, tax registration, and residency renewals."
+				}
+			}
+		},
+		"aboutUs": {
+			"eyebrow": "About Us",
+			"title": "We manage cases from within the jurisdiction, not from a distance.",
+			"text": "Since 2013, the Aurion team has operated on-site in Montenegro, and since 2018, we have secured 147 residency permits across six jurisdictions. We accept a limited number of cases at any given time—ensuring your file is managed by a dedicated specialist, not processed in a queue.",
+			"cards": {
+				"team": {
+					"title": "On-Site Team Since 2013",
+					"text": "We handle cases from the inside rather than working remotely—reducing processing timelines and mitigating submission risks."
+				},
+				"specialist": {
+					"title": "One Specialist, One Case",
+					"text": "You work with a dedicated expert from your initial consultation through to the issuance of your card."
+				},
+				"continious": {
+					"title": "Post-Approval Support",
+					"text": "Bank account opening, tax identification number setup, and residency renewals are integrated into our scope, not sold as extras."
+				}
+			}
+		},
+		"cases": {
+			"title": "Cases brought to residency card completion.",
+			"eyebrow": "Results",
+			"montenegroBusiness": {
+				"country": "Montenegro",
+				"category": "Family",
+				"outcome": "Residency for a family of four under a single application.",
+				"timeframe": "Approved in 4 months",
+				"description": "The primary applicant verified passive income, securing residency for themselves, their spouse, and two children within one submission."
+			},
+			"spainNomad": {
+				"country": "Spain",
+				"category": "Freelancer",
+				"outcome": "A Digital Nomad Visa for a remote professional.",
+				"timeframe": "Approved in 3 months",
+				"description": "An IT professional verified income from foreign contracts and obtained Schengen residency with the right to live in the EU."
+			},
+			"UAE": {
+				"country": "UAE",
+				"category": "Entrepreneur",
+				"outcome": "10-Year Golden Visa for an IT company founder",
+				"timeframe": "Approved in 5 weeks",
+				"description": "The founder secured long-term residency alongside their Emirates ID and a corporate bank account without leaving the country."
+			}
+		},
+		"finalCta": {
+			"eyebrow": "Launch Analysis",
+			"title": "Program requirements change quarterly. Submitting today means relying on yesterday's criteria.",
+			"text": "During a 30-minute consultation, we will evaluate your profile and outline realistic timelines for your chosen jurisdiction."
+		}
+	},
+
+	"widgets": {
+		"header": {
+			"logoAlt": "Landostat Logo",
+			"possibilities": "Jurisdictions",
+			"workflow": "How It Works",
+			"demo": "Report Demo",
+			"sources": "Data Sources",
+			"contacts": "Contacts",
+			"openPopup": "Request a Call"
+		},
+
+		"footer": {
+			"logoAlt": "AI Property Intelligence Logo",
+			"description": "An AI platform designed for the valuation, forecasting, and comparison of land and real estate values across international markets.",
+			"titles": {
+				"product": "Product",
+				"methodology": "Methodology",
+				"sources": "Sources",
+				"company": "Company"
+			},
+			"product": {
+				"features": "Features",
+				"demo": "Demo Report",
+				"pricing": "Pricing",
+				"security": "Security",
+				"api": "API"
+			},
+			"methodology": {
+				"howItWorks": "Valuation Model",
+				"accuracy": "Model Accuracy",
+				"releases": "Releases",
+				"changelog": "Changelog"
+			},
+			"sources": {
+				"partners": "Data Partners",
+				"coverage": "Market Coverage",
+				"freshness": "Data Recency",
+				"certifications": "Certifications"
+			},
+			"company": {
+				"about": "About Us",
+				"contacts": "Contacts",
+				"careers": "Careers",
+				"press": "Press"
+			},
+			"bottom": {
+				"copyright": "© 2026 · AI Property Intelligence · PSRN TBD · All rights reserved",
+				"privacy": "Privacy Policy",
+				"terms": "Terms of Use",
+				"language": "Language"
+			}
+		}
+	},
+
+	"Consultation": {
+		"empty": "No results found",
+		"fields": {
+			"nameLabel": "Name",
+			"namePlaceholder": "Your name",
+			"countryLabel": "Jurisdiction of Interest",
+			"methodLabel": "Preferred Contact Method",
+			"contactLabel": "Contact Detail",
+			"contactPlaceholderTg": "Your Telegram @username",
+			"contactPlaceholderWa": "Your WhatsApp number",
+			"contactPlaceholderPhone": "+1 (000) 000-00-00"
+		},
+		"countries": {
+			"montenegro": "Montenegro",
+			"spain": "Spain",
+			"uae": "UAE",
+			"armenia": "Armenia",
+			"serbia": "Serbia",
+			"georgia": "Georgia",
+			"portugal": "Portugal",
+			"cyprus": "Cyprus",
+			"greece": "Greece",
+			"malta": "Malta",
+			"hungary": "Hungary",
+			"france": "France",
+			"italy": "Italy",
+			"thailand": "Thailand",
+			"vanuatu": "Vanuatu",
+			"unsure": "Not decided yet"
+		},
+		"methods": {
+			"telegram": "Telegram",
+			"whatsapp": "WhatsApp",
+			"phone": "Phone Call"
+		},
+		"buttons": {
+			"submit": "Book a Consultation",
+			"loading": "Sending..."
+		},
+		"privacy": {
+			"ru": "Ваши данные защищены и никогда не передаются третьим лицам.",
+			"en": "Your data is protected and will never be shared with third parties."
+		},
+		"errors": {
+			"nameMin": "Name must be at least 2 characters long",
+			"contactRequired": "This field is required",
+			"invalidPhone": "Please enter a valid phone number (e.g., +1...)"
+		}
+	}
+}

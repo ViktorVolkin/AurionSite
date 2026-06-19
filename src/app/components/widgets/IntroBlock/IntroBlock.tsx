@@ -1,0 +1,38 @@
+import { getTranslations } from "next-intl/server";
+import styles from "./IntroBlock.module.css";
+import { IntroBlockProps } from "./IntroBlock.types";
+import OpenPopupButton from "../../shared/OpenPopupButton";
+import Eyebrow from "../../shared/Eyebrow";
+import StatsBar from "../../shared/StatsBar";
+
+export default async function IntroBlock({
+	eyebrow,
+	title,
+	info,
+	firstButton,
+	decidedBy,
+}: IntroBlockProps) {
+	const t = await getTranslations();
+
+	return (
+		<section className={styles.container}>
+			<div className={styles.heroInner}>
+				<Eyebrow eyebrow={eyebrow}></Eyebrow>
+
+				<h1 className={styles.title}>
+					{t.rich(title, {
+						highlight: (chunks) => <em>{chunks}</em>,
+					})}
+				</h1>
+
+				<p className={styles.info}>{t(info)}</p>
+
+				<OpenPopupButton
+					{...firstButton}
+					className={styles.firstButton}
+				/>
+			</div>
+			<StatsBar items={decidedBy} />
+		</section>
+	);
+}

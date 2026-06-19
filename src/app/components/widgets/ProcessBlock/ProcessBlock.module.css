@@ -1,0 +1,122 @@
+.wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: clamp(18px, 3vw, 30px);
+	background-color: #111b27;
+	margin-inline: calc(50% - 50vw);
+	padding-inline: calc(50vw - 50%);
+	padding-block: 40px;
+	width: auto;
+}
+.title {
+	font-size: clamp(28px, 4vw, 42px);
+	font-weight: 400;
+	line-height: 1.2;
+	color: var(--white, #ffffff);
+	max-width: 20ch;
+	margin: 0;
+}
+
+.highlight {
+	color: var(--highlight, #e8b57a);
+	font-family: var(--times);
+}
+
+.data__container {
+	display: flex;
+	flex-direction: column;
+	gap: clamp(32px, 5vw, 48px);
+}
+
+.cards__list {
+	display: flex;
+	flex-direction: column;
+	gap: clamp(32px, 5vw, 72px);
+	list-style: none;
+}
+
+.card__title {
+	color: var(--accent);
+	font-size: clamp(21px, 4vw, 32px);
+	line-height: 1.6;
+	font-weight: 500;
+	text-wrap: balance;
+}
+.card__text {
+	color: var(--casual);
+	max-width: 34ch;
+	font-size: clamp(11px, 1rem, 13px);
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	position: relative;
+}
+.data {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	padding-left: 48px;
+}
+
+.rn {
+	font-size: clamp(3rem, 5vw, 4.4rem);
+	font-weight: 500;
+	font-family: var(--cormorant);
+	color: var(--accent);
+	margin-bottom: 12px;
+	width: max-content;
+	width: 50px;
+	text-align: center;
+}
+
+.card::after {
+	content: "";
+	position: absolute;
+	background-color: var(--casual);
+	left: 24px;
+	top: clamp(3.5rem, 6vw, 5rem);
+	width: 1px;
+	height: calc(100% - 48px);
+}
+
+@media (min-width: 768px) {
+	.cards__list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 0;
+	}
+	.card__title {
+		max-width: 20ch;
+	}
+	.card {
+		padding-right: clamp(40px, 5vw, 80px);
+	}
+	.card:last-child {
+		padding-right: 0;
+	}
+	.card::after {
+		content: "";
+		position: absolute;
+		background-color: rgba(232, 181, 122, 0.25);
+
+		height: 1px;
+		width: auto;
+
+		top: 2.3rem;
+		left: 70px;
+		right: clamp(20px, 3vw, 40px);
+	}
+
+	.card:last-child::after {
+		display: none;
+	}
+	.data {
+		padding: 0;
+	}
+	.card:last-child::after {
+		display: none;
+	}
+}

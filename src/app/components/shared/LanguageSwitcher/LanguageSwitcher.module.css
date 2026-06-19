@@ -1,0 +1,72 @@
+.switcher {
+	position: relative;
+	display: inline-flex;
+	background-color: transparent;
+	border-radius: 9999px;
+	padding: 4px;
+	isolation: isolate;
+	border: 1px solid var(--accent-ring);
+	height: 100%;
+	width: clamp(80px, 8vw, 110px);
+	box-sizing: border-box;
+}
+
+.langButton {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	flex: 1;
+	padding: 6px 0;
+
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	color: var(--gray, #888888);
+	font-weight: 600;
+
+	transition: color 0.2s ease;
+
+	z-index: 2;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.langButton_active {
+	color: #000000;
+}
+
+.carriage {
+	position: absolute;
+	top: 4px;
+	bottom: 4px;
+	left: 4px;
+
+	width: calc(50% - 4px);
+
+	background-color: var(--highlight, #e8b57a);
+	border-radius: 9999px;
+	z-index: 1;
+
+	transform: translateX(0);
+
+	transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.switcher:has(.langButton_active[data-locale="en"]) .carriage {
+	transform: translateX(100%);
+}
+
+.btnText {
+	position: relative;
+	z-index: 3;
+	font-size: 13px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+	.btnText {
+		font-size: 12px;
+	}
+}

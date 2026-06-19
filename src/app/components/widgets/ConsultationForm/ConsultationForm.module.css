@@ -1,0 +1,138 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.formRow {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+}
+
+.fieldGroup {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.fieldGroup label {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: var(--casual, #8e99a4);
+	font-family: var(--mono);
+	text-wrap: nowrap;
+}
+
+.field {
+	background: #15171b;
+	border: 1px solid rgba(255, 255, 255, 0.05);
+	padding: 14px 16px;
+	border-radius: 4px;
+	color: #ffffff;
+	font-size: 14px;
+	outline: none;
+	transition:
+		border-color 0.2s ease,
+		background-color 0.2s ease;
+	width: 100%;
+	appearance: none;
+	box-sizing: border-box;
+}
+
+.field:focus {
+	border-color: var(--highlight, #e8b57a);
+	background: #1c1f24;
+}
+
+.selectWrapper {
+	position: relative;
+	width: 100%;
+}
+
+.selectWrapper::after {
+	content: "";
+	position: absolute;
+	right: 16px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 10px;
+	height: 6px;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 10 6'%3E%3Cpath stroke='%238e99a4' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m1 1 4 4 4-4'/%3E%3C/svg%3E");
+	background-size: contain;
+	background-repeat: no-repeat;
+	pointer-events: none;
+}
+
+.fieldError {
+	border-color: #ef4444 !important;
+}
+
+.errorMessage {
+	color: #ef4444;
+	font-size: 12px;
+}
+
+.phoneField {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.phoneField :global(.PhoneInputInput) {
+	background: transparent;
+	border: none;
+	color: #ffffff;
+	font-size: 14px;
+	outline: none;
+	width: 100%;
+	padding: 0;
+}
+
+.phoneField :global(.PhoneInputCountry) {
+	margin-right: 4px;
+}
+
+.phoneField :global(.PhoneInputCountryIcon) {
+	box-shadow: none;
+	background-color: transparent;
+}
+
+.phoneField :global(.PhoneInputCountrySelectArrow) {
+	color: var(--casual, #8e99a4);
+	opacity: 1;
+}
+
+.submitBtn.submitBtn {
+	max-width: 100%;
+	width: 100%;
+	padding: 16px;
+	justify-content: center;
+	background-color: var(--highlight, #e8b57a);
+	color: #111b27;
+	font-weight: 600;
+	border-radius: 4px;
+	margin-top: 8px;
+	border: none;
+	cursor: pointer;
+}
+
+.privacy {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	font-size: 11px;
+	line-height: 1.4;
+	color: var(--casual, #5c6975);
+	text-align: left;
+	margin-top: 4px;
+}
+
+@media (min-width: 480px) {
+	.formRow {
+		grid-template-columns: 1fr 1fr;
+	}
+}

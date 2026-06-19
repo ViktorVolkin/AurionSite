@@ -1,0 +1,62 @@
+.custom-swiper-wrapper {
+	position: relative;
+	width: 100%;
+}
+
+.custom-swiper-btn {
+	display: none;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 10;
+	background: none;
+	border: none;
+	color: var(--accent);
+	font-size: 24px;
+	cursor: pointer;
+	padding: 8px;
+	line-height: 1;
+}
+
+.custom-swiper-btn.prev {
+	left: -48px;
+}
+
+.custom-swiper-btn.next {
+	right: -48px;
+}
+
+@media (min-width: 768px) {
+	.custom-swiper-btn {
+		display: block;
+	}
+}
+
+.custom-swiper-container {
+	display: block;
+	width: 100%;
+	height: max-content;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	--swiper-pagination-color: var(--accent);
+	--swiper-pagination-bullet-inactive-color: var(--casual);
+	--swiper-pagination-bullet-inactive-opacity: 1;
+	--swiper-pagination-bullet-size: 10px;
+	--swiper-pagination-bullet-horizontal-gap: 6px;
+}
+
+.custom-swiper-container .swiper-slide {
+	list-style: none;
+	border-radius: 16px;
+	opacity: 0.4;
+	transition: opacity 0.3s ease;
+	flex-shrink: 0;
+	width: 400px;
+	max-width: calc(100vw - 40px);
+	height: auto;
+}
+
+.custom-swiper-container .swiper-slide-fully-visible {
+	opacity: 1;
+}

@@ -1,0 +1,46 @@
+.logo {
+	animation: gold-shimmer 5s linear infinite;
+	font-family: inherit;
+	background: linear-gradient(
+		90deg,
+		#b8974a 0%,
+		#b8974a 35%,
+		#f5e6b8 50%,
+		#b8974a 65%,
+		#b8974a 100%
+	);
+	background-size: 200% auto;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: var(--accent);
+}
+@keyframes gold-shimmer {
+	0% {
+		background-position: -200% center;
+	}
+
+	100% {
+		background-position: 200% center;
+	}
+}
+.logo__container {
+	display: flex;
+	align-items: baseline;
+	gap: clamp(8px, 1.2vw, 12px);
+	font-family: var(--cormorant);
+	font-size: clamp(24px, 3vw, 64px);
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	line-height: 1;
+	white-space: nowrap;
+}
+.mark {
+	width: 9px;
+	height: 9px;
+	background: var(--accent);
+	display: inline-block;
+	transform: rotate(45deg);
+	flex: none;
+	align-self: center;
+}

@@ -1,0 +1,47 @@
+.section {
+	width: 100%;
+	padding-top: 60px;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header__container {
+	margin-bottom: 48px;
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+}
+
+.title {
+	font-size: clamp(26px, 3.7vw, 42px);
+	font-weight: 400;
+	color: var(--white, #ffffff);
+	max-width: 20ch;
+	font-family: var(--font-sans), sans-serif;
+	margin: 0;
+}
+
+.title em {
+	font-family: var(--times, Georgia, serif);
+	font-style: italic;
+	color: var(--highlight, #e8b57a);
+}
+
+.audiences {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 16px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+@media (min-width: 769px) {
+	.audiences {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+	}
+}

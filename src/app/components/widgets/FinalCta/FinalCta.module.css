@@ -1,0 +1,44 @@
+.finalSection {
+	display: flex;
+	flex-direction: column;
+	padding-block: 120px;
+}
+.content {
+	max-width: 100%;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: clamp(48px, 5.5vw, 110px);
+	align-items: start;
+}
+.data {
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+}
+
+.title {
+	font-family: var(--cormorant);
+	font-weight: 500;
+	font-size: clamp(2.4rem, 4.6vw, 3.4rem);
+	line-height: 1.1;
+	color: var(--accent);
+	max-width: 16ch;
+}
+
+.text {
+	color: var(--casual);
+	font-size: 1.25rem;
+	max-width: 44ch;
+	margin-top: 12px;
+}
+
+@media (max-width: 768px) {
+	.finalSection {
+		display: flex;
+		flex-direction: column;
+	}
+	.title {
+		max-width: 32ch;
+	}
+}

@@ -1,0 +1,26 @@
+.button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 6px clamp(6px, 1vw, 24px);
+	background-color: var(--highlight);
+	gap: 6px;
+	cursor: pointer;
+	border-radius: 9999px;
+	font-size: clamp(11px, 2vw, 14px);
+	box-shadow:
+		0 0 0 1px var(--accent-ring),
+		0 8px 24px -6px rgba(232, 181, 122, 0.4);
+
+	transition:
+		transform 0.15s ease,
+		background-color 0.15s ease,
+		color 0.15s ease,
+		box-shadow 0.15s ease;
+}
+.button:hover {
+	transform: scale(1.1);
+	box-shadow:
+		0 0 0 1px var(--accent-ring),
+		0 12px 28px -4px rgba(232, 181, 122, 0.6);
+}

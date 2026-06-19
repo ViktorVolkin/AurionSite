@@ -1,0 +1,59 @@
+.case {
+	display: flex;
+	flex-direction: column;
+	padding: clamp(24px, 3vw, 40px);
+	background-color: #111b27;
+	border: 1px solid rgba(245, 242, 236, 0.1);
+	border-radius: 4px;
+}
+
+.caseTop {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-bottom: clamp(16px, 2vw, 24px);
+	font-size: 0.85rem;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+
+	gap: 24px;
+}
+
+.caseCountry {
+	color: var(--accent);
+	font-weight: 600;
+}
+
+.caseCategory {
+	color: var(--casual);
+	opacity: 0.8;
+}
+
+.outcome {
+	font-family: var(--cormorant);
+	font-size: clamp(1.4rem, 2.2vw, 1.8rem);
+	font-weight: 500;
+	line-height: 1.25;
+	color: #ffffff;
+	margin-bottom: 8px;
+	text-wrap: pretty;
+}
+
+.timeframe {
+	font-size: 0.9rem;
+	color: var(--accent);
+	font-weight: 500;
+}
+.hr {
+	width: 100%;
+	height: 1px;
+	background-color: rgba(245, 242, 236, 0.1);
+	margin-block: 20px;
+}
+.caseLine {
+	font-size: clamp(0.95rem, 1.1vw, 1.05rem);
+	line-height: 1.5;
+	color: var(--casual);
+	text-wrap: pretty;
+}
