@@ -18,7 +18,7 @@ export default async function CaseCard({
 				<span className={styles.caseCategory}>{t(categoryKey)}</span>
 			</div>
 
-			<p className={styles.outcome}>{t(outcomeKey)}</p>
+			<h3 className={styles.outcome}>{t(outcomeKey)}</h3>
 			<p className={styles.timeframe}>{t(timeframeKey)}</p>
 			<hr className={styles.hr} />
 			<p className={styles.caseLine}>{t(descriptionKey)}</p>

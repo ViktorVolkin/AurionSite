@@ -12,7 +12,7 @@ export default async function StatsBar({ items }: StatsBarProps) {
 					<li
 						className={styles.item}
 						key={idx}>
-						<h6 className={styles.title}>{title}</h6>
+						<span className={styles.title}>{title}</span>
 						<p className={styles.text}>{t(text)}</p>
 					</li>
 				))}

@@ -5,6 +5,7 @@ import { Link } from "@/i18n/navigation";
 import clsx from "clsx";
 import LanguageSwitcher from "../../shared/LanguageSwitcher";
 import Logo from "../../shared/Logo";
+
 export default async function Footer({
 	company,
 	description,
@@ -20,7 +21,12 @@ export default async function Footer({
 
 		return (
 			<div className={styles.block}>
-				<h5 className={styles.block__title}>{t(block.title)}</h5>
+				<div
+					className={styles.block__title}
+					role="heading"
+					aria-level={3}>
+					{t(block.title)}
+				</div>
 				<ul className={styles.link__list}>
 					{block.links.map((link) => (
 						<li
@@ -45,7 +51,9 @@ export default async function Footer({
 						<p className={styles.description}>{t(description)}</p>
 					</div>
 
-					<nav className={styles.navigation}>
+					<nav
+						className={styles.navigation}
+						aria-label="Footer navigation">
 						{renderBlock(product)}
 						{renderBlock(methodology)}
 						{renderBlock(sources)}
@@ -57,10 +65,15 @@ export default async function Footer({
 						<LanguageSwitcher className={styles.language__switcher} />
 					</div>
 				</div>
+
 				<div className={styles.bottom}>
 					<span className={styles.bottom__text}>{t("bottom.copyright")}</span>
-					<span className={styles.bottom__text}>{t("bottom.privacy")}</span>
-					<span className={styles.bottom__text}>{t("bottom.terms")}</span>
+					<span className={styles.bottom__text}>
+						<Link href="/privacy">{t("bottom.privacy")}</Link>
+					</span>
+					<span className={styles.bottom__text}>
+						<Link href="/terms">{t("bottom.terms")}</Link>
+					</span>
 					{email && (
 						<span className={styles.bottom__text}>
 							<a href={`mailto:${email}`}>{email}</a>

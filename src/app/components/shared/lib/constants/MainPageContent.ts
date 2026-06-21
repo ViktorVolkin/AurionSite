@@ -279,16 +279,16 @@ export const ProcessBlockContent: ProcessBlockProps = {
 	title: "mainPage.process.title",
 	cards: [
 		{
-			title: "Диагностическая консультация",
-			text: "Оцениваем ваш профиль, источники дохода и цели. Подбираем юрисдикцию и программу, в которой ваше дело имеет наибольшие шансы.",
+			title: "mainPage.process.cards.step_1.title",
+			text: "mainPage.process.cards.step_1.text",
 		},
 		{
-			title: "Подготовка документов",
-			text: "Собираем комплект, сопровождаем перевод и нотариальное заверение. Каждый документ проверяется до подачи в орган.",
+			title: "mainPage.process.cards.step_2.title",
+			text: "mainPage.process.cards.step_2.text",
 		},
 		{
-			title: "Одобрение и обустройство",
-			text: "Подаём дело, отслеживаем статус и сопровождаем после одобрения: банковский счёт, налоговый номер, продление.",
+			title: "mainPage.process.cards.step_3.title",
+			text: "mainPage.process.cards.step_3.text",
 		},
 	],
 };

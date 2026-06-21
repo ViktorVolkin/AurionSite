@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import Eyebrow from "../../shared/Eyebrow";
 import styles from "./AboutUs.module.css";
 import { AboutUsProps } from "./AboutUs.types";
+import { AboutUsSEO } from "../../shared/lib/constants/SEO";
 import Image from "next/image";
 
 export default async function AboutUs({
@@ -32,8 +33,8 @@ export default async function AboutUs({
 						{items.map(({ text, title }, idx) => (
 							<li
 								className={styles.card__item}
-								key={idx}>
-								<h6 className={styles.card__title}>{t(title)}</h6>
+								key={title}>
+								<h3 className={styles.card__title}>{t(title)}</h3>
 								<p className={styles.card__text}>{t(text)}</p>
 							</li>
 						))}
@@ -43,7 +44,7 @@ export default async function AboutUs({
 				<div className={styles.primaryImage}>
 					<Image
 						src={primaryImage.src}
-						alt="Aurion Consultation"
+						alt={t(AboutUsSEO.primaryImageAlt)}
 						fill
 						sizes="(max-width: 1024px) 100vw, 40vw"
 						style={{ objectFit: "cover", borderRadius: "4px" }}
@@ -54,7 +55,7 @@ export default async function AboutUs({
 			<div className={styles.secondaryImage}>
 				<Image
 					src={secondaryImage.src}
-					alt="Aurion Private Office"
+					alt={t(AboutUsSEO.secondaryImageAlt)}
 					fill
 					sizes="100vw"
 					style={{ objectFit: "cover", borderRadius: "4px" }}

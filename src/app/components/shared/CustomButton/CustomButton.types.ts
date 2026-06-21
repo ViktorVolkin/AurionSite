@@ -1,4 +1,4 @@
-import { ComponentPropsWithoutRef, ReactNode } from "react";
+import { ComponentPropsWithRef, ReactNode, RefObject } from "react";
 import { Link } from "@/i18n/navigation";
 
 interface BaseButtonProps {
@@ -8,15 +8,22 @@ interface BaseButtonProps {
 	iconAfter?: ReactNode;
 	variant?: "highlighted" | "transparent";
 	iconContainerClassName?: string;
+	innerRef?:
+		| RefObject<HTMLButtonElement | HTMLAnchorElement | null>
+		| ((node: any) => void);
 }
 
 export interface ButtonProps
-	extends BaseButtonProps, ComponentPropsWithoutRef<"button"> {
+	extends
+		BaseButtonProps,
+		Omit<ComponentPropsWithRef<"button">, keyof BaseButtonProps> {
 	href?: never;
 }
 
 export interface LinkProps
-	extends BaseButtonProps, ComponentPropsWithoutRef<typeof Link> {
+	extends
+		BaseButtonProps,
+		Omit<ComponentPropsWithRef<typeof Link>, keyof BaseButtonProps | "href"> {
 	href: string;
 }
 

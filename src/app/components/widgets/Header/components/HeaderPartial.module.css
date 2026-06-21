@@ -22,7 +22,9 @@
 		border-bottom-color 0.4s cubic-bezier(0.16, 1, 0.3, 1),
 		backdrop-filter 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
-
+.navContainer {
+	display: contents;
+}
 .header__moved {
 	background-color: rgba(10, 21, 31, 0.85);
 	backdrop-filter: blur(12px);

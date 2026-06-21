@@ -2,7 +2,11 @@
 
 import { useTranslations } from "next-intl";
 import styles from "./CustomButton.module.css";
-import { CustomButtonProps } from "./CustomButton.types";
+import {
+	CustomButtonProps,
+	ButtonProps,
+	LinkProps,
+} from "./CustomButton.types";
 import clsx from "clsx";
 import { Link } from "@/i18n/navigation";
 
@@ -15,6 +19,9 @@ export default function CustomButton({
 	onClick,
 	href,
 	iconContainerClassName,
+	innerRef,
+	type,
+	...rest
 }: CustomButtonProps) {
 	const t = useTranslations();
 
@@ -27,7 +34,7 @@ export default function CustomButton({
 					{iconBefore}
 				</div>
 			)}
-			{t(text)}
+			{text && t(text)}
 			{iconAfter && (
 				<div
 					className={clsx(
@@ -41,16 +48,29 @@ export default function CustomButton({
 		</>
 	);
 
-	return href ? (
-		<Link
-			className={sharedClass}
-			href={href}>
-			{renderContent()}
-		</Link>
-	) : (
+	if (href) {
+		const linkProps = rest as Omit<LinkProps, "href">;
+
+		return (
+			<Link
+				className={sharedClass}
+				href={href}
+				ref={innerRef as any}
+				{...(linkProps as any)}>
+				{renderContent()}
+			</Link>
+		);
+	}
+
+	const buttonProps = rest as ButtonProps;
+
+	return (
 		<button
+			type={(type as "button" | "submit" | "reset") || "button"}
 			className={sharedClass}
-			onClick={onClick as React.MouseEventHandler}>
+			onClick={onClick as React.MouseEventHandler}
+			ref={innerRef as any}
+			{...(buttonProps as any)}>
 			{renderContent()}
 		</button>
 	);

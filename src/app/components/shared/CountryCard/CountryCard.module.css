@@ -1,4 +1,4 @@
-.Link {
+.wrapper {
 	position: relative;
 	background: #111b27;
 	border: 1px solid rgba(144, 132, 108, 0.1);
@@ -9,15 +9,22 @@
 	border-radius: 12px;
 	width: 100%;
 	box-sizing: border-box;
-
+	height: 100%;
 	margin-bottom: 0;
 }
-
-.wrapper {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	width: 100%;
+.main__link {
+	color: inherit;
+	text-decoration: none;
+	outline: none;
+}
+.main__link::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
 }
 
 .title__block {
@@ -91,7 +98,7 @@
 }
 
 @media (max-width: 500px) {
-	.Link {
+	.wrapper {
 		min-height: 220px;
 		padding: 24px 20px;
 	}

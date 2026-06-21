@@ -3,6 +3,7 @@ import Eyebrow from "../../shared/Eyebrow";
 import styles from "./CasesBlock.module.css";
 import { CasesBlockProps } from "./CasesBlock.types";
 import CaseCard from "../../shared/CaseCard";
+import { CasesBlockSEO } from "../../shared/lib/constants";
 
 export default async function CasesBlock({
 	title,
@@ -14,7 +15,7 @@ export default async function CasesBlock({
 		<section
 			className={styles.section}
 			id="audience"
-			data-screen-label="07 Для кого">
+			data-screen-label={t(CasesBlockSEO.sectionLabel)}>
 			<div className={styles.container}>
 				<div className={styles.header__container}>
 					<Eyebrow eyebrow={eyebrow} />
@@ -25,14 +26,13 @@ export default async function CasesBlock({
 					</h2>
 				</div>
 
-				<div className={styles.audiences}>
-					{cards.map((card, idx) => (
-						<CaseCard
-							{...card}
-							key={idx}
-						/>
+				<ul className={styles.audiences}>
+					{cards.map((card) => (
+						<li key={`${card.countryKey}-${card.outcomeKey}`}>
+							<CaseCard {...card} />
+						</li>
 					))}
-				</div>
+				</ul>
 			</div>
 		</section>
 	);

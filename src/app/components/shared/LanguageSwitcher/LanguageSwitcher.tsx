@@ -38,7 +38,6 @@ export default function LanguageSwitcher({
 				style={{ transform: `translateX(${activeIndex * 100}%)` }}
 			/>
 			{routing.locales.map((locale) => {
-				const isActive = locale === currentLanguage;
 				const isVisuallyActive = locale === visualLanguage;
 
 				return (

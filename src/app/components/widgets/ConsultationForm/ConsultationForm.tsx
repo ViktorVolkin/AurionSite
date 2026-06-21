@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslations } from "next-intl";
@@ -18,7 +17,7 @@ export default function ConsultationForm({
 	className,
 	countries,
 	methods,
-	defaultCountry = "spain",
+	defaultCountry = "",
 	defaultMethod = "telegram",
 	translationKeys,
 }: ConsultationFormProps) {
@@ -31,6 +30,7 @@ export default function ConsultationForm({
 		watch,
 		setValue,
 		clearErrors,
+		trigger,
 		formState: { errors, isSubmitting },
 	} = useForm<ConsultFormData>({
 		resolver: zodResolver(consultSchema),
@@ -44,13 +44,11 @@ export default function ConsultationForm({
 	});
 
 	const currentMethod = watch("method");
-	const currentMessengerValue = watch("messengerContact");
 	const currentPhoneValue = watch("phoneContact");
 	const currentCountryValue = watch("country");
 
 	const isPhoneMethod =
 		currentMethod === "phone" || currentMethod === "whatsapp";
-
 	const activeMethodConfig = methods.find((m) => m.value === currentMethod);
 
 	const contactPlaceholder = activeMethodConfig
@@ -58,39 +56,43 @@ export default function ConsultationForm({
 			activeMethodConfig.defaultPlaceholder
 		: "";
 
-	useEffect(() => {
-		if (isPhoneMethod) {
+	const handleMethodChange = async (
+		e: React.ChangeEvent<HTMLSelectElement>,
+	) => {
+		const nextMethod = e.target.value;
+		setValue("method", nextMethod);
+
+		if (nextMethod === "phone" || nextMethod === "whatsapp") {
 			setValue("messengerContact", "");
 			clearErrors("messengerContact");
-			return;
+		} else {
+			setValue("phoneContact", "");
+			clearErrors("phoneContact");
 		}
 
-		clearErrors("phoneContact");
-		setValue("phoneContact", "");
+		await trigger();
+	};
 
-		if (
-			currentMethod === "telegram" &&
-			currentMessengerValue &&
-			!currentMessengerValue.startsWith("@") &&
-			currentMessengerValue.trim() !== ""
-		) {
-			setValue("messengerContact", `@${currentMessengerValue}`);
+	const handleMessengerBlur = (e: React.FocusEvent<HTMLInputElement>) => {
+		const val = e.target.value.trim();
+		if (currentMethod === "telegram" && val && !val.startsWith("@")) {
+			setValue("messengerContact", `@${val}`);
+			trigger("messengerContact");
 		}
-	}, [
-		currentMethod,
-		isPhoneMethod,
-		currentMessengerValue,
-		setValue,
-		clearErrors,
-	]);
+	};
 
-	const contactError = errors.phoneContact || errors.messengerContact;
+	const handleCountryChange = (value: string) => {
+		setValue("country", value, { shouldValidate: true });
+	};
+
+	const contactError = isPhoneMethod
+		? errors.phoneContact
+		: errors.messengerContact;
 
 	const handleFormSubmit = async (data: ConsultFormData) => {
 		const finalContact = isPhoneMethod
 			? data.phoneContact
 			: data.messengerContact;
-
 		console.log("Submitted Zero-Hardcode Data:", {
 			...data,
 			contact: finalContact,
@@ -102,6 +104,12 @@ export default function ConsultationForm({
 			className={clsx(styles.form, className)}
 			onSubmit={handleSubmit(handleFormSubmit)}
 			noValidate>
+			{}
+			<input
+				type="hidden"
+				{...register("country")}
+			/>
+
 			<div className={styles.fieldGroup}>
 				<label htmlFor="name-input">{t(translationKeys.nameLabel)}</label>
 				<input
@@ -109,10 +117,17 @@ export default function ConsultationForm({
 					type="text"
 					placeholder={t(translationKeys.namePlaceholder)}
 					className={clsx(styles.field, { [styles.fieldError]: errors.name })}
+					aria-invalid={!!errors.name}
+					aria-describedby={errors.name ? "name-error" : undefined}
 					{...register("name")}
 				/>
 				{errors.name && (
-					<span className={styles.errorMessage}>{errors.name.message}</span>
+					<span
+						id="name-error"
+						className={styles.errorMessage}
+						aria-live="assertive">
+						{errors.name.message}
+					</span>
 				)}
 			</div>
 
@@ -124,9 +139,16 @@ export default function ConsultationForm({
 					<CountrySelect
 						options={countries}
 						value={currentCountryValue}
-						onChange={(value) => setValue("country", value)}
+						onChange={handleCountryChange}
 						error={!!errors.country}
 					/>
+					{errors.country && (
+						<span
+							className={styles.errorMessage}
+							aria-live="assertive">
+							{errors.country.message}
+						</span>
+					)}
 				</div>
 
 				<div className={styles.fieldGroup}>
@@ -137,7 +159,8 @@ export default function ConsultationForm({
 						<select
 							id="contact-method"
 							className={styles.field}
-							{...register("method")}>
+							value={currentMethod}
+							onChange={handleMethodChange}>
 							{methods.map(({ value, label, translationKey, defaultText }) => (
 								<option
 									key={value}
@@ -156,15 +179,20 @@ export default function ConsultationForm({
 				{isPhoneMethod ? (
 					<PhoneInput
 						key="phone"
+						id="contact-input"
 						defaultCountry="ME"
 						international
 						withCountryCallingCode
 						labels={ru}
 						value={currentPhoneValue}
-						onChange={(value) => setValue("phoneContact", value || "")}
+						onChange={(value) =>
+							setValue("phoneContact", value || "", { shouldValidate: true })
+						}
 						className={clsx(styles.field, styles.phoneField, {
 							[styles.fieldError]: errors.phoneContact,
 						})}
+						aria-invalid={!!errors.phoneContact}
+						aria-describedby={errors.phoneContact ? "contact-error" : undefined}
 					/>
 				) : (
 					<input
@@ -175,12 +203,23 @@ export default function ConsultationForm({
 						className={clsx(styles.field, {
 							[styles.fieldError]: errors.messengerContact,
 						})}
-						{...register("messengerContact")}
+						aria-invalid={!!errors.messengerContact}
+						aria-describedby={
+							errors.messengerContact ? "contact-error" : undefined
+						}
+						{...register("messengerContact", {
+							onBlur: handleMessengerBlur,
+						})}
 					/>
 				)}
 
 				{contactError && (
-					<span className={styles.errorMessage}>{contactError.message}</span>
+					<span
+						id="contact-error"
+						className={styles.errorMessage}
+						aria-live="assertive">
+						{contactError.message}
+					</span>
 				)}
 			</div>
 
@@ -192,6 +231,7 @@ export default function ConsultationForm({
 						: translationKeys.submitButton
 				}
 				className={styles.submitBtn}
+				disabled={isSubmitting}
 			/>
 
 			<div className={styles.privacy}>

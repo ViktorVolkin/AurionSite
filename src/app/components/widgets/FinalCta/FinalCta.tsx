@@ -19,7 +19,7 @@ export default async function FinalCta({
 			<Eyebrow eyebrow={eyebrow} />
 			<div className={styles.content}>
 				<div className={styles.data}>
-					<h6 className={styles.title}>{t(title)}</h6>
+					<h2 className={styles.title}>{t(title)}</h2>
 					<p className={styles.text}>{t(text)}</p>
 				</div>
 				<ConsultationForm {...ConsultationFormContent} />

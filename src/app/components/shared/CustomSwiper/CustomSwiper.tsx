@@ -4,20 +4,11 @@ import "swiper/css/pagination";
 import "./CustomSwiper.css";
 import { useRef, ReactNode } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
+import { A11y, Autoplay, Pagination } from "swiper/modules";
 import type { Swiper as SwiperType } from "swiper";
-
-interface SwiperItem {
-	key: string;
-	node: ReactNode;
-}
-
-interface CustomSwiperProps {
-	items: SwiperItem[];
-	withButtons?: boolean;
-	spaceBetween?: number;
-	slideClassName?: string;
-}
+import { useTranslations } from "next-intl";
+import { CustomSwiperSEO as SEO } from "../lib/constants";
+import { CustomSwiperProps } from "./CustomSwiper.types";
 
 export default function CustomSwiper({
 	items,
@@ -26,22 +17,27 @@ export default function CustomSwiper({
 	slideClassName,
 }: CustomSwiperProps) {
 	const swiperRef = useRef<SwiperType | null>(null);
-
+	const t = useTranslations();
 	const handlePrev = () => swiperRef.current?.slidePrev();
 	const handleNext = () => swiperRef.current?.slideNext();
 
 	return (
-		<div className="custom-swiper-wrapper">
+		<div
+			className="custom-swiper-wrapper"
+			role="region"
+			aria-label={t(SEO.region)}>
 			{withButtons && (
 				<button
 					className="custom-swiper-btn prev"
-					onClick={handlePrev}>
+					onClick={handlePrev}
+					aria-label={t(SEO.prevButton)}
+					type="button">
 					←
 				</button>
 			)}
 
 			<Swiper
-				modules={[Pagination, Autoplay]}
+				modules={[Pagination, Autoplay, A11y]}
 				onSwiper={(swiper) => {
 					swiperRef.current = swiper;
 				}}
@@ -52,6 +48,14 @@ export default function CustomSwiper({
 				autoplay={{
 					delay: 5000,
 					disableOnInteraction: true,
+					pauseOnMouseEnter: true,
+				}}
+				a11y={{
+					prevSlideMessage: t(SEO.prevButton),
+					nextSlideMessage: t(SEO.nextButton),
+					firstSlideMessage: t(SEO.firstSlide),
+					lastSlideMessage: t(SEO.lastSlide),
+					paginationBulletMessage: t(SEO.pagination, { index: "{{index}}" }),
 				}}
 				watchSlidesProgress
 				className="custom-swiper-container">
@@ -67,7 +71,9 @@ export default function CustomSwiper({
 			{withButtons && (
 				<button
 					className="custom-swiper-btn next"
-					onClick={handleNext}>
+					onClick={handleNext}
+					aria-label={t(SEO.nextButton)}
+					type="button">
 					→
 				</button>
 			)}

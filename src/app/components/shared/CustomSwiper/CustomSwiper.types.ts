@@ -1,6 +1,13 @@
+import { ReactNode } from "react";
+
+interface SwiperItem {
+	key: string;
+	node: ReactNode;
+}
+
 export interface CustomSwiperProps {
-	children: React.ReactNode;
+	items: SwiperItem[];
 	withButtons?: boolean;
-	slidesPerView?: "auto" | number;
 	spaceBetween?: number;
+	slideClassName?: string;
 }

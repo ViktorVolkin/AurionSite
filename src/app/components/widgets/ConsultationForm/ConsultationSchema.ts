@@ -30,6 +30,25 @@ export const createConsultSchema = (t: ReturnType<typeof useTranslations>) =>
 						message: t("errors.contactRequired"),
 						path: ["messengerContact"],
 					});
+					return;
+				}
+
+				const atCount = data.messengerContact.split("@").length - 1;
+
+				if (atCount > 0) {
+					const startsWithAt = data.messengerContact.startsWith("@");
+
+					if (
+						atCount > 1 ||
+						!startsWithAt ||
+						data.messengerContact.trim() === "@"
+					) {
+						ctx.addIssue({
+							code: "custom",
+							message: t("errors.invalidMessengerFormat"),
+							path: ["messengerContact"],
+						});
+					}
 				}
 			}
 		});

@@ -25,12 +25,16 @@ export default async function ProcessBlock({
 				<ul className={styles.cards__list}>
 					{cards.map(({ text, title }, idx) => (
 						<li
-							key={idx}
+							key={title}
 							className={styles.card}>
-							<span className={styles.rn}>{romanNumerals[idx] || idx + 1}</span>
+							<span
+								className={styles.rn}
+								aria-hidden="true">
+								{romanNumerals[idx] || idx + 1}
+							</span>
 							<div className={styles.data}>
-								<h6 className={styles.card__title}>{title}</h6>
-								<p className={styles.card__text}>{text}</p>
+								<h3 className={styles.card__title}>{t(title)}</h3>
+								<p className={styles.card__text}>{t(text)}</p>
 							</div>
 						</li>
 					))}

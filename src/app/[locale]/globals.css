@@ -146,3 +146,21 @@ a {
 	letter-spacing: 0.005em;
 	transition: color 0.15s ease;
 }
+button,
+input,
+textarea,
+select {
+	background: transparent;
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	margin: 0;
+	outline: none;
+	appearance: none;
+	-webkit-appearance: none;
+}
+
+button {
+	cursor: pointer;
+	color: inherit;
+}

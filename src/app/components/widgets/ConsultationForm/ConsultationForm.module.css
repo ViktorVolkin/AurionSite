@@ -130,9 +130,3 @@
 	text-align: left;
 	margin-top: 4px;
 }
-
-@media (min-width: 480px) {
-	.formRow {
-		grid-template-columns: 1fr 1fr;
-	}
-}
