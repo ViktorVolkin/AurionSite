@@ -38,7 +38,7 @@ export async function generateMetadata({
 	const baseUrl = (
 		process.env.NEXT_PUBLIC_DOMAIN || "https://aurion.com"
 	).replace(/\/$/, "");
-	const ogImage = locale == "ru" ? "og-image-ru.png" : "og-image-en.png";
+
 	return {
 		title: t("title"),
 		description: t("description"),
@@ -53,7 +53,7 @@ export async function generateMetadata({
 			type: "website",
 			images: [
 				{
-					url: ogImage,
+					url: "og-image.png",
 					width: 1200,
 					height: 630,
 					alt: t("ogImage"),
@@ -65,7 +65,7 @@ export async function generateMetadata({
 			card: "summary_large_image",
 			title: t("title"),
 			description: t("description"),
-			images: [ogImage],
+			images: ["og-image.png"],
 		},
 
 		robots: {
