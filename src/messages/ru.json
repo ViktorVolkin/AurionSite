@@ -491,16 +491,5 @@
 			}
 		}
 	},
-	"Services": {
-		"Montenegro": {
-			"requirements": {
-				"eyebrow": "ТРЕБОВАНИЯ",
-				"title": "Кто проходит и что потребуется.",
-				"tabMainApplicant": "Главный заявитель",
-				"tabFamilyMembers": "Члены семьи",
-				"tabFinances": "Финансы",
-				"tabDocuments": "Документы"
-			}
-		}
-	}
+	"Services": {}
 }

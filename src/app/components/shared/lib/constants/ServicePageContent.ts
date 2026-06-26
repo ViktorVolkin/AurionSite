@@ -1,4 +1,3 @@
-import { RelocationGroundsProps } from "@/app/components/pages/ServicePage/components/RelocationGrounds/RelocationGrounds.types";
 import { IntroBlockProps } from "@/app/components/widgets/IntroBlock/IntroBlock.types";
 interface TabProps {
 	text: string;
@@ -37,12 +36,4 @@ export const TabsContent: TabsProps = {
 			reason: "documents",
 		},
 	],
-};
-
-export const RelocationGroundsServicePageContent: Omit<
-	RelocationGroundsProps,
-	"children"
-> = {
-	eyebrow: "Services.Montenegro.requirements.eyebrow",
-	title: "Services.Montenegro.requirements.title",
 };
