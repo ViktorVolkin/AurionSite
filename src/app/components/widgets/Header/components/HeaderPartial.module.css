@@ -288,6 +288,6 @@
 
 @media (max-width: 360px) {
 	.btn.btn {
-		padding: 0;
+		padding: 3px;
 	}
 }
