@@ -29,7 +29,7 @@
 	align-items: baseline;
 	gap: clamp(8px, 1.2vw, 12px);
 	font-family: var(--cormorant);
-	font-size: clamp(24px, 3vw, 64px);
+	font-size: clamp(16px, 3vw, 64px);
 	font-weight: 600;
 	letter-spacing: 0.02em;
 	line-height: 1;

@@ -10,7 +10,7 @@
 	z-index: 1000;
 	min-height: 80px;
 	padding-block: 28px;
-	padding-inline: clamp(16px, 3vw, 40px);
+	padding-inline: clamp(12px, 3vw, 40px);
 
 	background-color: rgba(10, 21, 31, 0);
 	border-bottom: 1px solid rgba(255, 255, 255, 0);
@@ -283,5 +283,11 @@
 	}
 	.logo {
 		font-size: clamp(11px, 5vw, 28px);
+	}
+}
+
+@media (max-width: 360px) {
+	.btn.btn {
+		padding: 0;
 	}
 }

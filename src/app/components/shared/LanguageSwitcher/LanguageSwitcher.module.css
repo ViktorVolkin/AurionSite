@@ -3,12 +3,13 @@
 	display: inline-flex;
 	background-color: transparent;
 	border-radius: 9999px;
-	padding: 4px;
+	padding: 3px;
 	isolation: isolate;
 	border: 1px solid var(--accent-ring);
 	height: 100%;
-	width: clamp(80px, 8vw, 110px);
+	width: clamp(90px, 10vw, 110px);
 	box-sizing: border-box;
+	flex-shrink: 0;
 }
 
 .langButton {
@@ -16,10 +17,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	flex: 1;
 	padding: 6px 0;
-
 	background: transparent;
 	border: none;
 	cursor: pointer;
