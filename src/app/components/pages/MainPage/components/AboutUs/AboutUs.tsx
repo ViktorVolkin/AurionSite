@@ -1,8 +1,8 @@
 import { getTranslations } from "next-intl/server";
-import Eyebrow from "../../shared/Eyebrow";
+import Eyebrow from "@/app/components/shared/Eyebrow";
 import styles from "./AboutUs.module.css";
 import { AboutUsProps } from "./AboutUs.types";
-import { AboutUsSEO } from "../../shared/lib/constants/SEO";
+import { AboutUsSEO } from "../../../../shared/lib/constants/SEO";
 import Image from "next/image";
 
 export default async function AboutUs({

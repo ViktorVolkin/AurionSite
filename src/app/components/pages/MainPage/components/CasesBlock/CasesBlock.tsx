@@ -1,9 +1,9 @@
 import { getTranslations } from "next-intl/server";
-import Eyebrow from "../../shared/Eyebrow";
+import Eyebrow from "@/app/components/shared/Eyebrow";
 import styles from "./CasesBlock.module.css";
 import { CasesBlockProps } from "./CasesBlock.types";
-import CaseCard from "../../shared/CaseCard";
-import { CasesBlockSEO } from "../../shared/lib/constants";
+import CaseCard from "../../../../shared/CaseCard";
+import { CasesBlockSEO } from "../../../../shared/lib/constants";
 
 export default async function CasesBlock({
 	title,

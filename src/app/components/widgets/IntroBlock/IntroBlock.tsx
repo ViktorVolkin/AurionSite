@@ -1,9 +1,11 @@
 import { getTranslations } from "next-intl/server";
 import styles from "./IntroBlock.module.css";
 import { IntroBlockProps } from "./IntroBlock.types";
-import OpenPopupButton from "../../shared/OpenPopupButton";
-import Eyebrow from "../../shared/Eyebrow";
-import StatsBar from "../../shared/StatsBar";
+import OpenPopupButton from "@/app/components/shared/OpenPopupButton";
+import Eyebrow from "@/app/components/shared/Eyebrow";
+import StatsBar from "@/app/components/shared/StatsBar";
+import FinalCta from "../FinalCta";
+import { FinalCtaContent } from "../../shared/lib/constants";
 
 export default async function IntroBlock({
 	eyebrow,
@@ -32,7 +34,7 @@ export default async function IntroBlock({
 					className={styles.firstButton}
 				/>
 			</div>
-			<StatsBar items={decidedBy} />
+			{decidedBy && <StatsBar items={decidedBy} />}
 		</section>
 	);
 }

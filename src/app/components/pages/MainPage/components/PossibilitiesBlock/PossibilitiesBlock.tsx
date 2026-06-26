@@ -1,9 +1,9 @@
 import { getTranslations } from "next-intl/server";
-import Eyebrow from "../../shared/Eyebrow";
+import Eyebrow from "@/app/components/shared/Eyebrow";
 import styles from "./PossibilitiesBlock.module.css";
 import { PossibilitiesBlockProps } from "./PossibilitiesBlock.types";
-import CountryCard from "../../shared/CountryCard";
-import CustomSwiper from "../../shared/CustomSwiper";
+import CountryCard from "../../../../shared/CountryCard";
+import CustomSwiper from "../../../../shared/CustomSwiper";
 
 export default async function PossibilitiesBlock({
 	additionalInfo,

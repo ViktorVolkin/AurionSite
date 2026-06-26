@@ -1,4 +1,4 @@
-import { CaseCardProps } from "../../shared/CaseCard/CaseCard.types";
+import { CaseCardProps } from "../../../../shared/CaseCard/CaseCard.types";
 
 export interface CasesBlockProps {
 	eyebrow: string;

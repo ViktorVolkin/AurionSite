@@ -1,4 +1,4 @@
-import { CountryCardProps } from "../../shared/CountryCard/CountryCard.types";
+import { CountryCardProps } from "../../../../shared/CountryCard/CountryCard.types";
 
 export interface PossibilitiesBlockProps {
 	eyebrow: string;

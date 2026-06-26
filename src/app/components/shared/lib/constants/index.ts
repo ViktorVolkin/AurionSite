@@ -1,13 +1,13 @@
 export {
 	MainPageContent,
-	ConsultationFormContent as CorporationLoginContent,
+	ConsultationFormContent,
 	PossibilitiesBlockContent,
 	ProcessBlockContent,
 	FinalCtaContent,
 	AboutUsContent,
 	CasesBlockContent,
 } from "./MainPageContent";
-export { HEADER, FOOTER } from "./LayoutContent";
+export { HEADER, FOOTER, HeaderDropdownContent } from "./LayoutContent";
 
 export {
 	OpenHeaderPhoneSEO,
@@ -16,3 +16,5 @@ export {
 	AboutUsSEO,
 	CasesBlockSEO,
 } from "./SEO";
+
+export { SERVICE_PAGES } from "./ServicePageContent";

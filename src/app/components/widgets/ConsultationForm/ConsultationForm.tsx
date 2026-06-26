@@ -2,16 +2,23 @@
 
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import clsx from "clsx";
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
 import ru from "react-phone-number-input/locale/ru.json";
+import en from "react-phone-number-input/locale/en.json";
 import styles from "./ConsultationForm.module.css";
 import CustomButton from "../../shared/CustomButton";
 import CountrySelect from "../../shared/CountrySelect";
 import { ConsultationFormProps } from "./ConsultationForm.types";
 import { ConsultFormData, createConsultSchema } from "./ConsultationSchema";
+import { routing } from "@/i18n/routing";
+
+const mappedLanguages = {
+	en: en,
+	ru: ru,
+};
 
 export default function ConsultationForm({
 	className,
@@ -23,6 +30,7 @@ export default function ConsultationForm({
 }: ConsultationFormProps) {
 	const t = useTranslations("Consultation");
 	const consultSchema = createConsultSchema(t);
+	const lang = useLocale() as (typeof routing.locales)[number];
 
 	const {
 		register,
@@ -31,9 +39,11 @@ export default function ConsultationForm({
 		setValue,
 		clearErrors,
 		trigger,
-		formState: { errors, isSubmitting },
+		formState: { errors, isSubmitting, isSubmitted },
 	} = useForm<ConsultFormData>({
 		resolver: zodResolver(consultSchema),
+		mode: "onSubmit",
+		reValidateMode: "onChange",
 		defaultValues: {
 			name: "",
 			country: defaultCountry,
@@ -60,9 +70,11 @@ export default function ConsultationForm({
 		e: React.ChangeEvent<HTMLSelectElement>,
 	) => {
 		const nextMethod = e.target.value;
+		const nextIsPhone = nextMethod === "phone" || nextMethod === "whatsapp";
+
 		setValue("method", nextMethod);
 
-		if (nextMethod === "phone" || nextMethod === "whatsapp") {
+		if (nextIsPhone) {
 			setValue("messengerContact", "");
 			clearErrors("messengerContact");
 		} else {
@@ -70,19 +82,22 @@ export default function ConsultationForm({
 			clearErrors("phoneContact");
 		}
 
-		await trigger();
+		if (isSubmitted) {
+			await trigger(nextIsPhone ? "phoneContact" : "messengerContact");
+		}
 	};
 
 	const handleMessengerBlur = (e: React.FocusEvent<HTMLInputElement>) => {
 		const val = e.target.value.trim();
 		if (currentMethod === "telegram" && val && !val.startsWith("@")) {
 			setValue("messengerContact", `@${val}`);
-			trigger("messengerContact");
+
+			if (isSubmitted) trigger("messengerContact");
 		}
 	};
 
 	const handleCountryChange = (value: string) => {
-		setValue("country", value, { shouldValidate: true });
+		setValue("country", value, { shouldValidate: isSubmitted });
 	};
 
 	const contactError = isPhoneMethod
@@ -104,7 +119,6 @@ export default function ConsultationForm({
 			className={clsx(styles.form, className)}
 			onSubmit={handleSubmit(handleFormSubmit)}
 			noValidate>
-			{}
 			<input
 				type="hidden"
 				{...register("country")}
@@ -183,10 +197,12 @@ export default function ConsultationForm({
 						defaultCountry="ME"
 						international
 						withCountryCallingCode
-						labels={ru}
+						labels={mappedLanguages[lang]}
 						value={currentPhoneValue}
 						onChange={(value) =>
-							setValue("phoneContact", value || "", { shouldValidate: true })
+							setValue("phoneContact", value || "", {
+								shouldValidate: isSubmitted,
+							})
 						}
 						className={clsx(styles.field, styles.phoneField, {
 							[styles.fieldError]: errors.phoneContact,

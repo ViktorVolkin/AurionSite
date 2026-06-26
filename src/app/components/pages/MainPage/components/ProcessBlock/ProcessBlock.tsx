@@ -1,5 +1,5 @@
 import { getTranslations } from "next-intl/server";
-import Eyebrow from "../../shared/Eyebrow";
+import Eyebrow from "@/app/components/shared/Eyebrow";
 import styles from "./ProcessBlock.module.css";
 import { ProcessBlockProps } from "./ProcessBlock.types";
 

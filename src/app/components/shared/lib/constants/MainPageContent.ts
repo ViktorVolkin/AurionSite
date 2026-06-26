@@ -4,11 +4,11 @@ import {
 	MethodOption,
 } from "@/app/components/widgets/ConsultationForm/ConsultationForm.types";
 import { FinalCtaProps } from "@/app/components/widgets/FinalCta/FinalCta.types";
-import { PossibilitiesBlockProps } from "@/app/components/widgets/PossibilitiesBlock/PossibilitiesBlock.types";
-import { ProcessBlockProps } from "@/app/components/widgets/ProcessBlock/ProcessBlock.types";
-import { AboutUsProps } from "@/app/components/widgets/AboutUs/AboutUs.types";
+import { PossibilitiesBlockProps } from "@/app/components/pages/MainPage/components/PossibilitiesBlock/PossibilitiesBlock.types";
+import { ProcessBlockProps } from "@/app/components/pages/MainPage/components/ProcessBlock/ProcessBlock.types";
+import { AboutUsProps } from "@/app/components/pages/MainPage/components/AboutUs/AboutUs.types";
 import MockImage from "@/../public/Mock.png";
-import { CasesBlockProps } from "@/app/components/widgets/CasesBlock/CasesBlock.types";
+import { CasesBlockProps } from "@/app/components/pages/MainPage/components/CasesBlock/CasesBlock.types";
 export const MainPageContent = {
 	eyebrow: "mainPage.intro.eyebrow",
 	title: "mainPage.intro.title",
@@ -16,10 +16,7 @@ export const MainPageContent = {
 	firstButton: {
 		text: "mainPage.intro.firstButton.text",
 	},
-	secondButton: {
-		text: "mainPage.intro.secondButton.text",
-		href: "#demo",
-	},
+
 	decidedBy: [
 		{ title: "13", text: "mainPage.intro.decidedBy.0" },
 		{ title: "147", text: "mainPage.intro.decidedBy.1" },

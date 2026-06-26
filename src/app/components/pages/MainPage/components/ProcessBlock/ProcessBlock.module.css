@@ -89,7 +89,7 @@
 		gap: 0;
 	}
 	.card__title {
-		max-width: 14ch;
+		max-width: 18ch;
 	}
 	.card {
 		padding-right: clamp(40px, 5vw, 80px);

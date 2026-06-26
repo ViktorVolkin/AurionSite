@@ -265,7 +265,100 @@
 			"demo": "Демо отчёта",
 			"sources": "Источники данных",
 			"contacts": "Контакты",
-			"openPopup": "Заказать звонок"
+			"openPopup": "Заказать звонок",
+			"headerDropdown": {
+				"title": "Услуги",
+				"titlePrefix": "ВНЖ:",
+				"countries": {
+					"montenegro": {
+						"name": "Черногория",
+						"reasons": {
+							"real-estate": "Недвижимость",
+							"digital-nomad": "Цифровой кочевник",
+							"company": "Открытие фирмы"
+						}
+					},
+					"serbia": {
+						"name": "Сербия",
+						"reasons": {
+							"company": "Бизнес",
+							"real-estate": "Недвижимость"
+						}
+					},
+					"spain": {
+						"name": "Испания",
+						"reasons": {
+							"digital-nomad": "Цифровой кочевник",
+							"golden-visa": "Золотая виза",
+							"non-lucrative": "Без права на работу"
+						}
+					},
+					"uae": {
+						"name": "ОАЭ",
+						"reasons": {
+							"investor": "Инвестиции",
+							"freelance": "Фриланс виза",
+							"remote-work": "Удаленная работа"
+						}
+					},
+					"hungary": {
+						"name": "Венгрия",
+						"reasons": {
+							"white-card": "White Card",
+							"real-estate": "Покупка недвижимости"
+						}
+					},
+					"portugal": {
+						"name": "Португалия",
+						"reasons": {
+							"d7-visa": "Виза D7",
+							"digital-nomad": "Цифровой кочевник"
+						}
+					},
+					"cyprus": {
+						"name": "Кипр",
+						"reasons": {
+							"permanent-residency": "Постоянное резидентство",
+							"it-visa": "IT-виза"
+						}
+					},
+					"greece": {
+						"name": "Греция",
+						"reasons": {
+							"fiv": "Финансово независимое лицо",
+							"golden-visa": "Золотая виза"
+						}
+					},
+					"italy": {
+						"name": "Италия",
+						"reasons": {
+							"residenza-elettiva": "Выбранное место жительства",
+							"digital-nomad": "Цифровой кочевник"
+						}
+					},
+					"france": {
+						"name": "Франция",
+						"reasons": {
+							"visiteur": "Виза Visiteur",
+							"talent-passport": "Паспорт-талант"
+						}
+					},
+					"malta": {
+						"name": "Мальта",
+						"reasons": {
+							"mprp": "Постоянное проживание MPRP",
+							"nomad-residence": "Аренда жилья Nomad"
+						}
+					},
+					"armenia": {
+						"name": "Армения",
+						"reasons": {
+							"business": "ИП / Бизнес",
+							"work": "Трудовой контракт"
+						}
+					}
+				}
+			}
 		},
 
 		"footer": {
@@ -395,6 +488,18 @@
 			"AboutUs": {
 				"primary": "Консультация миграционного юриста компании Aurion по оформлению ВНЖ",
 				"secondary": "Офис консалтинговой компании Aurion — международный миграционный центр"
+			}
+		}
+	},
+	"Services": {
+		"Montenegro": {
+			"requirements": {
+				"eyebrow": "ТРЕБОВАНИЯ",
+				"title": "Кто проходит и что потребуется.",
+				"tabMainApplicant": "Главный заявитель",
+				"tabFamilyMembers": "Члены семьи",
+				"tabFinances": "Финансы",
+				"tabDocuments": "Документы"
 			}
 		}
 	}

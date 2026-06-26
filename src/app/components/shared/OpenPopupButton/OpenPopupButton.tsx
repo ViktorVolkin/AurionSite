@@ -7,7 +7,7 @@ import clsx from "clsx";
 import { OpenPopupButtonProps } from "./OpenPopupButton.types";
 import CorporateLoginForm from "../../widgets/ConsultationForm";
 import CustomButton from "../CustomButton";
-import { CorporationLoginContent } from "../lib/constants";
+import { ConsultationFormContent } from "../lib/constants";
 
 export default function OpenPopupButton({
 	buttonAttributes,
@@ -48,7 +48,7 @@ export default function OpenPopupButton({
 			<Popup
 				isOpen={isOpen}
 				onClose={handleClose}>
-				<CorporateLoginForm {...CorporationLoginContent} />
+				<CorporateLoginForm {...ConsultationFormContent} />
 			</Popup>
 		</>
 	);

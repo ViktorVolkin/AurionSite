@@ -200,7 +200,7 @@
 					"text": "We collect the set of documents, manage translation, and notary certification. Each document is thoroughly checked before submission to the authority."
 				},
 				"step_3": {
-					"title": "Approval and Relocation Support",
+					"title": "Approval & Relocation Support",
 					"text": "We submit the case, track its status, and provide post-approval support: bank account opening, tax number setup, and renewals."
 				}
 			}
@@ -396,6 +396,18 @@
 			"AboutUs": {
 				"primary": "Consultation with a migration lawyer from Aurion regarding a residence permit",
 				"secondary": "Office of Aurion consulting company — international migration center"
+			}
+		}
+	},
+	"Services": {
+		"Montenegro": {
+			"requirements": {
+				"eyebrow": "REQUIREMENTS",
+				"title": "Who qualifies and what is required.",
+				"tabMainApplicant": "Main applicant",
+				"tabFamilyMembers": "Family members",
+				"tabFinances": "Finances",
+				"tabDocuments": "Documents"
 			}
 		}
 	}
