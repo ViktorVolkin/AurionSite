@@ -7,7 +7,7 @@ export const HEADER: HeaderProps = {
 		{ id: "#forBusiness", text: "widgets.header.forBusiness" },
 		{ id: "#aboutUs", text: "widgets.header.aboutUs" },
 		{ id: "#cases", text: "widgets.header.cases" },
-		{ id: "blog", text: "widgets.header.blog" },
+		{ id: "blog/all", text: "widgets.header.blog" },
 		{ id: "#contacts", text: "widgets.header.contacts" },
 	],
 	openPopup: { text: "widgets.header.openPopup" },

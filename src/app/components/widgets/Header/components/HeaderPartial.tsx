@@ -87,7 +87,7 @@ export default function HeaderPartial({
 						<HeaderDropdown {...HeaderDropdownContent} />
 					</li>
 					{blocks.map((block) => {
-						const safeHref = `/#${block.id.replace("#", "")}`;
+						const safeHref = `/${block.id.replace("#", "")}`;
 						return (
 							<li
 								key={block.id}
