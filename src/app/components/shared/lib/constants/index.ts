@@ -17,4 +17,4 @@ export {
 	CasesBlockSEO,
 } from "./SEO";
 
-export { SERVICE_PAGES } from "./ServicePageContent";
+export { romanNumerals } from "./constants";

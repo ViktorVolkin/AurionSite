@@ -1,0 +1,146 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	background: #111b27;
+	border: 1px solid rgba(245, 242, 236, 0.1);
+	padding: 44px 38px 40px;
+	transition: transform 0.3s ease;
+}
+
+.wrapper:hover {
+	transform: translateY(-4px);
+}
+
+.featured {
+	position: relative;
+}
+.featured::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: var(--accent);
+	height: 2px;
+}
+
+.badge {
+	position: absolute;
+	top: -13px;
+	left: 7%;
+	background: var(--accent);
+	color: #0d1b2a;
+	font-size: 0.75rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	padding: 4px 14px;
+	border-radius: 20px;
+	z-index: 1;
+}
+
+.data__container {
+	margin-bottom: 24px;
+}
+
+.title {
+	font-size: 1.625rem;
+	font-weight: 600;
+	color: var(--cream);
+	margin: 0 0 10px 0;
+	letter-spacing: -0.01em;
+}
+
+.additional {
+	font-size: 0.9375rem;
+	line-height: 1.5;
+	color: var(--casual);
+	margin: 0;
+	min-height: 45px;
+}
+
+.price__container {
+	display: flex;
+	align-items: baseline;
+	gap: 8px;
+	margin-bottom: 32px;
+	padding-bottom: 24px;
+	border-bottom: 1px solid rgba(245, 242, 236, 0.1);
+}
+
+.price {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: var(--cream);
+	letter-spacing: -0.02em;
+}
+
+.featured .price {
+	color: var(--accent);
+}
+
+.price__detail {
+	font-size: 0.875rem;
+	color: var(--casual);
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 40px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	flex-grow: 1;
+}
+
+.list__item {
+	font-size: 0.9375rem;
+	line-height: 1.45;
+	color: rgba(245, 242, 236, 0.8);
+	position: relative;
+	padding-left: 24px;
+}
+
+.list__item::before {
+	content: "✓";
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: var(--accent);
+	font-weight: 700;
+}
+
+.button {
+	display: block;
+	width: 100%;
+	text-align: center;
+	background: transparent;
+	border: 1px solid rgba(245, 242, 236, 0.2);
+	color: var(--cream);
+	padding: 14px 24px;
+	border-radius: 6px;
+	font-size: 0.9375rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	box-shadow: none;
+}
+
+.button:hover {
+	box-shadow: none;
+	border-color: var(--cream);
+	color: var(--accent);
+}
+
+.featured .button {
+	background: var(--accent);
+	border-color: var(--accent);
+	color: #0b1118;
+}
+
+.featured .button:hover {
+	background: #cfae5e;
+	border-color: #cfae5e;
+}

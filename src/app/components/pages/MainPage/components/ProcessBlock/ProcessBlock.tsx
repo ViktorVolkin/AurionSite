@@ -2,13 +2,13 @@ import { getTranslations } from "next-intl/server";
 import Eyebrow from "@/app/components/shared/Eyebrow";
 import styles from "./ProcessBlock.module.css";
 import { ProcessBlockProps } from "./ProcessBlock.types";
+import { romanNumerals } from "@/app/components/shared/lib/constants";
 
 export default async function ProcessBlock({
 	eyebrow,
 	title,
 	cards,
 }: ProcessBlockProps) {
-	const romanNumerals = ["I", "II", "III", "IV", "V", "VI"];
 	const t = await getTranslations();
 	return (
 		<section

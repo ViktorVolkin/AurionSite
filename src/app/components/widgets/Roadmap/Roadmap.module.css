@@ -1,0 +1,158 @@
+.wrapper {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 80px 20px;
+}
+
+.title__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 24px;
+	margin-top: 16px;
+	margin-bottom: 64px;
+}
+
+.title {
+	font-weight: 500;
+	font-size: clamp(2.2rem, 4.4vw, 3rem);
+	line-height: 1.08;
+	letter-spacing: 0.005em;
+	margin-top: 18px;
+	max-width: 18ch;
+}
+
+.additional {
+	font-size: 16px;
+	line-height: 1.5;
+	color: var(--casual);
+	max-width: 34ch;
+	margin: 0;
+	align-self: flex-end;
+}
+
+.steps {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.top {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	margin-bottom: 12px;
+}
+.step {
+	padding-left: 112px;
+	padding-bottom: 56px;
+	position: relative;
+}
+
+.step::after {
+	content: "";
+	position: absolute;
+
+	left: 28px;
+
+	top: 56px;
+	bottom: 0;
+	width: 1px;
+	background-color: rgba(245, 242, 236, 0.18);
+}
+
+.step:last-child::after {
+	display: none;
+}
+
+.rn__container {
+	display: flex;
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	border: 2px solid rgba(245, 242, 236, 0.18);
+	justify-content: center;
+	align-items: center;
+
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.rn {
+	font-size: 2rem;
+	font-weight: 500;
+	color: var(--accent);
+	user-select: none;
+	text-align: center;
+}
+
+.step__title {
+	font-size: clamp(24px, 2vw, 32px);
+	font-weight: 600;
+	margin: 0;
+	display: block;
+}
+
+.step__important {
+	font-size: 14px;
+	font-weight: 500;
+	color: var(--accent);
+	text-transform: uppercase;
+	flex-wrap: nowrap;
+	text-wrap: nowrap;
+}
+
+.step__text {
+	font-size: clamp(12px, 1.5vw, 18px);
+	line-height: 1.6;
+	color: var(--casual);
+	margin: 0;
+	margin-top: 12px;
+	max-width: 56ch;
+}
+
+@media (max-width: 768px) {
+	.title__container {
+		display: flex;
+		flex-direction: column;
+	}
+	.step {
+		padding-left: 96px;
+	}
+
+	.step::after {
+		content: "";
+		position: absolute;
+
+		left: 24px;
+
+		top: 48px;
+		bottom: 0;
+		width: 1px;
+		background-color: var(--casual);
+	}
+	.rn__container {
+		display: flex;
+		width: 48px;
+		height: 48px;
+		border-radius: 50%;
+		justify-content: center;
+		align-items: center;
+
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	.rn {
+		font-size: 1.6rem;
+		font-weight: 500;
+		color: var(--accent);
+		user-select: none;
+		text-align: center;
+	}
+}

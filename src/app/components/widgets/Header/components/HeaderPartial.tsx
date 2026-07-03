@@ -83,6 +83,9 @@ export default function HeaderPartial({
 				<Logo />
 
 				<ul className={styles.block__list}>
+					<li>
+						<HeaderDropdown {...HeaderDropdownContent} />
+					</li>
 					{blocks.map((block) => {
 						const safeHref = `/#${block.id.replace("#", "")}`;
 						return (
@@ -97,9 +100,6 @@ export default function HeaderPartial({
 							</li>
 						);
 					})}
-					<li style={{ position: "relative" }}>
-						<HeaderDropdown {...HeaderDropdownContent} />
-					</li>
 				</ul>
 
 				<div className={styles.settings}>
