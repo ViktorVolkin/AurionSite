@@ -2,8 +2,9 @@
 	"mainPage": {
 		"intro": {
 			"eyebrow": "Migration Consulting",
-			"title": "Where you live should be a <highlight>choice</highlight>, not a limitation",
-			"info": "147 residence permits obtained across 8 jurisdictions since 2018",
+			"title": "TRP & PRP in Europe for those who want to live\nand work <highlight>abroad</highlight>",
+			"text": "Operating since 2018. We guide clients from the initial consultation to obtaining their status—in 10 countries, with local lawyers in each.",
+			"info": "147 residence permits obtained in 10 jurisdictions since 2018",
 			"firstButton": {
 				"text": "Book a Consultation"
 			},
@@ -14,262 +15,298 @@
 				"months — average approval time"
 			]
 		},
-
 		"possibilities": {
 			"eyebrow": "Jurisdictions",
-			"title": "Eight Jurisdictions. One Standard of Case Management.",
-			"additionalInfo": "We select the jurisdiction based on your profile, not the other way around. Each destination is managed by an on-site team.",
+			"title": "Ten Jurisdictions. One Case Handling Standard.",
+			"additionalInfo": "A local licensed lawyer operates in every country. We select the jurisdiction based on your goals, income, and family composition.",
 			"blocks": {
-				"montenegro": {
-					"title": "Montenegro",
-					"importantText": "Residence Permit via Passive Income",
-					"ourExperience": "We have been working with the Montenegrin destination since 2013. We manage the case from the initial consultation to receiving the card.",
-					"term": { "question": "Timeline", "answer": "3–4 months" },
-					"finance": {
-						"question": "Financial Requirement",
-						"answer": "from €3,650 / year"
-					},
-					"hook": "A direct path to a residence permit without buying real estate. Suitable for passive income holders and remote professionals."
-				},
 				"spain": {
 					"title": "Spain",
-					"importantText": "Digital Nomad Visa / Non-Lucrative Residence Permit",
-					"ourExperience": "We support you from apostille to registration in Spain. An on-site partner handles all communication with the consulate.",
-					"term": { "question": "Timeline", "answer": "2–3 months" },
+					"importantText": "Digital Nomad Visa — 3-year card right away",
+					"ourExperience": "We assist from apostille to TIE card. We prepare the contract and the dossier so that the consul has no questions.",
+					"term": { "question": "Timeframe", "answer": "2–3 months" },
 					"finance": {
-						"question": "Financial Requirement",
-						"answer": "from €2,650 / month of income"
+						"question": "Financial Condition",
+						"answer": "from €2,849 / month income"
 					},
-					"hook": "Schengen residence permit with the right of residency for the whole family. Income is verified via remote employment or contracts."
+					"hook": "Schengen residence permit for 3 years without investments or starting a business. Family applies together with the main applicant."
+				},
+				"montenegro": {
+					"title": "Montenegro",
+					"importantText": "Residency via company registration or employment",
+					"ourExperience": "We have been working with the Montenegrin direction since 2018. We register the company, open a bank account, and manage the case until the card is received.",
+					"term": { "question": "Timeframe", "answer": "2–3 months" },
+					"finance": {
+						"question": "Financial Condition",
+						"answer": "taxes and contributions from €5,000 / year"
+					},
+					"hook": "A working path to residency without purchasing real estate. Turnkey company, bank account, and residence permit in a single process."
 				},
 				"serbia": {
 					"title": "Serbia",
-					"importantText": "Temporary Residence Permit",
-					"ourExperience": "We assist with address registration, account opening, and residence permit processing. We know the local specifics of each district.",
-					"term": { "question": "Timeline", "answer": "2–3 months" },
+					"importantText": "Residency via establishing a legal entity",
+					"ourExperience": "We help with address registration, opening a bank account, and processing the residence permit. We know the local specifics of each district.",
+					"term": { "question": "Timeframe", "answer": "2–3 months" },
 					"finance": {
-						"question": "Financial Requirement",
-						"answer": "rental / business foundation"
+						"question": "Financial Condition",
+						"answer": "business grounds"
 					},
-					"hook": "A clear path to permanent residency in three years. Minimal physical presence requirements in the country."
+					"hook": "Card valid for up to 3 years right away, family members join via reunification. Minimal physical presence requirements."
 				},
 				"france": {
 					"title": "France",
-					"importantText": "Passive Resident Permit / Talent Passport",
-					"ourExperience": "We prepare the dossier according to prefecture requirements. We monitor deadlines and provide support at all stages.",
-					"term": { "question": "Timeline", "answer": "3–5 months" },
+					"importantText": "Visitor / Business / Startup Visa — up to 4 years",
+					"ourExperience": "We prepare the dossier to meet prefecture requirements. We control the deadlines and provide guidance at all stages.",
+					"term": { "question": "Timeframe", "answer": "3–5 months" },
 					"finance": {
-						"question": "Financial Requirement",
-						"answer": "from €1,800 / month of income"
+						"question": "Financial Condition",
+						"answer": "from €1,800 / month income"
 					},
-					"hook": "One of the few paths to the EU without real estate investment. Suitable for specialists and rentiers."
-				},
-				"malta": {
-					"title": "Malta",
-					"importantText": "Residency / Citizenship by Investment",
-					"ourExperience": "We cooperate with licensed Maltese agents. Full support throughout the naturalization track.",
-					"term": { "question": "Timeline", "answer": "12–36 months" },
-					"finance": {
-						"question": "Financial Requirement",
-						"answer": "from €150,000"
-					},
-					"hook": "The only EU citizenship via naturalization through an investment track. The passport opens access to 185 countries."
-				},
-				"greece": {
-					"title": "Greece",
-					"importantText": "Golden Visa / Residence Permit via Real Estate Investment",
-					"ourExperience": "We coordinate legal support for the transaction and the submission of residence permit documents in a single process.",
-					"term": { "question": "Timeline", "answer": "3–6 months" },
-					"finance": {
-						"question": "Financial Requirement",
-						"answer": "from €250,000"
-					},
-					"hook": "The most affordable Golden Visa in the EU. No physical presence requirements — the card remains valid under any schedule."
-				},
-				"cyprus": {
-					"title": "Cyprus",
-					"importantText": "Residence Permit based on Income / Investment",
-					"ourExperience": "We help structure assets for Cypriot residency. We work closely with local lawyers and banks.",
-					"term": { "question": "Timeline", "answer": "2–4 months" },
-					"finance": {
-						"question": "Financial Requirement",
-						"answer": "from €30,000 / year of income"
-					},
-					"hook": "Low tax burden and an English-speaking environment. Residence permit without mandatory stay, convenient for business."
+					"hook": "A path to the EU without real estate investments. Suitable for financially independent individuals, entrepreneurs, and startups."
 				},
 				"hungary": {
 					"title": "Hungary",
-					"importantText": "Guest Investor Card / Residence Permit via Investment",
-					"ourExperience": "We have been tracking the program since its launch. We guide clients based on current requirements without outdated templates.",
-					"term": { "question": "Timeline", "answer": "1–3 months" },
+					"importantText": "National Card via establishing a legal entity",
+					"ourExperience": "We register the company, open a bank account, and issue the card in a single interconnected process.",
+					"term": { "question": "Timeframe", "answer": "2–3 months" },
 					"finance": {
-						"question": "Financial Requirement",
-						"answer": "from €500,000 (investment)"
+						"question": "Financial Condition",
+						"answer": "business grounds"
 					},
-					"hook": "A new program with a low entry barrier to the EU. Suitable for digital entrepreneurs and investors."
+					"hook": "2-year card with renewal options. Fast entry to the EU through your own company with a local bank account."
 				},
-				"armenia": {
-					"title": "Armenia",
-					"importantText": "Residence Permit via Sole Proprietor / LLC Registration",
-					"ourExperience": "We open a company and process the residence permit in a single trip. We know the details of banking compliance in Yerevan.",
-					"term": { "question": "Timeline", "answer": "1–2 months" },
+				"malta": {
+					"title": "Malta",
+					"importantText": "Residency / Citizenship through naturalization",
+					"ourExperience": "We work with licensed Maltese agents. Full support along the naturalization track.",
+					"term": { "question": "Timeframe", "answer": "12–36 months" },
 					"finance": {
-						"question": "Financial Requirement",
-						"answer": "Sole Proprietor / LLC registration"
+						"question": "Financial Condition",
+						"answer": "individual"
 					},
-					"hook": "A quick start for entrepreneurs and IT professionals. Residence permit without real estate investments."
+					"hook": "EU citizenship through naturalization via the investment track. The passport opens access to 185 countries."
 				},
-				"georgia": {
-					"title": "Georgia",
-					"importantText": "Residence Permit via Investment / Employment",
-					"ourExperience": "We support property purchase and residence permit registration simultaneously. We work directly with the local registry.",
-					"term": { "question": "Timeline", "answer": "1–2 months" },
+				"greece": {
+					"title": "Greece",
+					"importantText": "Golden Visa via real estate investments",
+					"ourExperience": "We coordinate the legal support of the transaction and the submission of residence permit documents in a single process.",
+					"term": { "question": "Timeframe", "answer": "3–6 months" },
 					"finance": {
-						"question": "Financial Requirement",
-						"answer": "from $100,000 (investment)"
+						"question": "Financial Condition",
+						"answer": "real estate from €250,000"
 					},
-					"hook": "Territorial taxation system. One of the fastest residence permits in the region."
+					"hook": "5-year card right away. No physical presence requirements — the status remains valid under any schedule."
+				},
+				"cyprus": {
+					"title": "Cyprus",
+					"importantText": "Permanent residency by investment — lifelong status",
+					"ourExperience": "We help structure assets for Cypriot residency. We work with local lawyers and banks.",
+					"term": { "question": "Timeframe", "answer": "2–4 months" },
+					"finance": {
+						"question": "Financial Condition",
+						"answer": "real estate from €300,000"
+					},
+					"hook": "Lifelong permanent residency without renewals. Low tax burden and an English-speaking environment."
 				},
 				"uae": {
 					"title": "UAE",
-					"importantText": "Golden Visa / Remote Work Visa",
-					"ourExperience": "We process applications in Dubai and Abu Dhabi, including Emirates ID and bank account opening. Perfect for investors and founders.",
-					"term": { "question": "Timeline", "answer": "4–6 weeks" },
+					"importantText": "Remote Visa / Golden Visa / Freelance Visa",
+					"ourExperience": "We process visas in Dubai and Abu Dhabi, including Emirates ID and bank account opening. Suitable for investors and founders.",
+					"term": { "question": "Timeframe", "answer": "4–6 weeks" },
 					"finance": {
-						"question": "Financial Requirement",
-						"answer": "from AED 2,000,000 (Golden)"
+						"question": "Financial Condition",
+						"answer": "depends on the visa type"
 					},
-					"hook": "Zero personal income tax and a residency permit valid for up to 10 years."
+					"hook": "Zero income tax and residency for up to 10 years. The fastest processing framework among all directions."
 				},
-				"portugal": {
-					"title": "Portugal",
-					"importantText": "D7 / Passive Income Residence Permit",
-					"ourExperience": "We handle NIF generation, account opening, and residence permit submission remotely. We accompany you to the SEF/AIMA interview.",
-					"term": { "question": "Timeline", "answer": "4–8 months" },
+				"armenia": {
+					"title": "Armenia",
+					"importantText": "Residency via Sole Proprietorship / LLC registration",
+					"ourExperience": "We open the company and process the residence permit in a single trip. We know the specifics of banking compliance in Yerevan.",
+					"term": { "question": "Timeframe", "answer": "1–2 months" },
 					"finance": {
-						"question": "Financial Requirement",
-						"answer": "from €820 / month of income"
+						"question": "Financial Condition",
+						"answer": "SP / LLC registration"
 					},
-					"hook": "A direct path to permanent residency and citizenship after 5 years. No mandatory real estate investments required."
-				},
-				"italy": {
-					"title": "Italy",
-					"importantText": "Passive Income Residence Permit / Elective Residency",
-					"ourExperience": "We assist with the translation and legalization of documents for the Italian consulate. We control submission deadlines.",
-					"term": { "question": "Timeline", "answer": "3–6 months" },
-					"finance": {
-						"question": "Financial Requirement",
-						"answer": "from €32,000 / year of income"
-					},
-					"hook": "Residence permit for rentiers and retirees without the right to work. Full access to the Italian healthcare system."
-				},
-				"thailand": {
-					"title": "Thailand",
-					"importantText": "Long-Term Resident / Elite Visa",
-					"ourExperience": "We select the visa track tailored to the client's profile — from remote work to retirement income.",
-					"term": { "question": "Timeline", "answer": "1–3 months" },
-					"finance": {
-						"question": "Financial Requirement",
-						"answer": "from $80,000 (Elite) / income"
-					},
-					"hook": "Visa for 5–10 years without a strict link to real estate. Suitable for remote professionals and retirees."
-				},
-				"vanuatu": {
-					"title": "Vanuatu",
-					"importantText": "Citizenship by Investment",
-					"ourExperience": "We coordinate due diligence and application submission remotely. Passport issuance time is one of the shortest in the world.",
-					"term": { "question": "Timeline", "answer": "1–2 months" },
-					"finance": {
-						"question": "Financial Requirement",
-						"answer": "from $130,000 (contribution)"
-					},
-					"hook": "Visa-free access to the Schengen area and the UK. The fastest citizenship by investment program."
+					"hook": "A quick start for entrepreneurs and IT specialists. Residence permit without real estate investments."
 				}
 			}
 		},
 		"process": {
-			"eyebrow": "Process",
-			"title": "Three Stages. From Profile Evaluation to the Residence Permit Card.",
+			"eyebrow": "How We Work",
+			"title": "Three Stages. From Profile Assessment to Residence Card.",
 			"cards": {
 				"step_1": {
 					"title": "Diagnostic Consultation",
-					"text": "We evaluate your profile, income sources, and goals. We select the jurisdiction and program where your case has the highest chances of success."
+					"text": "We analyze your situation: income, citizenship, family composition, goals. We suggest suitable programs with realistic timelines and costs."
 				},
 				"step_2": {
 					"title": "Document Preparation",
-					"text": "We collect the set of documents, manage translation, and notary certification. Each document is thoroughly checked before submission to the authority."
+					"text": "We collect and verify the document package. We control every stage — from translation to final submission."
 				},
 				"step_3": {
-					"title": "Approval & Relocation Support",
-					"text": "We submit the case, track its status, and provide post-approval support: bank account opening, tax number setup, and renewals."
+					"title": "Obtaining the Status",
+					"text": "We guide you until you receive your residence card. Afterwards, we help open a bank account and resolve administrative matters on-site."
 				}
 			}
 		},
 		"aboutUs": {
-			"eyebrow": "About Us",
-			"title": "We manage cases from within the jurisdiction, not remotely.",
-			"text": "Since 2013, the Aurion team has been operating on the ground in Montenegro, and since 2018, we have processed 147 residence permits across six jurisdictions. We limit the number of active cases we take on simultaneously to ensure each is managed by a dedicated specialist, not a queue.",
+			"eyebrow": "About Company",
+			"title": "Operating in these countries\nsince 2018.",
+			"text": "The Aurion team guides clients across Montenegro, Serbia, Spain, and other destinations.\nWe take on a limited number of cases at a time — ensuring each is managed by a dedicated specialist, not a queue.",
 			"cards": {
 				"team": {
-					"title": "On-Site Team Since 2013",
-					"text": "We manage cases from the inside, not remotely — this shortens timelines and eliminates risks during submission."
+					"title": "On-site team since 2018",
+					"text": "We manage cases from the inside, not remotely — this shortens timeframes and eliminates submission risks."
 				},
 				"specialist": {
-					"title": "One Specialist — One Case",
-					"text": "You work with a specific person from the first consultation until you receive your card."
+					"title": "One specialist — one case",
+					"text": "Your case is managed by a single manager from the first consultation to the final document acquisition."
 				},
 				"continious": {
-					"title": "Post-Approval Support",
-					"text": "Bank account setup, tax number registration, and residence permit renewals are included in our scope of work, not sold separately."
+					"title": "Post-approval support",
+					"text": "We help with bank accounts, tax status, and adaptation. We stay in touch after you receive your card."
 				}
 			}
 		},
 		"cases": {
-			"title": "Cases successfully brought to a residence permit card.",
+			"title": "Cases brought to the final residence card status.",
 			"eyebrow": "Results",
 			"montenegroBusiness": {
 				"country": "Montenegro",
 				"category": "Family",
-				"outcome": "Residence permit for a family of four under a single basis.",
+				"outcome": "Residence permit for a family of four under a single ground.",
 				"timeframe": "Approved in 4 months",
-				"description": "An applicant with passive income obtained a residence permit for himself, his spouse, and two children within one submission."
+				"description": "An applicant with passive income obtained a residence permit for himself, his spouse, and two children within one submission framework."
 			},
 			"spainNomad": {
 				"country": "Spain",
 				"category": "Freelancer",
 				"outcome": "Digital Nomad Visa for a remote specialist.",
 				"timeframe": "Approved in 3 months",
-				"description": "An IT professional verified income through foreign contracts and obtained a Schengen residence permit with the right to reside in the EU."
+				"description": "An IT specialist verified income from foreign contracts and obtained a Schengen residence permit with the right to reside in the EU."
 			},
 			"UAE": {
 				"country": "UAE",
 				"category": "Entrepreneur",
 				"outcome": "10-year Golden Visa for an IT company founder",
 				"timeframe": "Approved in 5 weeks",
-				"description": "The founder processed a long-term residence permit along with an Emirates ID and a corporate bank account without leaving the country."
+				"description": "The founder processed a long-term residence permit along with an Emirates ID and a corporate account without leaving the country."
 			}
 		},
 		"finalCta": {
 			"eyebrow": "Launch Analysis",
 			"title": "Program conditions change quarterly. Submitting today means dealing with yesterday's requirements.",
-			"text": "During a 30-minute consultation, we will evaluate your profile and provide realistic timelines for your chosen jurisdiction."
+			"text": "During a 30-minute consultation, we will assess your profile and provide realistic timeframes for your jurisdiction."
 		}
 	},
-
 	"widgets": {
 		"header": {
 			"logoAlt": "Landostat Logo",
-			"possibilities": "Features",
-			"workflow": "How it Works",
-			"demo": "Report Demo",
-			"sources": "Data Sources",
+			"aboutUs": "About Us",
+			"forBusiness": "For Business",
+			"cases": "Cases",
 			"contacts": "Contacts",
-			"openPopup": "Request a Call"
+			"openPopup": "Request a Call",
+			"citezinship": "Citizenships",
+			"blog": "Blog",
+			"headerDropdown": {
+				"title": "Residence Permit",
+				"titlePrefix": "Residency:",
+				"countries": {
+					"montenegro": {
+						"name": "Montenegro",
+						"reasons": {
+							"real-estate": "Real Estate",
+							"digital-nomad": "Digital Nomad",
+							"company": "Company Formation"
+						}
+					},
+					"serbia": {
+						"name": "Serbia",
+						"reasons": {
+							"company": "Business",
+							"real-estate": "Real Estate"
+						}
+					},
+					"spain": {
+						"name": "Spain",
+						"reasons": {
+							"digital-nomad": "Digital Nomad",
+							"golden-visa": "Golden Visa",
+							"non-lucrative": "Non-Lucrative"
+						}
+					},
+					"uae": {
+						"name": "UAE",
+						"reasons": {
+							"investor": "Investment",
+							"freelance": "Freelance Visa",
+							"remote-work": "Remote Work"
+						}
+					},
+					"hungary": {
+						"name": "Hungary",
+						"reasons": {
+							"white-card": "White Card",
+							"real-estate": "Property Purchase"
+						}
+					},
+					"portugal": {
+						"name": "Portugal",
+						"reasons": {
+							"d7-visa": "D7 Visa",
+							"digital-nomad": "Digital Nomad"
+						}
+					},
+					"cyprus": {
+						"name": "Cyprus",
+						"reasons": {
+							"permanent-residency": "Permanent Residency",
+							"it-visa": "IT Visa"
+						}
+					},
+					"greece": {
+						"name": "Greece",
+						"reasons": {
+							"fiv": "Financially Independent Person",
+							"golden-visa": "Golden Visa"
+						}
+					},
+					"italy": {
+						"name": "Italy",
+						"reasons": {
+							"residenza-elettiva": "Elective Residence",
+							"digital-nomad": "Digital Nomad"
+						}
+					},
+					"france": {
+						"name": "France",
+						"reasons": {
+							"visiteur": "Visiteur Visa",
+							"talent-passport": "Talent Passport"
+						}
+					},
+					"malta": {
+						"name": "Malta",
+						"reasons": {
+							"mprp": "Permanent Residence MPRP",
+							"nomad-residence": "Nomad Housing Rental"
+						}
+					},
+					"armenia": {
+						"name": "Armenia",
+						"reasons": {
+							"business": "SP / Business",
+							"work": "Employment Contract"
+						}
+					}
+				}
+			}
 		},
-
 		"footer": {
 			"logoAlt": "AI Property Intelligence Logo",
-			"description": "AI-powered platform for evaluation, forecasting, and comparison of land and real estate value in international markets.",
+			"description": "AI platform for assessment, forecasting, and comparison of land and real estate value in international markets.",
 			"titles": {
 				"product": "Product",
 				"methodology": "Methodology",
@@ -284,7 +321,7 @@
 				"api": "API"
 			},
 			"methodology": {
-				"howItWorks": "How we calculate",
+				"howItWorks": "How It Works",
 				"accuracy": "Model Accuracy",
 				"releases": "Releases",
 				"changelog": "Changelog"
@@ -302,25 +339,63 @@
 				"press": "Press"
 			},
 			"bottom": {
-				"copyright": "© 2026 · AI Property Intelligence · OGRN TBD · All rights reserved",
+				"copyright": "© 2026 · AI Property Intelligence · PSRN TBD · All rights reserved",
 				"privacy": "Privacy Policy",
 				"terms": "Terms of Use",
 				"language": "Language"
 			}
 		}
 	},
-
+	"Metadata": {
+		"title": "Aurion — International Migration Consulting | TRP, PRP & Citizenship",
+		"description": "Assistance in processing residence permits, permanent residency, and citizenship in 12 jurisdictions: Montenegro, Spain, UAE, France, etc. 147 successfully approved cases since 2018. Assess your chances during a consultation.",
+		"ogImage": "Presentation card of Aurion migration agency. Set against a deep dark blue background with a subtle technical grid, it vertically features: a gold graphic logo shaped as the letter A with a rising sun, a headline in an elegant serif font 'Where to live should be a choice, not a limitation', and official consulting statistics."
+	},
+	"SEO": {
+		"jsonLd": {
+			"name": "Aurion",
+			"legalName": "Aurion Migration Consulting",
+			"description": "International migration consulting. Processing of residence permits, permanent residency, and citizenship in 8 jurisdictions: Montenegro, Spain, Greece, Cyprus, Malta, UAE. 147 obtained cases since 2018.",
+			"foundingDate": "2018"
+		},
+		"aria": {
+			"OpenHeaderPhone": {
+				"open": "Open menu",
+				"close": "Close menu"
+			},
+			"HeaderPartial": {
+				"navLabel": "Main Navigation"
+			},
+			"CustomSwiper": {
+				"region": "Interactive element carousel",
+				"prevBtn": "Previous slide",
+				"nextBtn": "Next slide",
+				"pagination": "Go to slide {index}",
+				"firstSlide": "This is the first slide of the carousel",
+				"lastSlide": "This is the last slide of the carousel"
+			},
+			"CasesBlockSEO": {
+				"sectionLabel": "Results and residence permit acquisition cases"
+			}
+		},
+		"alts": {
+			"AboutUs": {
+				"primary": "Consultation with an Aurion migration lawyer regarding residence permit processing",
+				"secondary": "Office of the Aurion consulting company — international migration center"
+			}
+		}
+	},
 	"Consultation": {
-		"empty": "No results found",
+		"empty": "Nothing found",
 		"fields": {
 			"nameLabel": "Name",
 			"namePlaceholder": "Your name",
-			"countryLabel": "Jurisdiction of Interest",
-			"methodLabel": "Preferred Contact Method",
-			"contactLabel": "Contact Detail",
+			"countryLabel": "Jurisdiction of interest",
+			"methodLabel": "Preferred method of communication",
+			"contactLabel": "Contact details",
 			"contactPlaceholderTg": "Your Telegram @username",
 			"contactPlaceholderWa": "Your WhatsApp number",
-			"contactPlaceholderPhone": "+1 (000) 000-00-00"
+			"contactPlaceholderPhone": "+7 (000) 000-00-00"
 		},
 		"countries": {
 			"montenegro": "Montenegro",
@@ -343,7 +418,7 @@
 		"methods": {
 			"telegram": "Telegram",
 			"whatsapp": "WhatsApp",
-			"phone": "Phone Call"
+			"phone": "Call"
 		},
 		"buttons": {
 			"submit": "Book a Consultation",
@@ -356,58 +431,302 @@
 		"errors": {
 			"nameMin": "Name must contain at least 2 characters",
 			"contactRequired": "This field is required",
-			"invalidPhone": "Please enter a valid phone number (e.g. +1...)",
-			"invalidMessengerFormat": "Please enter a valid Telegram handle, e.g. @Bob"
-		}
-	},
-	"Metadata": {
-		"title": "Aurion — International Migration Consulting | Residence Permits & Citizenship",
-		"description": "Expert assistance in obtaining residence permits, permanent residency, and citizenship across 12 jurisdictions: Montenegro, Spain, UAE, France, and more. 147 successfully approved cases since 2018. Evaluate your chances during a consultation.",
-		"ogImage": "Presentation card of Aurion migration agency. Set against a deep dark blue background with a subtle technical grid, the following elements are aligned vertically: a golden graphic logo shaped as the letter A with a rising sun, an elegant serif header reading 'Where you live should be a choice, not a limitation', and official consulting performance statistics."
-	},
-	"SEO": {
-		"jsonLd": {
-			"name": "Aurion",
-			"legalName": "Aurion Migration Consulting",
-			"description": "International migration consulting. Processing of residence permits, permanent residency, and citizenship across 8 jurisdictions: Montenegro, Spain, Greece, Cyprus, Malta, UAE. 147 approved cases since 2018.",
-			"foundingDate": "2018"
-		},
-		"aria": {
-			"OpenHeaderPhone": {
-				"open": "Open menu",
-				"close": "Close menu"
-			},
-			"HeaderPartial": {
-				"navLabel": "Main Navigation"
-			},
-			"CustomSwiper": {
-				"region": "Interactive carousel of elements",
-				"prevBtn": "Previous slide",
-				"nextBtn": "Next slide",
-				"pagination": "Go to slide {index}",
-				"firstSlide": "This is the first slide of the carousel",
-				"lastSlide": "This is the last slide of the carousel"
-			},
-			"CasesBlockSEO": {
-				"sectionLabel": "Results and residence permit case studies"
-			}
-		},
-		"alts": {
-			"AboutUs": {
-				"primary": "Consultation with a migration lawyer from Aurion regarding a residence permit",
-				"secondary": "Office of Aurion consulting company — international migration center"
-			}
+			"invalidPhone": "Enter a valid phone number (e.g. +7...)",
+			"invalidMessengerFormat": "Enter a valid Telegram handle, for example @Bob"
 		}
 	},
 	"Services": {
-		"Montenegro": {
-			"requirements": {
-				"eyebrow": "REQUIREMENTS",
-				"title": "Who qualifies and what is required.",
-				"tabMainApplicant": "Main applicant",
-				"tabFamilyMembers": "Family members",
-				"tabFinances": "Finances",
-				"tabDocuments": "Documents"
+		"choose": "Select",
+		"montenegro": {
+			"real-estate": {
+				"roadmap": {
+					"eyebrow": "Roadmap",
+					"title": "How the process unfolds — week by week.",
+					"additionalInfo": "Timelines are specified for a typical real estate case in Montenegro.",
+					"steps": [
+						{
+							"title": "Consultation and Assessment",
+							"important": "Week 0",
+							"text": "We study your profile, source of income, and family composition. We verify the grounds and establish a realistic schedule."
+						},
+						{
+							"title": "Collection and Preparation of Documents",
+							"important": "Weeks 1–4",
+							"text": "We collect the set, arrange apostilles, sworn translations, and notarization. Every document is verified before submission."
+						},
+						{
+							"title": "Application Submission",
+							"important": "Month 2",
+							"text": "We submit the case to the authorized body in Montenegro. We accompany the submission in person — eliminating remote risks."
+						},
+						{
+							"title": "Review by Authorities",
+							"important": "Months 2–3",
+							"text": "We track the application status and respond to requests from the authority. You receive updates at every step."
+						},
+						{
+							"title": "Receiving the Card and Settlement",
+							"important": "Months 3–4",
+							"text": "You receive your plastic residence permit card. We help with a bank account, tax number, and the first renewal."
+						}
+					]
+				},
+				"overview": {
+					"title": "A single status that unlocks residency, a bank account, and freedom of movement across the Balkans.",
+					"firstText": "A residence permit based on passive income is a temporary residence permit in Montenegro for those who receive regular income outside the country: dividends, rental payments, interest on deposits, or remote compensation. Real estate purchase is not required.",
+					"secondText": "We manage the case from the initial consultation to receiving the plastic residence card: we select the grounds, prepare and certify documents, submit the application, and provide support post-approval. The status is renewed annually and grants the right to permanent residency after five years.",
+					"card": {
+						"title": "Key Parameters",
+						"typeLabel": "Type",
+						"typeValue": "Temporary Residence Permit (TRP)",
+						"processingLabel": "Processing time",
+						"processingValue": "3–4 months",
+						"financeLabel": "Financial condition",
+						"financeValue": "from €3,650 / year",
+						"validityLabel": "Validity period",
+						"validityValue": "1 year, renewable",
+						"pathLabel": "Path to permanent residency",
+						"pathValue": "after 5 years",
+						"familyLabel": "Family",
+						"familyValue": "included"
+					}
+				},
+				"tariffs": {
+					"eyebrow": "Cost of Services",
+					"title": "Transparent Rates Without Hidden Fees",
+					"additionalText": "Cost of Aurion services. State fees, translations, and notary services are paid separately and specified in advance.",
+					"PS": "The indicated cost is for support services. State fees, apostille, translations, notary, and insurance are paid separately and agreed upon before work begins.",
+					"essential": {
+						"title": "Basic",
+						"additional": "For those who apply independently and want a verified strategy.",
+						"priceDetail": "one-time fee",
+						"points": {
+							"point1": "Diagnostic consultation",
+							"point2": "Selection of grounds and strategy",
+							"point3": "Document checklist",
+							"point4": "Verification of the prepared set",
+							"point5": "Submission and support — available separately"
+						}
+					},
+					"full": {
+						"badge": "Popular",
+						"title": "Full Support",
+						"additional": "Turnkey case from the first consultation to the residence card for a single applicant.",
+						"priceDetail": "per applicant",
+						"points": {
+							"point1": "Everything from the \"Basic\" package",
+							"point2": "Preparation and certification of documents",
+							"point3": "In-person submission to the authority",
+							"point4": "Tracking of the case status",
+							"point5": "Post-approval support"
+						}
+					},
+					"family": {
+						"title": "Family",
+						"additional": "Full support for a family of up to four people within a single application.",
+						"priceDetail": "up to 4 people",
+						"points": {
+							"point1": "Everything from \"Full Support\"",
+							"point2": "Residence permits for spouse and children",
+							"point3": "Coordination of the family document set",
+							"point4": "Support with schools and bank accounts",
+							"point5": "Priority manager assignment"
+						}
+					}
+				},
+				"requirements": {
+					"eyebrow": "Requirements",
+					"title": "Who qualifies and what is required.",
+					"tabs": {
+						"mainApplicant": "Main Applicant",
+						"family": "Family Members",
+						"finances": "Finances",
+						"documents": "Documents"
+					},
+					"main-applicant": {
+						"age": {
+							"title": "Age 18+",
+							"text": "The application is submitted by an adult. Children are included as dependents."
+						},
+						"cleanRecord": {
+							"title": "Clean Criminal Record",
+							"text": "A certificate of no criminal record from the country of citizenship and country of residence."
+						},
+						"passport": {
+							"title": "Valid Passport",
+							"text": "Validity period of no less than six months on the date of submission."
+						},
+						"entry": {
+							"title": "No Entry Bans",
+							"text": "No active restrictions on entry to Montenegro or the Schengen zone."
+						}
+					},
+					"family": {
+						"spouse": {
+							"title": "Spouse",
+							"text": "Included in the case provided there is a marriage certificate with an apostille."
+						},
+						"children": {
+							"title": "Minor Children",
+							"text": "Children under 18 are processed as dependents of the main applicant."
+						},
+						"students": {
+							"title": "Student Children",
+							"text": "Adult children dependent upon verification of active enrollment."
+						},
+						"financeCondition": {
+							"title": "Financial Condition per Person",
+							"text": "Verified income is calculated for all included family members."
+						}
+					},
+					"finances": {
+						"income": {
+							"title": "Verified Passive Income",
+							"text": "Dividends, rent, interest, or remote income — from €3,650 per year."
+						},
+						"statement": {
+							"title": "Bank Statement",
+							"text": "Funds movement over the last 12 months on a personal account."
+						},
+						"housing": {
+							"title": "Housing in the Country",
+							"text": "A lease agreement or ownership rights for the residential address."
+						},
+						"insurance": {
+							"title": "Medical Insurance",
+							"text": "A policy covering the validity period of the requested residence permit."
+						}
+					},
+					"documents": {
+						"cleanRecordDoc": {
+							"title": "Criminal Record Certificate",
+							"text": "With an apostille, issued no earlier than six months prior to submission."
+						},
+						"civilDocs": {
+							"title": "Civil Certificates",
+							"text": "Marriage and birth certificates for family applications."
+						},
+						"notary": {
+							"title": "Translation and Notarization",
+							"text": "Sworn translation into the Montenegrin language and notary certification."
+						},
+						"incomeProof": {
+							"title": "Income Verification",
+							"text": "Documents regarding the source of funds and bank reference letters."
+						}
+					}
+				},
+				"faq": {
+					"property": {
+						"title": "Is it necessary to buy real estate of a certain value for this residence permit?",
+						"text": "No, Montenegrin legislation does not establish a minimum value threshold for the property. The primary condition is that the property must be residential (apartment, house) or commercial and belong to you by right of ownership. Shared ownership stakes are also eligible for processing."
+					},
+					"duration": {
+						"title": "For what period is the residence permit issued and how is it renewed?",
+						"text": "A residence permit (boravak) based on real estate is issued for exactly 1 year. It can be renewed annually an unlimited number of times as long as the property remains in your ownership. The renewal procedure is simpler than the initial submission but requires updating local certificates and insurance."
+					},
+					"taxes": {
+						"title": "What additional expenses and taxes will arise during the purchase?",
+						"text": "When buying secondary real estate, a turnover tax of 3% to 5% is paid depending on the property's value (primary properties from a developer who is a VAT payer are exempt from this tax). Also account for the costs of notary services, a court translator, and the annual real estate tax."
+					},
+					"permanent": {
+						"title": "Does this type of residence permit lead to permanent residency and citizenship?",
+						"text": "According to the current Law on Foreigners of Montenegro, a residence permit based on property ownership is temporary and does not directly count toward the 5-year residency history required to obtain permanent residency (stalni boravak) or citizenship. A residence permit via company formation is typically used for these purposes."
+					},
+					"residencyTime": {
+						"title": "Is it mandatory to stay in Montenegro continuously after receiving the residence permit?",
+						"text": "To maintain a residence permit based on real estate, there are currently no strict requirements for a mandatory 11-month physical presence in the country (unlike a work-based residence permit). However, prolonged absence may raise additional questions during the annual card renewal."
+					}
+				}
+			}
+		}
+	},
+	"blog": {
+		"title": "Blog on Immigration and Relocation",
+		"filters": {
+			"all": "All",
+			"spain": "Spain",
+			"montenegro": "Montenegro",
+			"france": "France",
+			"hungary": "Hungary",
+			"greece": "Greece",
+			"UAE": "UAE",
+			"us": "USA"
+		},
+		"tags": {
+			"spain": "#Spain",
+			"cyprus": "#Cyprus",
+			"uae": "#UAE",
+			"portugal": "#Portugal",
+			"startup": "#Startup",
+			"citizenship": "#Second Citizenship",
+			"france": "#France",
+			"serbia": "#Serbia",
+			"usa": "#USA",
+			"argentina": "#Argentina",
+			"italy": "#Italy",
+			"taxes": "#Investments"
+		},
+		"articles": {
+			"spainNomad": {
+				"title": "Digital Nomad Visa in Spain: A Complete Guide to Acquisition in 2026",
+				"createdAt": "May 15, 2026",
+				"timeToRead": "7 min read"
+			},
+			"cyprusPms": {
+				"title": "Permanent Residency in Cyprus by Investment: New Rules and Limits",
+				"createdAt": "May 12, 2026",
+				"timeToRead": "5 min read"
+			},
+			"uaeInvest": {
+				"title": "UAE Golden Visa: How to Obtain Residency via Property Purchase in Dubai",
+				"createdAt": "May 08, 2026",
+				"timeToRead": "6 min read"
+			},
+			"portugalD7": {
+				"title": "D7 Visa to Portugal for Passive Income: Bank and Housing Requirements",
+				"createdAt": "April 30, 2026",
+				"timeToRead": "8 min read"
+			},
+			"startupVisa": {
+				"title": "How to Move to Europe with Your Business Project: Overview of the Best Startup Visas",
+				"createdAt": "April 24, 2026",
+				"timeToRead": "10 min read"
+			},
+			"vanuatuPassport": {
+				"title": "Vanuatu Citizenship by Investment: The Fastest Passport in the World in 1 Month",
+				"createdAt": "April 18, 2026",
+				"timeToRead": "4 min read"
+			},
+			"franceTalent": {
+				"title": "Talent Passport to France: Relocation for Founders, IT Specialists, and Artists",
+				"createdAt": "April 11, 2026",
+				"timeToRead": "9 min read"
+			},
+			"serbiaRelocation": {
+				"title": "Residence Permit in Serbia by Company Formation: The Most Budget-Friendly Way to Settle in Europe",
+				"createdAt": "April 05, 2026",
+				"timeToRead": "5 min read"
+			},
+			"usaEb5": {
+				"title": "EB-5 Investor Visa in the US: How to Legally Get a Green Card for the Whole Family",
+				"createdAt": "March 28, 2026",
+				"timeToRead": "12 min read"
+			},
+			"argentinaBirth": {
+				"title": "Giving Birth in Argentina: A Legal Path to Obtaining a Second Passport for Parents",
+				"createdAt": "March 22, 2026",
+				"timeToRead": "7 min read"
+			},
+			"italyResidence": {
+				"title": "Italy Residence Permit for Elective Residence (Residenza Elettiva): Processing Nuances",
+				"createdAt": "March 15, 2026",
+				"timeToRead": "6 min read"
+			},
+			"nomadTaxes": {
+				"title": "Nomad Tax Optimizer: Where to Pay Less While Living Across Multiple Countries",
+				"createdAt": "March 03, 2026",
+				"timeToRead": "8 min read"
 			}
 		}
 	}
