@@ -21,6 +21,8 @@ export default function CustomButton({
 	iconContainerClassName,
 	innerRef,
 	type,
+	children,
+	shouldTranslate = true,
 	...rest
 }: CustomButtonProps) {
 	const t = useTranslations();
@@ -34,7 +36,7 @@ export default function CustomButton({
 					{iconBefore}
 				</div>
 			)}
-			{text && t(text)}
+			{children || (text && (shouldTranslate ? t(text) : text))}{" "}
 			{iconAfter && (
 				<div
 					className={clsx(

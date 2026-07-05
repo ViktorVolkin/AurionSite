@@ -18,3 +18,5 @@ export {
 } from "./SEO";
 
 export { romanNumerals } from "./constants";
+
+export { BLOG_FILTERS } from "./BlogContent";

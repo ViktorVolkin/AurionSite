@@ -1,0 +1,36 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 0 8px;
+	padding-top: 48px;
+	max-width: 960px;
+	gap: 32px;
+}
+
+.title {
+	color: var(--cream);
+}
+
+.filters {
+	display: flex;
+	gap: 12px;
+}
+.filters button {
+	background: #e8b57a1f;
+	padding: clamp(4px, 0.4rem, 8px) clamp(10px, 0.8rem, 16px);
+	border-radius: var(--r-sm);
+	color: var(--accent);
+}
+
+.list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.list li {
+	width: 100%;
+}

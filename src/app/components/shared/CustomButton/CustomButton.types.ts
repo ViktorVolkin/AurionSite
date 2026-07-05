@@ -2,10 +2,11 @@ import { ComponentPropsWithRef, ReactNode, RefObject } from "react";
 import { Link } from "@/i18n/navigation";
 
 interface BaseButtonProps {
-	text: string;
+	text?: string;
 	className?: string;
 	iconBefore?: ReactNode;
 	iconAfter?: ReactNode;
+	shouldTranslate?: boolean;
 	variant?: "highlighted" | "transparent";
 	iconContainerClassName?: string;
 	innerRef?:

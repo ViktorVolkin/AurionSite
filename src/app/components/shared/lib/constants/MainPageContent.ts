@@ -7,7 +7,9 @@ import { FinalCtaProps } from "@/app/components/widgets/FinalCta/FinalCta.types"
 import { PossibilitiesBlockProps } from "@/app/components/pages/MainPage/components/PossibilitiesBlock/PossibilitiesBlock.types";
 import { ProcessBlockProps } from "@/app/components/pages/MainPage/components/ProcessBlock/ProcessBlock.types";
 import { AboutUsProps } from "@/app/components/pages/MainPage/components/AboutUs/AboutUs.types";
-import MockImage from "@/../public/Mock.png";
+import MainPageSmall from "@/../public/MainPageSmall.avif";
+import MainPageBig from "@/../public/MainPageBig.avif";
+
 import { CasesBlockProps } from "@/app/components/pages/MainPage/components/CasesBlock/CasesBlock.types";
 export const MainPageContent = {
 	eyebrow: "mainPage.intro.eyebrow",
@@ -18,10 +20,10 @@ export const MainPageContent = {
 	},
 
 	decidedBy: [
-		{ title: "13", text: "mainPage.intro.decidedBy.0" },
+		{ title: "8", text: "mainPage.intro.decidedBy.0" },
 		{ title: "147", text: "mainPage.intro.decidedBy.1" },
-		{ title: "8", text: "mainPage.intro.decidedBy.2" },
-		{ title: "4", text: "mainPage.intro.decidedBy.3" },
+		{ title: "10", text: "mainPage.intro.decidedBy.2" },
+		{ title: "3", text: "mainPage.intro.decidedBy.3" },
 	],
 };
 
@@ -134,6 +136,23 @@ export const PossibilitiesBlockContent: PossibilitiesBlockProps = {
 	additionalInfo: "mainPage.possibilities.additionalInfo",
 	blocks: [
 		{
+			title: "mainPage.possibilities.blocks.spain.title",
+			importantText: "mainPage.possibilities.blocks.spain.importantText",
+			ourExperience: "mainPage.possibilities.blocks.spain.ourExperience",
+			href: "#/jurisdictions/spain",
+			unique: [
+				{
+					question: "mainPage.possibilities.blocks.spain.term.question",
+					answer: "mainPage.possibilities.blocks.spain.term.answer",
+				},
+				{
+					question: "mainPage.possibilities.blocks.spain.finance.question",
+					answer: "mainPage.possibilities.blocks.spain.finance.answer",
+				},
+				{ question: "mainPage.possibilities.blocks.spain.hook" },
+			],
+		},
+		{
 			title: "mainPage.possibilities.blocks.montenegro.title",
 			importantText: "mainPage.possibilities.blocks.montenegro.importantText",
 			ourExperience: "mainPage.possibilities.blocks.montenegro.ourExperience",
@@ -151,27 +170,10 @@ export const PossibilitiesBlockContent: PossibilitiesBlockProps = {
 			],
 		},
 		{
-			title: "mainPage.possibilities.blocks.spain.title",
-			importantText: "mainPage.possibilities.blocks.spain.importantText",
-			ourExperience: "mainPage.possibilities.blocks.spain.ourExperience",
-			href: "#jurisdictions/spain",
-			unique: [
-				{
-					question: "mainPage.possibilities.blocks.spain.term.question",
-					answer: "mainPage.possibilities.blocks.spain.term.answer",
-				},
-				{
-					question: "mainPage.possibilities.blocks.spain.finance.question",
-					answer: "mainPage.possibilities.blocks.spain.finance.answer",
-				},
-				{ question: "mainPage.possibilities.blocks.spain.hook" },
-			],
-		},
-		{
 			title: "mainPage.possibilities.blocks.serbia.title",
 			importantText: "mainPage.possibilities.blocks.serbia.importantText",
 			ourExperience: "mainPage.possibilities.blocks.serbia.ourExperience",
-			href: "#jurisdictions/serbia",
+			href: "#/jurisdictions/serbia",
 			unique: [
 				{
 					question: "mainPage.possibilities.blocks.serbia.term.question",
@@ -188,7 +190,7 @@ export const PossibilitiesBlockContent: PossibilitiesBlockProps = {
 			title: "mainPage.possibilities.blocks.france.title",
 			importantText: "mainPage.possibilities.blocks.france.importantText",
 			ourExperience: "mainPage.possibilities.blocks.france.ourExperience",
-			href: "#jurisdictions/france",
+			href: "#/jurisdictions/france",
 			unique: [
 				{
 					question: "mainPage.possibilities.blocks.france.term.question",
@@ -202,10 +204,27 @@ export const PossibilitiesBlockContent: PossibilitiesBlockProps = {
 			],
 		},
 		{
+			title: "mainPage.possibilities.blocks.hungary.title",
+			importantText: "mainPage.possibilities.blocks.hungary.importantText",
+			ourExperience: "mainPage.possibilities.blocks.hungary.ourExperience",
+			href: "#/jurisdictions/hungary",
+			unique: [
+				{
+					question: "mainPage.possibilities.blocks.hungary.term.question",
+					answer: "mainPage.possibilities.blocks.hungary.term.answer",
+				},
+				{
+					question: "mainPage.possibilities.blocks.hungary.finance.question",
+					answer: "mainPage.possibilities.blocks.hungary.finance.answer",
+				},
+				{ question: "mainPage.possibilities.blocks.hungary.hook" },
+			],
+		},
+		{
 			title: "mainPage.possibilities.blocks.malta.title",
 			importantText: "mainPage.possibilities.blocks.malta.importantText",
 			ourExperience: "mainPage.possibilities.blocks.malta.ourExperience",
-			href: "#jurisdictions/malta",
+			href: "#/jurisdictions/malta",
 			unique: [
 				{
 					question: "mainPage.possibilities.blocks.malta.term.question",
@@ -222,7 +241,7 @@ export const PossibilitiesBlockContent: PossibilitiesBlockProps = {
 			title: "mainPage.possibilities.blocks.greece.title",
 			importantText: "mainPage.possibilities.blocks.greece.importantText",
 			ourExperience: "mainPage.possibilities.blocks.greece.ourExperience",
-			href: "#jurisdictions/greece",
+			href: "#/jurisdictions/greece",
 			unique: [
 				{
 					question: "mainPage.possibilities.blocks.greece.term.question",
@@ -239,7 +258,7 @@ export const PossibilitiesBlockContent: PossibilitiesBlockProps = {
 			title: "mainPage.possibilities.blocks.cyprus.title",
 			importantText: "mainPage.possibilities.blocks.cyprus.importantText",
 			ourExperience: "mainPage.possibilities.blocks.cyprus.ourExperience",
-			href: "#jurisdictions/cyprus",
+			href: "#/jurisdictions/cyprus",
 			unique: [
 				{
 					question: "mainPage.possibilities.blocks.cyprus.term.question",
@@ -253,20 +272,37 @@ export const PossibilitiesBlockContent: PossibilitiesBlockProps = {
 			],
 		},
 		{
-			title: "mainPage.possibilities.blocks.hungary.title",
-			importantText: "mainPage.possibilities.blocks.hungary.importantText",
-			ourExperience: "mainPage.possibilities.blocks.hungary.ourExperience",
-			href: "#jurisdictions/hungary",
+			title: "mainPage.possibilities.blocks.uae.title",
+			importantText: "mainPage.possibilities.blocks.uae.importantText",
+			ourExperience: "mainPage.possibilities.blocks.uae.ourExperience",
+			href: "#/jurisdictions/uae",
 			unique: [
 				{
-					question: "mainPage.possibilities.blocks.hungary.term.question",
-					answer: "mainPage.possibilities.blocks.hungary.term.answer",
+					question: "mainPage.possibilities.blocks.uae.term.question",
+					answer: "mainPage.possibilities.blocks.uae.term.answer",
 				},
 				{
-					question: "mainPage.possibilities.blocks.hungary.finance.question",
-					answer: "mainPage.possibilities.blocks.hungary.finance.answer",
+					question: "mainPage.possibilities.blocks.uae.finance.question",
+					answer: "mainPage.possibilities.blocks.uae.finance.answer",
 				},
-				{ question: "mainPage.possibilities.blocks.hungary.hook" },
+				{ question: "mainPage.possibilities.blocks.uae.hook" },
+			],
+		},
+		{
+			title: "mainPage.possibilities.blocks.armenia.title",
+			importantText: "mainPage.possibilities.blocks.armenia.importantText",
+			ourExperience: "mainPage.possibilities.blocks.armenia.ourExperience",
+			href: "#/jurisdictions/armenia",
+			unique: [
+				{
+					question: "mainPage.possibilities.blocks.armenia.term.question",
+					answer: "mainPage.possibilities.blocks.armenia.term.answer",
+				},
+				{
+					question: "mainPage.possibilities.blocks.armenia.finance.question",
+					answer: "mainPage.possibilities.blocks.armenia.finance.answer",
+				},
+				{ question: "mainPage.possibilities.blocks.armenia.hook" },
 			],
 		},
 	],
@@ -308,8 +344,8 @@ export const AboutUsContent: AboutUsProps = {
 			text: "mainPage.aboutUs.cards.continious.text",
 		},
 	],
-	primaryImage: MockImage,
-	secondaryImage: MockImage,
+	primaryImage: MainPageSmall,
+	secondaryImage: MainPageBig,
 };
 
 export const CasesBlockContent: CasesBlockProps = {

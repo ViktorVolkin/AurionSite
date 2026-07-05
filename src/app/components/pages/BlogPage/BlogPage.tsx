@@ -1,8 +1,17 @@
+import { FinalCtaContent } from "../../shared/lib/constants";
+import { BLOG_CONTENT } from "../../shared/lib/constants/BlogContent";
+import FinalCta from "../../widgets/FinalCta";
+import BlogCards from "./components/BlogCards";
 import styles from "./BlogPage.module.css";
-import { BlogPageProps } from "./BlogPage.types";
 
-export default async function BlogPage({ cards, params }: BlogPageProps) {
-	const { locale, country } = await params;
-
-	return <div className={styles.wrapper}></div>;
+export default async function BlogPage() {
+	return (
+		<main>
+			<BlogCards
+				cards={BLOG_CONTENT.cards}
+				title={BLOG_CONTENT.title}
+			/>
+			<FinalCta {...FinalCtaContent} />
+		</main>
+	);
 }

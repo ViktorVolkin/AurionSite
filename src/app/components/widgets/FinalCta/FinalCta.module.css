@@ -1,7 +1,8 @@
 .finalSection {
 	display: flex;
 	flex-direction: column;
-	padding-block: 120px;
+	padding-top: 60px;
+	padding-bottom: 120px;
 }
 .content {
 	max-width: 100%;

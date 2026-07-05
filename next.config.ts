@@ -11,6 +11,8 @@ const nextConfig: NextConfig = {
 };
 
 const withNextIntl = createNextIntlPlugin();
-const withMDX = buildMdx();
+const withMDX = buildMdx({
+	extension: /\.mdx?$/,
+});
 
 export default withNextIntl(withMDX(nextConfig));
