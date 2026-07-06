@@ -10,7 +10,7 @@ export default function BlogCard({
 	imgSrc,
 	title,
 	leadsTo,
-	tag,
+	tags,
 	cardDetails,
 }: BlogCardProps) {
 	const t = useTranslations();
@@ -29,14 +29,18 @@ export default function BlogCard({
 				</Link>
 			)}
 			<div className={styles.data__container}>
-				<Tag>{t(tag)}</Tag>
+				<ul className={styles.tags}>
+					{tags.map((tag, idx) => (
+						<Tag key={tag}>{t(tag)}</Tag>
+					))}
+				</ul>
 				<Link
 					href={leadsTo}
 					className={styles.link}>
 					<span className={styles.title}>{t(title)}</span>
 				</Link>
 				<CardDetails
-					createdAt={t(cardDetails.createdAt)}
+					createdAt={cardDetails.createdAt}
 					timeToRead={t(cardDetails.timeToRead)}
 				/>
 			</div>

@@ -5,7 +5,7 @@ export interface BlogCardProps {
 	imgSrc?: StaticImageData;
 	title: string;
 	cardDetails: CardDetailsProps;
-	tagSlug: string;
+	tagSlug: string[];
 	leadsTo: string;
-	tag: string;
+	tags: string[];
 }

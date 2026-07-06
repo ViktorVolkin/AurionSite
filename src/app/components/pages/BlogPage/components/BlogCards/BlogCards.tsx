@@ -6,6 +6,8 @@ import { useMemo } from "react";
 import { BlogCardsProps } from "./BlogCards.types";
 import { BLOG_FILTERS } from "@/app/components/shared/lib/constants";
 import BlogCard from "../BlogCard/BlogCard";
+import { motion } from "framer-motion";
+
 const PAGE_SIZE = 9;
 
 export default function BlogCards({ title, cards }: BlogCardsProps) {
@@ -16,10 +18,15 @@ export default function BlogCards({ title, cards }: BlogCardsProps) {
 	const country = searchParams.get("country") ?? "all";
 	const page = Number(searchParams.get("page") ?? 1);
 
-	const filtered = useMemo(
-		() => cards.filter((c) => country === "all" || c.tagSlug === country),
-		[cards, country],
-	);
+	const filtered = useMemo(() => {
+		return cards.filter((c) => {
+			if (country === "all") return true;
+
+			return Array.isArray(c.tagSlug)
+				? c.tagSlug.includes(country)
+				: c.tagSlug === country;
+		});
+	}, [cards, country]);
 
 	const paginated = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 	const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
@@ -43,12 +50,15 @@ export default function BlogCards({ title, cards }: BlogCardsProps) {
 
 			<div className={styles.filters}>
 				{BLOG_FILTERS.map((f) => (
-					<button
+					<motion.button
+						whileTap={{ y: 4 }}
+						whileHover={{ y: -4 }}
+						transition={{ type: "spring", stiffness: 400, damping: 25 }}
 						key={f}
 						onClick={() => setFilter(f)}
 						data-active={country === f}>
 						{t(`blog.filters.${f}`)}
-					</button>
+					</motion.button>
 				))}
 			</div>
 
@@ -63,12 +73,16 @@ export default function BlogCards({ title, cards }: BlogCardsProps) {
 			{totalPages > 1 && (
 				<div className={styles.pagination}>
 					{Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
-						<button
+						<motion.button
+							whileTap={{ y: 4 }}
+							whileHover={{ y: -4 }}
+							transition={{ type: "spring", stiffness: 400, damping: 25 }}
 							key={p}
 							onClick={() => setPage(p)}
-							data-active={p === page}>
+							data-active={p === page}
+							className={styles.page}>
 							{p}
-						</button>
+						</motion.button>
 					))}
 				</div>
 			)}

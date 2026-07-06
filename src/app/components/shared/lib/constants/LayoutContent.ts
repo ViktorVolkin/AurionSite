@@ -22,16 +22,16 @@ export const HeaderDropdownContent: HeaderDropdownProps = {
 			slug: "montenegro",
 			reasons: [
 				{
+					name: "widgets.header.headerDropdown.countries.montenegro.reasons.company",
+					slug: "company",
+				},
+				{
 					name: "widgets.header.headerDropdown.countries.montenegro.reasons.real-estate",
 					slug: "real-estate",
 				},
 				{
 					name: "widgets.header.headerDropdown.countries.montenegro.reasons.digital-nomad",
 					slug: "digital-nomad",
-				},
-				{
-					name: "widgets.header.headerDropdown.countries.montenegro.reasons.company",
-					slug: "company",
 				},
 			],
 		},

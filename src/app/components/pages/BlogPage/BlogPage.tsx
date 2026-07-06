@@ -7,7 +7,7 @@ import { Suspense } from "react";
 
 export default async function BlogPage() {
 	return (
-		<main>
+		<main className={styles.wrapper}>
 			<Suspense>
 				<BlogCards
 					cards={BLOG_CONTENT.cards}
