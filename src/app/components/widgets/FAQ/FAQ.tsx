@@ -1,30 +1,27 @@
-"use client";
-import { useTranslations } from "next-intl";
 import styles from "./FAQ.module.css";
 import { FAQProps } from "./FAQ.types";
 import FAQElem from "../../shared/FAQElem";
+import FAQClient from "./components/FAQClient";
 
-export default function FAQ({ categories }: FAQProps) {
-	const t = useTranslations();
+export default async function FAQ(props: FAQProps) {
+	if (props.variant === "categories") {
+		return (
+			<FAQClient
+				categories={props.categories}
+				variant={"categories"}
+			/>
+		);
+	}
 
 	return (
 		<div className={styles.wrapper}>
-			{categories.map((group) => (
+			{props.questions.map((question) => (
 				<FAQElem
-					key={group.id}
-					titleKey={group.categoryTitleKey}
-					as="div">
-					<div className={styles.sub_faq_list}>
-						{group.questions.map((question) => (
-							<FAQElem
-								key={question.titleKey}
-								titleKey={question.titleKey}
-								textKey={question.textKey}
-								as="p"
-							/>
-						))}
-					</div>
-				</FAQElem>
+					key={question.titleKey}
+					titleKey={question.titleKey}
+					textKey={question.textKey}
+					as="p"
+				/>
 			))}
 		</div>
 	);

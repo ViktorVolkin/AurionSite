@@ -263,65 +263,44 @@ export const SERVICE_PAGES_DATA: Record<
 				steps: [
 					{
 						title: "Services.montenegro.real-estate.roadmap.steps.0.title",
-						important:
-							"Services.montenegro.real-estate.roadmap.steps.0.important",
 						text: "Services.montenegro.real-estate.roadmap.steps.0.text",
 					},
 					{
 						title: "Services.montenegro.real-estate.roadmap.steps.1.title",
-						important:
-							"Services.montenegro.real-estate.roadmap.steps.1.important",
 						text: "Services.montenegro.real-estate.roadmap.steps.1.text",
 					},
 					{
 						title: "Services.montenegro.real-estate.roadmap.steps.2.title",
-						important:
-							"Services.montenegro.real-estate.roadmap.steps.2.important",
 						text: "Services.montenegro.real-estate.roadmap.steps.2.text",
 					},
 					{
 						title: "Services.montenegro.real-estate.roadmap.steps.3.title",
-						important:
-							"Services.montenegro.real-estate.roadmap.steps.3.important",
 						text: "Services.montenegro.real-estate.roadmap.steps.3.text",
 					},
 					{
 						title: "Services.montenegro.real-estate.roadmap.steps.4.title",
-						important:
-							"Services.montenegro.real-estate.roadmap.steps.4.important",
 						text: "Services.montenegro.real-estate.roadmap.steps.4.text",
 					},
 				],
 			},
 			faq: {
-				categories: [
+				variant: "flat",
+				questions: [
 					{
-						id: "real_estate_residency",
-						categoryTitleKey: "Services.montenegro.real-estate.faq.groupTitle", // Добавь этот ключ в ru.json (например: "Основы ВНЖ по недвижимости")
-						questions: [
-							{
-								titleKey: "Services.montenegro.real-estate.faq.property.title",
-								textKey: "Services.montenegro.real-estate.faq.property.text",
-							},
-							{
-								titleKey: "Services.montenegro.real-estate.faq.duration.title",
-								textKey: "Services.montenegro.real-estate.faq.duration.text",
-							},
-							{
-								titleKey: "Services.montenegro.real-estate.faq.taxes.title",
-								textKey: "Services.montenegro.real-estate.faq.taxes.text",
-							},
-							{
-								titleKey: "Services.montenegro.real-estate.faq.permanent.title",
-								textKey: "Services.montenegro.real-estate.faq.permanent.text",
-							},
-							{
-								titleKey:
-									"Services.montenegro.real-estate.faq.residencyTime.title",
-								textKey:
-									"Services.montenegro.real-estate.faq.residencyTime.text",
-							},
-						],
+						titleKey: "Services.montenegro.business.faq.duration.title",
+						textKey: "Services.montenegro.business.faq.duration.text",
+					},
+					{
+						titleKey: "Services.montenegro.business.faq.taxes.title",
+						textKey: "Services.montenegro.business.faq.taxes.text",
+					},
+					{
+						titleKey: "Services.montenegro.business.faq.permanent.title",
+						textKey: "Services.montenegro.business.faq.permanent.text",
+					},
+					{
+						titleKey: "Services.montenegro.business.faq.residencyTime.title",
+						textKey: "Services.montenegro.business.faq.residencyTime.text",
 					},
 				],
 			},
@@ -558,29 +537,23 @@ export const SERVICE_PAGES_DATA: Record<
 				],
 			},
 			faq: {
-				categories: [
+				variant: "flat",
+				questions: [
 					{
-						id: "business_residency",
-						categoryTitleKey: "Services.montenegro.business.faq.groupTitle",
-						questions: [
-							{
-								titleKey: "Services.montenegro.business.faq.duration.title",
-								textKey: "Services.montenegro.business.faq.duration.text",
-							},
-							{
-								titleKey: "Services.montenegro.business.faq.taxes.title",
-								textKey: "Services.montenegro.business.faq.taxes.text",
-							},
-							{
-								titleKey: "Services.montenegro.business.faq.permanent.title",
-								textKey: "Services.montenegro.business.faq.permanent.text",
-							},
-							{
-								titleKey:
-									"Services.montenegro.business.faq.residencyTime.title",
-								textKey: "Services.montenegro.business.faq.residencyTime.text",
-							},
-						],
+						titleKey: "Services.montenegro.business.faq.duration.title",
+						textKey: "Services.montenegro.business.faq.duration.text",
+					},
+					{
+						titleKey: "Services.montenegro.business.faq.taxes.title",
+						textKey: "Services.montenegro.business.faq.taxes.text",
+					},
+					{
+						titleKey: "Services.montenegro.business.faq.permanent.title",
+						textKey: "Services.montenegro.business.faq.permanent.text",
+					},
+					{
+						titleKey: "Services.montenegro.business.faq.residencyTime.title",
+						textKey: "Services.montenegro.business.faq.residencyTime.text",
 					},
 				],
 			},
@@ -817,69 +790,44 @@ export const SERVICE_PAGES_DATA: Record<
 				steps: [
 					{
 						title: "Services.montenegro.digital-nomad.roadmap.steps.0.title",
-						important:
-							"Services.montenegro.digital-nomad.roadmap.steps.0.important",
 						text: "Services.montenegro.digital-nomad.roadmap.steps.0.text",
 					},
 					{
 						title: "Services.montenegro.digital-nomad.roadmap.steps.1.title",
-						important:
-							"Services.montenegro.digital-nomad.roadmap.steps.1.important",
 						text: "Services.montenegro.digital-nomad.roadmap.steps.1.text",
 					},
 					{
 						title: "Services.montenegro.digital-nomad.roadmap.steps.2.title",
-						important:
-							"Services.montenegro.digital-nomad.roadmap.steps.2.important",
 						text: "Services.montenegro.digital-nomad.roadmap.steps.2.text",
 					},
 					{
 						title: "Services.montenegro.digital-nomad.roadmap.steps.3.title",
-						important:
-							"Services.montenegro.digital-nomad.roadmap.steps.3.important",
 						text: "Services.montenegro.digital-nomad.roadmap.steps.3.text",
 					},
 					{
 						title: "Services.montenegro.digital-nomad.roadmap.steps.4.title",
-						important:
-							"Services.montenegro.digital-nomad.roadmap.steps.4.important",
 						text: "Services.montenegro.digital-nomad.roadmap.steps.4.text",
 					},
 				],
 			},
 			faq: {
-				categories: [
+				variant: "flat",
+				questions: [
 					{
-						id: "nomad_residency",
-						categoryTitleKey:
-							"Services.montenegro.digital-nomad.faq.groupTitle", // Добавь этот ключ в ru.json (например: "Правила для Digital Nomad")
-						questions: [
-							{
-								titleKey:
-									"Services.montenegro.digital-nomad.faq.property.title",
-								textKey: "Services.montenegro.digital-nomad.faq.property.text",
-							},
-							{
-								titleKey:
-									"Services.montenegro.digital-nomad.faq.duration.title",
-								textKey: "Services.montenegro.digital-nomad.faq.duration.text",
-							},
-							{
-								titleKey: "Services.montenegro.digital-nomad.faq.taxes.title",
-								textKey: "Services.montenegro.digital-nomad.faq.taxes.text",
-							},
-							{
-								titleKey:
-									"Services.montenegro.digital-nomad.faq.permanent.title",
-								textKey: "Services.montenegro.digital-nomad.faq.permanent.text",
-							},
-							{
-								titleKey:
-									"Services.montenegro.digital-nomad.faq.residencyTime.title",
-								textKey:
-									"Services.montenegro.digital-nomad.faq.residencyTime.text",
-							},
-						],
+						titleKey: "Services.montenegro.business.faq.duration.title",
+						textKey: "Services.montenegro.business.faq.duration.text",
+					},
+					{
+						titleKey: "Services.montenegro.business.faq.taxes.title",
+						textKey: "Services.montenegro.business.faq.taxes.text",
+					},
+					{
+						titleKey: "Services.montenegro.business.faq.permanent.title",
+						textKey: "Services.montenegro.business.faq.permanent.text",
+					},
+					{
+						titleKey: "Services.montenegro.business.faq.residencyTime.title",
+						textKey: "Services.montenegro.business.faq.residencyTime.text",
 					},
 				],
 			},

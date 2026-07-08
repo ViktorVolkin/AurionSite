@@ -6,6 +6,14 @@ export interface FAQCategory {
 	questions: FaqItemProps[];
 }
 
-export interface FAQProps {
+export interface FAQCategoriesProps {
+	variant: "categories";
 	categories: FAQCategory[];
 }
+
+export interface FAQFlatProps {
+	variant: "flat";
+	questions: FaqItemProps[];
+}
+
+export type FAQProps = FAQCategoriesProps | FAQFlatProps;
