@@ -6,9 +6,9 @@
 	border-top: 1px solid rgba(245, 242, 236, 0.1);
 	border-bottom: 1px solid rgba(245, 242, 236, 0.1);
 	padding: 44px calc(50vw - 50%) 40px;
-	margin-inline: calc(-50vw + 50%);
-	width: 100vw;
 	border-radius: 0;
+	width: 100svw;
+	margin-inline: calc(-50svw + 50%);
 }
 
 .data__info {
@@ -55,8 +55,9 @@
 
 @media (min-width: 1040px) {
 	.cards {
-		display: flex;
+		display: grid;
 		flex-direction: row;
+		grid-template-columns: repeat(3, 1fr);
 		margin: 0;
 		margin-bottom: 32px;
 		gap: 32px;

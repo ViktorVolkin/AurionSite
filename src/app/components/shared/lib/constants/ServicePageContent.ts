@@ -294,296 +294,297 @@ export const SERVICE_PAGES_DATA: Record<
 				],
 			},
 			faq: {
-				items: [
+				categories: [
 					{
-						titleKey: "Services.montenegro.real-estate.faq.property.title",
-						textKey: "Services.montenegro.real-estate.faq.property.text",
-					},
-					{
-						titleKey: "Services.montenegro.real-estate.faq.duration.title",
-						textKey: "Services.montenegro.real-estate.faq.duration.text",
-					},
-					{
-						titleKey: "Services.montenegro.real-estate.faq.taxes.title",
-						textKey: "Services.montenegro.real-estate.faq.taxes.text",
-					},
-					{
-						titleKey: "Services.montenegro.real-estate.faq.permanent.title",
-						textKey: "Services.montenegro.real-estate.faq.permanent.text",
-					},
-					{
-						titleKey: "Services.montenegro.real-estate.faq.residencyTime.title",
-						textKey: "Services.montenegro.real-estate.faq.residencyTime.text",
+						id: "real_estate_residency",
+						categoryTitleKey: "Services.montenegro.real-estate.faq.groupTitle", // Добавь этот ключ в ru.json (например: "Основы ВНЖ по недвижимости")
+						questions: [
+							{
+								titleKey: "Services.montenegro.real-estate.faq.property.title",
+								textKey: "Services.montenegro.real-estate.faq.property.text",
+							},
+							{
+								titleKey: "Services.montenegro.real-estate.faq.duration.title",
+								textKey: "Services.montenegro.real-estate.faq.duration.text",
+							},
+							{
+								titleKey: "Services.montenegro.real-estate.faq.taxes.title",
+								textKey: "Services.montenegro.real-estate.faq.taxes.text",
+							},
+							{
+								titleKey: "Services.montenegro.real-estate.faq.permanent.title",
+								textKey: "Services.montenegro.real-estate.faq.permanent.text",
+							},
+							{
+								titleKey:
+									"Services.montenegro.real-estate.faq.residencyTime.title",
+								textKey:
+									"Services.montenegro.real-estate.faq.residencyTime.text",
+							},
+						],
 					},
 				],
 			},
 		},
-		company: {
+		business: {
 			intro: {
-				eyebrow: "Services.montenegro.company.intro.eyebrow",
-				title: "Services.montenegro.company.intro.title",
-				info: "Services.montenegro.company.intro.info",
+				eyebrow: "Services.montenegro.business.intro.eyebrow",
+				title: "Services.montenegro.business.intro.title",
+				info: "Services.montenegro.business.intro.info",
 				firstButton: {
-					text: "Services.montenegro.company.intro.firstButton.text",
+					text: "Services.montenegro.business.intro.firstButton.text",
 				},
 			},
 			advantages: {
-				title: "Services.montenegro.company.overview.title",
-				firstText: "Services.montenegro.company.overview.firstText",
-				secondText: "Services.montenegro.company.overview.secondText",
+				title: "Services.montenegro.business.overview.title",
+				firstText: "Services.montenegro.business.overview.firstText",
+				secondText: "Services.montenegro.business.overview.secondText",
 				card: {
-					title: "Services.montenegro.company.overview.card.title",
+					title: "Services.montenegro.business.overview.card.title",
 					elements: [
 						{
-							title: "Services.montenegro.company.overview.card.typeLabel",
-							text: "Services.montenegro.company.overview.card.typeValue",
+							title: "Services.montenegro.business.overview.card.typeLabel",
+							text: "Services.montenegro.business.overview.card.typeValue",
 						},
 						{
 							title:
-								"Services.montenegro.company.overview.card.processingLabel",
-							text: "Services.montenegro.company.overview.card.processingValue",
+								"Services.montenegro.business.overview.card.processingLabel",
+							text: "Services.montenegro.business.overview.card.processingValue",
 						},
 						{
-							title: "Services.montenegro.company.overview.card.financeLabel",
-							text: "Services.montenegro.company.overview.card.financeValue",
+							title: "Services.montenegro.business.overview.card.financeLabel",
+							text: "Services.montenegro.business.overview.card.financeValue",
 						},
 						{
-							title: "Services.montenegro.company.overview.card.validityLabel",
-							text: "Services.montenegro.company.overview.card.validityValue",
+							title: "Services.montenegro.business.overview.card.validityLabel",
+							text: "Services.montenegro.business.overview.card.validityValue",
 						},
 						{
-							title: "Services.montenegro.company.overview.card.pathLabel",
-							text: "Services.montenegro.company.overview.card.pathValue",
+							title: "Services.montenegro.business.overview.card.pathLabel",
+							text: "Services.montenegro.business.overview.card.pathValue",
 						},
 						{
-							title: "Services.montenegro.company.overview.card.familyLabel",
-							text: "Services.montenegro.company.overview.card.familyValue",
+							title: "Services.montenegro.business.overview.card.familyLabel",
+							text: "Services.montenegro.business.overview.card.familyValue",
 						},
 					],
 				},
 			},
 			tariffs: {
-				eyebrow: "Services.montenegro.company.tariffs.eyebrow",
-				title: "Services.montenegro.company.tariffs.title",
-				additionalText: "Services.montenegro.company.tariffs.additionalText",
-				PS: "Services.montenegro.company.tariffs.PS",
+				eyebrow: "Services.montenegro.business.tariffs.eyebrow",
+				title: "Services.montenegro.business.tariffs.title",
+				additionalText: "Services.montenegro.business.tariffs.additionalText",
+				PS: "Services.montenegro.business.tariffs.PS",
 				cards: [
 					{
-						title: "Services.montenegro.company.tariffs.essential.title",
+						title: "Services.montenegro.business.tariffs.essential.title",
 						additional:
-							"Services.montenegro.company.tariffs.essential.additional",
+							"Services.montenegro.business.tariffs.essential.additional",
 						price: {
-							price: "€1 900",
+							price: "€1 100",
 							detail:
-								"Services.montenegro.company.tariffs.essential.priceDetail",
+								"Services.montenegro.business.tariffs.essential.priceDetail",
 						},
 						keyPoints: [
-							"Services.montenegro.company.tariffs.essential.points.point1",
-							"Services.montenegro.company.tariffs.essential.points.point2",
-							"Services.montenegro.company.tariffs.essential.points.point3",
-							"Services.montenegro.company.tariffs.essential.points.point4",
-							"Services.montenegro.company.tariffs.essential.points.point5",
+							"Services.montenegro.business.tariffs.essential.points.point1",
+							"Services.montenegro.business.tariffs.essential.points.point2",
+							"Services.montenegro.business.tariffs.essential.points.point3",
+							"Services.montenegro.business.tariffs.essential.points.point4",
 						],
 					},
 					{
-						title: "Services.montenegro.company.tariffs.full.title",
-						additional: "Services.montenegro.company.tariffs.full.additional",
+						title: "Services.montenegro.business.tariffs.full.title",
+						additional: "Services.montenegro.business.tariffs.full.additional",
 						isFeatured: true,
-						featuredBadge: "Services.montenegro.company.tariffs.full.badge",
+						featuredBadge: "Services.montenegro.business.tariffs.full.badge",
 						price: {
-							price: "€3 900",
-							detail: "Services.montenegro.company.tariffs.full.priceDetail",
+							price: "€1 200",
+							detail: "Services.montenegro.business.tariffs.full.priceDetail",
 						},
 						keyPoints: [
-							"Services.montenegro.company.tariffs.full.points.point1",
-							"Services.montenegro.company.tariffs.full.points.point2",
-							"Services.montenegro.company.tariffs.full.points.point3",
-							"Services.montenegro.company.tariffs.full.points.point4",
-							"Services.montenegro.company.tariffs.full.points.point5",
+							"Services.montenegro.business.tariffs.full.points.point1",
+							"Services.montenegro.business.tariffs.full.points.point2",
+							"Services.montenegro.business.tariffs.full.points.point3",
+							"Services.montenegro.business.tariffs.full.points.point4",
+							"Services.montenegro.business.tariffs.full.points.point5",
 						],
 					},
 					{
-						title: "Services.montenegro.company.tariffs.family.title",
-						additional: "Services.montenegro.company.tariffs.family.additional",
+						title: "Services.montenegro.business.tariffs.family.title",
+						additional:
+							"Services.montenegro.business.tariffs.family.additional",
 						price: {
-							price: "€5 900",
-							detail: "Services.montenegro.company.tariffs.family.priceDetail",
+							price: "€300",
+							detail: "Services.montenegro.business.tariffs.family.priceDetail",
 						},
 						keyPoints: [
-							"Services.montenegro.company.tariffs.family.points.point1",
-							"Services.montenegro.company.tariffs.family.points.point2",
-							"Services.montenegro.company.tariffs.family.points.point3",
-							"Services.montenegro.company.tariffs.family.points.point4",
-							"Services.montenegro.company.tariffs.family.points.point5",
+							"Services.montenegro.business.tariffs.family.points.point1",
+							"Services.montenegro.business.tariffs.family.points.point2",
+							"Services.montenegro.business.tariffs.family.points.point3",
+							"Services.montenegro.business.tariffs.family.points.point4",
+							"Services.montenegro.business.tariffs.family.points.point5",
 						],
 					},
 				],
 			},
 			tabsSwitcher: {
-				eyebrow: "Services.montenegro.company.requirements.eyebrow",
-				title: "Services.montenegro.company.requirements.title",
+				eyebrow: "Services.montenegro.business.requirements.eyebrow",
+				title: "Services.montenegro.business.requirements.title",
 				tabs: [
 					{
 						reason: "main-applicant",
-						text: "Services.montenegro.company.requirements.tabs.mainApplicant",
+						text: "Services.montenegro.business.requirements.tabs.mainApplicant",
 					},
 					{
 						reason: "family",
-						text: "Services.montenegro.company.requirements.tabs.family",
+						text: "Services.montenegro.business.requirements.tabs.family",
 					},
 					{
 						reason: "finances",
-						text: "Services.montenegro.company.requirements.tabs.finances",
+						text: "Services.montenegro.business.requirements.tabs.finances",
 					},
 					{
 						reason: "documents",
-						text: "Services.montenegro.company.requirements.tabs.documents",
+						text: "Services.montenegro.business.requirements.tabs.documents",
 					},
 				],
 				list: {
 					"main-applicant": [
 						{
 							title:
-								"Services.montenegro.company.requirements.main-applicant.age.title",
-							text: "Services.montenegro.company.requirements.main-applicant.age.text",
+								"Services.montenegro.business.requirements.main-applicant.age.title",
+							text: "Services.montenegro.business.requirements.main-applicant.age.text",
 						},
 						{
 							title:
-								"Services.montenegro.company.requirements.main-applicant.cleanRecord.title",
-							text: "Services.montenegro.company.requirements.main-applicant.cleanRecord.text",
+								"Services.montenegro.business.requirements.main-applicant.cleanRecord.title",
+							text: "Services.montenegro.business.requirements.main-applicant.cleanRecord.text",
 						},
 						{
 							title:
-								"Services.montenegro.company.requirements.main-applicant.passport.title",
-							text: "Services.montenegro.company.requirements.main-applicant.passport.text",
+								"Services.montenegro.business.requirements.main-applicant.passport.title",
+							text: "Services.montenegro.business.requirements.main-applicant.passport.text",
 						},
 						{
 							title:
-								"Services.montenegro.company.requirements.main-applicant.entry.title",
-							text: "Services.montenegro.company.requirements.main-applicant.entry.text",
+								"Services.montenegro.business.requirements.main-applicant.entry.title",
+							text: "Services.montenegro.business.requirements.main-applicant.entry.text",
 						},
 					],
 					family: [
 						{
 							title:
-								"Services.montenegro.company.requirements.family.spouse.title",
-							text: "Services.montenegro.company.requirements.family.spouse.text",
+								"Services.montenegro.business.requirements.family.spouse.title",
+							text: "Services.montenegro.business.requirements.family.spouse.text",
 						},
 						{
 							title:
-								"Services.montenegro.company.requirements.family.children.title",
-							text: "Services.montenegro.company.requirements.family.children.text",
+								"Services.montenegro.business.requirements.family.children.title",
+							text: "Services.montenegro.business.requirements.family.children.text",
 						},
 						{
 							title:
-								"Services.montenegro.company.requirements.family.students.title",
-							text: "Services.montenegro.company.requirements.family.students.text",
-						},
-						{
-							title:
-								"Services.montenegro.company.requirements.family.financeCondition.title",
-							text: "Services.montenegro.company.requirements.family.financeCondition.text",
+								"Services.montenegro.business.requirements.family.financeCondition.title",
+							text: "Services.montenegro.business.requirements.family.financeCondition.text",
 						},
 					],
 					finances: [
 						{
 							title:
-								"Services.montenegro.company.requirements.finances.income.title",
-							text: "Services.montenegro.company.requirements.finances.income.text",
+								"Services.montenegro.business.requirements.finances.income.title",
+							text: "Services.montenegro.business.requirements.finances.income.text",
 						},
 						{
 							title:
-								"Services.montenegro.company.requirements.finances.statement.title",
-							text: "Services.montenegro.company.requirements.finances.statement.text",
+								"Services.montenegro.business.requirements.finances.statement.title",
+							text: "Services.montenegro.business.requirements.finances.statement.text",
 						},
 						{
 							title:
-								"Services.montenegro.company.requirements.finances.housing.title",
-							text: "Services.montenegro.company.requirements.finances.housing.text",
+								"Services.montenegro.business.requirements.finances.housing.title",
+							text: "Services.montenegro.business.requirements.finances.housing.text",
 						},
 						{
 							title:
-								"Services.montenegro.company.requirements.finances.insurance.title",
-							text: "Services.montenegro.company.requirements.finances.insurance.text",
+								"Services.montenegro.business.requirements.finances.insurance.title",
+							text: "Services.montenegro.business.requirements.finances.insurance.text",
 						},
 					],
 					documents: [
 						{
 							title:
-								"Services.montenegro.company.requirements.documents.cleanRecordDoc.title",
-							text: "Services.montenegro.company.requirements.documents.cleanRecordDoc.text",
+								"Services.montenegro.business.requirements.documents.cleanRecordDoc.title",
+							text: "Services.montenegro.business.requirements.documents.cleanRecordDoc.text",
 						},
 						{
 							title:
-								"Services.montenegro.company.requirements.documents.civilDocs.title",
-							text: "Services.montenegro.company.requirements.documents.civilDocs.text",
+								"Services.montenegro.business.requirements.documents.civilDocs.title",
+							text: "Services.montenegro.business.requirements.documents.civilDocs.text",
 						},
 						{
 							title:
-								"Services.montenegro.company.requirements.documents.notary.title",
-							text: "Services.montenegro.company.requirements.documents.notary.text",
+								"Services.montenegro.business.requirements.documents.notary.title",
+							text: "Services.montenegro.business.requirements.documents.notary.text",
 						},
 						{
 							title:
-								"Services.montenegro.company.requirements.documents.incomeProof.title",
-							text: "Services.montenegro.company.requirements.documents.incomeProof.text",
+								"Services.montenegro.business.requirements.documents.incomeProof.title",
+							text: "Services.montenegro.business.requirements.documents.incomeProof.text",
 						},
 					],
 				},
 			},
 			roadmap: {
-				eyebrow: "Services.montenegro.company.roadmap.eyebrow",
-				title: "Services.montenegro.company.roadmap.title",
-				additionalInfo: "Services.montenegro.company.roadmap.additionalInfo",
+				eyebrow: "Services.montenegro.business.roadmap.eyebrow",
+				title: "Services.montenegro.business.roadmap.title",
+				additionalInfo: "Services.montenegro.business.roadmap.additionalInfo",
 				steps: [
 					{
-						title: "Services.montenegro.company.roadmap.steps.0.title",
-						important: "Services.montenegro.company.roadmap.steps.0.important",
-						text: "Services.montenegro.company.roadmap.steps.0.text",
+						title: "Services.montenegro.business.roadmap.steps.0.title",
+						important: "Services.montenegro.business.roadmap.steps.0.important",
+						text: "Services.montenegro.business.roadmap.steps.0.text",
 					},
 					{
-						title: "Services.montenegro.company.roadmap.steps.1.title",
-						important: "Services.montenegro.company.roadmap.steps.1.important",
-						text: "Services.montenegro.company.roadmap.steps.1.text",
+						title: "Services.montenegro.business.roadmap.steps.1.title",
+						important: "Services.montenegro.business.roadmap.steps.1.important",
+						text: "Services.montenegro.business.roadmap.steps.1.text",
 					},
 					{
-						title: "Services.montenegro.company.roadmap.steps.2.title",
-						important: "Services.montenegro.company.roadmap.steps.2.important",
-						text: "Services.montenegro.company.roadmap.steps.2.text",
+						title: "Services.montenegro.business.roadmap.steps.2.title",
+						important: "Services.montenegro.business.roadmap.steps.2.important",
+						text: "Services.montenegro.business.roadmap.steps.2.text",
 					},
 					{
-						title: "Services.montenegro.company.roadmap.steps.3.title",
-						important: "Services.montenegro.company.roadmap.steps.3.important",
-						text: "Services.montenegro.company.roadmap.steps.3.text",
-					},
-					{
-						title: "Services.montenegro.company.roadmap.steps.4.title",
-						important: "Services.montenegro.company.roadmap.steps.4.important",
-						text: "Services.montenegro.company.roadmap.steps.4.text",
+						title: "Services.montenegro.business.roadmap.steps.3.title",
+						important: "Services.montenegro.business.roadmap.steps.3.important",
+						text: "Services.montenegro.business.roadmap.steps.3.text",
 					},
 				],
 			},
 			faq: {
-				items: [
+				categories: [
 					{
-						titleKey: "Services.montenegro.company.faq.property.title",
-						textKey: "Services.montenegro.company.faq.property.text",
-					},
-					{
-						titleKey: "Services.montenegro.company.faq.duration.title",
-						textKey: "Services.montenegro.company.faq.duration.text",
-					},
-					{
-						titleKey: "Services.montenegro.company.faq.taxes.title",
-						textKey: "Services.montenegro.company.faq.taxes.text",
-					},
-					{
-						titleKey: "Services.montenegro.company.faq.permanent.title",
-						textKey: "Services.montenegro.company.faq.permanent.text",
-					},
-					{
-						titleKey: "Services.montenegro.company.faq.residencyTime.title",
-						textKey: "Services.montenegro.company.faq.residencyTime.text",
+						id: "business_residency",
+						categoryTitleKey: "Services.montenegro.business.faq.groupTitle",
+						questions: [
+							{
+								titleKey: "Services.montenegro.business.faq.duration.title",
+								textKey: "Services.montenegro.business.faq.duration.text",
+							},
+							{
+								titleKey: "Services.montenegro.business.faq.taxes.title",
+								textKey: "Services.montenegro.business.faq.taxes.text",
+							},
+							{
+								titleKey: "Services.montenegro.business.faq.permanent.title",
+								textKey: "Services.montenegro.business.faq.permanent.text",
+							},
+							{
+								titleKey:
+									"Services.montenegro.business.faq.residencyTime.title",
+								textKey: "Services.montenegro.business.faq.residencyTime.text",
+							},
+						],
 					},
 				],
 			},
@@ -851,27 +852,38 @@ export const SERVICE_PAGES_DATA: Record<
 				],
 			},
 			faq: {
-				items: [
+				categories: [
 					{
-						titleKey: "Services.montenegro.digital-nomad.faq.property.title",
-						textKey: "Services.montenegro.digital-nomad.faq.property.text",
-					},
-					{
-						titleKey: "Services.montenegro.digital-nomad.faq.duration.title",
-						textKey: "Services.montenegro.digital-nomad.faq.duration.text",
-					},
-					{
-						titleKey: "Services.montenegro.digital-nomad.faq.taxes.title",
-						textKey: "Services.montenegro.digital-nomad.faq.taxes.text",
-					},
-					{
-						titleKey: "Services.montenegro.digital-nomad.faq.permanent.title",
-						textKey: "Services.montenegro.digital-nomad.faq.permanent.text",
-					},
-					{
-						titleKey:
-							"Services.montenegro.digital-nomad.faq.residencyTime.title",
-						textKey: "Services.montenegro.digital-nomad.faq.residencyTime.text",
+						id: "nomad_residency",
+						categoryTitleKey:
+							"Services.montenegro.digital-nomad.faq.groupTitle", // Добавь этот ключ в ru.json (например: "Правила для Digital Nomad")
+						questions: [
+							{
+								titleKey:
+									"Services.montenegro.digital-nomad.faq.property.title",
+								textKey: "Services.montenegro.digital-nomad.faq.property.text",
+							},
+							{
+								titleKey:
+									"Services.montenegro.digital-nomad.faq.duration.title",
+								textKey: "Services.montenegro.digital-nomad.faq.duration.text",
+							},
+							{
+								titleKey: "Services.montenegro.digital-nomad.faq.taxes.title",
+								textKey: "Services.montenegro.digital-nomad.faq.taxes.text",
+							},
+							{
+								titleKey:
+									"Services.montenegro.digital-nomad.faq.permanent.title",
+								textKey: "Services.montenegro.digital-nomad.faq.permanent.text",
+							},
+							{
+								titleKey:
+									"Services.montenegro.digital-nomad.faq.residencyTime.title",
+								textKey:
+									"Services.montenegro.digital-nomad.faq.residencyTime.text",
+							},
+						],
 					},
 				],
 			},

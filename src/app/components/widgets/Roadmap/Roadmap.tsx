@@ -24,7 +24,7 @@ export default async function Roadmap({
 						className={styles.step}
 						key={step.title}>
 						<div className={styles.rn__container}>
-							<span className={styles.rn}>{romanNumerals[idx + 1]}</span>
+							<span className={styles.rn}>{romanNumerals[idx]}</span>
 						</div>
 						<div className={styles.top}>
 							<h3 className={styles.step__title}>{t(step.title)}</h3>

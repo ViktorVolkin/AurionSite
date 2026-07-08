@@ -6,9 +6,16 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import VerticalLine from "./VerticalLine";
 
-export default function FaqElem({ titleKey, textKey }: FaqItemProps) {
+export default function FaqElem({
+	titleKey,
+	textKey,
+	as = "p",
+	children,
+}: FaqItemProps) {
 	const t = useTranslations();
 	const [isOpen, setIsOpen] = useState(false);
+
+	const ComponentTag = as;
 
 	return (
 		<div className={styles.item}>
@@ -37,7 +44,13 @@ export default function FaqElem({ titleKey, textKey }: FaqItemProps) {
 					opacity: isOpen ? 1 : 0,
 				}}
 				transition={{ duration: 0.25, ease: "easeInOut" }}>
-				<p className={styles.text}>{t(textKey)}</p>
+				{children ? (
+					<div className={styles.text}>{children}</div>
+				) : (
+					textKey && (
+						<ComponentTag className={styles.text}>{t(textKey)}</ComponentTag>
+					)
+				)}
 			</motion.div>
 		</div>
 	);

@@ -3,6 +3,7 @@
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: clamp(30px, 5vw, 80px) 24px;
+	padding-bottom: 0;
 	position: relative;
 }
 
