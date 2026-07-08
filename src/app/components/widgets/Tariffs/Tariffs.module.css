@@ -47,12 +47,6 @@
 	margin-bottom: 32px;
 }
 
-.PS {
-	color: var(--casual);
-	font-size: 0.875rem;
-	max-width: 70ch;
-}
-
 @media (min-width: 1040px) {
 	.cards {
 		display: grid;

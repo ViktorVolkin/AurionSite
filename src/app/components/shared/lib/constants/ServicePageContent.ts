@@ -390,6 +390,7 @@ export const SERVICE_PAGES_DATA: Record<
 							"Services.montenegro.business.tariffs.essential.points.point2",
 							"Services.montenegro.business.tariffs.essential.points.point3",
 							"Services.montenegro.business.tariffs.essential.points.point4",
+							"Services.montenegro.business.tariffs.essential.points.point5",
 						],
 					},
 					{
@@ -406,7 +407,6 @@ export const SERVICE_PAGES_DATA: Record<
 							"Services.montenegro.business.tariffs.full.points.point2",
 							"Services.montenegro.business.tariffs.full.points.point3",
 							"Services.montenegro.business.tariffs.full.points.point4",
-							"Services.montenegro.business.tariffs.full.points.point5",
 						],
 					},
 					{
@@ -541,22 +541,18 @@ export const SERVICE_PAGES_DATA: Record<
 				steps: [
 					{
 						title: "Services.montenegro.business.roadmap.steps.0.title",
-						important: "Services.montenegro.business.roadmap.steps.0.important",
 						text: "Services.montenegro.business.roadmap.steps.0.text",
 					},
 					{
 						title: "Services.montenegro.business.roadmap.steps.1.title",
-						important: "Services.montenegro.business.roadmap.steps.1.important",
 						text: "Services.montenegro.business.roadmap.steps.1.text",
 					},
 					{
 						title: "Services.montenegro.business.roadmap.steps.2.title",
-						important: "Services.montenegro.business.roadmap.steps.2.important",
 						text: "Services.montenegro.business.roadmap.steps.2.text",
 					},
 					{
 						title: "Services.montenegro.business.roadmap.steps.3.title",
-						important: "Services.montenegro.business.roadmap.steps.3.important",
 						text: "Services.montenegro.business.roadmap.steps.3.text",
 					},
 				],

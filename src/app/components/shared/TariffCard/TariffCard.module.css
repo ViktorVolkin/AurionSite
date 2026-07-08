@@ -101,6 +101,7 @@
 	color: rgba(245, 242, 236, 0.8);
 	position: relative;
 	padding-left: 24px;
+	white-space: pre-line;
 }
 
 .list__item::before {

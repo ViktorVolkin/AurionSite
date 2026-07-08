@@ -4,6 +4,5 @@ export interface TariffsProps {
 	eyebrow: string;
 	title: string;
 	additionalText: string;
-	PS: string;
 	cards: TariffCardProps[];
 }
