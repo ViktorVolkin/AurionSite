@@ -57,4 +57,21 @@
 		gap: 32px;
 		width: auto;
 	}
+
+	.cards {
+		display: grid;
+		gap: 32px;
+		margin-bottom: 32px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+
+	.cards[data-count="2"] {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.cards[data-count="3"] {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }

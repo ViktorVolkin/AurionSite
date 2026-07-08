@@ -89,30 +89,13 @@ export const SERVICE_PAGES_DATA: Record<
 				PS: "Services.montenegro.real-estate.tariffs.PS",
 				cards: [
 					{
-						title: "Services.montenegro.real-estate.tariffs.essential.title",
-						additional:
-							"Services.montenegro.real-estate.tariffs.essential.additional",
-						price: {
-							price: "€1 900",
-							detail:
-								"Services.montenegro.real-estate.tariffs.essential.priceDetail",
-						},
-						keyPoints: [
-							"Services.montenegro.real-estate.tariffs.essential.points.point1",
-							"Services.montenegro.real-estate.tariffs.essential.points.point2",
-							"Services.montenegro.real-estate.tariffs.essential.points.point3",
-							"Services.montenegro.real-estate.tariffs.essential.points.point4",
-							"Services.montenegro.real-estate.tariffs.essential.points.point5",
-						],
-					},
-					{
 						title: "Services.montenegro.real-estate.tariffs.full.title",
 						additional:
 							"Services.montenegro.real-estate.tariffs.full.additional",
 						isFeatured: true,
 						featuredBadge: "Services.montenegro.real-estate.tariffs.full.badge",
 						price: {
-							price: "€3 900",
+							price: "€550",
 							detail:
 								"Services.montenegro.real-estate.tariffs.full.priceDetail",
 						},
@@ -129,7 +112,7 @@ export const SERVICE_PAGES_DATA: Record<
 						additional:
 							"Services.montenegro.real-estate.tariffs.family.additional",
 						price: {
-							price: "€5 900",
+							price: "€300",
 							detail:
 								"Services.montenegro.real-estate.tariffs.family.priceDetail",
 						},
@@ -198,11 +181,7 @@ export const SERVICE_PAGES_DATA: Record<
 								"Services.montenegro.real-estate.requirements.family.children.title",
 							text: "Services.montenegro.real-estate.requirements.family.children.text",
 						},
-						{
-							title:
-								"Services.montenegro.real-estate.requirements.family.students.title",
-							text: "Services.montenegro.real-estate.requirements.family.students.text",
-						},
+
 						{
 							title:
 								"Services.montenegro.real-estate.requirements.family.financeCondition.title",
@@ -725,11 +704,7 @@ export const SERVICE_PAGES_DATA: Record<
 								"Services.montenegro.digital-nomad.requirements.family.children.title",
 							text: "Services.montenegro.digital-nomad.requirements.family.children.text",
 						},
-						{
-							title:
-								"Services.montenegro.digital-nomad.requirements.family.students.title",
-							text: "Services.montenegro.digital-nomad.requirements.family.students.text",
-						},
+
 						{
 							title:
 								"Services.montenegro.digital-nomad.requirements.family.financeCondition.title",

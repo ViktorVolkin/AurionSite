@@ -25,7 +25,9 @@ export default async function Tariffs({
 			</div>
 
 			{hasMultipleCards ? (
-				<ul className={styles.cards}>
+				<ul
+					className={styles.cards}
+					data-count={cards.length}>
 					{cards.map((card) => (
 						<TariffCard
 							key={card.title}
