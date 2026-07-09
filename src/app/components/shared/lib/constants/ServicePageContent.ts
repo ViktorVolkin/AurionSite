@@ -594,23 +594,6 @@ export const SERVICE_PAGES_DATA: Record<
 				PS: "Services.montenegro.digital-nomad.tariffs.PS",
 				cards: [
 					{
-						title: "Services.montenegro.digital-nomad.tariffs.essential.title",
-						additional:
-							"Services.montenegro.digital-nomad.tariffs.essential.additional",
-						price: {
-							price: "€1 900",
-							detail:
-								"Services.montenegro.digital-nomad.tariffs.essential.priceDetail",
-						},
-						keyPoints: [
-							"Services.montenegro.digital-nomad.tariffs.essential.points.point1",
-							"Services.montenegro.digital-nomad.tariffs.essential.points.point2",
-							"Services.montenegro.digital-nomad.tariffs.essential.points.point3",
-							"Services.montenegro.digital-nomad.tariffs.essential.points.point4",
-							"Services.montenegro.digital-nomad.tariffs.essential.points.point5",
-						],
-					},
-					{
 						title: "Services.montenegro.digital-nomad.tariffs.full.title",
 						additional:
 							"Services.montenegro.digital-nomad.tariffs.full.additional",
@@ -618,7 +601,7 @@ export const SERVICE_PAGES_DATA: Record<
 						featuredBadge:
 							"Services.montenegro.digital-nomad.tariffs.full.badge",
 						price: {
-							price: "€3 900",
+							price: "€1 200",
 							detail:
 								"Services.montenegro.digital-nomad.tariffs.full.priceDetail",
 						},
@@ -635,7 +618,7 @@ export const SERVICE_PAGES_DATA: Record<
 						additional:
 							"Services.montenegro.digital-nomad.tariffs.family.additional",
 						price: {
-							price: "€5 900",
+							price: "€300",
 							detail:
 								"Services.montenegro.digital-nomad.tariffs.family.priceDetail",
 						},
@@ -803,6 +786,260 @@ export const SERVICE_PAGES_DATA: Record<
 					{
 						titleKey: "Services.montenegro.business.faq.residencyTime.title",
 						textKey: "Services.montenegro.business.faq.residencyTime.text",
+					},
+				],
+			},
+		},
+	},
+	spain: {
+		"digital-nomad": {
+			intro: {
+				eyebrow: "Services.spain.digital-nomad.intro.eyebrow",
+				title: "Services.spain.digital-nomad.intro.title",
+				info: "Services.spain.digital-nomad.intro.info",
+				firstButton: {
+					text: "Services.spain.digital-nomad.intro.firstButton.text",
+				},
+			},
+			advantages: {
+				title: "Services.spain.digital-nomad.overview.title",
+				firstText: "Services.spain.digital-nomad.overview.firstText",
+				secondText: "Services.spain.digital-nomad.overview.secondText",
+				card: {
+					title: "Services.spain.digital-nomad.overview.card.title",
+					elements: [
+						{
+							title: "Services.spain.digital-nomad.overview.card.typeLabel",
+							text: "Services.spain.digital-nomad.overview.card.typeValue",
+						},
+						{
+							title:
+								"Services.spain.digital-nomad.overview.card.processingLabel",
+							text: "Services.spain.digital-nomad.overview.card.processingValue",
+						},
+						{
+							title: "Services.spain.digital-nomad.overview.card.financeLabel",
+							text: "Services.spain.digital-nomad.overview.card.financeValue",
+						},
+						{
+							title: "Services.spain.digital-nomad.overview.card.validityLabel",
+							text: "Services.spain.digital-nomad.overview.card.validityValue",
+						},
+						{
+							title: "Services.spain.digital-nomad.overview.card.pathLabel",
+							text: "Services.spain.digital-nomad.overview.card.pathValue",
+						},
+						{
+							title: "Services.spain.digital-nomad.overview.card.familyLabel",
+							text: "Services.spain.digital-nomad.overview.card.familyValue",
+						},
+					],
+				},
+			},
+			tariffs: {
+				eyebrow: "Services.spain.digital-nomad.tariffs.eyebrow",
+				title: "Services.spain.digital-nomad.tariffs.title",
+				additionalText: "Services.spain.digital-nomad.tariffs.additionalText",
+				PS: "Services.spain.digital-nomad.tariffs.PS",
+				cards: [
+					{
+						title: "Services.spain.digital-nomad.tariffs.full.title",
+						additional: "Services.spain.digital-nomad.tariffs.full.additional",
+						isFeatured: true,
+						featuredBadge: "Services.spain.digital-nomad.tariffs.full.badge",
+						price: {
+							price: "€4 600",
+							detail: "Services.spain.digital-nomad.tariffs.full.priceDetail",
+						},
+						keyPoints: [
+							"Services.spain.digital-nomad.tariffs.full.points.point1",
+							"Services.spain.digital-nomad.tariffs.full.points.point2",
+							"Services.spain.digital-nomad.tariffs.full.points.point3",
+							"Services.spain.digital-nomad.tariffs.full.points.point4",
+							"Services.spain.digital-nomad.tariffs.full.points.point5",
+						],
+					},
+					{
+						title: "Services.spain.digital-nomad.tariffs.family.title",
+						additional:
+							"Services.spain.digital-nomad.tariffs.family.additional",
+						price: {
+							price: "€1 100",
+							detail: "Services.spain.digital-nomad.tariffs.family.priceDetail",
+						},
+						keyPoints: [
+							"Services.spain.digital-nomad.tariffs.family.points.point1",
+							"Services.spain.digital-nomad.tariffs.family.points.point2",
+							"Services.spain.digital-nomad.tariffs.family.points.point3",
+							"Services.spain.digital-nomad.tariffs.family.points.point4",
+							"Services.spain.digital-nomad.tariffs.family.points.point5",
+						],
+					},
+					{
+						title: "Services.spain.digital-nomad.tariffs.kids.title",
+						additional: "Services.spain.digital-nomad.tariffs.kids.additional",
+						price: {
+							price: "€350",
+							detail: "Services.spain.digital-nomad.tariffs.kids.priceDetail",
+						},
+						keyPoints: [
+							"Services.spain.digital-nomad.tariffs.kids.points.point1",
+							"Services.spain.digital-nomad.tariffs.kids.points.point2",
+							"Services.spain.digital-nomad.tariffs.kids.points.point3",
+							"Services.spain.digital-nomad.tariffs.kids.points.point4",
+							"Services.spain.digital-nomad.tariffs.kids.points.point5",
+						],
+					},
+				],
+			},
+			tabsSwitcher: {
+				eyebrow: "Services.spain.digital-nomad.requirements.eyebrow",
+				title: "Services.spain.digital-nomad.requirements.title",
+				tabs: [
+					{
+						reason: "main-applicant",
+						text: "Services.spain.digital-nomad.requirements.tabs.mainApplicant",
+					},
+					{
+						reason: "family",
+						text: "Services.spain.digital-nomad.requirements.tabs.family",
+					},
+					{
+						reason: "finances",
+						text: "Services.spain.digital-nomad.requirements.tabs.finances",
+					},
+					{
+						reason: "documents",
+						text: "Services.spain.digital-nomad.requirements.tabs.documents",
+					},
+				],
+				list: {
+					"main-applicant": [
+						{
+							title:
+								"Services.spain.digital-nomad.requirements.main-applicant.age.title",
+							text: "Services.spain.digital-nomad.requirements.main-applicant.age.text",
+						},
+						{
+							title:
+								"Services.spain.digital-nomad.requirements.main-applicant.cleanRecord.title",
+							text: "Services.spain.digital-nomad.requirements.main-applicant.cleanRecord.text",
+						},
+						{
+							title:
+								"Services.spain.digital-nomad.requirements.main-applicant.passport.title",
+							text: "Services.spain.digital-nomad.requirements.main-applicant.passport.text",
+						},
+						{
+							title:
+								"Services.spain.digital-nomad.requirements.main-applicant.remote.title",
+							text: "Services.spain.digital-nomad.requirements.main-applicant.remote.text",
+						},
+					],
+					family: [
+						{
+							title:
+								"Services.spain.digital-nomad.requirements.family.spouse.title",
+							text: "Services.spain.digital-nomad.requirements.family.spouse.text",
+						},
+
+						{
+							title:
+								"Services.spain.digital-nomad.requirements.family.financeCondition.title",
+							text: "Services.spain.digital-nomad.requirements.family.financeCondition.text",
+						},
+					],
+					finances: [
+						{
+							title:
+								"Services.spain.digital-nomad.requirements.finances.income.title",
+							text: "Services.spain.digital-nomad.requirements.finances.income.text",
+						},
+						{
+							title:
+								"Services.spain.digital-nomad.requirements.finances.statement.title",
+							text: "Services.spain.digital-nomad.requirements.finances.statement.text",
+						},
+						{
+							title:
+								"Services.spain.digital-nomad.requirements.finances.housing.title",
+							text: "Services.spain.digital-nomad.requirements.finances.housing.text",
+						},
+						{
+							title:
+								"Services.spain.digital-nomad.requirements.finances.insurance.title",
+							text: "Services.spain.digital-nomad.requirements.finances.insurance.text",
+						},
+					],
+					documents: [
+						{
+							title:
+								"Services.spain.digital-nomad.requirements.documents.cleanRecordDoc.title",
+							text: "Services.spain.digital-nomad.requirements.documents.cleanRecordDoc.text",
+						},
+						{
+							title:
+								"Services.spain.digital-nomad.requirements.documents.civilDocs.title",
+							text: "Services.spain.digital-nomad.requirements.documents.civilDocs.text",
+						},
+						{
+							title:
+								"Services.spain.digital-nomad.requirements.documents.notary.title",
+							text: "Services.spain.digital-nomad.requirements.documents.notary.text",
+						},
+						{
+							title:
+								"Services.spain.digital-nomad.requirements.documents.incomeProof.title",
+							text: "Services.spain.digital-nomad.requirements.documents.incomeProof.text",
+						},
+					],
+				},
+			},
+			roadmap: {
+				eyebrow: "Services.spain.digital-nomad.roadmap.eyebrow",
+				title: "Services.spain.digital-nomad.roadmap.title",
+				additionalInfo: "Services.spain.digital-nomad.roadmap.additionalInfo",
+				steps: [
+					{
+						title: "Services.spain.digital-nomad.roadmap.steps.0.title",
+						text: "Services.spain.digital-nomad.roadmap.steps.0.text",
+					},
+					{
+						title: "Services.spain.digital-nomad.roadmap.steps.1.title",
+						text: "Services.spain.digital-nomad.roadmap.steps.1.text",
+					},
+					{
+						title: "Services.spain.digital-nomad.roadmap.steps.2.title",
+						text: "Services.spain.digital-nomad.roadmap.steps.2.text",
+					},
+					{
+						title: "Services.spain.digital-nomad.roadmap.steps.3.title",
+						text: "Services.spain.digital-nomad.roadmap.steps.3.text",
+					},
+					{
+						title: "Services.spain.digital-nomad.roadmap.steps.4.title",
+						text: "Services.spain.digital-nomad.roadmap.steps.4.text",
+					},
+				],
+			},
+			faq: {
+				variant: "flat",
+				questions: [
+					{
+						titleKey: "Services.spain.business.faq.duration.title",
+						textKey: "Services.spain.business.faq.duration.text",
+					},
+					{
+						titleKey: "Services.spain.business.faq.taxes.title",
+						textKey: "Services.spain.business.faq.taxes.text",
+					},
+					{
+						titleKey: "Services.spain.business.faq.permanent.title",
+						textKey: "Services.spain.business.faq.permanent.text",
+					},
+					{
+						titleKey: "Services.spain.business.faq.residencyTime.title",
+						textKey: "Services.spain.business.faq.residencyTime.text",
 					},
 				],
 			},
