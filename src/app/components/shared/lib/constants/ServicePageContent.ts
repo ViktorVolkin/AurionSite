@@ -154,16 +154,7 @@ export const SERVICE_PAGES_DATA: Record<
 								"Services.montenegro.real-estate.requirements.main-applicant.age.title",
 							text: "Services.montenegro.real-estate.requirements.main-applicant.age.text",
 						},
-						{
-							title:
-								"Services.montenegro.real-estate.requirements.main-applicant.cleanRecord.title",
-							text: "Services.montenegro.real-estate.requirements.main-applicant.cleanRecord.text",
-						},
-						{
-							title:
-								"Services.montenegro.real-estate.requirements.main-applicant.passport.title",
-							text: "Services.montenegro.real-estate.requirements.main-applicant.passport.text",
-						},
+
 						{
 							title:
 								"Services.montenegro.real-estate.requirements.main-applicant.entry.title",
@@ -204,11 +195,6 @@ export const SERVICE_PAGES_DATA: Record<
 								"Services.montenegro.real-estate.requirements.finances.housing.title",
 							text: "Services.montenegro.real-estate.requirements.finances.housing.text",
 						},
-						{
-							title:
-								"Services.montenegro.real-estate.requirements.finances.insurance.title",
-							text: "Services.montenegro.real-estate.requirements.finances.insurance.text",
-						},
 					],
 					documents: [
 						{
@@ -225,11 +211,6 @@ export const SERVICE_PAGES_DATA: Record<
 							title:
 								"Services.montenegro.real-estate.requirements.documents.notary.title",
 							text: "Services.montenegro.real-estate.requirements.documents.notary.text",
-						},
-						{
-							title:
-								"Services.montenegro.real-estate.requirements.documents.incomeProof.title",
-							text: "Services.montenegro.real-estate.requirements.documents.incomeProof.text",
 						},
 					],
 				},
@@ -452,9 +433,20 @@ export const SERVICE_PAGES_DATA: Record<
 					documents: [
 						{
 							title:
+								"Services.montenegro.business.requirements.documents.passport.title",
+							text: "Services.montenegro.business.requirements.documents.passport.text",
+						},
+						{
+							title:
 								"Services.montenegro.business.requirements.documents.cleanRecordDoc.title",
 							text: "Services.montenegro.business.requirements.documents.cleanRecordDoc.text",
 						},
+						{
+							title:
+								"Services.montenegro.business.requirements.documents.educationDoc.title",
+							text: "Services.montenegro.business.requirements.documents.educationDoc.text",
+						},
+
 						{
 							title:
 								"Services.montenegro.business.requirements.documents.civilDocs.title",
@@ -707,6 +699,16 @@ export const SERVICE_PAGES_DATA: Record<
 							title:
 								"Services.montenegro.digital-nomad.requirements.documents.incomeProof.title",
 							text: "Services.montenegro.digital-nomad.requirements.documents.incomeProof.text",
+						},
+						{
+							title:
+								"Services.montenegro.digital-nomad.requirements.documents.minimalIncome.title",
+							text: "Services.montenegro.digital-nomad.requirements.documents.minimalIncome.text",
+						},
+						{
+							title:
+								"Services.montenegro.digital-nomad.requirements.documents.innocence.title",
+							text: "Services.montenegro.digital-nomad.requirements.documents.innocence.text",
 						},
 					],
 				},
