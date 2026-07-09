@@ -413,16 +413,7 @@ export const SERVICE_PAGES_DATA: Record<
 								"Services.montenegro.business.requirements.main-applicant.age.title",
 							text: "Services.montenegro.business.requirements.main-applicant.age.text",
 						},
-						{
-							title:
-								"Services.montenegro.business.requirements.main-applicant.cleanRecord.title",
-							text: "Services.montenegro.business.requirements.main-applicant.cleanRecord.text",
-						},
-						{
-							title:
-								"Services.montenegro.business.requirements.main-applicant.passport.title",
-							text: "Services.montenegro.business.requirements.main-applicant.passport.text",
-						},
+
 						{
 							title:
 								"Services.montenegro.business.requirements.main-applicant.entry.title",
@@ -449,11 +440,6 @@ export const SERVICE_PAGES_DATA: Record<
 					finances: [
 						{
 							title:
-								"Services.montenegro.business.requirements.finances.income.title",
-							text: "Services.montenegro.business.requirements.finances.income.text",
-						},
-						{
-							title:
 								"Services.montenegro.business.requirements.finances.statement.title",
 							text: "Services.montenegro.business.requirements.finances.statement.text",
 						},
@@ -461,11 +447,6 @@ export const SERVICE_PAGES_DATA: Record<
 							title:
 								"Services.montenegro.business.requirements.finances.housing.title",
 							text: "Services.montenegro.business.requirements.finances.housing.text",
-						},
-						{
-							title:
-								"Services.montenegro.business.requirements.finances.insurance.title",
-							text: "Services.montenegro.business.requirements.finances.insurance.text",
 						},
 					],
 					documents: [
@@ -478,16 +459,6 @@ export const SERVICE_PAGES_DATA: Record<
 							title:
 								"Services.montenegro.business.requirements.documents.civilDocs.title",
 							text: "Services.montenegro.business.requirements.documents.civilDocs.text",
-						},
-						{
-							title:
-								"Services.montenegro.business.requirements.documents.notary.title",
-							text: "Services.montenegro.business.requirements.documents.notary.text",
-						},
-						{
-							title:
-								"Services.montenegro.business.requirements.documents.incomeProof.title",
-							text: "Services.montenegro.business.requirements.documents.incomeProof.text",
 						},
 					],
 				},
