@@ -8,6 +8,7 @@ import styles from "./HeaderDropdown.module.css";
 import { HeaderDropdownProps } from "./HeaderDropdown.types";
 import ArrowRightIcon from "@/app/components/shared/svg/ArrowRightIcon";
 import ChevronIcon from "@/app/components/shared/svg/ChevronIcon";
+import { motion } from "framer-motion";
 
 export default function HeaderDropdown({
 	countries,
@@ -29,7 +30,7 @@ export default function HeaderDropdown({
 				className={styles.navLink}
 				onClick={() => setIsOpen(!isOpen)}
 				onMouseEnter={() => setIsOpen(true)}>
-				{t(name)}{" "}
+				{t(name)}
 				<span className={styles.dot}>
 					<ChevronIcon isOpen={isOpen} />
 				</span>
@@ -43,14 +44,22 @@ export default function HeaderDropdown({
 						<ul className={styles.countriesList}>
 							{countries.map((item, index) => (
 								<li key={item.slug}>
-									<button
+									<motion.button
 										type="button"
+										whileHover={{
+											y: [0, -4, 4],
+											transition: {
+												duration: 0.8,
+												repeat: Infinity,
+												ease: "easeInOut",
+											},
+										}}
 										className={clsx(styles.countryBtn, {
 											[styles.activeCountry]: index === activeCountryIndex,
 										})}
 										onClick={() => setActiveCountryIndex(index)}>
 										{t(item.country)}
-									</button>
+									</motion.button>
 								</li>
 							))}
 						</ul>

@@ -69,11 +69,19 @@
 	transition: all 0.2s ease;
 }
 
-.countryBtn:hover,
 .activeCountry {
 	color: #ffffff;
 	background: rgba(255, 255, 255, 0.05);
 	font-weight: 500;
+}
+
+.countryBtn:hover {
+	color: #ffffff;
+	background: var(--accent);
+	font-weight: 500;
+}
+.activeCountry {
+	cursor: auto;
 }
 
 .reasonsContent {

@@ -244,20 +244,40 @@ export const SERVICE_PAGES_DATA: Record<
 				variant: "flat",
 				questions: [
 					{
-						titleKey: "Services.montenegro.business.faq.duration.title",
-						textKey: "Services.montenegro.business.faq.duration.text",
+						titleKey: "Services.montenegro.real-estate.faq.property.title",
+						textKey: "Services.montenegro.real-estate.faq.property.text",
 					},
 					{
-						titleKey: "Services.montenegro.business.faq.taxes.title",
-						textKey: "Services.montenegro.business.faq.taxes.text",
+						titleKey: "Services.montenegro.real-estate.faq.duration.title",
+						textKey: "Services.montenegro.real-estate.faq.duration.text",
 					},
 					{
-						titleKey: "Services.montenegro.business.faq.permanent.title",
-						textKey: "Services.montenegro.business.faq.permanent.text",
+						titleKey: "Services.montenegro.real-estate.faq.taxes.title",
+						textKey: "Services.montenegro.real-estate.faq.taxes.text",
 					},
 					{
-						titleKey: "Services.montenegro.business.faq.residencyTime.title",
-						textKey: "Services.montenegro.business.faq.residencyTime.text",
+						titleKey: "Services.montenegro.real-estate.faq.permanent.title",
+						textKey: "Services.montenegro.real-estate.faq.permanent.text",
+					},
+					{
+						titleKey: "Services.montenegro.real-estate.faq.residencyTime.title",
+						textKey: "Services.montenegro.real-estate.faq.residencyTime.text",
+					},
+					{
+						titleKey:
+							"Services.montenegro.real-estate.faq.permamentResidence.title",
+						textKey:
+							"Services.montenegro.real-estate.faq.permamentResidence.text",
+					},
+					{
+						titleKey: "Services.montenegro.real-estate.faq.time.title",
+						textKey: "Services.montenegro.real-estate.faq.time.text",
+					},
+					{
+						titleKey:
+							"Services.montenegro.real-estate.faq.possibilityToDecline.title",
+						textKey:
+							"Services.montenegro.real-estate.faq.possibilityToDecline.text",
 					},
 				],
 			},
@@ -484,20 +504,38 @@ export const SERVICE_PAGES_DATA: Record<
 				variant: "flat",
 				questions: [
 					{
-						titleKey: "Services.montenegro.business.faq.duration.title",
-						textKey: "Services.montenegro.business.faq.duration.text",
+						titleKey: "Services.montenegro.business.faq.eligibility.title",
+						textKey: "Services.montenegro.business.faq.eligibility.text",
 					},
 					{
-						titleKey: "Services.montenegro.business.faq.taxes.title",
-						textKey: "Services.montenegro.business.faq.taxes.text",
+						titleKey: "Services.montenegro.business.faq.ownershipShare.title",
+						textKey: "Services.montenegro.business.faq.ownershipShare.text",
+					},
+					{
+						titleKey: "Services.montenegro.business.faq.realActivity.title",
+						textKey: "Services.montenegro.business.faq.realActivity.text",
+					},
+					{
+						titleKey:
+							"Services.montenegro.business.faq.renewalRequirements.title",
+						textKey:
+							"Services.montenegro.business.faq.renewalRequirements.text",
+					},
+					{
+						titleKey: "Services.montenegro.business.faq.residencyTime.title",
+						textKey: "Services.montenegro.business.faq.residencyTime.text",
+					},
+					{
+						titleKey: "Services.montenegro.business.faq.family.title",
+						textKey: "Services.montenegro.business.faq.family.text",
 					},
 					{
 						titleKey: "Services.montenegro.business.faq.permanent.title",
 						textKey: "Services.montenegro.business.faq.permanent.text",
 					},
 					{
-						titleKey: "Services.montenegro.business.faq.residencyTime.title",
-						textKey: "Services.montenegro.business.faq.residencyTime.text",
+						titleKey: "Services.montenegro.business.faq.processingTime.title",
+						textKey: "Services.montenegro.business.faq.processingTime.text",
 					},
 				],
 			},
@@ -715,20 +753,41 @@ export const SERVICE_PAGES_DATA: Record<
 				variant: "flat",
 				questions: [
 					{
-						titleKey: "Services.montenegro.business.faq.duration.title",
-						textKey: "Services.montenegro.business.faq.duration.text",
+						titleKey: "Services.montenegro.digital-nomad.faq.eligibility.title",
+						textKey: "Services.montenegro.digital-nomad.faq.eligibility.text",
 					},
 					{
-						titleKey: "Services.montenegro.business.faq.taxes.title",
-						textKey: "Services.montenegro.business.faq.taxes.text",
+						titleKey: "Services.montenegro.digital-nomad.faq.workProof.title",
+						textKey: "Services.montenegro.digital-nomad.faq.workProof.text",
 					},
 					{
-						titleKey: "Services.montenegro.business.faq.permanent.title",
-						textKey: "Services.montenegro.business.faq.permanent.text",
+						titleKey:
+							"Services.montenegro.digital-nomad.faq.residencyTime.title",
+						textKey: "Services.montenegro.digital-nomad.faq.residencyTime.text",
 					},
 					{
-						titleKey: "Services.montenegro.business.faq.residencyTime.title",
-						textKey: "Services.montenegro.business.faq.residencyTime.text",
+						titleKey: "Services.montenegro.digital-nomad.faq.family.title",
+						textKey: "Services.montenegro.digital-nomad.faq.family.text",
+					},
+					{
+						titleKey: "Services.montenegro.digital-nomad.faq.permanent.title",
+						textKey: "Services.montenegro.digital-nomad.faq.permanent.text",
+					},
+					{
+						titleKey: "Services.montenegro.digital-nomad.faq.duration.title",
+						textKey: "Services.montenegro.digital-nomad.faq.duration.text",
+					},
+					{
+						titleKey:
+							"Services.montenegro.digital-nomad.faq.processingTime.title",
+						textKey:
+							"Services.montenegro.digital-nomad.faq.processingTime.text",
+					},
+					{
+						titleKey:
+							"Services.montenegro.digital-nomad.faq.possibilityToDecline.title",
+						textKey:
+							"Services.montenegro.digital-nomad.faq.possibilityToDecline.text",
 					},
 				],
 			},
