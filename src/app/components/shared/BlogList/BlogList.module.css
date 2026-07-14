@@ -1,0 +1,25 @@
+.list {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 32px;
+	margin-top: 16px;
+	gap: 16px;
+}
+
+.list__item {
+	position: relative;
+	padding-left: 32px;
+}
+
+.list__item::before {
+	content: "";
+	position: absolute;
+	left: 16px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: var(--accent);
+}

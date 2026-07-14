@@ -2,6 +2,7 @@ import styles from "./FAQ.module.css";
 import { FAQProps } from "./FAQ.types";
 import FAQElem from "../../shared/FAQElem";
 import FAQClient from "./components/FAQClient";
+import { getTranslations } from "next-intl/server";
 
 export default async function FAQ(props: FAQProps) {
 	if (props.variant === "categories") {
@@ -13,8 +14,28 @@ export default async function FAQ(props: FAQProps) {
 		);
 	}
 
+	const t = await getTranslations();
+
+	const jsonLd = {
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		mainEntity: props.questions.map((question) => ({
+			"@type": "Question",
+			name: t(question.titleKey),
+			acceptedAnswer: {
+				"@type": "Answer",
+				text: t(question.textKey ?? ""),
+			},
+		})),
+	};
+
 	return (
 		<div className={styles.wrapper}>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+			/>
+
 			{props.questions.map((question) => (
 				<FAQElem
 					key={question.titleKey}

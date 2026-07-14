@@ -1,0 +1,8 @@
+.highlight {
+	color: var(--accent-2);
+	font-weight: 450;
+}
+
+.bright {
+	color: var(--accent);
+}

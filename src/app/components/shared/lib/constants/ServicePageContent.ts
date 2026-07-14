@@ -850,7 +850,7 @@ export const SERVICE_PAGES_DATA: Record<
 						isFeatured: true,
 						featuredBadge: "Services.spain.digital-nomad.tariffs.full.badge",
 						price: {
-							price: "€4 600",
+							price: "€5 500", // Исправлено согласно актуальному прайсу
 							detail: "Services.spain.digital-nomad.tariffs.full.priceDetail",
 						},
 						keyPoints: [
@@ -866,7 +866,7 @@ export const SERVICE_PAGES_DATA: Record<
 						additional:
 							"Services.spain.digital-nomad.tariffs.family.additional",
 						price: {
-							price: "€1 100",
+							price: "€1 200", // Исправлено согласно актуальному прайсу
 							detail: "Services.spain.digital-nomad.tariffs.family.priceDetail",
 						},
 						keyPoints: [
@@ -875,21 +875,6 @@ export const SERVICE_PAGES_DATA: Record<
 							"Services.spain.digital-nomad.tariffs.family.points.point3",
 							"Services.spain.digital-nomad.tariffs.family.points.point4",
 							"Services.spain.digital-nomad.tariffs.family.points.point5",
-						],
-					},
-					{
-						title: "Services.spain.digital-nomad.tariffs.kids.title",
-						additional: "Services.spain.digital-nomad.tariffs.kids.additional",
-						price: {
-							price: "€350",
-							detail: "Services.spain.digital-nomad.tariffs.kids.priceDetail",
-						},
-						keyPoints: [
-							"Services.spain.digital-nomad.tariffs.kids.points.point1",
-							"Services.spain.digital-nomad.tariffs.kids.points.point2",
-							"Services.spain.digital-nomad.tariffs.kids.points.point3",
-							"Services.spain.digital-nomad.tariffs.kids.points.point4",
-							"Services.spain.digital-nomad.tariffs.kids.points.point5",
 						],
 					},
 				],
@@ -944,11 +929,20 @@ export const SERVICE_PAGES_DATA: Record<
 								"Services.spain.digital-nomad.requirements.family.spouse.title",
 							text: "Services.spain.digital-nomad.requirements.family.spouse.text",
 						},
-
 						{
 							title:
-								"Services.spain.digital-nomad.requirements.family.financeCondition.title",
-							text: "Services.spain.digital-nomad.requirements.family.financeCondition.text",
+								"Services.spain.digital-nomad.requirements.family.children.title",
+							text: "Services.spain.digital-nomad.requirements.family.children.text",
+						},
+						{
+							title:
+								"Services.spain.digital-nomad.requirements.family.parents.title",
+							text: "Services.spain.digital-nomad.requirements.family.parents.text",
+						},
+						{
+							title:
+								"Services.spain.digital-nomad.requirements.family.workRight.title",
+							text: "Services.spain.digital-nomad.requirements.family.workRight.text",
 						},
 					],
 					finances: [
@@ -959,18 +953,18 @@ export const SERVICE_PAGES_DATA: Record<
 						},
 						{
 							title:
+								"Services.spain.digital-nomad.requirements.finances.allowance.title",
+							text: "Services.spain.digital-nomad.requirements.finances.allowance.text",
+						},
+						{
+							title:
 								"Services.spain.digital-nomad.requirements.finances.statement.title",
 							text: "Services.spain.digital-nomad.requirements.finances.statement.text",
 						},
 						{
 							title:
-								"Services.spain.digital-nomad.requirements.finances.housing.title",
-							text: "Services.spain.digital-nomad.requirements.finances.housing.text",
-						},
-						{
-							title:
-								"Services.spain.digital-nomad.requirements.finances.insurance.title",
-							text: "Services.spain.digital-nomad.requirements.finances.insurance.text",
+								"Services.spain.digital-nomad.requirements.finances.savings.title",
+							text: "Services.spain.digital-nomad.requirements.finances.savings.text",
 						},
 					],
 					documents: [
@@ -1028,20 +1022,319 @@ export const SERVICE_PAGES_DATA: Record<
 				variant: "flat",
 				questions: [
 					{
-						titleKey: "Services.spain.business.faq.duration.title",
-						textKey: "Services.spain.business.faq.duration.text",
+						titleKey:
+							"Services.spain.digital-nomad.faq.incomeRequirements.title",
+						textKey: "Services.spain.digital-nomad.faq.incomeRequirements.text",
 					},
 					{
-						titleKey: "Services.spain.business.faq.taxes.title",
-						textKey: "Services.spain.business.faq.taxes.text",
+						titleKey: "Services.spain.digital-nomad.faq.whoCanGet.title",
+						textKey: "Services.spain.digital-nomad.faq.whoCanGet.text",
 					},
 					{
-						titleKey: "Services.spain.business.faq.permanent.title",
-						textKey: "Services.spain.business.faq.permanent.text",
+						titleKey:
+							"Services.spain.digital-nomad.faq.requiredDocuments.title",
+						textKey: "Services.spain.digital-nomad.faq.requiredDocuments.text",
 					},
 					{
-						titleKey: "Services.spain.business.faq.residencyTime.title",
-						textKey: "Services.spain.business.faq.residencyTime.text",
+						titleKey: "Services.spain.digital-nomad.faq.processingTime.title",
+						textKey: "Services.spain.digital-nomad.faq.processingTime.text",
+					},
+					{
+						titleKey:
+							"Services.spain.digital-nomad.faq.familyApplication.title",
+						textKey: "Services.spain.digital-nomad.faq.familyApplication.text",
+					},
+					{
+						titleKey: "Services.spain.digital-nomad.faq.taxation.title",
+						textKey: "Services.spain.digital-nomad.faq.taxation.text",
+					},
+					{
+						titleKey: "Services.spain.digital-nomad.faq.stayRequirement.title",
+						textKey: "Services.spain.digital-nomad.faq.stayRequirement.text",
+					},
+					{
+						titleKey:
+							"Services.spain.digital-nomad.faq.consulateVsInside.title",
+						textKey: "Services.spain.digital-nomad.faq.consulateVsInside.text",
+					},
+					{
+						titleKey: "Services.spain.digital-nomad.faq.localCompanies.title",
+						textKey: "Services.spain.digital-nomad.faq.localCompanies.text",
+					},
+					{
+						titleKey: "Services.spain.digital-nomad.faq.prAndCitizenship.title",
+						textKey: "Services.spain.digital-nomad.faq.prAndCitizenship.text",
+					},
+				],
+			},
+		},
+		"non-lucrative": {
+			intro: {
+				eyebrow: "Services.spain.no-lucrative.intro.eyebrow",
+				title: "Services.spain.no-lucrative.intro.title",
+				info: "Services.spain.no-lucrative.intro.info",
+				firstButton: {
+					text: "Services.spain.no-lucrative.intro.firstButton.text",
+				},
+			},
+			advantages: {
+				title: "Services.spain.no-lucrative.overview.title",
+				firstText: "Services.spain.no-lucrative.overview.firstText",
+				secondText: "Services.spain.no-lucrative.overview.secondText",
+				card: {
+					title: "Services.spain.no-lucrative.overview.card.title",
+					elements: [
+						{
+							title: "Services.spain.no-lucrative.overview.card.typeLabel",
+							text: "Services.spain.no-lucrative.overview.card.typeValue",
+						},
+						{
+							title:
+								"Services.spain.no-lucrative.overview.card.processingLabel",
+							text: "Services.spain.no-lucrative.overview.card.processingValue",
+						},
+						{
+							title: "Services.spain.no-lucrative.overview.card.financeLabel",
+							text: "Services.spain.no-lucrative.overview.card.financeValue",
+						},
+						{
+							title: "Services.spain.no-lucrative.overview.card.validityLabel",
+							text: "Services.spain.no-lucrative.overview.card.validityValue",
+						},
+						{
+							title: "Services.spain.no-lucrative.overview.card.pathLabel",
+							text: "Services.spain.no-lucrative.overview.card.pathValue",
+						},
+						{
+							title: "Services.spain.no-lucrative.overview.card.familyLabel",
+							text: "Services.spain.no-lucrative.overview.card.familyValue",
+						},
+					],
+				},
+			},
+			tariffs: {
+				eyebrow: "Services.spain.no-lucrative.tariffs.eyebrow",
+				title: "Services.spain.no-lucrative.tariffs.title",
+				additionalText: "Services.spain.no-lucrative.tariffs.additionalText",
+				PS: "Services.spain.no-lucrative.tariffs.PS",
+				cards: [
+					{
+						title: "Services.spain.no-lucrative.tariffs.full.title",
+						additional: "Services.spain.no-lucrative.tariffs.full.additional",
+						isFeatured: true,
+						featuredBadge: "Services.spain.no-lucrative.tariffs.full.badge",
+						price: {
+							price: "€5 500",
+							detail: "Services.spain.no-lucrative.tariffs.full.priceDetail",
+						},
+						keyPoints: [
+							"Services.spain.no-lucrative.tariffs.full.points.point1",
+							"Services.spain.no-lucrative.tariffs.full.points.point2",
+							"Services.spain.no-lucrative.tariffs.full.points.point3",
+							"Services.spain.no-lucrative.tariffs.full.points.point4",
+							"Services.spain.no-lucrative.tariffs.full.points.point5",
+						],
+					},
+					{
+						title: "Services.spain.no-lucrative.tariffs.family.title",
+						additional: "Services.spain.no-lucrative.tariffs.family.additional",
+						price: {
+							price: "€1 500",
+							detail: "Services.spain.no-lucrative.tariffs.family.priceDetail",
+						},
+						keyPoints: [
+							"Services.spain.no-lucrative.tariffs.family.points.point1",
+							"Services.spain.no-lucrative.tariffs.family.points.point2",
+							"Services.spain.no-lucrative.tariffs.family.points.point3",
+							"Services.spain.no-lucrative.tariffs.family.points.point4",
+							"Services.spain.no-lucrative.tariffs.family.points.point5",
+						],
+					},
+					{
+						title: "Services.spain.no-lucrative.tariffs.children.title",
+						additional:
+							"Services.spain.no-lucrative.tariffs.children.additional",
+						price: {
+							price: "€1 200",
+							detail:
+								"Services.spain.no-lucrative.tariffs.children.priceDetail",
+						},
+						keyPoints: [
+							"Services.spain.no-lucrative.tariffs.children.points.point1",
+							"Services.spain.no-lucrative.tariffs.children.points.point2",
+							"Services.spain.no-lucrative.tariffs.children.points.point3",
+							"Services.spain.no-lucrative.tariffs.children.points.point4",
+							"Services.spain.no-lucrative.tariffs.children.points.point5",
+						],
+					},
+				],
+			},
+			tabsSwitcher: {
+				eyebrow: "Services.spain.no-lucrative.requirements.eyebrow",
+				title: "Services.spain.no-lucrative.requirements.title",
+				tabs: [
+					{
+						reason: "main-applicant",
+						text: "Services.spain.no-lucrative.requirements.tabs.mainApplicant",
+					},
+					{
+						reason: "family",
+						text: "Services.spain.no-lucrative.requirements.tabs.family",
+					},
+					{
+						reason: "finances",
+						text: "Services.spain.no-lucrative.requirements.tabs.finances",
+					},
+					{
+						reason: "documents",
+						text: "Services.spain.no-lucrative.requirements.tabs.documents",
+					},
+				],
+				list: {
+					"main-applicant": [
+						{
+							title:
+								"Services.spain.no-lucrative.requirements.main-applicant.age.title",
+							text: "Services.spain.no-lucrative.requirements.main-applicant.age.text",
+						},
+						{
+							title:
+								"Services.spain.no-lucrative.requirements.main-applicant.passport.title",
+							text: "Services.spain.no-lucrative.requirements.main-applicant.passport.text",
+						},
+						{
+							title:
+								"Services.spain.no-lucrative.requirements.main-applicant.cleanRecord.title",
+							text: "Services.spain.no-lucrative.requirements.main-applicant.cleanRecord.text",
+						},
+						{
+							title:
+								"Services.spain.no-lucrative.requirements.main-applicant.legalStatus.title",
+							text: "Services.spain.no-lucrative.requirements.main-applicant.legalStatus.text",
+						},
+					],
+					family: [
+						{
+							title:
+								"Services.spain.no-lucrative.requirements.family.spouse.title",
+							text: "Services.spain.no-lucrative.requirements.family.spouse.text",
+						},
+						{
+							title:
+								"Services.spain.no-lucrative.requirements.family.children.title",
+							text: "Services.spain.no-lucrative.requirements.family.children.text",
+						},
+						{
+							title:
+								"Services.spain.no-lucrative.requirements.family.dependence.title",
+							text: "Services.spain.no-lucrative.requirements.family.dependence.text",
+						},
+					],
+					finances: [
+						{
+							title:
+								"Services.spain.no-lucrative.requirements.finances.capital.title",
+							text: "Services.spain.no-lucrative.requirements.finances.capital.text",
+						},
+						{
+							title:
+								"Services.spain.no-lucrative.requirements.finances.passiveIncome.title",
+							text: "Services.spain.no-lucrative.requirements.finances.passiveIncome.text",
+						},
+						{
+							title:
+								"Services.spain.no-lucrative.requirements.finances.regularity.title",
+							text: "Services.spain.no-lucrative.requirements.finances.regularity.text",
+						},
+					],
+					documents: [
+						{
+							title:
+								"Services.spain.no-lucrative.requirements.documents.housing.title",
+							text: "Services.spain.no-lucrative.requirements.documents.housing.text",
+						},
+						{
+							title:
+								"Services.spain.no-lucrative.requirements.documents.insurance.title",
+							text: "Services.spain.no-lucrative.requirements.documents.insurance.text",
+						},
+						{
+							title:
+								"Services.spain.no-lucrative.requirements.documents.legalization.title",
+							text: "Services.spain.no-lucrative.requirements.documents.legalization.text",
+						},
+					],
+				},
+			},
+			roadmap: {
+				eyebrow: "Services.spain.no-lucrative.roadmap.eyebrow",
+				title: "Services.spain.no-lucrative.roadmap.title",
+				additionalInfo: "Services.spain.no-lucrative.roadmap.additionalInfo",
+				steps: [
+					{
+						title: "Services.spain.no-lucrative.roadmap.steps.0.title",
+						text: "Services.spain.no-lucrative.roadmap.steps.0.text",
+					},
+					{
+						title: "Services.spain.no-lucrative.roadmap.steps.1.title",
+						text: "Services.spain.no-lucrative.roadmap.steps.1.text",
+					},
+					{
+						title: "Services.spain.no-lucrative.roadmap.steps.2.title",
+						text: "Services.spain.no-lucrative.roadmap.steps.2.text",
+					},
+					{
+						title: "Services.spain.no-lucrative.roadmap.steps.3.title",
+						text: "Services.spain.no-lucrative.roadmap.steps.3.text",
+					},
+					{
+						title: "Services.spain.no-lucrative.roadmap.steps.4.title",
+						text: "Services.spain.no-lucrative.roadmap.steps.4.text",
+					},
+				],
+			},
+			faq: {
+				variant: "flat",
+				questions: [
+					{
+						titleKey: "Services.spain.no-lucrative.faq.ipremCalc.title",
+						textKey: "Services.spain.no-lucrative.faq.ipremCalc.text",
+					},
+					{
+						titleKey: "Services.spain.no-lucrative.faq.rentalIncome.title",
+						textKey: "Services.spain.no-lucrative.faq.rentalIncome.text",
+					},
+					{
+						titleKey: "Services.spain.no-lucrative.faq.renewalDocs.title",
+						textKey: "Services.spain.no-lucrative.faq.renewalDocs.text",
+					},
+					{
+						titleKey: "Services.spain.no-lucrative.faq.schoolRequirement.title",
+						textKey: "Services.spain.no-lucrative.faq.schoolRequirement.text",
+					},
+					{
+						titleKey: "Services.spain.no-lucrative.faq.dividendsIncome.title",
+						textKey: "Services.spain.no-lucrative.faq.dividendsIncome.text",
+					},
+					{
+						titleKey: "Services.spain.no-lucrative.faq.wealthTax.title",
+						textKey: "Services.spain.no-lucrative.faq.wealthTax.text",
+					},
+					{
+						titleKey: "Services.spain.no-lucrative.faq.bankAccountRemote.title",
+						textKey: "Services.spain.no-lucrative.faq.bankAccountRemote.text",
+					},
+					{
+						titleKey: "Services.spain.no-lucrative.faq.rejectionReasons.title",
+						textKey: "Services.spain.no-lucrative.faq.rejectionReasons.text",
+					},
+					{
+						titleKey: "Services.spain.no-lucrative.faq.rentOutProperty.title",
+						textKey: "Services.spain.no-lucrative.faq.rentOutProperty.text",
+					},
+					{
+						titleKey: "Services.spain.no-lucrative.faq.goldVisaDiff.title",
+						textKey: "Services.spain.no-lucrative.faq.goldVisaDiff.text",
 					},
 				],
 			},
