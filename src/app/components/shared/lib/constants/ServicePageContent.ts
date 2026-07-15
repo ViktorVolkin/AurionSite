@@ -1340,4 +1340,541 @@ export const SERVICE_PAGES_DATA: Record<
 			},
 		},
 	},
+	serbia: {
+		business: {
+			intro: {
+				eyebrow: "Services.serbia.business.intro.eyebrow",
+				title: "Services.serbia.business.intro.title",
+				info: "Services.serbia.business.intro.info",
+				firstButton: {
+					text: "Services.serbia.business.intro.firstButton.text",
+				},
+			},
+			advantages: {
+				title: "Services.serbia.business.overview.title",
+				firstText: "Services.serbia.business.overview.firstText",
+				secondText: "Services.serbia.business.overview.secondText",
+				card: {
+					title: "Services.serbia.business.overview.card.title",
+					elements: [
+						{
+							title: "Services.serbia.business.overview.card.typeLabel",
+							text: "Services.serbia.business.overview.card.typeValue",
+						},
+						{
+							title: "Services.serbia.business.overview.card.processingLabel",
+							text: "Services.serbia.business.overview.card.processingValue",
+						},
+						{
+							title: "Services.serbia.business.overview.card.financeLabel",
+							text: "Services.serbia.business.overview.card.financeValue",
+						},
+						{
+							title: "Services.serbia.business.overview.card.validityLabel",
+							text: "Services.serbia.business.overview.card.validityValue",
+						},
+						{
+							title: "Services.serbia.business.overview.card.pathLabel",
+							text: "Services.serbia.business.overview.card.pathValue",
+						},
+						{
+							title: "Services.serbia.business.overview.card.familyLabel",
+							text: "Services.serbia.business.overview.card.familyValue",
+						},
+					],
+				},
+			},
+			tariffs: {
+				eyebrow: "Services.serbia.business.tariffs.eyebrow",
+				title: "Services.serbia.business.tariffs.title",
+				additionalText: "Services.serbia.business.tariffs.additionalText",
+				PS: "Services.serbia.business.tariffs.PS",
+				cards: [
+					{
+						title: "Services.serbia.business.tariffs.full.title",
+						additional: "Services.serbia.business.tariffs.full.additional",
+						isFeatured: true,
+						featuredBadge: "Services.serbia.business.tariffs.full.badge",
+						price: {
+							price: "€2 200",
+							detail: "Services.serbia.business.tariffs.full.priceDetail",
+						},
+						keyPoints: [
+							"Services.serbia.business.tariffs.full.points.point1",
+							"Services.serbia.business.tariffs.full.points.point2",
+							"Services.serbia.business.tariffs.full.points.point3",
+							"Services.serbia.business.tariffs.full.points.point4",
+							"Services.serbia.business.tariffs.full.points.point5",
+						],
+					},
+					{
+						title: "Services.serbia.business.tariffs.family.title",
+						additional: "Services.serbia.business.tariffs.family.additional",
+						price: {
+							price: "€800",
+							detail: "Services.serbia.business.tariffs.family.priceDetail",
+						},
+						keyPoints: [
+							"Services.serbia.business.tariffs.family.points.point1",
+							"Services.serbia.business.tariffs.family.points.point2",
+							"Services.serbia.business.tariffs.family.points.point3",
+							"Services.serbia.business.tariffs.family.points.point4",
+							"Services.serbia.business.tariffs.family.points.point5",
+						],
+					},
+				],
+			},
+			tabsSwitcher: {
+				eyebrow: "Services.serbia.business.requirements.eyebrow",
+				title: "Services.serbia.business.requirements.title",
+				tabs: [
+					{
+						reason: "main-applicant",
+						text: "Services.serbia.business.requirements.tabs.mainApplicant",
+					},
+					{
+						reason: "family",
+						text: "Services.serbia.business.requirements.tabs.family",
+					},
+					{
+						reason: "finances",
+						text: "Services.serbia.business.requirements.tabs.finances",
+					},
+					{
+						reason: "documents",
+						text: "Services.serbia.business.requirements.tabs.documents",
+					},
+				],
+				list: {
+					"main-applicant": [
+						{
+							title:
+								"Services.serbia.business.requirements.main-applicant.age.title",
+							text: "Services.serbia.business.requirements.main-applicant.age.text",
+						},
+						{
+							title:
+								"Services.serbia.business.requirements.main-applicant.cleanRecord.title",
+							text: "Services.serbia.business.requirements.main-applicant.cleanRecord.text",
+						},
+						{
+							title:
+								"Services.serbia.business.requirements.main-applicant.passport.title",
+							text: "Services.serbia.business.requirements.main-applicant.passport.text",
+						},
+						{
+							title:
+								"Services.serbia.business.requirements.main-applicant.remote.title",
+							text: "Services.serbia.business.requirements.main-applicant.remote.text",
+						},
+					],
+					family: [
+						{
+							title:
+								"Services.serbia.business.requirements.family.spouse.title",
+							text: "Services.serbia.business.requirements.family.spouse.text",
+						},
+						{
+							title:
+								"Services.serbia.business.requirements.family.children.title",
+							text: "Services.serbia.business.requirements.family.children.text",
+						},
+						{
+							title:
+								"Services.serbia.business.requirements.family.parents.title",
+							text: "Services.serbia.business.requirements.family.parents.text",
+						},
+						{
+							title:
+								"Services.serbia.business.requirements.family.workRight.title",
+							text: "Services.serbia.business.requirements.family.workRight.text",
+						},
+					],
+					finances: [
+						{
+							title:
+								"Services.serbia.business.requirements.finances.income.title",
+							text: "Services.serbia.business.requirements.finances.income.text",
+						},
+						{
+							title:
+								"Services.serbia.business.requirements.finances.allowance.title",
+							text: "Services.serbia.business.requirements.finances.allowance.text",
+						},
+						{
+							title:
+								"Services.serbia.business.requirements.finances.statement.title",
+							text: "Services.serbia.business.requirements.finances.statement.text",
+						},
+						{
+							title:
+								"Services.serbia.business.requirements.finances.savings.title",
+							text: "Services.serbia.business.requirements.finances.savings.text",
+						},
+					],
+					documents: [
+						{
+							title:
+								"Services.serbia.business.requirements.documents.cleanRecordDoc.title",
+							text: "Services.serbia.business.requirements.documents.cleanRecordDoc.text",
+						},
+						{
+							title:
+								"Services.serbia.business.requirements.documents.civilDocs.title",
+							text: "Services.serbia.business.requirements.documents.civilDocs.text",
+						},
+						{
+							title:
+								"Services.serbia.business.requirements.documents.notary.title",
+							text: "Services.serbia.business.requirements.documents.notary.text",
+						},
+						{
+							title:
+								"Services.serbia.business.requirements.documents.incomeProof.title",
+							text: "Services.serbia.business.requirements.documents.incomeProof.text",
+						},
+					],
+				},
+			},
+			roadmap: {
+				eyebrow: "Services.serbia.business.roadmap.eyebrow",
+				title: "Services.serbia.business.roadmap.title",
+				additionalInfo: "Services.serbia.business.roadmap.additionalInfo",
+				steps: [
+					{
+						title: "Services.serbia.business.roadmap.steps.0.title",
+						text: "Services.serbia.business.roadmap.steps.0.text",
+					},
+					{
+						title: "Services.serbia.business.roadmap.steps.1.title",
+						text: "Services.serbia.business.roadmap.steps.1.text",
+					},
+					{
+						title: "Services.serbia.business.roadmap.steps.2.title",
+						text: "Services.serbia.business.roadmap.steps.2.text",
+					},
+					{
+						title: "Services.serbia.business.roadmap.steps.3.title",
+						text: "Services.serbia.business.roadmap.steps.3.text",
+					},
+					{
+						title: "Services.serbia.business.roadmap.steps.4.title",
+						text: "Services.serbia.business.roadmap.steps.4.text",
+					},
+				],
+			},
+			faq: {
+				variant: "flat",
+				questions: [
+					{
+						titleKey: "Services.serbia.business.faq.incomeRequirements.title",
+						textKey: "Services.serbia.business.faq.incomeRequirements.text",
+					},
+					{
+						titleKey: "Services.serbia.business.faq.whoCanGet.title",
+						textKey: "Services.serbia.business.faq.whoCanGet.text",
+					},
+					{
+						titleKey: "Services.serbia.business.faq.requiredDocuments.title",
+						textKey: "Services.serbia.business.faq.requiredDocuments.text",
+					},
+					{
+						titleKey: "Services.serbia.business.faq.processingTime.title",
+						textKey: "Services.serbia.business.faq.processingTime.text",
+					},
+					{
+						titleKey: "Services.serbia.business.faq.familyApplication.title",
+						textKey: "Services.serbia.business.faq.familyApplication.text",
+					},
+					{
+						titleKey: "Services.serbia.business.faq.taxation.title",
+						textKey: "Services.serbia.business.faq.taxation.text",
+					},
+					{
+						titleKey: "Services.serbia.business.faq.stayRequirement.title",
+						textKey: "Services.serbia.business.faq.stayRequirement.text",
+					},
+					{
+						titleKey: "Services.serbia.business.faq.consulateVsInside.title",
+						textKey: "Services.serbia.business.faq.consulateVsInside.text",
+					},
+					{
+						titleKey: "Services.serbia.business.faq.localCompanies.title",
+						textKey: "Services.serbia.business.faq.localCompanies.text",
+					},
+					{
+						titleKey: "Services.serbia.business.faq.prAndCitizenship.title",
+						textKey: "Services.serbia.business.faq.prAndCitizenship.text",
+					},
+				],
+			},
+		},
+		"real-estate": {
+			intro: {
+				eyebrow: "Services.serbia.real-estate.intro.eyebrow",
+				title: "Services.serbia.real-estate.intro.title",
+				info: "Services.serbia.real-estate.intro.info",
+				firstButton: {
+					text: "Services.serbia.real-estate.intro.firstButton.text",
+				},
+			},
+			advantages: {
+				title: "Services.serbia.real-estate.overview.title",
+				firstText: "Services.serbia.real-estate.overview.firstText",
+				secondText: "Services.serbia.real-estate.overview.secondText",
+				card: {
+					title: "Services.serbia.real-estate.overview.card.title",
+					elements: [
+						{
+							title: "Services.serbia.real-estate.overview.card.typeLabel",
+							text: "Services.serbia.real-estate.overview.card.typeValue",
+						},
+						{
+							title:
+								"Services.serbia.real-estate.overview.card.processingLabel",
+							text: "Services.serbia.real-estate.overview.card.processingValue",
+						},
+						{
+							title: "Services.serbia.real-estate.overview.card.financeLabel",
+							text: "Services.serbia.real-estate.overview.card.financeValue",
+						},
+						{
+							title: "Services.serbia.real-estate.overview.card.validityLabel",
+							text: "Services.serbia.real-estate.overview.card.validityValue",
+						},
+						{
+							title: "Services.serbia.real-estate.overview.card.pathLabel",
+							text: "Services.serbia.real-estate.overview.card.pathValue",
+						},
+						{
+							title: "Services.serbia.real-estate.overview.card.familyLabel",
+							text: "Services.serbia.real-estate.overview.card.familyValue",
+						},
+					],
+				},
+			},
+			tariffs: {
+				eyebrow: "Services.serbia.real-estate.tariffs.eyebrow",
+				title: "Services.serbia.real-estate.tariffs.title",
+				additionalText: "Services.serbia.real-estate.tariffs.additionalText",
+				PS: "Services.serbia.real-estate.tariffs.PS",
+				cards: [
+					{
+						title: "Services.serbia.real-estate.tariffs.full.title",
+						additional: "Services.serbia.real-estate.tariffs.full.additional",
+						isFeatured: true,
+						featuredBadge: "Services.serbia.real-estate.tariffs.full.badge",
+						price: {
+							price: "€2 200",
+							detail: "Services.serbia.real-estate.tariffs.full.priceDetail",
+						},
+						keyPoints: [
+							"Services.serbia.real-estate.tariffs.full.points.point1",
+							"Services.serbia.real-estate.tariffs.full.points.point2",
+							"Services.serbia.real-estate.tariffs.full.points.point3",
+							"Services.serbia.real-estate.tariffs.full.points.point4",
+							"Services.serbia.real-estate.tariffs.full.points.point5",
+						],
+					},
+					{
+						title: "Services.serbia.real-estate.tariffs.family.title",
+						additional: "Services.serbia.real-estate.tariffs.family.additional",
+						price: {
+							price: "€400",
+							detail: "Services.serbia.real-estate.tariffs.family.priceDetail",
+						},
+						keyPoints: [
+							"Services.serbia.real-estate.tariffs.family.points.point1",
+							"Services.serbia.real-estate.tariffs.family.points.point2",
+							"Services.serbia.real-estate.tariffs.family.points.point3",
+							"Services.serbia.real-estate.tariffs.family.points.point4",
+							"Services.serbia.real-estate.tariffs.family.points.point5",
+						],
+					},
+				],
+			},
+			tabsSwitcher: {
+				eyebrow: "Services.serbia.real-estate.requirements.eyebrow",
+				title: "Services.serbia.real-estate.requirements.title",
+				tabs: [
+					{
+						reason: "main-applicant",
+						text: "Services.serbia.real-estate.requirements.tabs.mainApplicant",
+					},
+					{
+						reason: "family",
+						text: "Services.serbia.real-estate.requirements.tabs.family",
+					},
+					{
+						reason: "finances",
+						text: "Services.serbia.real-estate.requirements.tabs.finances",
+					},
+					{
+						reason: "documents",
+						text: "Services.serbia.real-estate.requirements.tabs.documents",
+					},
+				],
+				list: {
+					"main-applicant": [
+						{
+							title:
+								"Services.serbia.real-estate.requirements.main-applicant.anyValue.title",
+							text: "Services.serbia.real-estate.requirements.main-applicant.anyValue.text",
+						},
+						{
+							title:
+								"Services.serbia.real-estate.requirements.main-applicant.ownership.title",
+							text: "Services.serbia.real-estate.requirements.main-applicant.ownership.text",
+						},
+						{
+							title:
+								"Services.serbia.real-estate.requirements.main-applicant.whiteCard.title",
+							text: "Services.serbia.real-estate.requirements.main-applicant.whiteCard.text",
+						},
+						{
+							title:
+								"Services.serbia.real-estate.requirements.main-applicant.validity.title",
+							text: "Services.serbia.real-estate.requirements.main-applicant.validity.text",
+						},
+					],
+					family: [
+						{
+							title:
+								"Services.serbia.real-estate.requirements.family.spouse.title",
+							text: "Services.serbia.real-estate.requirements.family.spouse.text",
+						},
+						{
+							title:
+								"Services.serbia.real-estate.requirements.family.finSupport.title",
+							text: "Services.serbia.real-estate.requirements.family.finSupport.text",
+						},
+						{
+							title:
+								"Services.serbia.real-estate.requirements.family.workRight.title",
+							text: "Services.serbia.real-estate.requirements.family.workRight.text",
+						},
+						{
+							title:
+								"Services.serbia.real-estate.requirements.family.familyDocs.title",
+							text: "Services.serbia.real-estate.requirements.family.familyDocs.text",
+						},
+					],
+					finances: [
+						{
+							title:
+								"Services.serbia.real-estate.requirements.finances.personalAccount.title",
+							text: "Services.serbia.real-estate.requirements.finances.personalAccount.text",
+						},
+						{
+							title:
+								"Services.serbia.real-estate.requirements.finances.purchaseTaxes.title",
+							text: "Services.serbia.real-estate.requirements.finances.purchaseTaxes.text",
+						},
+						{
+							title:
+								"Services.serbia.real-estate.requirements.finances.livingExpenses.title",
+							text: "Services.serbia.real-estate.requirements.finances.livingExpenses.text",
+						},
+						{
+							title:
+								"Services.serbia.real-estate.requirements.finances.fees.title",
+							text: "Services.serbia.real-estate.requirements.finances.fees.text",
+						},
+					],
+					documents: [
+						{
+							title:
+								"Services.serbia.real-estate.requirements.documents.cadastreExtract.title",
+							text: "Services.serbia.real-estate.requirements.documents.cadastreExtract.text",
+						},
+						{
+							title:
+								"Services.serbia.real-estate.requirements.documents.passportDoc.title",
+							text: "Services.serbia.real-estate.requirements.documents.passportDoc.text",
+						},
+						{
+							title:
+								"Services.serbia.real-estate.requirements.documents.courtTranslation.title",
+							text: "Services.serbia.real-estate.requirements.documents.courtTranslation.text",
+						},
+						{
+							title:
+								"Services.serbia.real-estate.requirements.documents.insuranceDoc.title",
+							text: "Services.serbia.real-estate.requirements.documents.insuranceDoc.text",
+						},
+					],
+				},
+			},
+			roadmap: {
+				eyebrow: "Services.serbia.real-estate.roadmap.eyebrow",
+				title: "Services.serbia.real-estate.roadmap.title",
+				additionalInfo: "Services.serbia.real-estate.roadmap.additionalInfo",
+				steps: [
+					{
+						title: "Services.serbia.real-estate.roadmap.steps.0.title",
+						text: "Services.serbia.real-estate.roadmap.steps.0.text",
+					},
+					{
+						title: "Services.serbia.real-estate.roadmap.steps.1.title",
+						text: "Services.serbia.real-estate.roadmap.steps.1.text",
+					},
+					{
+						title: "Services.serbia.real-estate.roadmap.steps.2.title",
+						text: "Services.serbia.real-estate.roadmap.steps.2.text",
+					},
+					{
+						title: "Services.serbia.real-estate.roadmap.steps.3.title",
+						text: "Services.serbia.real-estate.roadmap.steps.3.text",
+					},
+					{
+						title: "Services.serbia.real-estate.roadmap.steps.4.title",
+						text: "Services.serbia.real-estate.roadmap.steps.4.text",
+					},
+				],
+			},
+			faq: {
+				variant: "flat",
+				questions: [
+					{
+						titleKey:
+							"Services.serbia.real-estate.faq.minPriceRequirements.title",
+						textKey:
+							"Services.serbia.real-estate.faq.minPriceRequirements.text",
+					},
+					{
+						titleKey: "Services.serbia.real-estate.faq.hiddenThreshold.title",
+						textKey: "Services.serbia.real-estate.faq.hiddenThreshold.text",
+					},
+					{
+						titleKey:
+							"Services.serbia.real-estate.faq.commercialRealEstate.title",
+						textKey:
+							"Services.serbia.real-estate.faq.commercialRealEstate.text",
+					},
+					{
+						titleKey: "Services.serbia.real-estate.faq.taxObligations.title",
+						textKey: "Services.serbia.real-estate.faq.taxObligations.text",
+					},
+					{
+						titleKey: "Services.serbia.real-estate.faq.rentalPossibility.title",
+						textKey: "Services.serbia.real-estate.faq.rentalPossibility.text",
+					},
+					{
+						titleKey:
+							"Services.serbia.real-estate.faq.reciprocityAndCitizenship.title",
+						textKey:
+							"Services.serbia.real-estate.faq.reciprocityAndCitizenship.text",
+					},
+					{
+						titleKey: "Services.serbia.real-estate.faq.workAuthorization.title",
+						textKey: "Services.serbia.real-estate.faq.workAuthorization.text",
+					},
+					{
+						titleKey: "Services.serbia.real-estate.faq.prAndPassport.title",
+						textKey: "Services.serbia.real-estate.faq.prAndPassport.text",
+					},
+				],
+			},
+		},
+	},
 };

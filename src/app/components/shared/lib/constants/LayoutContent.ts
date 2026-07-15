@@ -41,7 +41,7 @@ export const HeaderDropdownContent: HeaderDropdownProps = {
 			reasons: [
 				{
 					name: "widgets.header.headerDropdown.countries.serbia.reasons.company",
-					slug: "company",
+					slug: "business",
 				},
 				{
 					name: "widgets.header.headerDropdown.countries.serbia.reasons.real-estate",
@@ -57,132 +57,14 @@ export const HeaderDropdownContent: HeaderDropdownProps = {
 					name: "widgets.header.headerDropdown.countries.spain.reasons.digital-nomad",
 					slug: "digital-nomad",
 				},
-				{
-					name: "widgets.header.headerDropdown.countries.spain.reasons.golden-visa",
-					slug: "golden-visa",
-				},
+
 				{
 					name: "widgets.header.headerDropdown.countries.spain.reasons.non-lucrative",
 					slug: "non-lucrative",
 				},
 			],
 		},
-		{
-			country: "widgets.header.headerDropdown.countries.uae.name",
-			slug: "uae",
-			reasons: [
-				{
-					name: "widgets.header.headerDropdown.countries.uae.reasons.investor",
-					slug: "investor",
-				},
-				{
-					name: "widgets.header.headerDropdown.countries.uae.reasons.freelance",
-					slug: "freelance",
-				},
-				{
-					name: "widgets.header.headerDropdown.countries.uae.reasons.remote-work",
-					slug: "remote-work",
-				},
-			],
-		},
-		{
-			country: "widgets.header.headerDropdown.countries.hungary.name",
-			slug: "hungary",
-			reasons: [
-				{
-					name: "widgets.header.headerDropdown.countries.hungary.reasons.white-card",
-					slug: "white-card",
-				},
-				{
-					name: "widgets.header.headerDropdown.countries.hungary.reasons.real-estate",
-					slug: "real-estate",
-				},
-			],
-		},
-		{
-			country: "widgets.header.headerDropdown.countries.portugal.name",
-			slug: "portugal",
-			reasons: [
-				{
-					name: "widgets.header.headerDropdown.countries.portugal.reasons.d7-visa",
-					slug: "d7-visa",
-				},
-				{
-					name: "widgets.header.headerDropdown.countries.portugal.reasons.digital-nomad",
-					slug: "digital-nomad",
-				},
-			],
-		},
-		{
-			country: "widgets.header.headerDropdown.countries.cyprus.name",
-			slug: "cyprus",
-			reasons: [
-				{
-					name: "widgets.header.headerDropdown.countries.cyprus.reasons.permanent-residency",
-					slug: "permanent-residency",
-				},
-				{
-					name: "widgets.header.headerDropdown.countries.cyprus.reasons.it-visa",
-					slug: "it-visa",
-				},
-			],
-		},
-		{
-			country: "widgets.header.headerDropdown.countries.greece.name",
-			slug: "greece",
-			reasons: [
-				{
-					name: "widgets.header.headerDropdown.countries.greece.reasons.fiv",
-					slug: "fiv",
-				},
-				{
-					name: "widgets.header.headerDropdown.countries.greece.reasons.golden-visa",
-					slug: "golden-visa",
-				},
-			],
-		},
-		{
-			country: "widgets.header.headerDropdown.countries.italy.name",
-			slug: "italy",
-			reasons: [
-				{
-					name: "widgets.header.headerDropdown.countries.italy.reasons.residenza-elettiva",
-					slug: "residenza-elettiva",
-				},
-				{
-					name: "widgets.header.headerDropdown.countries.italy.reasons.digital-nomad",
-					slug: "digital-nomad",
-				},
-			],
-		},
-		{
-			country: "widgets.header.headerDropdown.countries.france.name",
-			slug: "france",
-			reasons: [
-				{
-					name: "widgets.header.headerDropdown.countries.france.reasons.visiteur",
-					slug: "visiteur",
-				},
-				{
-					name: "widgets.header.headerDropdown.countries.france.reasons.talent-passport",
-					slug: "talent-passport",
-				},
-			],
-		},
-		{
-			country: "widgets.header.headerDropdown.countries.malta.name",
-			slug: "malta",
-			reasons: [
-				{
-					name: "widgets.header.headerDropdown.countries.malta.reasons.mprp",
-					slug: "mprp",
-				},
-				{
-					name: "widgets.header.headerDropdown.countries.malta.reasons.nomad-residence",
-					slug: "nomad-residence",
-				},
-			],
-		},
+
 		{
 			country: "widgets.header.headerDropdown.countries.armenia.name",
 			slug: "armenia",
