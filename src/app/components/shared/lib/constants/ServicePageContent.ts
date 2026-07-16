@@ -11,7 +11,7 @@ export interface ServiceProgramContent {
 		eyebrow: string;
 		title: string;
 		additionalText: string;
-		PS: string;
+		PS?: string;
 		cards: Array<{
 			title: string;
 			additional: string;
@@ -86,7 +86,6 @@ export const SERVICE_PAGES_DATA: Record<
 				title: "Services.montenegro.real-estate.tariffs.title",
 				additionalText:
 					"Services.montenegro.real-estate.tariffs.additionalText",
-				PS: "Services.montenegro.real-estate.tariffs.PS",
 				cards: [
 					{
 						title: "Services.montenegro.real-estate.tariffs.full.title",
@@ -330,7 +329,6 @@ export const SERVICE_PAGES_DATA: Record<
 				eyebrow: "Services.montenegro.business.tariffs.eyebrow",
 				title: "Services.montenegro.business.tariffs.title",
 				additionalText: "Services.montenegro.business.tariffs.additionalText",
-				PS: "Services.montenegro.business.tariffs.PS",
 				cards: [
 					{
 						title: "Services.montenegro.business.tariffs.essential.title",
@@ -594,7 +592,6 @@ export const SERVICE_PAGES_DATA: Record<
 				title: "Services.montenegro.digital-nomad.tariffs.title",
 				additionalText:
 					"Services.montenegro.digital-nomad.tariffs.additionalText",
-				PS: "Services.montenegro.digital-nomad.tariffs.PS",
 				cards: [
 					{
 						title: "Services.montenegro.digital-nomad.tariffs.full.title",
@@ -842,7 +839,6 @@ export const SERVICE_PAGES_DATA: Record<
 				eyebrow: "Services.spain.digital-nomad.tariffs.eyebrow",
 				title: "Services.spain.digital-nomad.tariffs.title",
 				additionalText: "Services.spain.digital-nomad.tariffs.additionalText",
-				PS: "Services.spain.digital-nomad.tariffs.PS",
 				cards: [
 					{
 						title: "Services.spain.digital-nomad.tariffs.full.title",
@@ -1116,7 +1112,6 @@ export const SERVICE_PAGES_DATA: Record<
 				eyebrow: "Services.spain.no-lucrative.tariffs.eyebrow",
 				title: "Services.spain.no-lucrative.tariffs.title",
 				additionalText: "Services.spain.no-lucrative.tariffs.additionalText",
-				PS: "Services.spain.no-lucrative.tariffs.PS",
 				cards: [
 					{
 						title: "Services.spain.no-lucrative.tariffs.full.title",
@@ -1388,7 +1383,6 @@ export const SERVICE_PAGES_DATA: Record<
 				eyebrow: "Services.serbia.business.tariffs.eyebrow",
 				title: "Services.serbia.business.tariffs.title",
 				additionalText: "Services.serbia.business.tariffs.additionalText",
-				PS: "Services.serbia.business.tariffs.PS",
 				cards: [
 					{
 						title: "Services.serbia.business.tariffs.full.title",
@@ -1657,7 +1651,6 @@ export const SERVICE_PAGES_DATA: Record<
 				eyebrow: "Services.serbia.real-estate.tariffs.eyebrow",
 				title: "Services.serbia.real-estate.tariffs.title",
 				additionalText: "Services.serbia.real-estate.tariffs.additionalText",
-				PS: "Services.serbia.real-estate.tariffs.PS",
 				cards: [
 					{
 						title: "Services.serbia.real-estate.tariffs.full.title",
@@ -1872,6 +1865,806 @@ export const SERVICE_PAGES_DATA: Record<
 					{
 						titleKey: "Services.serbia.real-estate.faq.prAndPassport.title",
 						textKey: "Services.serbia.real-estate.faq.prAndPassport.text",
+					},
+				],
+			},
+		},
+	},
+	armenia: {
+		business: {
+			intro: {
+				eyebrow: "Services.armenia.business.intro.eyebrow",
+				title: "Services.armenia.business.intro.title",
+				info: "Services.armenia.business.intro.info",
+				firstButton: {
+					text: "Services.armenia.business.intro.firstButton.text",
+				},
+			},
+			advantages: {
+				title: "Services.armenia.business.overview.title",
+				firstText: "Services.armenia.business.overview.firstText",
+				secondText: "Services.armenia.business.overview.secondText",
+				card: {
+					title: "Services.armenia.business.overview.card.title",
+					elements: [
+						{
+							title: "Services.armenia.business.overview.card.typeLabel",
+							text: "Services.armenia.business.overview.card.typeValue",
+						},
+						{
+							title: "Services.armenia.business.overview.card.processingLabel",
+							text: "Services.armenia.business.overview.card.processingValue",
+						},
+						{
+							title: "Services.armenia.business.overview.card.financeLabel",
+							text: "Services.armenia.business.overview.card.financeValue",
+						},
+						{
+							title: "Services.armenia.business.overview.card.validityLabel",
+							text: "Services.armenia.business.overview.card.validityValue",
+						},
+						{
+							title: "Services.armenia.business.overview.card.pathLabel",
+							text: "Services.armenia.business.overview.card.pathValue",
+						},
+						{
+							title: "Services.armenia.business.overview.card.familyLabel",
+							text: "Services.armenia.business.overview.card.familyValue",
+						},
+					],
+				},
+			},
+			tariffs: {
+				eyebrow: "Services.armenia.business.tariffs.eyebrow",
+				title: "Services.armenia.business.tariffs.title",
+				additionalText: "Services.armenia.business.tariffs.additionalText",
+				PS: "Services.armenia.business.tariffs.PS",
+				cards: [
+					{
+						title: "Services.armenia.business.tariffs.full.title",
+						additional: "Services.armenia.business.tariffs.full.additional",
+						isFeatured: true,
+						featuredBadge: "Services.armenia.business.tariffs.full.badge",
+						price: {
+							price: "€2 200",
+							detail: "Services.armenia.business.tariffs.full.priceDetail",
+						},
+						keyPoints: [
+							"Services.armenia.business.tariffs.full.points.point1",
+							"Services.armenia.business.tariffs.full.points.point2",
+							"Services.armenia.business.tariffs.full.points.point3",
+							"Services.armenia.business.tariffs.full.points.point4",
+							"Services.armenia.business.tariffs.full.points.point5",
+						],
+					},
+					{
+						title: "Services.armenia.business.tariffs.family.title",
+						additional: "Services.armenia.business.tariffs.family.additional",
+						price: {
+							price: "€800",
+							detail: "Services.armenia.business.tariffs.family.priceDetail",
+						},
+						keyPoints: [
+							"Services.armenia.business.tariffs.family.points.point1",
+							"Services.armenia.business.tariffs.family.points.point2",
+							"Services.armenia.business.tariffs.family.points.point3",
+							"Services.armenia.business.tariffs.family.points.point4",
+							"Services.armenia.business.tariffs.family.points.point5",
+						],
+					},
+				],
+			},
+			tabsSwitcher: {
+				eyebrow: "Services.armenia.business.requirements.eyebrow",
+				title: "Services.armenia.business.requirements.title",
+				tabs: [
+					{
+						reason: "main-applicant",
+						text: "Services.armenia.business.requirements.tabs.mainApplicant",
+					},
+					{
+						reason: "family",
+						text: "Services.armenia.business.requirements.tabs.family",
+					},
+					{
+						reason: "finances",
+						text: "Services.armenia.business.requirements.tabs.finances",
+					},
+					{
+						reason: "documents",
+						text: "Services.armenia.business.requirements.tabs.documents",
+					},
+				],
+				list: {
+					"main-applicant": [
+						{
+							title:
+								"Services.armenia.business.requirements.main-applicant.age.title",
+							text: "Services.armenia.business.requirements.main-applicant.age.text",
+						},
+						{
+							title:
+								"Services.armenia.business.requirements.main-applicant.cleanRecord.title",
+							text: "Services.armenia.business.requirements.main-applicant.cleanRecord.text",
+						},
+						{
+							title:
+								"Services.armenia.business.requirements.main-applicant.passport.title",
+							text: "Services.armenia.business.requirements.main-applicant.passport.text",
+						},
+						{
+							title:
+								"Services.armenia.business.requirements.main-applicant.remote.title",
+							text: "Services.armenia.business.requirements.main-applicant.remote.text",
+						},
+					],
+					family: [
+						{
+							title:
+								"Services.armenia.business.requirements.family.spouse.title",
+							text: "Services.armenia.business.requirements.family.spouse.text",
+						},
+						{
+							title:
+								"Services.armenia.business.requirements.family.children.title",
+							text: "Services.armenia.business.requirements.family.children.text",
+						},
+						{
+							title:
+								"Services.armenia.business.requirements.family.parents.title",
+							text: "Services.armenia.business.requirements.family.parents.text",
+						},
+						{
+							title:
+								"Services.armenia.business.requirements.family.workRight.title",
+							text: "Services.armenia.business.requirements.family.workRight.text",
+						},
+					],
+					finances: [
+						{
+							title:
+								"Services.armenia.business.requirements.finances.income.title",
+							text: "Services.armenia.business.requirements.finances.income.text",
+						},
+						{
+							title:
+								"Services.armenia.business.requirements.finances.allowance.title",
+							text: "Services.armenia.business.requirements.finances.allowance.text",
+						},
+						{
+							title:
+								"Services.armenia.business.requirements.finances.statement.title",
+							text: "Services.armenia.business.requirements.finances.statement.text",
+						},
+						{
+							title:
+								"Services.armenia.business.requirements.finances.savings.title",
+							text: "Services.armenia.business.requirements.finances.savings.text",
+						},
+					],
+					documents: [
+						{
+							title:
+								"Services.armenia.business.requirements.documents.cleanRecordDoc.title",
+							text: "Services.armenia.business.requirements.documents.cleanRecordDoc.text",
+						},
+						{
+							title:
+								"Services.armenia.business.requirements.documents.civilDocs.title",
+							text: "Services.armenia.business.requirements.documents.civilDocs.text",
+						},
+						{
+							title:
+								"Services.armenia.business.requirements.documents.notary.title",
+							text: "Services.armenia.business.requirements.documents.notary.text",
+						},
+						{
+							title:
+								"Services.armenia.business.requirements.documents.incomeProof.title",
+							text: "Services.armenia.business.requirements.documents.incomeProof.text",
+						},
+					],
+				},
+			},
+			roadmap: {
+				eyebrow: "Services.armenia.business.roadmap.eyebrow",
+				title: "Services.armenia.business.roadmap.title",
+				additionalInfo: "Services.armenia.business.roadmap.additionalInfo",
+				steps: [
+					{
+						title: "Services.armenia.business.roadmap.steps.0.title",
+						text: "Services.armenia.business.roadmap.steps.0.text",
+					},
+					{
+						title: "Services.armenia.business.roadmap.steps.1.title",
+						text: "Services.armenia.business.roadmap.steps.1.text",
+					},
+					{
+						title: "Services.armenia.business.roadmap.steps.2.title",
+						text: "Services.armenia.business.roadmap.steps.2.text",
+					},
+					{
+						title: "Services.armenia.business.roadmap.steps.3.title",
+						text: "Services.armenia.business.roadmap.steps.3.text",
+					},
+					{
+						title: "Services.armenia.business.roadmap.steps.4.title",
+						text: "Services.armenia.business.roadmap.steps.4.text",
+					},
+				],
+			},
+			faq: {
+				variant: "flat",
+				questions: [
+					{
+						titleKey: "Services.armenia.business.faq.incomeRequirements.title",
+						textKey: "Services.armenia.business.faq.incomeRequirements.text",
+					},
+					{
+						titleKey: "Services.armenia.business.faq.whoCanGet.title",
+						textKey: "Services.armenia.business.faq.whoCanGet.text",
+					},
+					{
+						titleKey: "Services.armenia.business.faq.requiredDocuments.title",
+						textKey: "Services.armenia.business.faq.requiredDocuments.text",
+					},
+					{
+						titleKey: "Services.armenia.business.faq.processingTime.title",
+						textKey: "Services.armenia.business.faq.processingTime.text",
+					},
+					{
+						titleKey: "Services.armenia.business.faq.familyApplication.title",
+						textKey: "Services.armenia.business.faq.familyApplication.text",
+					},
+					{
+						titleKey: "Services.armenia.business.faq.taxation.title",
+						textKey: "Services.armenia.business.faq.taxation.text",
+					},
+					{
+						titleKey: "Services.armenia.business.faq.stayRequirement.title",
+						textKey: "Services.armenia.business.faq.stayRequirement.text",
+					},
+					{
+						titleKey: "Services.armenia.business.faq.consulateVsInside.title",
+						textKey: "Services.armenia.business.faq.consulateVsInside.text",
+					},
+					{
+						titleKey: "Services.armenia.business.faq.localCompanies.title",
+						textKey: "Services.armenia.business.faq.localCompanies.text",
+					},
+					{
+						titleKey: "Services.armenia.business.faq.prAndCitizenship.title",
+						textKey: "Services.armenia.business.faq.prAndCitizenship.text",
+					},
+				],
+			},
+		},
+		work: {
+			intro: {
+				eyebrow: "Services.armenia.work.intro.eyebrow",
+				title: "Services.armenia.work.intro.title",
+				info: "Services.armenia.work.intro.info",
+				firstButton: {
+					text: "Services.armenia.work.intro.firstButton.text",
+				},
+			},
+			advantages: {
+				title: "Services.armenia.work.overview.title",
+				firstText: "Services.armenia.work.overview.firstText",
+				secondText: "Services.armenia.work.overview.secondText",
+				card: {
+					title: "Services.armenia.work.overview.card.title",
+					elements: [
+						{
+							title: "Services.armenia.work.overview.card.typeLabel",
+							text: "Services.armenia.work.overview.card.typeValue",
+						},
+						{
+							title: "Services.armenia.work.overview.card.processingLabel",
+							text: "Services.armenia.work.overview.card.processingValue",
+						},
+						{
+							title: "Services.armenia.work.overview.card.basisLabel",
+							text: "Services.armenia.work.overview.card.basisValue",
+						},
+						{
+							title: "Services.armenia.work.overview.card.validityLabel",
+							text: "Services.armenia.work.overview.card.validityValue",
+						},
+						{
+							title: "Services.armenia.work.overview.card.pathLabel",
+							text: "Services.armenia.work.overview.card.pathValue",
+						},
+						{
+							title: "Services.armenia.work.overview.card.familyLabel",
+							text: "Services.armenia.work.overview.card.familyValue",
+						},
+					],
+				},
+			},
+			tariffs: {
+				eyebrow: "Services.armenia.work.tariffs.eyebrow",
+				title: "Services.armenia.work.tariffs.title",
+				additionalText: "Services.armenia.work.tariffs.additionalText",
+				cards: [
+					{
+						title: "Services.armenia.work.tariffs.thirdCountries.title",
+						additional:
+							"Services.armenia.work.tariffs.thirdCountries.additional",
+						isFeatured: true,
+						featuredBadge: "Services.armenia.work.tariffs.thirdCountries.badge",
+						price: {
+							price: "€3 200",
+							detail:
+								"Services.armenia.work.tariffs.thirdCountries.priceDetail",
+						},
+						keyPoints: [
+							"Services.armenia.work.tariffs.thirdCountries.points.point1",
+							"Services.armenia.work.tariffs.thirdCountries.points.point2",
+							"Services.armenia.work.tariffs.thirdCountries.points.point3",
+							"Services.armenia.work.tariffs.thirdCountries.points.point4",
+							"Services.armenia.work.tariffs.thirdCountries.points.point5",
+						],
+					},
+					{
+						title: "Services.armenia.work.tariffs.eaec.title",
+						additional: "Services.armenia.work.tariffs.eaec.additional",
+						price: {
+							price: "€1 200",
+							detail: "Services.armenia.work.tariffs.eaec.priceDetail",
+						},
+						keyPoints: [
+							"Services.armenia.work.tariffs.eaec.points.point1",
+							"Services.armenia.work.tariffs.eaec.points.point2",
+							"Services.armenia.work.tariffs.eaec.points.point3",
+							"Services.armenia.work.tariffs.eaec.points.point4",
+						],
+					},
+					{
+						title: "Services.armenia.work.tariffs.family.title",
+						additional: "Services.armenia.work.tariffs.family.additional",
+						price: {
+							price: "€1 200",
+							detail: "Services.armenia.work.tariffs.family.priceDetail",
+						},
+						keyPoints: [
+							"Services.armenia.work.tariffs.family.points.point1",
+							"Services.armenia.work.tariffs.family.points.point2",
+							"Services.armenia.work.tariffs.family.points.point3",
+							"Services.armenia.work.tariffs.family.points.point4",
+						],
+					},
+				],
+			},
+			tabsSwitcher: {
+				eyebrow: "Services.armenia.work.requirements.eyebrow",
+				title: "Services.armenia.work.requirements.title",
+				tabs: [
+					{
+						reason: "main-applicant",
+						text: "Services.armenia.work.requirements.tabs.mainApplicant",
+					},
+					{
+						reason: "family",
+						text: "Services.armenia.work.requirements.tabs.family",
+					},
+					{
+						reason: "documents",
+						text: "Services.armenia.work.requirements.tabs.documents",
+					},
+				],
+				list: {
+					"main-applicant": [
+						{
+							title:
+								"Services.armenia.work.requirements.main-applicant.age.title",
+							text: "Services.armenia.work.requirements.main-applicant.age.text",
+						},
+						{
+							title:
+								"Services.armenia.work.requirements.main-applicant.basis.title",
+							text: "Services.armenia.work.requirements.main-applicant.basis.text",
+						},
+						{
+							title:
+								"Services.armenia.work.requirements.main-applicant.submission.title",
+							text: "Services.armenia.work.requirements.main-applicant.submission.text",
+						},
+						{
+							title:
+								"Services.armenia.work.requirements.main-applicant.entry.title",
+							text: "Services.armenia.work.requirements.main-applicant.entry.text",
+						},
+						{
+							title:
+								"Services.armenia.work.requirements.main-applicant.vacancy.title",
+							text: "Services.armenia.work.requirements.main-applicant.vacancy.text",
+						},
+						{
+							title:
+								"Services.armenia.work.requirements.main-applicant.nss.title",
+							text: "Services.armenia.work.requirements.main-applicant.nss.text",
+						},
+					],
+					family: [
+						{
+							title: "Services.armenia.work.requirements.family.reunion.title",
+							text: "Services.armenia.work.requirements.family.reunion.text",
+						},
+						{
+							title: "Services.armenia.work.requirements.family.timeline.title",
+							text: "Services.armenia.work.requirements.family.timeline.text",
+						},
+						{
+							title:
+								"Services.armenia.work.requirements.family.relations.title",
+							text: "Services.armenia.work.requirements.family.relations.text",
+						},
+						{
+							title:
+								"Services.armenia.work.requirements.family.eaecBenefits.title",
+							text: "Services.armenia.work.requirements.family.eaecBenefits.text",
+						},
+					],
+					documents: [
+						{
+							title:
+								"Services.armenia.work.requirements.documents.passport.title",
+							text: "Services.armenia.work.requirements.documents.passport.text",
+						},
+						{
+							title: "Services.armenia.work.requirements.documents.ssn.title",
+							text: "Services.armenia.work.requirements.documents.ssn.text",
+						},
+						{
+							title:
+								"Services.armenia.work.requirements.documents.contract.title",
+							text: "Services.armenia.work.requirements.documents.contract.text",
+						},
+						{
+							title:
+								"Services.armenia.work.requirements.documents.diploma.title",
+							text: "Services.armenia.work.requirements.documents.diploma.text",
+						},
+						{
+							title:
+								"Services.armenia.work.requirements.documents.medical.title",
+							text: "Services.armenia.work.requirements.documents.medical.text",
+						},
+						{
+							title:
+								"Services.armenia.work.requirements.documents.photos.title",
+							text: "Services.armenia.work.requirements.documents.photos.text",
+						},
+					],
+				},
+			},
+			roadmap: {
+				eyebrow: "Services.armenia.work.roadmap.eyebrow",
+				title: "Services.armenia.work.roadmap.title",
+				additionalInfo: "Services.armenia.work.roadmap.additionalInfo",
+				steps: [
+					{
+						title: "Services.armenia.work.roadmap.steps.0.title",
+						text: "Services.armenia.work.roadmap.steps.0.text",
+					},
+					{
+						title: "Services.armenia.work.roadmap.steps.1.title",
+						text: "Services.armenia.work.roadmap.steps.1.text",
+					},
+					{
+						title: "Services.armenia.work.roadmap.steps.2.title",
+						text: "Services.armenia.work.roadmap.steps.2.text",
+					},
+					{
+						title: "Services.armenia.work.roadmap.steps.3.title",
+						text: "Services.armenia.work.roadmap.steps.3.text",
+					},
+				],
+			},
+			faq: {
+				variant: "flat",
+				questions: [
+					{
+						titleKey: "Services.armenia.work.faq.cardDefinition.title",
+						textKey: "Services.armenia.work.faq.cardDefinition.text",
+					},
+					{
+						titleKey: "Services.armenia.work.faq.eaecRequirement.title",
+						textKey: "Services.armenia.work.faq.eaecRequirement.text",
+					},
+					{
+						titleKey: "Services.armenia.work.faq.employerChange.title",
+						textKey: "Services.armenia.work.faq.employerChange.text",
+					},
+					{
+						titleKey: "Services.armenia.work.faq.stateFees.title",
+						textKey: "Services.armenia.work.faq.stateFees.text",
+					},
+					{
+						titleKey: "Services.armenia.work.faq.diplomaRequirements.title",
+						textKey: "Services.armenia.work.faq.diplomaRequirements.text",
+					},
+					{
+						titleKey: "Services.armenia.work.faq.nssCheck.title",
+						textKey: "Services.armenia.work.faq.nssCheck.text",
+					},
+					{
+						titleKey: "Services.armenia.work.faq.remoteWork.title",
+						textKey: "Services.armenia.work.faq.remoteWork.text",
+					},
+					{
+						titleKey: "Services.armenia.work.faq.validityPeriod.title",
+						textKey: "Services.armenia.work.faq.validityPeriod.text",
+					},
+					{
+						titleKey: "Services.armenia.work.faq.terminationRisk.title",
+						textKey: "Services.armenia.work.faq.terminationRisk.text",
+					},
+					{
+						titleKey: "Services.armenia.work.faq.bankAccount.title",
+						textKey: "Services.armenia.work.faq.bankAccount.text",
+					},
+				],
+			},
+		},
+	},
+	greece: {
+		"golden-visa": {
+			intro: {
+				eyebrow: "Services.greece.golden-visa.intro.eyebrow",
+				title: "Services.greece.golden-visa.intro.title",
+				info: "Services.greece.golden-visa.intro.info",
+				firstButton: {
+					text: "Services.greece.golden-visa.intro.firstButton.text",
+				},
+			},
+			advantages: {
+				title: "Services.greece.golden-visa.overview.title",
+				firstText: "Services.greece.golden-visa.overview.firstText",
+				secondText: "Services.greece.golden-visa.overview.secondText",
+				card: {
+					title: "Services.greece.golden-visa.overview.card.title",
+					elements: [
+						{
+							title: "Services.greece.golden-visa.overview.card.typeLabel",
+							text: "Services.greece.golden-visa.overview.card.typeValue",
+						},
+						{
+							title:
+								"Services.greece.golden-visa.overview.card.processingLabel",
+							text: "Services.greece.golden-visa.overview.card.processingValue",
+						},
+						{
+							title: "Services.greece.golden-visa.overview.card.basisLabel",
+							text: "Services.greece.golden-visa.overview.card.basisValue",
+						},
+						{
+							title: "Services.greece.golden-visa.overview.card.validityLabel",
+							text: "Services.greece.golden-visa.overview.card.validityValue",
+						},
+						{
+							title: "Services.greece.golden-visa.overview.card.pathLabel",
+							text: "Services.greece.golden-visa.overview.card.pathValue",
+						},
+						{
+							title: "Services.greece.golden-visa.overview.card.stayLabel",
+							text: "Services.greece.golden-visa.overview.card.stayValue",
+						},
+						{
+							title: "Services.greece.golden-visa.overview.card.familyLabel",
+							text: "Services.greece.golden-visa.overview.card.familyValue",
+						},
+					],
+				},
+			},
+			tariffs: {
+				eyebrow: "Services.greece.golden-visa.tariffs.eyebrow",
+				title: "Services.greece.golden-visa.tariffs.title",
+				additionalText: "Services.greece.golden-visa.tariffs.additionalText",
+				cards: [
+					{
+						title: "Services.greece.golden-visa.tariffs.commercial.title",
+						additional:
+							"Services.greece.golden-visa.tariffs.commercial.additional",
+						featuredBadge:
+							"Services.greece.golden-visa.tariffs.commercial.badge",
+						price: {
+							price: "€3 500",
+							detail:
+								"Services.greece.golden-visa.tariffs.commercial.priceDetail",
+						},
+						keyPoints: [
+							"Services.greece.golden-visa.tariffs.commercial.points.point1",
+							"Services.greece.golden-visa.tariffs.commercial.points.point2",
+							"Services.greece.golden-visa.tariffs.commercial.points.point3",
+							"Services.greece.golden-visa.tariffs.commercial.points.point4",
+							"Services.greece.golden-visa.tariffs.commercial.points.point5",
+						],
+					},
+					{
+						title: "Services.greece.golden-visa.tariffs.residential.title",
+						additional:
+							"Services.greece.golden-visa.tariffs.residential.additional",
+						isFeatured: true,
+						featuredBadge:
+							"Services.greece.golden-visa.tariffs.residential.badge",
+						price: {
+							price: "€4 500",
+							detail:
+								"Services.greece.golden-visa.tariffs.residential.priceDetail",
+						},
+						keyPoints: [
+							"Services.greece.golden-visa.tariffs.residential.points.point1",
+							"Services.greece.golden-visa.tariffs.residential.points.point2",
+							"Services.greece.golden-visa.tariffs.residential.points.point3",
+							"Services.greece.golden-visa.tariffs.residential.points.point4",
+							"Services.greece.golden-visa.tariffs.residential.points.point5",
+							"Services.greece.golden-visa.tariffs.residential.points.point6",
+						],
+					},
+					{
+						title: "Services.greece.golden-visa.tariffs.family.title",
+						additional: "Services.greece.golden-visa.tariffs.family.additional",
+						price: {
+							price: "€1 500",
+							detail: "Services.greece.golden-visa.tariffs.family.priceDetail",
+						},
+						keyPoints: [
+							"Services.greece.golden-visa.tariffs.family.points.point1",
+							"Services.greece.golden-visa.tariffs.family.points.point2",
+							"Services.greece.golden-visa.tariffs.family.points.point3",
+							"Services.greece.golden-visa.tariffs.family.points.point4",
+							"Services.greece.golden-visa.tariffs.family.points.point5",
+						],
+					},
+				],
+			},
+			tabsSwitcher: {
+				eyebrow: "Services.greece.golden-visa.requirements.eyebrow",
+				title: "Services.greece.golden-visa.requirements.title",
+				tabs: [
+					{
+						reason: "main-applicant",
+						text: "Services.greece.golden-visa.requirements.tabs.mainApplicant",
+					},
+					{
+						reason: "family",
+						text: "Services.greece.golden-visa.requirements.tabs.family",
+					},
+					{
+						reason: "documents",
+						text: "Services.greece.golden-visa.requirements.tabs.documents",
+					},
+				],
+				list: {
+					"main-applicant": [
+						{
+							title:
+								"Services.greece.golden-visa.requirements.main-applicant.age.title",
+							text: "Services.greece.golden-visa.requirements.main-applicant.age.text",
+						},
+						{
+							title:
+								"Services.greece.golden-visa.requirements.main-applicant.funds.title",
+							text: "Services.greece.golden-visa.requirements.main-applicant.funds.text",
+						},
+						{
+							title:
+								"Services.greece.golden-visa.requirements.main-applicant.investment.title",
+							text: "Services.greece.golden-visa.requirements.main-applicant.investment.text",
+						},
+						{
+							title:
+								"Services.greece.golden-visa.requirements.main-applicant.cleanRecord.title",
+							text: "Services.greece.golden-visa.requirements.main-applicant.cleanRecord.text",
+						},
+						{
+							title:
+								"Services.greece.golden-visa.requirements.main-applicant.insurance.title",
+							text: "Services.greece.golden-visa.requirements.main-applicant.insurance.text",
+						},
+						{
+							title:
+								"Services.greece.golden-visa.requirements.main-applicant.legalEntry.title",
+							text: "Services.greece.golden-visa.requirements.main-applicant.legalEntry.text",
+						},
+					],
+					family: [
+						{
+							title:
+								"Services.greece.golden-visa.requirements.family.spouse.title",
+							text: "Services.greece.golden-visa.requirements.family.spouse.text",
+						},
+						{
+							title:
+								"Services.greece.golden-visa.requirements.family.children.title",
+							text: "Services.greece.golden-visa.requirements.family.children.text",
+						},
+						{
+							title:
+								"Services.greece.golden-visa.requirements.family.parents.title",
+							text: "Services.greece.golden-visa.requirements.family.parents.text",
+						},
+					],
+					documents: [
+						{
+							title:
+								"Services.greece.golden-visa.requirements.documents.passport.title",
+							text: "Services.greece.golden-visa.requirements.documents.passport.text",
+						},
+						{
+							title:
+								"Services.greece.golden-visa.requirements.documents.civilDocs.title",
+							text: "Services.greece.golden-visa.requirements.documents.civilDocs.text",
+						},
+						{
+							title:
+								"Services.greece.golden-visa.requirements.documents.cleanRecordDoc.title",
+							text: "Services.greece.golden-visa.requirements.documents.cleanRecordDoc.text",
+						},
+						{
+							title:
+								"Services.greece.golden-visa.requirements.documents.contract.title",
+							text: "Services.greece.golden-visa.requirements.documents.contract.text",
+						},
+						{
+							title:
+								"Services.greece.golden-visa.requirements.documents.paymentProof.title",
+							text: "Services.greece.golden-visa.requirements.documents.paymentProof.text",
+						},
+					],
+				},
+			},
+			roadmap: {
+				eyebrow: "Services.greece.golden-visa.roadmap.eyebrow",
+				title: "Services.greece.golden-visa.roadmap.title",
+				additionalInfo: "Services.greece.golden-visa.roadmap.additionalInfo",
+				steps: [
+					{
+						title: "Services.greece.golden-visa.roadmap.steps.0.title",
+						text: "Services.greece.golden-visa.roadmap.steps.0.text",
+					},
+					{
+						title: "Services.greece.golden-visa.roadmap.steps.1.title",
+						text: "Services.greece.golden-visa.roadmap.steps.1.text",
+					},
+					{
+						title: "Services.greece.golden-visa.roadmap.steps.2.title",
+						text: "Services.greece.golden-visa.roadmap.steps.2.text",
+					},
+					{
+						title: "Services.greece.golden-visa.roadmap.steps.3.title",
+						text: "Services.greece.golden-visa.roadmap.steps.3.text",
+					},
+				],
+			},
+			faq: {
+				variant: "flat",
+				questions: [
+					{
+						titleKey: "Services.greece.golden-visa.faq.minInvestment.title",
+						textKey: "Services.greece.golden-visa.faq.minInvestment.text",
+					},
+					{
+						titleKey: "Services.greece.golden-visa.faq.stayRequirement.title",
+						textKey: "Services.greece.golden-visa.faq.stayRequirement.text",
+					},
+					{
+						titleKey: "Services.greece.golden-visa.faq.rentPossibility.title",
+						textKey: "Services.greece.golden-visa.faq.rentPossibility.text",
+					},
+					{
+						titleKey: "Services.greece.golden-visa.faq.workRight.title",
+						textKey: "Services.greece.golden-visa.faq.workRight.text",
+					},
+					{
+						titleKey: "Services.greece.golden-visa.faq.citizenshipPath.title",
+						textKey: "Services.greece.golden-visa.faq.citizenshipPath.text",
+					},
+					{
+						titleKey: "Services.greece.golden-visa.faq.cardValidity.title",
+						textKey: "Services.greece.golden-visa.faq.cardValidity.text",
 					},
 				],
 			},

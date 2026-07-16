@@ -5,13 +5,16 @@ export interface FAQCategory {
 	categoryTitleKey: string;
 	questions: FaqItemProps[];
 }
+interface Base {
+	customStyle?: React.CSSProperties;
+}
 
-export interface FAQCategoriesProps {
+export interface FAQCategoriesProps extends Base {
 	variant: "categories";
 	categories: FAQCategory[];
 }
 
-export interface FAQFlatProps {
+export interface FAQFlatProps extends Base {
 	variant: "flat";
 	questions: FaqItemProps[];
 }

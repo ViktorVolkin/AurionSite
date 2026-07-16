@@ -9,6 +9,7 @@ export default async function Tariffs({
 	eyebrow,
 	title,
 	cards = [],
+	PS,
 }: TariffsProps) {
 	const t = await getTranslations();
 	const hasMultipleCards = cards.length > 1;
@@ -42,6 +43,7 @@ export default async function Tariffs({
 					</div>
 				)
 			)}
+			{PS && <p className={styles.PS}>{t(PS)}</p>}
 		</section>
 	);
 }

@@ -30,7 +30,9 @@ export default async function FAQ(props: FAQProps) {
 	};
 
 	return (
-		<div className={styles.wrapper}>
+		<div
+			className={styles.wrapper}
+			style={props.customStyle}>
 			<script
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

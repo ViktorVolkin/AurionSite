@@ -79,6 +79,16 @@ export const HeaderDropdownContent: HeaderDropdownProps = {
 				},
 			],
 		},
+		{
+			country: "widgets.header.headerDropdown.countries.greece.name",
+			slug: "greece",
+			reasons: [
+				{
+					name: "widgets.header.headerDropdown.countries.greece.reasons.golden-visa",
+					slug: "golden-visa",
+				},
+			],
+		},
 	],
 };
 export const FOOTER: FooterProps = {

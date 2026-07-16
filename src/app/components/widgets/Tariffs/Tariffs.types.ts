@@ -5,4 +5,5 @@ export interface TariffsProps {
 	title: string;
 	additionalText: string;
 	cards: TariffCardProps[];
+	PS?: string;
 }
