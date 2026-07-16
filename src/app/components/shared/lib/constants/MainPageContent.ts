@@ -22,7 +22,7 @@ export const MainPageContent = {
 	decidedBy: [
 		{ title: "8", text: "mainPage.intro.decidedBy.0" },
 		{ title: "147", text: "mainPage.intro.decidedBy.1" },
-		{ title: "10", text: "mainPage.intro.decidedBy.2" },
+		{ title: "5", text: "mainPage.intro.decidedBy.2" },
 		{ title: "3", text: "mainPage.intro.decidedBy.3" },
 	],
 };
@@ -34,7 +34,6 @@ const countriesList: CountryOption[] = [
 		defaultText: "Черногория",
 	},
 	{ value: "spain", translationKey: "countries.spain", defaultText: "Испания" },
-	{ value: "uae", translationKey: "countries.uae", defaultText: "ОАЭ" },
 	{
 		value: "armenia",
 		translationKey: "countries.armenia",
@@ -46,43 +45,11 @@ const countriesList: CountryOption[] = [
 		defaultText: "Сербия",
 	},
 	{
-		value: "georgia",
-		translationKey: "countries.georgia",
-		defaultText: "Грузия",
-	},
-	{
-		value: "portugal",
-		translationKey: "countries.portugal",
-		defaultText: "Португалия",
-	},
-	{ value: "cyprus", translationKey: "countries.cyprus", defaultText: "Кипр" },
-	{
 		value: "greece",
 		translationKey: "countries.greece",
 		defaultText: "Греция",
 	},
-	{ value: "malta", translationKey: "countries.malta", defaultText: "Мальта" },
-	{
-		value: "hungary",
-		translationKey: "countries.hungary",
-		defaultText: "Венгрия",
-	},
-	{
-		value: "france",
-		translationKey: "countries.france",
-		defaultText: "Франция",
-	},
-	{ value: "italy", translationKey: "countries.italy", defaultText: "Италия" },
-	{
-		value: "thailand",
-		translationKey: "countries.thailand",
-		defaultText: "Таиланд",
-	},
-	{
-		value: "vanuatu",
-		translationKey: "countries.vanuatu",
-		defaultText: "Вануату",
-	},
+
 	{
 		value: "unsure",
 		translationKey: "countries.unsure",
@@ -139,7 +106,7 @@ export const PossibilitiesBlockContent: PossibilitiesBlockProps = {
 			title: "mainPage.possibilities.blocks.spain.title",
 			importantText: "mainPage.possibilities.blocks.spain.importantText",
 			ourExperience: "mainPage.possibilities.blocks.spain.ourExperience",
-			href: "#/jurisdictions/spain",
+			href: "/services/spain/digital-nomad",
 			unique: [
 				{
 					question: "mainPage.possibilities.blocks.spain.term.question",
@@ -156,7 +123,7 @@ export const PossibilitiesBlockContent: PossibilitiesBlockProps = {
 			title: "mainPage.possibilities.blocks.montenegro.title",
 			importantText: "mainPage.possibilities.blocks.montenegro.importantText",
 			ourExperience: "mainPage.possibilities.blocks.montenegro.ourExperience",
-			href: "#/jurisdictions/montenegro",
+			href: "/services/montenegro/business",
 			unique: [
 				{
 					question: "mainPage.possibilities.blocks.montenegro.term.question",
@@ -173,7 +140,7 @@ export const PossibilitiesBlockContent: PossibilitiesBlockProps = {
 			title: "mainPage.possibilities.blocks.serbia.title",
 			importantText: "mainPage.possibilities.blocks.serbia.importantText",
 			ourExperience: "mainPage.possibilities.blocks.serbia.ourExperience",
-			href: "#/jurisdictions/serbia",
+			href: "/services/serbia/business",
 			unique: [
 				{
 					question: "mainPage.possibilities.blocks.serbia.term.question",
@@ -186,62 +153,12 @@ export const PossibilitiesBlockContent: PossibilitiesBlockProps = {
 				{ question: "mainPage.possibilities.blocks.serbia.hook" },
 			],
 		},
-		{
-			title: "mainPage.possibilities.blocks.france.title",
-			importantText: "mainPage.possibilities.blocks.france.importantText",
-			ourExperience: "mainPage.possibilities.blocks.france.ourExperience",
-			href: "#/jurisdictions/france",
-			unique: [
-				{
-					question: "mainPage.possibilities.blocks.france.term.question",
-					answer: "mainPage.possibilities.blocks.france.term.answer",
-				},
-				{
-					question: "mainPage.possibilities.blocks.france.finance.question",
-					answer: "mainPage.possibilities.blocks.france.finance.answer",
-				},
-				{ question: "mainPage.possibilities.blocks.france.hook" },
-			],
-		},
-		{
-			title: "mainPage.possibilities.blocks.hungary.title",
-			importantText: "mainPage.possibilities.blocks.hungary.importantText",
-			ourExperience: "mainPage.possibilities.blocks.hungary.ourExperience",
-			href: "#/jurisdictions/hungary",
-			unique: [
-				{
-					question: "mainPage.possibilities.blocks.hungary.term.question",
-					answer: "mainPage.possibilities.blocks.hungary.term.answer",
-				},
-				{
-					question: "mainPage.possibilities.blocks.hungary.finance.question",
-					answer: "mainPage.possibilities.blocks.hungary.finance.answer",
-				},
-				{ question: "mainPage.possibilities.blocks.hungary.hook" },
-			],
-		},
-		{
-			title: "mainPage.possibilities.blocks.malta.title",
-			importantText: "mainPage.possibilities.blocks.malta.importantText",
-			ourExperience: "mainPage.possibilities.blocks.malta.ourExperience",
-			href: "#/jurisdictions/malta",
-			unique: [
-				{
-					question: "mainPage.possibilities.blocks.malta.term.question",
-					answer: "mainPage.possibilities.blocks.malta.term.answer",
-				},
-				{
-					question: "mainPage.possibilities.blocks.malta.finance.question",
-					answer: "mainPage.possibilities.blocks.malta.finance.answer",
-				},
-				{ question: "mainPage.possibilities.blocks.malta.hook" },
-			],
-		},
+
 		{
 			title: "mainPage.possibilities.blocks.greece.title",
 			importantText: "mainPage.possibilities.blocks.greece.importantText",
 			ourExperience: "mainPage.possibilities.blocks.greece.ourExperience",
-			href: "#/jurisdictions/greece",
+			href: "/services/greece/golden-visa",
 			unique: [
 				{
 					question: "mainPage.possibilities.blocks.greece.term.question",
@@ -255,44 +172,10 @@ export const PossibilitiesBlockContent: PossibilitiesBlockProps = {
 			],
 		},
 		{
-			title: "mainPage.possibilities.blocks.cyprus.title",
-			importantText: "mainPage.possibilities.blocks.cyprus.importantText",
-			ourExperience: "mainPage.possibilities.blocks.cyprus.ourExperience",
-			href: "#/jurisdictions/cyprus",
-			unique: [
-				{
-					question: "mainPage.possibilities.blocks.cyprus.term.question",
-					answer: "mainPage.possibilities.blocks.cyprus.term.answer",
-				},
-				{
-					question: "mainPage.possibilities.blocks.cyprus.finance.question",
-					answer: "mainPage.possibilities.blocks.cyprus.finance.answer",
-				},
-				{ question: "mainPage.possibilities.blocks.cyprus.hook" },
-			],
-		},
-		{
-			title: "mainPage.possibilities.blocks.uae.title",
-			importantText: "mainPage.possibilities.blocks.uae.importantText",
-			ourExperience: "mainPage.possibilities.blocks.uae.ourExperience",
-			href: "#/jurisdictions/uae",
-			unique: [
-				{
-					question: "mainPage.possibilities.blocks.uae.term.question",
-					answer: "mainPage.possibilities.blocks.uae.term.answer",
-				},
-				{
-					question: "mainPage.possibilities.blocks.uae.finance.question",
-					answer: "mainPage.possibilities.blocks.uae.finance.answer",
-				},
-				{ question: "mainPage.possibilities.blocks.uae.hook" },
-			],
-		},
-		{
 			title: "mainPage.possibilities.blocks.armenia.title",
 			importantText: "mainPage.possibilities.blocks.armenia.importantText",
 			ourExperience: "mainPage.possibilities.blocks.armenia.ourExperience",
-			href: "#/jurisdictions/armenia",
+			href: "/services/armenia/work",
 			unique: [
 				{
 					question: "mainPage.possibilities.blocks.armenia.term.question",

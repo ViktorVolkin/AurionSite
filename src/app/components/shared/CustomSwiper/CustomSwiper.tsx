@@ -2,7 +2,7 @@
 import "swiper/css";
 import "swiper/css/pagination";
 import "./CustomSwiper.css";
-import { useRef, ReactNode } from "react";
+import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { A11y, Autoplay, Pagination } from "swiper/modules";
 import type { Swiper as SwiperType } from "swiper";
