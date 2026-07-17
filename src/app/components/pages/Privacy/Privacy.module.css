@@ -1,0 +1,76 @@
+.wrapper {
+	max-width: 760px;
+	margin: 0 auto;
+	padding: 60px 20px;
+	color: #ffffff;
+	font-family:
+		system-ui,
+		-apple-system,
+		sans-serif;
+	box-sizing: border-box;
+}
+
+.title {
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 8px;
+	letter-spacing: -0.02em;
+}
+
+.subtitle {
+	font-size: 13px;
+	color: var(--casual, #8e99a4);
+	font-family: var(--mono, monospace);
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	margin-bottom: 40px;
+}
+
+.description {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #cbd5e1;
+	margin-bottom: 30px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.section h2,
+.contacts h2 {
+	font-size: 18px;
+	font-weight: 600;
+	color: var(--highlight, #e8b57a);
+	margin-bottom: 12px;
+}
+
+.section p,
+.contacts p {
+	font-size: 15px;
+	line-height: 1.6;
+	color: #94a3b8;
+	margin: 0;
+}
+
+.contactsBlock {
+	margin-top: 16px;
+	background: #15171b;
+	border: 1px solid rgba(255, 255, 255, 0.05);
+	padding: 16px;
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.contactsBlock p {
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.contactsBlock strong {
+	color: var(--casual, #8e99a4);
+}

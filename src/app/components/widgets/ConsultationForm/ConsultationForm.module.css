@@ -12,6 +12,12 @@
 	gap: 20px;
 }
 
+@media (min-width: 640px) {
+	.formRow {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
 .fieldGroup {
 	display: flex;
 	flex-direction: column;
@@ -74,8 +80,10 @@
 .errorMessage {
 	color: #ef4444;
 	font-size: 12px;
+	margin-top: -2px; /* Чуть прижимаем к инпуту */
 }
 
+/* Стили для библиотеки react-phone-number-input */
 .phoneField {
 	display: flex;
 	align-items: center;
@@ -106,18 +114,106 @@
 	opacity: 1;
 }
 
+.privacyCheckboxGroup {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	margin-top: 4px;
+}
+
+.checkboxLabel {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.checkbox {
+	appearance: none;
+	-webkit-appearance: none;
+	width: 16px;
+	height: 16px;
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	border-radius: 3px;
+	background: #15171b;
+	margin-top: 2px;
+	cursor: pointer;
+	position: relative;
+	flex-shrink: 0;
+	transition:
+		background 0.15s ease,
+		border-color 0.15s ease;
+}
+
+.checkbox:hover {
+	border-color: var(--highlight, #e8b57a);
+}
+
+.checkbox:checked {
+	background: var(--highlight, #e8b57a);
+	border-color: var(--highlight, #e8b57a);
+}
+
+.checkbox:checked::after {
+	content: "";
+	position: absolute;
+	left: 5px;
+	top: 2px;
+	width: 4px;
+	height: 8px;
+	border: solid #111b27;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+}
+
+.checkboxLabel:has(.checkbox[aria-invalid="true"]) .checkbox {
+	border-color: #ef4444;
+}
+
+.checkboxText {
+	font-size: 13px;
+	line-height: 1.4;
+	color: var(--casual, #8e99a4);
+}
+
+.privacyLink {
+	color: var(--highlight, #e8b57a);
+	text-decoration: none;
+	transition: opacity 0.2s ease;
+}
+
+.privacyLink:hover {
+	text-decoration: underline;
+	opacity: 0.9;
+}
+
 .submitBtn.submitBtn {
 	max-width: 100%;
 	width: 100%;
 	padding: 16px;
+	display: flex;
 	justify-content: center;
+	align-items: center;
 	background-color: var(--highlight, #e8b57a);
 	color: #111b27;
 	font-weight: 600;
+	font-size: 15px;
 	border-radius: 4px;
 	margin-top: 8px;
 	border: none;
 	cursor: pointer;
+	transition: opacity 0.2s ease;
+}
+
+.submitBtn.submitBtn:hover:not(:disabled) {
+	opacity: 0.9;
+}
+
+.submitBtn.submitBtn:disabled {
+	background-color: #22252c;
+	color: #5c6975;
+	cursor: not-allowed;
 }
 
 .privacy {

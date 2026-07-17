@@ -10,6 +10,7 @@ export const createConsultSchema = (t: ReturnType<typeof useTranslations>) =>
 			method: z.string(),
 			phoneContact: z.string().optional(),
 			messengerContact: z.string().optional(),
+			acceptedPolicy: z.literal(true, { error: t("errors.policy") }),
 		})
 		.superRefine((data, ctx) => {
 			const isPhoneMethod =

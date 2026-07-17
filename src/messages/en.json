@@ -641,6 +641,33 @@
 			}
 		}
 	},
+	"Privacy": {
+		"title": "Privacy Policy",
+		"subtitle": "Effective Date: July 17, 2026",
+		"description": "This Privacy Policy describes how our project collects, uses, transfers, and protects the personal data of users who submit inquiries to receive relocation consultations.",
+		"sections": {
+			"data": {
+				"title": "1. What Data We Collect",
+				"text": "We collect exclusively the data that you voluntarily provide in the feedback form: your name, country of interest, preferred contact method, and contact details (phone number or messenger username)."
+			},
+			"purpose": {
+				"title": "2. Purposes of Data Processing",
+				"text": "All received data is used solely to contact you, respond to your inquiry, and conduct an initial consultation regarding B2B services and relocation."
+			},
+			"transit": {
+				"title": "3. Data Transfer and Security",
+				"text": "Our website is static and does not store your data on the server. Upon form submission, the data is encrypted via HTTPS protocol and securely transmitted through a transit gateway directly to our secure corporate email. We guarantee that your contact details will never be disclosed to third parties."
+			},
+			"rights": {
+				"title": "4. Your Rights",
+				"text": "You have the full right to request the complete deletion of your data from our database/email at any time. To do so, simply contact us via the email address provided in the contacts section below."
+			},
+			"contacts": {
+				"title": "5. Contact Information",
+				"text": "If you have any questions regarding the confidentiality of your data, you can contact us directly:"
+			}
+		}
+	},
 	"blog": {
 		"title": "Blog on Immigration and Relocation",
 		"filters": {

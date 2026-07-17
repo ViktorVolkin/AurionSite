@@ -14,6 +14,7 @@ import CountrySelect from "../../shared/CountrySelect";
 import { ConsultationFormProps } from "./ConsultationForm.types";
 import { ConsultFormData, createConsultSchema } from "./ConsultationSchema";
 import { routing } from "@/i18n/routing";
+import { Link } from "@/i18n/navigation";
 
 const mappedLanguages = {
 	en: en,
@@ -50,6 +51,7 @@ export default function ConsultationForm({
 			method: defaultMethod,
 			phoneContact: "",
 			messengerContact: "",
+			acceptedPolicy: undefined,
 		},
 	});
 
@@ -108,10 +110,30 @@ export default function ConsultationForm({
 		const finalContact = isPhoneMethod
 			? data.phoneContact
 			: data.messengerContact;
-		console.log("Submitted Zero-Hardcode Data:", {
-			...data,
-			contact: finalContact,
-		});
+		const formData = {
+			access_key: process.env.NEXT_PUBLIC_MAIL_KEY,
+			subject: `New Consultation Request from ${data.name}`,
+			from_name: "Aurion Relocation Website",
+			name: data.name,
+			country: data.country,
+			contact_method: data.method,
+			contact_value: finalContact,
+		};
+
+		try {
+			const response = await fetch("https://api.web3forms.com/submit", {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json",
+					Accept: "application/json",
+				},
+				body: JSON.stringify(formData),
+			});
+
+			const result = await response.json();
+		} catch (error) {
+			console.error("Network error while submitting form:", error);
+		}
 	};
 
 	return (
@@ -239,6 +261,35 @@ export default function ConsultationForm({
 				)}
 			</div>
 
+			<div className={styles.privacyCheckboxGroup}>
+				<label
+					htmlFor="policy"
+					className={styles.checkboxLabel}>
+					<input
+						type="checkbox"
+						id="policy"
+						className={styles.checkbox}
+						{...register("acceptedPolicy")}
+					/>
+					<span className={styles.checkboxText}>
+						{t("acceptPolicy")}{" "}
+						<Link
+							href="/privacy"
+							target="_blank"
+							className={styles.privacyLink}>
+							{t("policy")}
+						</Link>
+					</span>
+				</label>
+
+				{errors.acceptedPolicy && (
+					<span
+						className={styles.errorMessage}
+						aria-live="assertive">
+						{errors.acceptedPolicy.message}
+					</span>
+				)}
+			</div>
 			<CustomButton
 				type="submit"
 				text={

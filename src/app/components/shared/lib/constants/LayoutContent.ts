@@ -4,11 +4,10 @@ import { HeaderProps } from "@/app/components/widgets/Header/Header.types";
 
 export const HEADER: HeaderProps = {
 	blocks: [
-		{ id: "#forBusiness", text: "widgets.header.forBusiness" },
-		{ id: "#aboutUs", text: "widgets.header.aboutUs" },
-		{ id: "#cases", text: "widgets.header.cases" },
+		{ id: "forBusiness", text: "widgets.header.forBusiness" },
+		{ id: "aboutUs", text: "widgets.header.aboutUs" },
 		{ id: "blog", text: "widgets.header.blog" },
-		{ id: "#contacts", text: "widgets.header.contacts" },
+		{ id: "contacts", text: "widgets.header.contacts" },
 	],
 	openPopup: { text: "widgets.header.openPopup" },
 };

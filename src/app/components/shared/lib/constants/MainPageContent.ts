@@ -251,11 +251,11 @@ export const CasesBlockContent: CasesBlockProps = {
 			descriptionKey: "mainPage.cases.spainNomad.description",
 		},
 		{
-			countryKey: "mainPage.cases.UAE.country",
-			categoryKey: "mainPage.cases.UAE.category",
-			outcomeKey: "mainPage.cases.UAE.outcome",
-			timeframeKey: "mainPage.cases.UAE.timeframe",
-			descriptionKey: "mainPage.cases.UAE.description",
+			countryKey: "mainPage.cases.serbia.country",
+			categoryKey: "mainPage.cases.serbia.category",
+			outcomeKey: "mainPage.cases.serbia.outcome",
+			timeframeKey: "mainPage.cases.serbia.timeframe",
+			descriptionKey: "mainPage.cases.serbia.description",
 		},
 	],
 };
