@@ -11,14 +11,15 @@ import MainPageSmall from "@/../public/MainPageSmall.avif";
 import MainPageBig from "@/../public/MainPageBig.avif";
 
 import { CasesBlockProps } from "@/app/components/pages/MainPage/components/CasesBlock/CasesBlock.types";
-export const MainPageContent = {
+import { IntroBlockProps } from "@/app/components/widgets/IntroBlock/IntroBlock.types";
+export const MainPageContent: IntroBlockProps = {
 	eyebrow: "mainPage.intro.eyebrow",
 	title: "mainPage.intro.title",
 	info: "mainPage.intro.info",
 	firstButton: {
 		text: "mainPage.intro.firstButton.text",
 	},
-
+	seoTitle: "mainPage.intro.SeoTitle",
 	decidedBy: [
 		{ title: "8", text: "mainPage.intro.decidedBy.0" },
 		{ title: "147", text: "mainPage.intro.decidedBy.1" },

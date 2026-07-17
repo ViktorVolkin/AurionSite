@@ -6,7 +6,9 @@
 	padding-bottom: 0;
 	position: relative;
 }
-
+.hidden {
+	display: none;
+}
 .heroInner {
 	gap: 60px;
 	align-items: center;

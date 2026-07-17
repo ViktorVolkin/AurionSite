@@ -11,19 +11,21 @@ export default async function IntroBlock({
 	info,
 	firstButton,
 	decidedBy,
+	seoTitle,
 }: IntroBlockProps) {
 	const t = await getTranslations();
-
+	const Title = seoTitle ? "h2" : "h1";
 	return (
 		<section className={styles.container}>
 			<div className={styles.heroInner}>
 				<Eyebrow eyebrow={eyebrow}></Eyebrow>
 
-				<h1 className={styles.title}>
+				{seoTitle && <h1 className={styles.hidden}>{t(seoTitle)}</h1>}
+				<Title className={styles.title}>
 					{t.rich(title, {
 						highlight: (chunks) => <em>{chunks}</em>,
 					})}
-				</h1>
+				</Title>
 
 				<p className={styles.info}>{t(info)}</p>
 

@@ -6,4 +6,5 @@ export interface IntroBlockProps {
 	info: string;
 	firstButton: CustomButtonProps;
 	decidedBy?: { title: string; text: string }[];
+	seoTitle?: string;
 }
