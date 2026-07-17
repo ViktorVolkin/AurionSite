@@ -90,44 +90,7 @@ export const HeaderDropdownContent: HeaderDropdownProps = {
 		},
 	],
 };
+
 export const FOOTER: FooterProps = {
-	description: "description",
-	product: {
-		title: "titles.product",
-		links: [
-			{ href: "#", text: "product.features" },
-			{ href: "#", text: "product.demo" },
-			{ href: "#", text: "product.pricing" },
-			{ href: "#", text: "product.security" },
-			{ href: "#", text: "product.api", desktopOnly: true },
-		],
-	},
-	methodology: {
-		title: "titles.methodology",
-		links: [
-			{ href: "#", text: "methodology.howItWorks" },
-			{ href: "#", text: "methodology.accuracy" },
-			{ href: "#", text: "methodology.releases" },
-			{ href: "#", text: "methodology.changelog", desktopOnly: true },
-		],
-	},
-	sources: {
-		title: "titles.sources",
-		links: [
-			{ href: "#", text: "sources.partners" },
-			{ href: "#", text: "sources.coverage" },
-			{ href: "#", text: "sources.freshness", desktopOnly: true },
-			{ href: "#", text: "sources.certifications", desktopOnly: true },
-		],
-	},
-	company: {
-		title: "titles.company",
-		links: [
-			{ href: "#", text: "company.about" },
-			{ href: "#", text: "company.contacts" },
-			{ href: "#", text: "company.careers" },
-			{ href: "#", text: "company.press", desktopOnly: true },
-		],
-	},
-	email: "office@landostat.tech",
+	email: "aurionrelocation@gmail.com",
 };

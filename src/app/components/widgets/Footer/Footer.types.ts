@@ -10,12 +10,6 @@ export interface BlockProps {
 	title: string;
 	links: NavigationLink[];
 }
-
 export interface FooterProps {
-	description: string;
-	product: BlockProps;
-	sources: BlockProps;
-	company: BlockProps;
-	methodology: BlockProps;
-	email?: string;
+	email: string;
 }

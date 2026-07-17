@@ -9,7 +9,7 @@ import {
 	setRequestLocale,
 } from "next-intl/server";
 import Footer from "../components/widgets/Footer";
-import { HEADER, FOOTER } from "../components/shared/lib/constants";
+import { FOOTER, HEADER } from "../components/shared/lib/constants";
 import Header from "../components/widgets/Header";
 
 const inter = Inter({

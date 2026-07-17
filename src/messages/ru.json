@@ -215,43 +215,11 @@
 			}
 		},
 		"footer": {
-			"logoAlt": "Логотип AI Property Intelligence",
-			"description": "AI-платформа для оценки, прогноза и сравнения стоимости земли и недвижимости на международных рынках.",
-			"titles": {
-				"product": "Продукт",
-				"methodology": "Методология",
-				"sources": "Источники",
-				"company": "Компания"
-			},
-			"product": {
-				"features": "Возможности",
-				"demo": "Демо-отчёт",
-				"pricing": "Тарифы",
-				"security": "Безопасность",
-				"api": "API"
-			},
-			"methodology": {
-				"howItWorks": "Как считаем",
-				"accuracy": "Точность модели",
-				"releases": "Релизы",
-				"changelog": "Журнал изменений"
-			},
-			"sources": {
-				"partners": "Партнёры данных",
-				"coverage": "Покрытие рынков",
-				"freshness": "Свежесть",
-				"certifications": "Сертификации"
-			},
-			"company": {
-				"about": "О нас",
-				"contacts": "Контакты",
-				"careers": "Карьера",
-				"press": "Пресса"
-			},
+			"description": "Платформа и консалтинговое агентство для комплексной релокации, оформления ВНЖ и сопровождения бизнеса в Черногории.",
+
 			"bottom": {
-				"copyright": "© 2026 · AI Property Intelligence · ОГРН TBD · все права защищены",
+				"copyright": "© 2026 · Aurion Relocation (Aurion D.O.O.) · Все права защищены",
 				"privacy": "Политика конфиденциальности",
-				"terms": "Условия использования",
 				"language": "Язык"
 			}
 		}
