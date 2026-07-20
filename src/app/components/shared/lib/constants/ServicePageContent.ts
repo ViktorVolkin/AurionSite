@@ -3,10 +3,22 @@ import { TabsSwitcherProps } from "@/app/components/pages/ServicePage/components
 import { FAQProps } from "@/app/components/widgets/FAQ/FAQ.types";
 import { IntroBlockProps } from "@/app/components/widgets/IntroBlock/IntroBlock.types";
 import { RoadmapProps } from "@/app/components/widgets/Roadmap/Roadmap.types";
+import { StaticImageData } from "next/image";
+import armeniaBusiness from "@/../public/armenia1.avif";
+import armeniaEmployment from "@/../public/armenia2.avif";
+import montenegro1 from "@/../public/montenegro1.avif";
+import montenegro2 from "@/../public/montenegro2.avif";
+import montenegro3 from "@/../public/montenegro3.avif";
+import greece from "@/../public/greece.avif";
+import spain1 from "@/../public/spain1.avif";
+import spain2 from "@/../public/spain2.avif";
+import serbia1 from "@/../public/serbia1.avif";
+import serbia2 from "@/../public/serbia2.avif";
 
 export interface ServiceProgramContent {
 	intro: IntroBlockProps;
 	advantages: AdvantagesDescriptionProps;
+	previewImage?: StaticImageData;
 	tariffs: {
 		eyebrow: string;
 		title: string;
@@ -35,6 +47,7 @@ export const SERVICE_PAGES_DATA: Record<
 > = {
 	montenegro: {
 		"real-estate": {
+			previewImage: montenegro1,
 			intro: {
 				eyebrow: "Services.montenegro.real-estate.intro.eyebrow",
 				title: "Services.montenegro.real-estate.intro.title",
@@ -282,6 +295,8 @@ export const SERVICE_PAGES_DATA: Record<
 			},
 		},
 		business: {
+			previewImage: montenegro2,
+
 			intro: {
 				eyebrow: "Services.montenegro.business.intro.eyebrow",
 				title: "Services.montenegro.business.intro.title",
@@ -539,6 +554,7 @@ export const SERVICE_PAGES_DATA: Record<
 			},
 		},
 		"digital-nomad": {
+			previewImage: montenegro3,
 			intro: {
 				eyebrow: "Services.montenegro.digital-nomad.intro.eyebrow",
 				title: "Services.montenegro.digital-nomad.intro.title",
@@ -792,6 +808,7 @@ export const SERVICE_PAGES_DATA: Record<
 	},
 	spain: {
 		"digital-nomad": {
+			previewImage: spain1,
 			intro: {
 				eyebrow: "Services.spain.digital-nomad.intro.eyebrow",
 				title: "Services.spain.digital-nomad.intro.title",
@@ -1065,6 +1082,7 @@ export const SERVICE_PAGES_DATA: Record<
 			},
 		},
 		"non-lucrative": {
+			previewImage: spain2,
 			intro: {
 				eyebrow: "Services.spain.no-lucrative.intro.eyebrow",
 				title: "Services.spain.no-lucrative.intro.title",
@@ -1337,6 +1355,7 @@ export const SERVICE_PAGES_DATA: Record<
 	},
 	serbia: {
 		business: {
+			previewImage: serbia1,
 			intro: {
 				eyebrow: "Services.serbia.business.intro.eyebrow",
 				title: "Services.serbia.business.intro.title",
@@ -1604,6 +1623,7 @@ export const SERVICE_PAGES_DATA: Record<
 			},
 		},
 		"real-estate": {
+			previewImage: serbia2,
 			intro: {
 				eyebrow: "Services.serbia.real-estate.intro.eyebrow",
 				title: "Services.serbia.real-estate.intro.title",
@@ -1872,6 +1892,7 @@ export const SERVICE_PAGES_DATA: Record<
 	},
 	armenia: {
 		business: {
+			previewImage: armeniaBusiness,
 			intro: {
 				eyebrow: "Services.armenia.business.intro.eyebrow",
 				title: "Services.armenia.business.intro.title",
@@ -2140,6 +2161,7 @@ export const SERVICE_PAGES_DATA: Record<
 			},
 		},
 		work: {
+			previewImage: armeniaEmployment,
 			intro: {
 				eyebrow: "Services.armenia.work.intro.eyebrow",
 				title: "Services.armenia.work.intro.title",
@@ -2411,6 +2433,7 @@ export const SERVICE_PAGES_DATA: Record<
 	},
 	greece: {
 		"golden-visa": {
+			previewImage: greece,
 			intro: {
 				eyebrow: "Services.greece.golden-visa.intro.eyebrow",
 				title: "Services.greece.golden-visa.intro.title",

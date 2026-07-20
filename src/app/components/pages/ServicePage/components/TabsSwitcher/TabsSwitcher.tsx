@@ -20,7 +20,7 @@ export default function TabsSwitcher({
 	const currentList = list[activeReason] || [];
 
 	return (
-		<section className={styles.wrapper}>
+		<div className={styles.wrapper}>
 			<div className={styles.content}>
 				<div className={styles.head}>
 					<Eyebrow eyebrow={eyebrow} />
@@ -60,6 +60,6 @@ export default function TabsSwitcher({
 					))}
 				</div>
 			</div>
-		</section>
+		</div>
 	);
 }

@@ -11,3 +11,23 @@
 	list-style: none;
 	border-bottom: 2px solid rgba(245, 242, 236, 0.1);
 }
+
+.container {
+	position: relative;
+}
+
+.image__container {
+	width: clamp(300px, 40%, 500px);
+	height: clamp(400px, 85%, 600px);
+	position: absolute;
+	top: 0;
+	transform: translateY(-55%);
+	right: 8%;
+	z-index: 0;
+	border-radius: 12px;
+	object-fit: contain;
+	aspect-ratio: 3/6;
+}
+.image {
+	border-radius: 12px;
+}

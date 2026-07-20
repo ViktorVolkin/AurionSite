@@ -2401,9 +2401,10 @@
 			"serbia": "#Сербия",
 			"montenegro": "#Черногория",
 			"greece": "#Греция",
-			"spain": "#Испания"
+			"spain": "#Испания",
+			"business": "#Бизнес и релокация"
 		},
-		"tags": { "spain": "#Испания" },
+		"tags": { "spain": "#Испания", "business": "#Бизнес и релокация" },
 		"articles": {
 			"spainNomad": {
 				"title": "ВНЖ Испании 2026: Digital Nomad Visa — полный гид",

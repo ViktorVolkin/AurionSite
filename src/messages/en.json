@@ -2201,19 +2201,23 @@
 					"card": {
 						"title": "Key Parameters",
 						"typeLabel": "Residency Type",
-						"typeValue": "Golden Visa",
-						"processingLabel": "Processing Time",
-						"processingValue": "2–4 months",
+						"typeValue": "Investor residence permit (Golden Visa), renewable",
 						"basisLabel": "Basis",
-						"basisValue": "Property purchase",
+						"basisValue": "Property purchase from €250,000",
+						"processingLabel": "Processing Time",
+						"processingValue": "3–6 months",
 						"validityLabel": "Validity",
-						"validityValue": "5 years (renewed every 5 years)",
-						"pathLabel": "Path to PR",
-						"pathValue": "After 7 years of continuous residence",
+						"validityValue": "5 years, renewed every 5 years while the property is held",
 						"stayLabel": "Time in Country",
-						"stayValue": "0 days per year (not required)",
+						"stayValue": "Not required",
+						"workLabel": "Right to Work",
+						"workValue": "No — the permit does not grant work rights",
+						"rentalLabel": "Renting the Property",
+						"rentalValue": "Long-term allowed; short-term prohibited",
+						"pathLabel": "Path to Citizenship",
+						"pathValue": "After 7 years of actual residence",
 						"familyLabel": "Family",
-						"familyValue": "Included (spouses, children up to 21, parents)"
+						"familyValue": "Included: spouse, children up to 21, parents of both spouses"
 					}
 				},
 				"tariffs": {

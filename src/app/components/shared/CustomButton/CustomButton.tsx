@@ -9,7 +9,6 @@ import {
 } from "./CustomButton.types";
 import clsx from "clsx";
 import { Link } from "@/i18n/navigation";
-import { motion } from "framer-motion";
 
 export default function CustomButton({
 	text,
@@ -68,17 +67,13 @@ export default function CustomButton({
 	const buttonProps = rest as ButtonProps;
 
 	return (
-		<motion.button
-			whileHover={{
-				y: "4px",
-			}}
-			animate
+		<button
 			type={(type as "button" | "submit" | "reset") || "button"}
 			className={sharedClass}
 			onClick={onClick as React.MouseEventHandler}
 			ref={innerRef as any}
 			{...(buttonProps as any)}>
 			{renderContent()}
-		</motion.button>
+		</button>
 	);
 }

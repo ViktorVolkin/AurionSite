@@ -1,5 +1,5 @@
-import { EyebrowProps } from "@/app/components/shared/Eyebrow/Eyebrow.types";
 import { TabProps } from "@/app/components/shared/Tab/Tab.types";
+import { StaticImageData } from "next/image";
 
 export interface ListProps {
 	title: string;
@@ -10,6 +10,5 @@ export interface TabsSwitcherProps {
 	eyebrow: string;
 	title: string;
 	tabs: TabProps[];
-
 	list: Record<string, ListProps[]>;
 }

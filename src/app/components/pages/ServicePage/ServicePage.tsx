@@ -10,10 +10,12 @@ import Tariffs from "../../widgets/Tariffs";
 import AdvantagesDescription from "./components/AdvantagesDescription";
 import TabsSwitcher from "./components/TabsSwitcher";
 import styles from "./ServicePage.module.css";
+import Image from "next/image";
 
 interface Props {
 	params: Promise<{ country: string; ground: string }>;
 }
+
 export default async function ServicePage({ params }: Props) {
 	const { country, ground } = await params;
 	const data = SERVICE_PAGES_DATA[country]?.[ground];
@@ -23,7 +25,19 @@ export default async function ServicePage({ params }: Props) {
 	return (
 		<main className={styles.page}>
 			<IntroBlock {...data.intro} />
-			<TabsSwitcher {...data.tabsSwitcher} />
+			<section className={styles.container}>
+				{data.previewImage && (
+					<div className={styles.image__container}>
+						<Image
+							src={data.previewImage}
+							alt={country}
+							fill
+							className={styles.image}
+						/>
+					</div>
+				)}
+				<TabsSwitcher {...data.tabsSwitcher} />
+			</section>
 			<Roadmap {...data.roadmap} />
 			<AdvantagesDescription {...data.advantages} />
 			<Tariffs {...data.tariffs} />

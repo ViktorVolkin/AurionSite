@@ -203,11 +203,6 @@
 	margin-top: 8px;
 	border: none;
 	cursor: pointer;
-	transition: opacity 0.2s ease;
-}
-
-.submitBtn.submitBtn:hover:not(:disabled) {
-	opacity: 0.9;
 }
 
 .submitBtn.submitBtn:disabled {

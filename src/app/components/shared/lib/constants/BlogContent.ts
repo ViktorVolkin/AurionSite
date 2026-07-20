@@ -9,6 +9,7 @@ export const BLOG_FILTERS = [
 	"greece",
 	"armenia",
 	"serbia",
+	"business",
 ] as const;
 
 export interface BlogContentData {
@@ -44,8 +45,8 @@ export const BLOG_CONTENT = {
 		{
 			title: "blog.articles.where-to-move.title",
 			leadsTo: "/blog/articles/where-to-move",
-			tagSlug: [],
-			tags: [],
+			tagSlug: ["business"],
+			tags: ["blog.tags.business"],
 			imgSrc: whereToMove,
 			cardDetails: {
 				createdAt: "03.07.2026",
