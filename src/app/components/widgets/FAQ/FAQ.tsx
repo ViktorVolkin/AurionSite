@@ -16,15 +16,20 @@ export default async function FAQ(props: FAQProps) {
 
 	const t = await getTranslations();
 
+	const translateOrReturn = (keyOrText: string) => {
+		if (!keyOrText) return "";
+		return t.has(keyOrText) ? t(keyOrText) : keyOrText;
+	};
+
 	const jsonLd = {
 		"@context": "https://schema.org",
 		"@type": "FAQPage",
 		mainEntity: props.questions.map((question) => ({
 			"@type": "Question",
-			name: t(question.titleKey),
+			name: translateOrReturn(question.titleKey),
 			acceptedAnswer: {
 				"@type": "Answer",
-				text: t(question.textKey ?? ""),
+				text: translateOrReturn(question.textKey ?? ""),
 			},
 		})),
 	};
@@ -38,14 +43,19 @@ export default async function FAQ(props: FAQProps) {
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
 			/>
 
-			{props.questions.map((question) => (
-				<FAQElem
-					key={question.titleKey}
-					titleKey={question.titleKey}
-					textKey={question.textKey}
-					as="p"
-				/>
-			))}
+			{props.questions.map((question, index) => {
+				const title = translateOrReturn(question.titleKey);
+				const text = translateOrReturn(question.textKey ?? "");
+
+				return (
+					<FAQElem
+						key={`${question.titleKey}-${index}`}
+						titleKey={title}
+						textKey={text}
+						as="p"
+					/>
+				);
+			})}
 		</div>
 	);
 }

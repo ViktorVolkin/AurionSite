@@ -2431,25 +2431,33 @@ export const SERVICE_PAGES_DATA: Record<
 							text: "Services.greece.golden-visa.overview.card.typeValue",
 						},
 						{
+							title: "Services.greece.golden-visa.overview.card.basisLabel",
+							text: "Services.greece.golden-visa.overview.card.basisValue",
+						},
+						{
 							title:
 								"Services.greece.golden-visa.overview.card.processingLabel",
 							text: "Services.greece.golden-visa.overview.card.processingValue",
-						},
-						{
-							title: "Services.greece.golden-visa.overview.card.basisLabel",
-							text: "Services.greece.golden-visa.overview.card.basisValue",
 						},
 						{
 							title: "Services.greece.golden-visa.overview.card.validityLabel",
 							text: "Services.greece.golden-visa.overview.card.validityValue",
 						},
 						{
-							title: "Services.greece.golden-visa.overview.card.pathLabel",
-							text: "Services.greece.golden-visa.overview.card.pathValue",
-						},
-						{
 							title: "Services.greece.golden-visa.overview.card.stayLabel",
 							text: "Services.greece.golden-visa.overview.card.stayValue",
+						},
+						{
+							title: "Services.greece.golden-visa.overview.card.workLabel",
+							text: "Services.greece.golden-visa.overview.card.workValue",
+						},
+						{
+							title: "Services.greece.golden-visa.overview.card.rentalLabel",
+							text: "Services.greece.golden-visa.overview.card.rentalValue",
+						},
+						{
+							title: "Services.greece.golden-visa.overview.card.pathLabel",
+							text: "Services.greece.golden-visa.overview.card.pathValue",
 						},
 						{
 							title: "Services.greece.golden-visa.overview.card.familyLabel",

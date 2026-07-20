@@ -2,207 +2,168 @@
 	"mainPage": {
 		"intro": {
 			"eyebrow": "Migration Consulting",
-			"title": "TRP & PRP in Europe for those who want to live\nand work <highlight>abroad</highlight>",
-			"text": "Operating since 2018. We guide clients from the initial consultation to obtaining their status—in 10 countries, with local lawyers in each.",
-			"info": "147 residence permits obtained in 10 jurisdictions since 2018",
+			"title": "Residency and Permanent Residency in Europe for those who want to live\nand work <highlight>abroad</highlight>",
+			"text": "Operating since 2018. We guide clients from the first consultation to the final status — in 10 countries, with local lawyers in each one.",
+			"info": "147 residency permits obtained across 5 jurisdictions since 2018",
 			"firstButton": {
 				"text": "Book a Consultation"
 			},
+			"SeoTitle": "Residency and Permanent Residency in Europe for those who want to live and work abroad",
 			"decidedBy": [
 				"years of practice",
-				"residence permits issued",
+				"residency permits issued",
 				"jurisdictions covered",
 				"months — average approval time"
 			]
 		},
 		"possibilities": {
 			"eyebrow": "Jurisdictions",
-			"title": "Ten Jurisdictions. One Case Handling Standard.",
-			"additionalInfo": "A local licensed lawyer operates in every country. We select the jurisdiction based on your goals, income, and family composition.",
+			"title": "Five jurisdictions. One standard of case management.",
+			"additionalInfo": "Every country is covered by a licensed local lawyer. We match the jurisdiction to your goals, income, and family situation.",
 			"blocks": {
 				"spain": {
 					"title": "Spain",
-					"importantText": "Digital Nomad Visa — 3-year card right away",
-					"ourExperience": "We assist from apostille to TIE card. We prepare the contract and the dossier so that the consul has no questions.",
-					"term": { "question": "Timeframe", "answer": "2–3 months" },
+					"importantText": "Digital Nomad residency — a card valid for 3 years right away",
+					"ourExperience": "We handle everything from the apostille to the TIE card. We build your contract and file so the consul has no questions to ask.",
+					"term": {
+						"question": "Timeline",
+						"answer": "2–3 months"
+					},
 					"finance": {
-						"question": "Financial Condition",
+						"question": "Financial requirement",
 						"answer": "from €2,849 / month income"
 					},
-					"hook": "Schengen residence permit for 3 years without investments or starting a business. Family applies together with the main applicant."
+					"hook": "A 3-year Schengen residency with no investment and no business registration required. Family members apply together with the main applicant."
 				},
 				"montenegro": {
 					"title": "Montenegro",
-					"importantText": "Residency via company registration or employment",
-					"ourExperience": "We have been working with the Montenegrin direction since 2018. We register the company, open a bank account, and manage the case until the card is received.",
-					"term": { "question": "Timeframe", "answer": "2–3 months" },
-					"finance": {
-						"question": "Financial Condition",
-						"answer": "taxes and contributions from €5,000 / year"
+					"importantText": "Residency through company registration (\"DOO\")",
+					"ourExperience": "We handle the full company setup, open corporate and personal accounts, manage the bookkeeping, and support you through filing.",
+					"term": {
+						"question": "Timeline",
+						"answer": "3–4 weeks"
 					},
-					"hook": "A working path to residency without purchasing real estate. Turnkey company, bank account, and residence permit in a single process."
+					"finance": {
+						"question": "Financial requirement",
+						"answer": "company upkeep from €150 / month"
+					},
+					"hook": "The fastest and most accessible path to residency in Europe. Minimal requirements — the company and the residency permit come as a single process."
 				},
 				"serbia": {
 					"title": "Serbia",
-					"importantText": "Residency via establishing a legal entity",
-					"ourExperience": "We help with address registration, opening a bank account, and processing the residence permit. We know the local specifics of each district.",
-					"term": { "question": "Timeframe", "answer": "2–3 months" },
-					"finance": {
-						"question": "Financial Condition",
-						"answer": "business grounds"
+					"importantText": "Residency through business registration (sole proprietorship / LLC)",
+					"ourExperience": "We help with a registered legal address, opening bank accounts, and residency processing. We know the local specifics of every district.",
+					"term": {
+						"question": "Timeline",
+						"answer": "1.5–2 months"
 					},
-					"hook": "Card valid for up to 3 years right away, family members join via reunification. Minimal physical presence requirements."
-				},
-				"france": {
-					"title": "France",
-					"importantText": "Visitor / Business / Startup Visa — up to 4 years",
-					"ourExperience": "We prepare the dossier to meet prefecture requirements. We control the deadlines and provide guidance at all stages.",
-					"term": { "question": "Timeframe", "answer": "3–5 months" },
 					"finance": {
-						"question": "Financial Condition",
-						"answer": "from €1,800 / month income"
+						"question": "Financial requirement",
+						"answer": "sole proprietorship upkeep from €250 / month"
 					},
-					"hook": "A path to the EU without real estate investments. Suitable for financially independent individuals, entrepreneurs, and startups."
-				},
-				"hungary": {
-					"title": "Hungary",
-					"importantText": "National Card via establishing a legal entity",
-					"ourExperience": "We register the company, open a bank account, and issue the card in a single interconnected process.",
-					"term": { "question": "Timeframe", "answer": "2–3 months" },
-					"finance": {
-						"question": "Financial Condition",
-						"answer": "business grounds"
-					},
-					"hook": "2-year card with renewal options. Fast entry to the EU through your own company with a local bank account."
-				},
-				"malta": {
-					"title": "Malta",
-					"importantText": "Residency / Citizenship through naturalization",
-					"ourExperience": "We work with licensed Maltese agents. Full support along the naturalization track.",
-					"term": { "question": "Timeframe", "answer": "12–36 months" },
-					"finance": {
-						"question": "Financial Condition",
-						"answer": "individual"
-					},
-					"hook": "EU citizenship through naturalization via the investment track. The passport opens access to 185 countries."
+					"hook": "A card issued for up to 3 years right away; family members obtain status through reunification. No strict requirements for continuous physical presence."
 				},
 				"greece": {
 					"title": "Greece",
-					"importantText": "Golden Visa via real estate investments",
-					"ourExperience": "We coordinate the legal support of the transaction and the submission of residence permit documents in a single process.",
-					"term": { "question": "Timeframe", "answer": "3–6 months" },
-					"finance": {
-						"question": "Financial Condition",
-						"answer": "real estate from €250,000"
+					"importantText": "Golden Visa through real estate investment",
+					"ourExperience": "We coordinate the legal due diligence on the property, run the transaction, and file for residency — all within a single process.",
+					"term": {
+						"question": "Timeline",
+						"answer": "3–5 months"
 					},
-					"hook": "5-year card right away. No physical presence requirements — the status remains valid under any schedule."
-				},
-				"cyprus": {
-					"title": "Cyprus",
-					"importantText": "Permanent residency by investment — lifelong status",
-					"ourExperience": "We help structure assets for Cypriot residency. We work with local lawyers and banks.",
-					"term": { "question": "Timeframe", "answer": "2–4 months" },
 					"finance": {
-						"question": "Financial Condition",
-						"answer": "real estate from €300,000"
+						"question": "Financial requirement",
+						"answer": "investment from €250,000"
 					},
-					"hook": "Lifelong permanent residency without renewals. Low tax burden and an English-speaking environment."
-				},
-				"uae": {
-					"title": "UAE",
-					"importantText": "Remote Visa / Golden Visa / Freelance Visa",
-					"ourExperience": "We process visas in Dubai and Abu Dhabi, including Emirates ID and bank account opening. Suitable for investors and founders.",
-					"term": { "question": "Timeframe", "answer": "4–6 weeks" },
-					"finance": {
-						"question": "Financial Condition",
-						"answer": "depends on the visa type"
-					},
-					"hook": "Zero income tax and residency for up to 10 years. The fastest processing framework among all directions."
+					"hook": "A resident's card valid for 5 years right away, for the whole family. There is no requirement to actually live in the country."
 				},
 				"armenia": {
 					"title": "Armenia",
-					"importantText": "Residency via Sole Proprietorship / LLC registration",
-					"ourExperience": "We open the company and process the residence permit in a single trip. We know the specifics of banking compliance in Yerevan.",
-					"term": { "question": "Timeframe", "answer": "1–2 months" },
-					"finance": {
-						"question": "Financial Condition",
-						"answer": "SP / LLC registration"
+					"importantText": "Residency for entrepreneurs through sole proprietorship registration",
+					"ourExperience": "We register your sole proprietorship, open accounts at reliable banks, arrange your social card, and support you at the migration service.",
+					"term": {
+						"question": "Timeline",
+						"answer": "3–4 weeks"
 					},
-					"hook": "A quick start for entrepreneurs and IT specialists. Residence permit without real estate investments."
+					"finance": {
+						"question": "Basis",
+						"answer": "sole proprietorship / LLC registration"
+					},
+					"hook": "A fast business launch for freelancers and IT professionals. We handle sole proprietorship registration, open accounts at reliable banks, and support you at the migration service. Armenia recognizes dual citizenship."
 				}
 			}
 		},
 		"process": {
 			"eyebrow": "How We Work",
-			"title": "Three Stages. From Profile Assessment to Residence Card.",
+			"title": "Three stages. From profile assessment to the residency card.",
 			"cards": {
 				"step_1": {
 					"title": "Diagnostic Consultation",
-					"text": "We analyze your situation: income, citizenship, family composition, goals. We suggest suitable programs with realistic timelines and costs."
+					"text": "We analyze your situation: income, citizenship, family composition, goals. We propose suitable programs with realistic timelines and costs."
 				},
 				"step_2": {
 					"title": "Document Preparation",
-					"text": "We collect and verify the document package. We control every stage — from translation to final submission."
+					"text": "We collect and verify the full document package, checking every stage — from translation to filing."
 				},
 				"step_3": {
-					"title": "Obtaining the Status",
-					"text": "We guide you until you receive your residence card. Afterwards, we help open a bank account and resolve administrative matters on-site."
+					"title": "Obtaining Status",
+					"text": "We support you through to the resident's card. Afterward, we help open a bank account and handle administrative matters on the ground."
 				}
 			}
 		},
 		"aboutUs": {
-			"eyebrow": "About Company",
-			"title": "Operating in these countries\nsince 2018.",
-			"text": "The Aurion team guides clients across Montenegro, Serbia, Spain, and other destinations.\nWe take on a limited number of cases at a time — ensuring each is managed by a dedicated specialist, not a queue.",
+			"eyebrow": "About the Company",
+			"title": "Working in these countries\nsince 2018.",
+			"text": "The Aurion team guides clients through Montenegro, Serbia, Spain, and other destinations.\nWe take on a limited number of cases at a time — so every one is handled by a dedicated specialist, not a queue.",
 			"cards": {
 				"team": {
-					"title": "On-site team since 2018",
-					"text": "We manage cases from the inside, not remotely — this shortens timeframes and eliminates submission risks."
+					"title": "A local team since 2018",
+					"text": "We manage cases on the ground, not remotely — this cuts timelines and removes risk at the filing stage."
 				},
 				"specialist": {
-					"title": "One specialist — one case",
-					"text": "Your case is managed by a single manager from the first consultation to the final document acquisition."
+					"title": "One specialist, one case",
+					"text": "Your case is handled by a single manager from the first consultation through to receiving your documents."
 				},
 				"continious": {
-					"title": "Post-approval support",
-					"text": "We help with bank accounts, tax status, and adaptation. We stay in touch after you receive your card."
+					"title": "Support after approval",
+					"text": "We help with your bank account, tax status, and settling in. We stay in touch after you receive your card."
 				}
 			}
 		},
 		"cases": {
-			"title": "Cases brought to the final residence card status.",
+			"title": "Cases carried through to a residency card.",
 			"eyebrow": "Results",
 			"montenegroBusiness": {
 				"country": "Montenegro",
 				"category": "Family",
-				"outcome": "Residence permit for a family of four under a single ground.",
+				"outcome": "Residency for a family of four under a single basis.",
 				"timeframe": "Approved in 4 months",
-				"description": "An applicant with passive income obtained a residence permit for himself, his spouse, and two children within one submission framework."
+				"description": "An applicant with passive income obtained residency for himself, his spouse, and two children within a single filing."
 			},
 			"spainNomad": {
 				"country": "Spain",
 				"category": "Freelancer",
-				"outcome": "Digital Nomad Visa for a remote specialist.",
+				"outcome": "Digital Nomad visa for a remote professional.",
 				"timeframe": "Approved in 3 months",
-				"description": "An IT specialist verified income from foreign contracts and obtained a Schengen residence permit with the right to reside in the EU."
+				"description": "An IT professional confirmed income from overseas contracts and obtained Schengen residency with the right to live in the EU."
 			},
-			"UAE": {
-				"country": "UAE",
+			"serbia": {
+				"country": "Serbia",
 				"category": "Entrepreneur",
-				"outcome": "10-year Golden Visa for an IT company founder",
-				"timeframe": "Approved in 5 weeks",
-				"description": "The founder processed a long-term residence permit along with an Emirates ID and a corporate account without leaving the country."
+				"outcome": "3-year residency for the founder of an IT company",
+				"timeframe": "Approved in 6 weeks",
+				"description": "The applicant registered a sole proprietorship, opened personal and corporate accounts, rented an office, and obtained a residency card with the option of family reunification."
 			}
 		},
 		"finalCta": {
-			"eyebrow": "Launch Analysis",
-			"title": "Program conditions change quarterly. Submitting today means dealing with yesterday's requirements.",
-			"text": "During a 30-minute consultation, we will assess your profile and provide realistic timeframes for your jurisdiction."
+			"eyebrow": "Start the Assessment",
+			"title": "Program requirements change every quarter. Filing today means working with yesterday's requirements.",
+			"text": "In a 30-minute consultation, we'll assess your profile and give you realistic timelines for your jurisdiction."
 		}
 	},
 	"widgets": {
 		"header": {
-			"logoAlt": "Landostat Logo",
+			"logoAlt": "Landostat logo",
 			"aboutUs": "About Us",
 			"forBusiness": "For Business",
 			"cases": "Cases",
@@ -211,15 +172,15 @@
 			"citezinship": "Citizenships",
 			"blog": "Blog",
 			"headerDropdown": {
-				"title": "Residence Permit",
+				"title": "Residency",
 				"titlePrefix": "Residency:",
 				"countries": {
 					"montenegro": {
 						"name": "Montenegro",
 						"reasons": {
-							"real-estate": "Real Estate",
+							"real-estate": "Residency through real estate",
 							"digital-nomad": "Digital Nomad",
-							"company": "Company Formation"
+							"business": "Residency through business"
 						}
 					},
 					"serbia": {
@@ -233,129 +194,45 @@
 						"name": "Spain",
 						"reasons": {
 							"digital-nomad": "Digital Nomad",
-							"golden-visa": "Golden Visa",
-							"non-lucrative": "Non-Lucrative"
-						}
-					},
-					"uae": {
-						"name": "UAE",
-						"reasons": {
-							"investor": "Investment",
-							"freelance": "Freelance Visa",
-							"remote-work": "Remote Work"
-						}
-					},
-					"hungary": {
-						"name": "Hungary",
-						"reasons": {
-							"white-card": "White Card",
-							"real-estate": "Property Purchase"
-						}
-					},
-					"portugal": {
-						"name": "Portugal",
-						"reasons": {
-							"d7-visa": "D7 Visa",
-							"digital-nomad": "Digital Nomad"
-						}
-					},
-					"cyprus": {
-						"name": "Cyprus",
-						"reasons": {
-							"permanent-residency": "Permanent Residency",
-							"it-visa": "IT Visa"
-						}
-					},
-					"greece": {
-						"name": "Greece",
-						"reasons": {
-							"fiv": "Financially Independent Person",
-							"golden-visa": "Golden Visa"
-						}
-					},
-					"italy": {
-						"name": "Italy",
-						"reasons": {
-							"residenza-elettiva": "Elective Residence",
-							"digital-nomad": "Digital Nomad"
-						}
-					},
-					"france": {
-						"name": "France",
-						"reasons": {
-							"visiteur": "Visiteur Visa",
-							"talent-passport": "Talent Passport"
-						}
-					},
-					"malta": {
-						"name": "Malta",
-						"reasons": {
-							"mprp": "Permanent Residence MPRP",
-							"nomad-residence": "Nomad Housing Rental"
+							"non-lucrative": "Non-lucrative (no work rights)"
 						}
 					},
 					"armenia": {
 						"name": "Armenia",
 						"reasons": {
-							"business": "SP / Business",
+							"business": "Sole Proprietorship / Business",
 							"work": "Employment Contract"
+						}
+					},
+					"greece": {
+						"name": "Greece",
+						"reasons": {
+							"golden-visa": "Golden Visa"
 						}
 					}
 				}
 			}
 		},
 		"footer": {
-			"logoAlt": "AI Property Intelligence Logo",
-			"description": "AI platform for assessment, forecasting, and comparison of land and real estate value in international markets.",
-			"titles": {
-				"product": "Product",
-				"methodology": "Methodology",
-				"sources": "Sources",
-				"company": "Company"
-			},
-			"product": {
-				"features": "Features",
-				"demo": "Demo Report",
-				"pricing": "Pricing",
-				"security": "Security",
-				"api": "API"
-			},
-			"methodology": {
-				"howItWorks": "How It Works",
-				"accuracy": "Model Accuracy",
-				"releases": "Releases",
-				"changelog": "Changelog"
-			},
-			"sources": {
-				"partners": "Data Partners",
-				"coverage": "Market Coverage",
-				"freshness": "Data Freshness",
-				"certifications": "Certifications"
-			},
-			"company": {
-				"about": "About Us",
-				"contacts": "Contacts",
-				"careers": "Careers",
-				"press": "Press"
-			},
+			"description": "A platform and consulting agency for comprehensive relocation, residency processing, and business support in Montenegro.",
+
 			"bottom": {
-				"copyright": "© 2026 · AI Property Intelligence · PSRN TBD · All rights reserved",
+				"copyright": "© 2026 · Aurion Relocation (Aurion D.O.O.) · All rights reserved",
 				"privacy": "Privacy Policy",
-				"terms": "Terms of Use",
 				"language": "Language"
 			}
 		}
 	},
 	"Metadata": {
-		"title": "Aurion — International Migration Consulting | TRP, PRP & Citizenship",
-		"description": "Assistance in processing residence permits, permanent residency, and citizenship in 12 jurisdictions: Montenegro, Spain, UAE, France, etc. 147 successfully approved cases since 2018. Assess your chances during a consultation.",
-		"ogImage": "Presentation card of Aurion migration agency. Set against a deep dark blue background with a subtle technical grid, it vertically features: a gold graphic logo shaped as the letter A with a rising sun, a headline in an elegant serif font 'Where to live should be a choice, not a limitation', and official consulting statistics."
+		"title": "Aurion — International Migration Consulting | Residency, Permanent Residency, and Citizenship",
+		"description": "Assistance with residency, permanent residency, and citizenship applications in 12 jurisdictions: Montenegro, Spain, UAE, France, and more. 147 successfully approved cases since 2018. Assess your chances during a consultation.",
+		"ogImage": "A presentation card for the Aurion migration agency. Against a deep navy background with a faint technical grid, vertically arranged: a gold graphic logo shaped like a letter A with a rising sun, an elegant serif headline reading 'Where you live should be a choice, not a limitation,' and official consulting statistics."
 	},
 	"SEO": {
 		"jsonLd": {
 			"name": "Aurion",
 			"legalName": "Aurion Migration Consulting",
-			"description": "International migration consulting. Processing of residence permits, permanent residency, and citizenship in 8 jurisdictions: Montenegro, Spain, Greece, Cyprus, Malta, UAE. 147 obtained cases since 2018.",
+			"description": "International migration consulting. Residency, permanent residency, and citizenship processing in 8 jurisdictions: Montenegro, Spain, Greece, Cyprus, Malta, UAE. 147 cases obtained since 2018.",
 			"foundingDate": "2018"
 		},
 		"aria": {
@@ -364,10 +241,10 @@
 				"close": "Close menu"
 			},
 			"HeaderPartial": {
-				"navLabel": "Main Navigation"
+				"navLabel": "Main navigation"
 			},
 			"CustomSwiper": {
-				"region": "Interactive element carousel",
+				"region": "Interactive item carousel",
 				"prevBtn": "Previous slide",
 				"nextBtn": "Next slide",
 				"pagination": "Go to slide {index}",
@@ -375,27 +252,29 @@
 				"lastSlide": "This is the last slide of the carousel"
 			},
 			"CasesBlockSEO": {
-				"sectionLabel": "Results and residence permit acquisition cases"
+				"sectionLabel": "Residency case results"
 			}
 		},
 		"alts": {
 			"AboutUs": {
-				"primary": "Consultation with an Aurion migration lawyer regarding residence permit processing",
-				"secondary": "Office of the Aurion consulting company — international migration center"
+				"primary": "Consultation with an Aurion migration lawyer on residency processing",
+				"secondary": "Aurion consulting company office — an international migration center"
 			}
 		}
 	},
 	"Consultation": {
+		"acceptPolicy": "I consent to the processing of my personal data in accordance with the",
+		"policy": "Privacy Policy",
 		"empty": "Nothing found",
 		"fields": {
 			"nameLabel": "Name",
 			"namePlaceholder": "Your name",
 			"countryLabel": "Jurisdiction of interest",
-			"methodLabel": "Preferred method of communication",
-			"contactLabel": "Contact details",
+			"methodLabel": "Preferred contact method",
+			"contactLabel": "Contact",
 			"contactPlaceholderTg": "Your Telegram @username",
 			"contactPlaceholderWa": "Your WhatsApp number",
-			"contactPlaceholderPhone": "+7 (000) 000-00-00"
+			"contactPlaceholderPhone": "+1 (000) 000-00-00"
 		},
 		"countries": {
 			"montenegro": "Montenegro",
@@ -413,7 +292,7 @@
 			"italy": "Italy",
 			"thailand": "Thailand",
 			"vanuatu": "Vanuatu",
-			"unsure": "Not decided yet"
+			"unsure": "Not sure yet"
 		},
 		"methods": {
 			"telegram": "Telegram",
@@ -425,118 +304,683 @@
 			"loading": "Sending..."
 		},
 		"privacy": {
-			"ru": "Ваши данные защищены и никогда не передаются третьим лицам.",
+			"ru": "Your data is protected and never shared with third parties.",
 			"en": "Your data is protected and never shared with third parties."
 		},
 		"errors": {
-			"nameMin": "Name must contain at least 2 characters",
+			"nameMin": "Name must be at least 2 characters",
 			"contactRequired": "This field is required",
-			"invalidPhone": "Enter a valid phone number (e.g. +7...)",
-			"invalidMessengerFormat": "Enter a valid Telegram handle, for example @Bob"
+			"invalidPhone": "Please enter a valid phone number (e.g. +1...)",
+			"invalidMessengerFormat": "Please enter a valid Telegram handle, e.g. @Bob",
+			"policy": "You must accept the privacy policy for our service to work."
+		}
+	},
+	"Privacy": {
+		"title": "Privacy Policy",
+		"subtitle": "Effective date: July 17, 2026",
+		"description": "This Privacy Policy describes how our project collects, uses, transfers, and protects the personal data of users who submit requests for relocation consultations.",
+		"sections": {
+			"data": {
+				"title": "1. What data we collect",
+				"text": "We collect only the data you voluntarily provide in the contact form: your name, country of interest, preferred contact method, and contact details (phone number or messenger username)."
+			},
+			"purpose": {
+				"title": "2. Purpose of data processing",
+				"text": "All data collected is used solely to contact you, respond to your request, and conduct an initial consultation regarding B2B services and relocation."
+			},
+			"transit": {
+				"title": "3. Data transfer and security",
+				"text": "Our website is static and does not store your data on a server. When the form is submitted, the data is encrypted via the HTTPS protocol and securely transmitted through a transit gateway directly to our secure work email. We guarantee that your contact details will never be shared with third parties."
+			},
+			"rights": {
+				"title": "4. Your rights",
+				"text": "You have the full right to request the deletion of your data from our database/mailbox at any time. To do so, simply email us at the address listed in the contacts below."
+			},
+			"contacts": {
+				"title": "5. Contact us",
+				"text": "If you have any questions about how your data is protected, you can reach us directly:"
+			}
 		}
 	},
 	"Services": {
-		"choose": "Select",
+		"choose": "Choose",
 		"montenegro": {
 			"real-estate": {
+				"intro": {
+					"eyebrow": "Montenegro Residency · via Real Estate",
+					"title": "Montenegro Residency Through Property Purchase",
+					"info": "Status for property owners in the country. We handle the transaction and residency processing as a single process — from due diligence to the card. On the ground in Montenegro since 2018.",
+					"firstButton": {
+						"text": "Book a Consultation"
+					}
+				},
 				"roadmap": {
 					"eyebrow": "Roadmap",
-					"title": "How the process unfolds — week by week.",
-					"additionalInfo": "Timelines are specified for a typical real estate case in Montenegro.",
+					"title": "How the process unfolds.",
+					"additionalInfo": "The process shown is for a typical real estate case in Montenegro",
 					"steps": [
 						{
 							"title": "Consultation and Assessment",
-							"important": "Week 0",
-							"text": "We study your profile, source of income, and family composition. We verify the grounds and establish a realistic schedule."
+							"text": "We study your profile, income source, and family composition. We confirm the basis and set a realistic timeline."
 						},
 						{
-							"title": "Collection and Preparation of Documents",
-							"important": "Weeks 1–4",
-							"text": "We collect the set, arrange apostilles, sworn translations, and notarization. Every document is verified before submission."
+							"title": "Document Collection and Preparation",
+							"text": "We assemble the package, arrange sworn translation and notarization. Every document is checked before filing."
 						},
 						{
-							"title": "Application Submission",
-							"important": "Month 2",
-							"text": "We submit the case to the authorized body in Montenegro. We accompany the submission in person — eliminating remote risks."
+							"title": "Application Filing",
+							"text": "We submit the case to the competent authority in Montenegro and support you through the filing."
 						},
 						{
 							"title": "Review by Authorities",
-							"important": "Months 2–3",
-							"text": "We track the application status and respond to requests from the authority. You receive updates at every step."
+							"text": "We track the application status and respond to any requests from the authority. You receive updates at every step."
 						},
 						{
-							"title": "Receiving the Card and Settlement",
-							"important": "Months 3–4",
-							"text": "You receive your plastic residence permit card. We help with a bank account, tax number, and the first renewal."
+							"title": "Receiving the Card and Settling In",
+							"text": "You receive your plastic residency card. We help with a bank account, tax number, and your first renewal."
 						}
 					]
 				},
 				"overview": {
-					"title": "A single status that unlocks residency, a bank account, and freedom of movement across the Balkans.",
-					"firstText": "A residence permit based on passive income is a temporary residence permit in Montenegro for those who receive regular income outside the country: dividends, rental payments, interest on deposits, or remote compensation. Real estate purchase is not required.",
-					"secondText": "We manage the case from the initial consultation to receiving the plastic residence card: we select the grounds, prepare and certify documents, submit the application, and provide support post-approval. The status is renewed annually and grants the right to permanent residency after five years.",
+					"title": "Residency through property purchase — the right to live, open a bank account, and build a solid base for life and business in the Balkans.",
+					"firstText": "Property-based residency is a temporary residence permit in Montenegro for property owners. Since 2026, obtaining this residency requires meeting a minimum property value and proving income.",
+					"secondText": "We support the entire process: we vet the property, prepare the documents, arrange translations and certifications, file the application, and support you through to receiving the residency card. The permit can be renewed each year as long as you retain ownership of the property.",
 					"card": {
 						"title": "Key Parameters",
 						"typeLabel": "Type",
-						"typeValue": "Temporary Residence Permit (TRP)",
-						"processingLabel": "Processing time",
-						"processingValue": "3–4 months",
-						"financeLabel": "Financial condition",
-						"financeValue": "from €3,650 / year",
-						"validityLabel": "Validity period",
+						"typeValue": "Temporary Residency",
+						"processingLabel": "Processing Time",
+						"processingValue": "1–2 months",
+						"financeLabel": "Financial Requirement",
+						"financeValue": "property from €150,000",
+						"validityLabel": "Validity",
 						"validityValue": "1 year, renewable",
-						"pathLabel": "Path to permanent residency",
-						"pathValue": "after 5 years",
+						"pathLabel": "Path to PR",
+						"pathValue": "does not lead to PR",
 						"familyLabel": "Family",
 						"familyValue": "included"
 					}
 				},
 				"tariffs": {
 					"eyebrow": "Cost of Services",
-					"title": "Transparent Rates Without Hidden Fees",
-					"additionalText": "Cost of Aurion services. State fees, translations, and notary services are paid separately and specified in advance.",
-					"PS": "The indicated cost is for support services. State fees, apostille, translations, notary, and insurance are paid separately and agreed upon before work begins.",
-					"essential": {
-						"title": "Basic",
-						"additional": "For those who apply independently and want a verified strategy.",
-						"priceDetail": "one-time fee",
-						"points": {
-							"point1": "Diagnostic consultation",
-							"point2": "Selection of grounds and strategy",
-							"point3": "Document checklist",
-							"point4": "Verification of the prepared set",
-							"point5": "Submission and support — available separately"
-						}
-					},
+					"title": "Transparent Pricing",
+					"additionalText": "The cost of Aurion's support services",
+
 					"full": {
 						"badge": "Popular",
 						"title": "Full Support",
-						"additional": "Turnkey case from the first consultation to the residence card for a single applicant.",
+						"additional": "A turnkey case from the first consultation to the residency card for a single applicant.",
 						"priceDetail": "per applicant",
 						"points": {
-							"point1": "Everything from the \"Basic\" package",
-							"point2": "Preparation and certification of documents",
-							"point3": "In-person submission to the authority",
-							"point4": "Tracking of the case status",
-							"point5": "Post-approval support"
+							"point1": "Consultation and document audit.",
+							"point2": "Verification that the property meets the established requirements.",
+							"point3": "Preparation of the full document package, including sworn translations and certification.",
+							"point4": "Assistance opening an account at a local bank",
+							"point5": "Payment of state fees and arrangement of local health insurance.",
+							"point6": "Full support when filing documents with the competent authority at the property's location."
 						}
 					},
 					"family": {
-						"title": "Family",
-						"additional": "Full support for a family of up to four people within a single application.",
-						"priceDetail": "up to 4 people",
+						"title": "Family Reunification",
+						"additional": "Legalization of spouses and children based on the main applicant's existing residency.",
+						"priceDetail": "per person",
 						"points": {
-							"point1": "Everything from \"Full Support\"",
-							"point2": "Residence permits for spouse and children",
-							"point3": "Coordination of the family document set",
-							"point4": "Support with schools and bank accounts",
-							"point5": "Priority manager assignment"
+							"point1": "Sworn translation of family members' documents (marriage/birth certificates)",
+							"point2": "Preparation of document packages for each applicant",
+							"point3": "Payment of fees and health insurance",
+							"point4": "Support during document filing",
+							"point5": "Monitoring the case through to receiving the residency card"
 						}
 					}
 				},
 				"requirements": {
 					"eyebrow": "Requirements",
-					"title": "Who qualifies and what is required.",
+					"title": "Who qualifies and what's required.",
+					"tabs": {
+						"mainApplicant": "Main Applicant",
+						"family": "Family Members",
+						"documents": "Documents"
+					},
+					"main-applicant": {
+						"age": {
+							"title": "Age 18 and over",
+							"text": "The main application can only be filed by an adult. Children are included by reunification."
+						},
+						"property": {
+							"title": "Owned property",
+							"text": "A residential property worth at least €150,000 per official valuation, fully completed, free of liens, seizures, and debts."
+						},
+						"funds": {
+							"title": "Funds on account",
+							"text": "A balance of at least €7,300 per person (based on €20 per day per year), confirmed by a bank statement."
+						},
+						"housing": {
+							"title": "Housing in the country",
+							"text": "Registration address: owned property or a long-term lease agreement."
+						},
+						"entry": {
+							"title": "Legal status",
+							"text": "No active entry bans, deportations, sanctions, or open criminal cases."
+						}
+					},
+					"family": {
+						"spouse": {
+							"title": "Spouse",
+							"text": "Entitled to residency as part of a joint family case through the reunification procedure."
+						},
+						"children": {
+							"title": "Minor children",
+							"text": "Children under 18 are included in the program based on official proof of relationship."
+						},
+						"financeCondition": {
+							"title": "Filing procedure",
+							"text": "Family members' documents are reviewed after the main applicant is approved."
+						}
+					},
+					"documents": {
+						"passport": {
+							"title": "Valid international passport",
+							"text": "Valid international passport (at least 6 months remaining before expiry)."
+						},
+						"cleanRecordDoc": {
+							"title": "Certificate of no criminal record",
+							"text": "A certificate of no criminal record from the country of citizenship and country of residence."
+						},
+						"civilDocs": {
+							"title": "Proof of funds",
+							"text": "A bank statement showing a balance of at least €7,300 per person."
+						},
+						"notary": {
+							"title": "Civil registry documents and translations",
+							"text": "Marriage and birth certificates — for family applications."
+						}
+					}
+				},
+				"faq": {
+					"property": {
+						"title": "What property qualifies for Montenegro residency?",
+						"text": "Since January 17, 2026, temporary residency can only be obtained by purchasing property with a tax (cadastral) value of at least €150,000. This requirement applies to new applications. The property must be registered in Montenegro's cadastre, with ownership registered to the applicant."
+					},
+					"duration": {
+						"title": "Do I need to live in Montenegro permanently after obtaining residency?",
+						"text": "Yes. The new version of the Foreigners Act requires residency holders to actually live in Montenegro. A long absence may become grounds for refusing to renew the permit. Before traveling outside the country, it's worth accounting for the current limits on absence and the requirements of the migration authorities."
+					},
+					"taxes": {
+						"title": "Can I obtain residency for my spouse and children?",
+						"text": "Yes. Once residency is granted, the main applicant can obtain a residence permit for their spouse and minor children through the family reunification program. This requires supporting documents proving the family relationship, along with meeting the legal requirements."
+					},
+					"permanent": {
+						"title": "Can I work with property-based residency?",
+						"text": "No. Residency obtained on the basis of property ownership does not grant the right to be employed in Montenegro. If you plan to formally work or run a business, you'll need to arrange the corresponding basis for residence and work."
+					},
+					"residencyTime": {
+						"title": "What happens if I sell the property?",
+						"text": "Selling the property means losing the basis on which residency was granted. If you don't establish another lawful basis for residence before the permit expires, you won't be able to renew it."
+					},
+					"permamentResidence": {
+						"title": "Can I obtain permanent residency after property-based residency?",
+						"text": "No. Under the current legislative changes, time spent under residency obtained on the basis of property ownership does not count toward the period required for permanent residency. If you plan to obtain permanent residency later, you'll need to hold residency under a basis that counts toward the required period."
+					},
+					"time": {
+						"title": "How long does residency processing take?",
+						"text": "After the property ownership is registered and a complete set of documents is filed, review of the application usually takes 30–60 days. The actual timeline depends on the completeness of the documents and the workload of the competent authority."
+					},
+					"possibilityToDecline": {
+						"title": "Can residency be refused?",
+						"text": "Yes, if the applicant does not meet the legal requirements or submits an incomplete document package. The most common reasons for refusal are the property not meeting the established requirements, errors in the documents, entry restrictions, or failure to meet the conditions of stay in Montenegro. A preliminary legal review of the documents and the property significantly reduces the risk of refusal."
+					}
+				}
+			},
+			"business": {
+				"intro": {
+					"eyebrow": "Montenegro Residency Through Business",
+					"title": "Montenegro Residency Through Company or Sole Proprietorship Registration",
+					"info": "A working path to residency without buying property. We register the company or sole proprietorship, open an account, and manage the case through to the residency card. On the ground in Montenegro since 2018.",
+					"firstButton": {
+						"text": "Book a Consultation"
+					}
+				},
+				"overview": {
+					"title": "A working path to residency without buying property.",
+					"firstText": "Residency through company or sole proprietorship registration is a basis for entrepreneurs and remote professionals who want to establish themselves in Montenegro and operate legally. Buying property isn't required — a lease agreement is enough.",
+					"secondText": "We register the business, open an account, and manage the case from the first consultation to the plastic residency card. For renewal, the company must show genuine activity. We calculate the tax burden in advance, before registration, and after five years the status grants the right to permanent residency.",
+					"card": {
+						"title": "Key Parameters",
+						"typeLabel": "Type",
+						"typeValue": "Temporary Residency (Boravak)",
+						"processingLabel": "Processing Time",
+						"processingValue": "1.5–2 months",
+						"financeLabel": "Basis",
+						"financeValue": "Company / sole proprietorship registration",
+						"validityLabel": "Validity",
+						"validityValue": "1 year, renewable",
+						"pathLabel": "Path to PR",
+						"pathValue": "After 5 years",
+						"familyLabel": "Family",
+						"familyValue": "By reunification"
+					}
+				},
+				"tariffs": {
+					"eyebrow": "Cost of Services",
+					"title": "Transparent Pricing",
+					"additionalText": "The cost of Aurion's support services",
+					"essential": {
+						"title": "Turnkey Sole Proprietorship Residency",
+						"additional": "Residence permit processing for independent professionals based on sole proprietorship registration.",
+						"priceDetail": "per applicant",
+						"points": {
+							"point1": "Registration of sole proprietorship status with the tax authorities, €300 (all documents and fees included)",
+							"point2": "Audit of personal documents and case preparation for the migration office. Includes translations, fees, health insurance, and support at every stage, €550",
+							"point3": "Diploma recognition (nostrification). Recognition of a certificate or diploma with the Ministry of Education: translation of all pages, status monitoring, and obtaining the result. €250–350",
+							"point4": "Filing residency documents with the migration office, accompanied by our specialist",
+							"point5": "Monitoring case review through to receiving the residency card"
+						}
+					},
+					"full": {
+						"badge": "Popular",
+						"title": "Turnkey D.O.O. Residency",
+						"additional": "Comprehensive relocation and residency processing for a company director, including full legal entity registration.",
+						"priceDetail": "per applicant",
+						"points": {
+							"point1": "Drafting the Articles of Association and registering the company (D.O.O.) with the registry, €400 (all documents and fees included)",
+							"point2": "Diploma recognition (nostrification).\nRecognition of a certificate or diploma with the Ministry of Education: translation of all pages, status monitoring, and obtaining the result. €250–350",
+							"point3": "Review, preparation, and audit of the personal document package. Includes translations, fees, health insurance, income statement, and support at every stage, €550. Filing residency documents with the migration office, accompanied by our specialist",
+							"point4": "Assistance opening the company's corporate bank account"
+						}
+					},
+					"family": {
+						"title": "Family Reunification",
+						"additional": "Legalization of spouses and children based on the main applicant's existing residency (via sole proprietorship or LLC).",
+						"priceDetail": "per person",
+						"points": {
+							"point1": "Certified translation of family members' documents (marriage/birth certificates)",
+							"point2": "Preparation of document packages for each applicant",
+							"point3": "Payment of fees and health insurance",
+							"point4": "Support during document filing",
+							"point5": "Monitoring the case through to receiving the residency card"
+						}
+					}
+				},
+				"requirements": {
+					"eyebrow": "Requirements",
+					"title": "Who qualifies and what's required.",
+					"tabs": {
+						"mainApplicant": "Main Applicant",
+						"family": "Family Members",
+						"documents": "Documents"
+					},
+					"main-applicant": {
+						"age": {
+							"title": "Age 18 and over",
+							"text": "The application is filed by adults. Children are included through family reunification."
+						},
+						"cleanRecord": {
+							"title": "No criminal record",
+							"text": "A certificate of no criminal record from the country of citizenship and country of residence."
+						},
+						"basis": {
+							"title": "Basis — your own company",
+							"text": "Managing a D.O.O. as director, or registering as a sole proprietor. Share capital from €1, ownership stake of at least 51%."
+						},
+						"vat": {
+							"title": "Company registration",
+							"text": "Obtaining a VAT number and legal address. We provide the legal address as part of our support."
+						},
+						"activity": {
+							"title": "Genuine activity",
+							"text": "For renewal, the company must operate and file its reports."
+						},
+						"entry": {
+							"title": "Legal entry",
+							"text": "No active entry bans to Montenegro, open criminal cases, or deportations."
+						}
+					},
+					"family": {
+						"spouse": {
+							"title": "Spouse",
+							"text": "Entitled to status on the basis of an official marriage certificate."
+						},
+						"children": {
+							"title": "Minor children",
+							"text": "Children under 18 are included in the program based on a birth certificate."
+						},
+						"financeCondition": {
+							"title": "Filing order",
+							"text": "Family members file their documents strictly after the main applicant successfully obtains their boravak."
+						}
+					},
+
+					"documents": {
+						"passport": {
+							"title": "Valid international passport",
+							"text": "Valid international passport (at least 6 months remaining before expiry)"
+						},
+						"cleanRecordDoc": {
+							"title": "Certificate of no criminal record",
+							"text": "A certificate of no criminal record from the country of citizenship and residence"
+						},
+						"educationDoc": {
+							"title": "Certificate or diploma",
+							"text": "The original education document with a transcript. Required for mandatory nostrification."
+						},
+						"civilDocs": {
+							"title": "Civil registry documents and translations",
+							"text": "Marriage and birth certificates — for family applications"
+						}
+					}
+				},
+				"roadmap": {
+					"eyebrow": "Roadmap",
+					"title": "From arrival to residency card — step by step.",
+					"additionalInfo": "The process shown is for a typical business-registration case in Montenegro.",
+					"steps": [
+						{
+							"title": "Consultation and Strategy",
+
+							"text": "We break down your situation, choose the basis (sole proprietorship or LLC), and calculate the financial burden before you start. We set a realistic timeline."
+						},
+						{
+							"title": "Business Registration",
+
+							"text": "We open the legal entity (D.O.O.) or sole proprietorship, arrange the legal address, and help with a housing lease."
+						},
+						{
+							"title": "Application Filing",
+
+							"text": "We prepare the documents and sworn translation, and submit the case to the competent authority."
+						},
+						{
+							"title": "Receiving the Card and Settling In",
+
+							"text": "You receive your plastic residency card. We help with reporting and your first renewal."
+						}
+					]
+				},
+				"faq": {
+					"eligibility": {
+						"title": "Who can obtain residency by opening a company or registering a sole proprietorship?",
+						"text": "Foreign nationals who have registered a company (DOO) or a sole proprietorship (Preduzetnik) in Montenegro and meet the requirements of the Foreigners Act can obtain residency. To apply, you need to register the business, meet the migration law requirements, and provide a complete set of documents."
+					},
+					"ownershipShare": {
+						"title": "Do I need to own the entire company to obtain residency?",
+						"text": "No. You don't need to be the sole founder of the company to obtain residency. However, the new legal requirements set separate conditions for owners of 51% or more of the company's shares, as well as for executive directors, when renewing residency."
+					},
+					"realActivity": {
+						"title": "Does the company need to conduct genuine business activity?",
+						"text": "Yes. The company must carry out genuine business activity, file its accounting and tax reports on time, and fulfill all obligations to the state. A company that is registered but not active can become grounds for refusing to renew residency. When renewing, foreign nationals who are executive directors or own more than 51% of the company must confirm that the company paid at least €5,000 in taxes and mandatory social contributions over the previous year. This requirement does not apply to the same extent to citizens of EU, EEA, and Swiss states, for whom the law provides a special regime."
+					},
+					"renewalRequirements": {
+						"title": "What requirements apply when renewing residency through a company?",
+						"text": "When renewing residency, owners of more than 51% of the company and executive directors must confirm that the company paid at least €5,000 in taxes and mandatory social contributions over the previous year. This is one of the key requirements of the new version of the law."
+					},
+					"residencyTime": {
+						"title": "Do I need to live in Montenegro permanently?",
+						"text": "Yes. As with other bases for residency, the law requires actually living in Montenegro. Failing to meet the requirements for staying in the country can become grounds for refusing to renew the residence permit."
+					},
+					"family": {
+						"title": "Can I obtain residency for family members?",
+						"text": "Yes. Once residency is granted, the main applicant can obtain a residence permit for their spouse and minor children through the family reunification program, provided the legal requirements are met."
+					},
+					"permanent": {
+						"title": "Can I obtain permanent residency after business-based residency?",
+						"text": "Yes. Unlike property-based residency, time spent under residency through a company or sole proprietorship counts toward the period required for permanent residency, provided the legal requirements are met and residence is continuous and lawful."
+					},
+					"processingTime": {
+						"title": "How long does it take to obtain residency through a company or sole proprietorship?",
+						"text": "After the company or sole proprietorship is registered and the complete set of documents is prepared, the residency application is usually reviewed within 30–60 days. The timeline may vary depending on the completeness of the documents and the workload of the competent authorities."
+					}
+				}
+			},
+			"digital-nomad": {
+				"intro": {
+					"eyebrow": "Montenegro Residency · Digital Nomad",
+					"title": "Digital Nomad Residency in Montenegro",
+					"info": "Status for those who work remotely for companies abroad. No need to register a company in the country. We manage the case from consultation to card and give you the honest picture on banking nuances.",
+					"firstButton": {
+						"text": "Book a Consultation"
+					}
+				},
+				"roadmap": {
+					"eyebrow": "Roadmap",
+					"title": "From filing to your nomad card — step by step.",
+					"additionalInfo": "The process shown is for a typical Digital Nomad case in Montenegro.",
+					"steps": [
+						{
+							"title": "Consultation and Assessment",
+							"text": "We check your income and remote employment against the requirements. We set a realistic timeline."
+						},
+						{
+							"title": "Document Collection and Preparation",
+							"text": "We assemble the package and arrange sworn translation. We prepare proof of income from foreign sources."
+						},
+						{
+							"title": "Application Filing",
+							"text": "We submit the case to the competent authority in Montenegro and support you through the filing."
+						},
+						{
+							"title": "Review by Authorities",
+
+							"text": "We track the application status and respond to any requests from the authority. You receive updates at every step."
+						},
+						{
+							"title": "Receiving the Card and Settling In",
+							"text": "You receive your plastic residency card. We help you settle in and navigate the banking nuances for nomads."
+						}
+					]
+				},
+				"overview": {
+					"title": "Residency for those who work remotely for companies abroad.",
+					"firstText": "The Digital Nomad visa is a residence permit in Montenegro for those earning income from remote work for companies and clients outside the country. Registering a company in Montenegro is not required.",
+					"secondText": "We manage the case from the first consultation to the plastic card: we check compliance with the requirements, prepare documents, file the application, and provide support after approval.",
+					"card": {
+						"title": "Key Parameters",
+						"typeLabel": "Type",
+						"typeValue": "Temporary Residency (Nomad)",
+						"processingLabel": "Processing Time",
+						"processingValue": "1–2 months",
+						"financeLabel": "Financial Requirement",
+						"financeValue": "from €1,800 / month income",
+						"validityLabel": "Validity",
+						"validityValue": "up to 2 years, renewable",
+						"pathLabel": "Path to PR",
+						"pathValue": "does not lead to PR",
+						"familyLabel": "Family",
+						"familyValue": "by reunification"
+					}
+				},
+				"tariffs": {
+					"eyebrow": "Cost of Services",
+					"title": "Transparent Pricing, No Hidden Fees",
+					"additionalText": "The cost of Aurion's services. State fees, translations, and notarization are paid separately and quoted in advance.",
+
+					"full": {
+						"badge": "Popular",
+						"title": "Full Support",
+						"additional": "A turnkey case from the first consultation to the residency card for a single applicant.",
+						"priceDetail": "per applicant",
+						"points": {
+							"point1": "Everything in the \"Basic\" plan",
+							"point2": "Preparation and certification of documents",
+							"point3": "In-person filing with the authority",
+							"point4": "Case status tracking",
+							"point5": "Support after approval"
+						}
+					},
+					"family": {
+						"title": "Family Reunification",
+						"additional": "Legalization of spouses and children based on the main applicant's existing residency.",
+						"priceDetail": "per person",
+						"points": {
+							"point1": "Sworn translation of family members' documents (marriage/birth certificates)",
+							"point2": "Preparation of document packages for each applicant",
+							"point3": "Payment of fees and health insurance",
+							"point4": "Support during document filing",
+							"point5": "Monitoring the case through to receiving the residency card"
+						}
+					}
+				},
+				"requirements": {
+					"eyebrow": "Requirements",
+					"title": "Who qualifies and what's required.",
+					"tabs": {
+						"mainApplicant": "Main Applicant",
+						"family": "Family Members",
+						"documents": "Documents"
+					},
+					"main-applicant": {
+						"age": {
+							"title": "Age 18 and over",
+							"text": "The main application for status can only be filed by adults."
+						},
+						"remote": {
+							"title": "Remote work",
+							"text": "Work for a company or clients outside Montenegro. No need to register a company in the country."
+						},
+						"income": {
+							"title": "Confirmed income",
+							"text": "Regular income of at least €1,800 per month from foreign sources over the past 6–12 months."
+						},
+						"housing": {
+							"title": "Housing in the country",
+							"text": "Address of residence: a notarized lease agreement or owned property."
+						},
+						"entry": {
+							"title": "Legal status",
+							"text": "No active entry bans, deportations, sanctions, or open criminal cases."
+						}
+					},
+					"family": {
+						"spouse": {
+							"title": "Spouse",
+							"text": "Entitled to residency as part of a joint family case through the reunification procedure."
+						},
+						"children": {
+							"title": "Minor children",
+							"text": "Children under 18 are included in the program based on official proof of relationship."
+						},
+						"financeCondition": {
+							"title": "Income per family",
+							"text": "An additional €310–450 per month for each family member. Documents are reviewed after the main applicant is approved."
+						}
+					},
+					"documents": {
+						"passport": {
+							"title": "Valid international passport",
+							"text": "Validity of at least 2.5 years on the filing date."
+						},
+						"cleanRecordDoc": {
+							"title": "Certificate of no criminal record",
+							"text": "A certificate of no criminal record from the country of citizenship and residence."
+						},
+						"incomeProof": {
+							"title": "Proof of employment and income",
+							"text": "An employment contract with a foreign employer, or contracts with foreign clients for sole proprietors, a cover letter permitting remote work, and a bank statement for the past 6–12 months."
+						},
+						"notary": {
+							"title": "Civil registry documents and translations",
+							"text": "Marriage and birth certificates — for family applications."
+						}
+					}
+				},
+				"faq": {
+					"eligibility": {
+						"title": "Who can obtain Digital Nomad residency in Montenegro?",
+						"text": "Foreign nationals who work remotely for a foreign employer, own a company registered outside Montenegro, or provide services to foreign clients can obtain this residency. The main condition is that the income source must be located outside Montenegro."
+					},
+					"workProof": {
+						"title": "How do I prove remote work?",
+						"text": "To file the application, you need to provide documents proving remote employment or business activity outside Montenegro. This can include an employment contract, a contract with a foreign company, documents on registering your own business, client contracts, bank statements, and other documents confirming the source of income."
+					},
+					"residencyTime": {
+						"title": "Do I need to live in Montenegro permanently?",
+						"text": "Yes. As with other bases for residency, a Digital Nomad status holder must comply with the legal requirements on actually living in Montenegro. Failing to meet the residence rules may affect the ability to renew the temporary residence permit."
+					},
+					"family": {
+						"title": "Can I obtain residency for my spouse and children?",
+						"text": "Yes. Once residency is granted, the main applicant can obtain a residence permit for their spouse and minor children through the family reunification program, provided the legal requirements are met."
+					},
+					"permanent": {
+						"title": "Can I obtain permanent residency after Digital Nomad status?",
+						"text": "No. Under current legislation, residency obtained through the Digital Nomad program is a special type of temporary residence and does not count toward the period required for permanent residency. If you plan to obtain permanent residency later, you'll need to hold residency under a basis that counts toward the required period."
+					},
+					"duration": {
+						"title": "What's the validity period of Digital Nomad residency?",
+						"text": "Temporary residency for digital nomads is issued for up to two years. After it expires, it can be renewed for up to another two years if the applicant still meets the program's requirements."
+					},
+					"processingTime": {
+						"title": "How long does residency processing take?",
+						"text": "After a complete set of documents is filed, the application is reviewed by the competent authorities. Processing typically takes 30 to 60 days, though the timeline may depend on the completeness of the documents and the current workload of the migration service."
+					},
+					"possibilityToDecline": {
+						"title": "Why might a Digital Nomad residency application be refused?",
+						"text": "A Digital Nomad residency application may be refused if the applicant fails to prove remote work and sufficient income, submits an incomplete document package, provides inaccurate information, or if there are legal obstacles to residing in Montenegro. The main reason for refusals is insufficient proof of the basis for residency."
+					}
+				}
+			}
+		},
+		"spain": {
+			"digital-nomad": {
+				"intro": {
+					"eyebrow": "Spain Residency · Digital Nomad",
+					"title": "Digital Nomad Residency in Spain",
+					"info": "A resident's card valid for 3 years right away, for those who work remotely for companies and clients abroad. We manage the case from document preparation to the TIE card, building your file so the consul has no questions to ask.",
+					"firstButton": { "text": "Book a Consultation" }
+				},
+				"overview": {
+					"title": "3-year Spanish residency with no investment and no business registration required.",
+					"firstText": "The Digital Nomad Visa is a Spanish residence permit for those earning income outside Spain and working remotely. It suits salaried employees, sole proprietors, freelancers, and the self-employed alike.",
+					"secondText": "The status grants residence rights for the whole family, free movement across the Schengen area, and a favorable tax regime in the first years. We handle the case from preparing the contract and documents through to receiving the TIE card — and we calculate taxes before filing, not after.",
+					"card": {
+						"title": "Key Parameters",
+						"typeLabel": "Type",
+						"typeValue": "Digital Nomad Residency",
+						"processingLabel": "Processing Time",
+						"processingValue": "from 1.5–2 months",
+						"financeLabel": "Financial Requirement",
+						"financeValue": "from €2,849 / month income",
+						"validityLabel": "Validity",
+						"validityValue": "3 years (if filed from within Spain)",
+						"pathLabel": "Path to PR",
+						"pathValue": "after 5 years",
+						"familyLabel": "Family",
+						"familyValue": "filed together with the applicant"
+					}
+				},
+				"tariffs": {
+					"eyebrow": "Cost of Services",
+					"title": "Transparent Pricing",
+					"additionalText": "The cost of Aurion's support services.",
+					"full": {
+						"badge": "Popular",
+						"title": "Main Applicant",
+						"price": "€5,500",
+						"additional": "Full support from file preparation through to receiving the TIE card.",
+						"priceDetail": "per applicant",
+						"points": {
+							"point1": "Audit and preparation of the contract to meet DNV requirements",
+							"point2": "Review and preparation of the complete document package",
+							"point3": "Sworn translations and certifications",
+							"point4": "Filing through the consulate or from within Spain",
+							"point5": "Support through to the TIE card, including handling any follow-up requests"
+						}
+					},
+					"family": {
+						"title": "Family Members",
+						"price": "€1,200",
+						"additional": "Adding a spouse, child, or parent to the main applicant's case.",
+						"priceDetail": "per person",
+						"points": {
+							"point1": "Review of personal documents (marriage, clean record)",
+							"point2": "Preparation of the document package for the co-applicant",
+							"point3": "Verification of insurance and financial threshold compliance",
+							"point4": "Coordination and assembly of the family package",
+							"point5": "Support during filing and through to receiving the TIE"
+						}
+					}
+				},
+				"requirements": {
+					"eyebrow": "Requirements",
+					"title": "Who qualifies and what's required.",
 					"tabs": {
 						"mainApplicant": "Main Applicant",
 						"family": "Family Members",
@@ -545,215 +989,1426 @@
 					},
 					"main-applicant": {
 						"age": {
-							"title": "Age 18+",
-							"text": "The application is submitted by an adult. Children are included as dependents."
+							"title": "Age 18 and over",
+							"text": "The application is filed by an adult."
 						},
 						"cleanRecord": {
-							"title": "Clean Criminal Record",
-							"text": "A certificate of no criminal record from the country of citizenship and country of residence."
+							"title": "No criminal record",
+							"text": "An apostilled certificate of no criminal record for recent years from the countries of residence, translated by a sworn translator."
 						},
 						"passport": {
-							"title": "Valid Passport",
-							"text": "Validity period of no less than six months on the date of submission."
+							"title": "Valid international passport",
+							"text": "Validity with a comfortable margin for the entire processing period."
 						},
-						"entry": {
-							"title": "No Entry Bans",
-							"text": "No active restrictions on entry to Montenegro or the Schengen zone."
+						"remote": {
+							"title": "Remote employment",
+							"text": "Work for a company or clients outside Spain. Contract of at least 3 months, with the company at least a year old."
+						}
+					},
+					"family": {
+						"spouse": {
+							"title": "Spouse (including common-law partners)",
+							"text": "Joint filing is possible. Official marriage requires an apostilled certificate. For a common-law union, proof of cohabitation for at least 1–2 years is required."
+						},
+						"children": {
+							"title": "Children up to age 26",
+							"text": "Children of any age up to 18, as well as adult children up to age 26. For children over 18, the key condition is full-time enrollment (university/school) and financial dependence on the applicant."
+						},
+						"parents": {
+							"title": "Dependent parents",
+							"text": "You can bring parents (typically over 65) along. Documentary proof of their full financial dependence on the main applicant is required."
+						},
+						"workRight": {
+							"title": "Work rights for family members",
+							"text": "All adult family members (spouses and older children) who obtain residency through reunification have automatic and full rights to legally work in Spain."
+						}
+					},
+					"finances": {
+						"income": {
+							"title": "Minimum income from €2,849/month",
+							"text": "For 2026, the income requirement for the main applicant is at least 200% of the Spanish minimum wage (SMI). Income must come from remote activity outside Spain."
+						},
+						"allowance": {
+							"title": "Supplement for family members",
+							"text": "For a joint filing, the financial threshold increases: +75% of the SMI (around €1,069) for a spouse, and +25% (around €356) for each child."
+						},
+						"statement": {
+							"title": "Income stability",
+							"text": "Income must be regular and confirmed by bank statements for the past 3 months. It must come from official invoices or payslips."
+						},
+						"savings": {
+							"title": "Savings on account (additional factor)",
+							"text": "We recommend showing a free balance in your personal bank account that covers your family's living expenses for several months ahead, as proof of financial independence."
+						}
+					},
+					"documents": {
+						"cleanRecordDoc": {
+							"title": "Legalization and apostilles",
+							"text": "All official documents issued outside Spain (diplomas, marriage/birth certificates, criminal record certificates) must carry the international \"Apostille\" stamp."
+						},
+						"civilDocs": {
+							"title": "Sworn translation (Traducción Jurada)",
+							"text": "Documents must be translated into Spanish exclusively by a sworn translator (traductor jurado) accredited by the Spanish Ministry of Foreign Affairs. Standard translations are not accepted."
+						},
+						"notary": {
+							"title": "Proof of 3+ years of experience",
+							"text": "You must prove your qualification either through a diploma in a relevant field or a detailed CV together with a work record or past contracts covering the last 3 years."
+						},
+						"incomeProof": {
+							"title": "Permission to work from Spain",
+							"text": "A key document is an official letter of permission from your employer, explicitly stating the company's consent for you to perform your duties remotely from Spain."
+						}
+					}
+				},
+				"roadmap": {
+					"eyebrow": "Roadmap",
+					"title": "From file preparation to the TIE card — step by step.",
+					"additionalInfo": "The process shown is for a typical Digital Nomad case in Spain.",
+					"steps": [
+						{
+							"title": "Consultation and Strategy",
+							"text": "We check your contract, income, and insurance against the requirements. We choose the filing route — through the consulate or from within Spain."
+						},
+						{
+							"title": "Document Preparation",
+							"text": "We assemble the package and arrange sworn translations. We bring the contract and income proof to the required form."
+						},
+						{
+							"title": "Application Filing",
+							"text": "We file through the consulate in your country of residence (1-year visa) or you enter Spain and file directly for 3-year residency."
+						},
+						{
+							"title": "Review",
+							"text": "We track the status and prepare responses to any follow-up requests from the authority."
+						},
+						{
+							"title": "Receiving the TIE Card",
+							"text": "We arrange the NIE and the TIE resident's card. We help with your account and settling in."
+						}
+					]
+				},
+				"faq": {
+					"incomeRequirements": {
+						"title": "What are the income requirements for Digital Nomad residency in Spain?",
+						"text": "The minimum income for Digital Nomad residency in Spain is tied to the Spanish minimum wage (SMI), and in 2026 stands at at least €2,849 per month for the main applicant. If you're relocating with family, the financial requirements increase: an additional +75% of the SMI (around €1,069) for a spouse, and a further +25% (around €356) for each child. Income must be confirmed by official contracts, foreign bank statements, and tax returns."
+					},
+					"whoCanGet": {
+						"title": "Who can get the Digital Nomad visa in Spain?",
+						"text": "Spain's Digital Nomad visa is designed for remote employees of foreign companies (on staff), as well as freelancers, sole proprietors, and self-employed individuals whose business or clients are registered outside Spain. The main requirements for a nomad residency applicant are a relevant higher education degree (or at least 3 years of confirmed work experience in their field) and a contract with an employer or clients signed at least 3 months prior."
+					},
+					"requiredDocuments": {
+						"title": "What documents are needed for Digital Nomad residency in Spain?",
+						"text": "The full list of documents for nomad residency includes: an international passport, a remote work contract, a permission letter from the employer to work from Spain, a foreign bank statement for 3 months with payslips, an apostilled certificate of no criminal record, and an apostilled relevant diploma. All documents not in Spanish require mandatory official sworn translation in Spain (Traducción Jurada)."
+					},
+					"processingTime": {
+						"title": "How long does the Spanish nomad residency application take to review?",
+						"text": "The official review period for Digital Nomad residency filed within Spain is 20 business days. In practice, the entire process of preparing the file, obtaining sworn translations, filing, and waiting for a decision from the Migration Ministry (UGE) takes about 1.5–2 months. After the application is approved, you just need to schedule fingerprinting and pick up your plastic TIE resident's card."
+					},
+					"familyApplication": {
+						"title": "Can I get Spain's Digital Nomad residency for the whole family?",
+						"text": "Yes, the program allows nomad residency in Spain to be obtained for the whole family within a single joint filing. You can include a spouse (including a confirmed cohabiting partner without formal marriage), children up to age 26 (if enrolled full-time and financially dependent on you), and dependent parents. All adult family members automatically gain the right to work in Spain."
+					},
+					"taxation": {
+						"title": "What taxes does a digital nomad pay in Spain?",
+						"text": "Once you become a Spanish tax resident, a Digital Nomad residency holder can apply for a special favorable regime — the \"Beckham Law\" (Ley Beckham). This regime allows you to pay a flat income tax (IRPF) at a reduced rate of 15% on income up to €600,000 per year, instead of the standard progressive scale (which can reach 47%). This makes taxes for digital nomads in Spain some of the most attractive in Western Europe."
+					},
+					"stayRequirement": {
+						"title": "Do I need to live in Spain permanently to keep my residency?",
+						"text": "The law does not set a strict requirement to spend more than 183 days a year in the country to keep your Digital Nomad residency. However, if your long-term goal is permanent residency in Spain after 5 years or citizenship after 10 years, you need to actually live in the country. For permanent residency, your absences must not exceed 10 months total across all 5 years."
+					},
+					"consulateVsInside": {
+						"title": "What's the difference between applying for the visa at a consulate versus filing for residency inside Spain?",
+						"text": "If you apply through a Spanish consulate in your country of citizenship/residence, you're issued a Digital Nomad visa for 1 year. If instead you enter Spain on a Schengen visa and file the documents online from within the country, you receive Digital Nomad residency for 3 years right away. The vast majority of our clients choose to file from within Spain, as it grants long-term status without an intermediate renewal."
+					},
+					"localCompanies": {
+						"title": "Can I work for Spanish companies with Digital Nomad residency?",
+						"text": "Yes, the law allows residency holders to work in the local market, but with a strict limit: your income from Spanish clients or companies must not exceed 20% of your total revenue. The bulk of your income (at least 80%) must come from foreign clients outside Spain. If you plan to work exclusively for local Spanish business, this program won't suit you."
+					},
+					"prAndCitizenship": {
+						"title": "How do I obtain permanent residency and citizenship in Spain through the nomad visa?",
+						"text": "Immigrating to Spain through the Digital Nomad program is a direct and fully legal path to a European passport. Time spent in the country under nomad status counts fully toward residency time. After 5 years of continuous residence, you become eligible for permanent residency (EU long-term residence), and after 10 years of legal residence and passing language and culture exams, you can apply for Spanish citizenship."
+					}
+				}
+			},
+			"no-lucrative": {
+				"intro": {
+					"eyebrow": "Spain Residency · Non-lucrative (no work rights)",
+					"title": "Non-lucrative Residency (No Work Rights)",
+					"info": "An ideal Spanish residence permit for financially independent individuals who want to live in Europe year-round using their passive income sources from abroad. Suited to business owners with dividend income, investors, and landlords.",
+					"firstButton": { "text": "Book a Consultation" }
+				},
+				"overview": {
+					"title": "Spanish residency with no investment and no business registration required.",
+					"firstText": "Non-lucrative residency is an ideal Spanish residence permit for financially independent individuals who want to live in Europe year-round using their passive income sources from abroad. Suited to business owners with dividend income, investors, and landlords.",
+					"secondText": "The status grants residence rights for the whole family, free movement across the Schengen area, and access to high-quality healthcare and education. We handle the case from a document audit and property selection through to receiving the TIE card — and guarantee there are no hidden costs for maintaining a business. After 1 year of residency, the status can be officially converted to residency with the right to work.",
+					"card": {
+						"title": "Key Parameters",
+						"typeLabel": "Type",
+						"typeValue": "Non-lucrative Residency (No Lucrativa)",
+						"processingLabel": "Processing Time",
+						"processingValue": "from 4 months",
+						"financeLabel": "Financial Requirement",
+						"financeValue": "from €30,000 in a bank account",
+						"validityLabel": "Validity",
+						"validityValue": "1 + 2 + 2 year scheme",
+						"pathLabel": "Path to PR",
+						"pathValue": "after 5 years",
+						"familyLabel": "Family",
+						"familyValue": "filed together with the applicant"
+					}
+				},
+				"tariffs": {
+					"eyebrow": "Cost of Services",
+					"title": "Transparent Pricing",
+					"additionalText": "The cost of Aurion's support services.",
+					"full": {
+						"badge": "Popular",
+						"title": "Main Applicant",
+						"additional": "Full support from file preparation through to receiving the TIE card.",
+						"priceDetail": "per applicant",
+						"points": {
+							"point1": "Analysis and refinement of passive income proof for 3 years",
+							"point2": "Review of lease/ownership contracts for the property",
+							"point3": "Sworn translations and document certification",
+							"point4": "Package preparation and filing through the Consulate",
+							"point5": "Support through to the TIE card, including handling any follow-up requests"
+						}
+					},
+					"family": {
+						"title": "Spouse",
+						"additional": "Adding a spouse to the main applicant's case.",
+						"priceDetail": "per person",
+						"points": {
+							"point1": "Review of personal documents (marriage, criminal record certificates)",
+							"point2": "Preparation of the document package for the co-applicant",
+							"point3": "Verification of proper health insurance arrangements",
+							"point4": "Coordination and assembly of the family package",
+							"point5": "Support during filing and through to receiving the TIE"
+						}
+					},
+					"children": {
+						"title": "Children",
+						"additional": "Adding a child to the main applicant's case.",
+						"priceDetail": "per person",
+						"points": {
+							"point1": "Review of the child's documents (relationship proof, consents, school certificates)",
+							"point2": "Preparation of the child's document package",
+							"point3": "Verification of proper health insurance arrangements",
+							"point4": "Integration of documents into the overall family case",
+							"point5": "Support during filing and through to receiving the cards"
+						}
+					}
+				},
+				"requirements": {
+					"eyebrow": "Requirements",
+					"title": "Who qualifies and what's required.",
+					"tabs": {
+						"mainApplicant": "Main Applicant",
+						"family": "Family Members",
+						"finances": "Finances",
+						"documents": "Documents"
+					},
+					"main-applicant": {
+						"age": {
+							"title": "Age 18 and over",
+							"text": "The application is filed by an adult."
+						},
+						"passport": {
+							"title": "Valid international passport",
+							"text": "Validity with a comfortable margin for the entire processing period."
+						},
+						"cleanRecord": {
+							"title": "No criminal record",
+							"text": "An apostilled certificate of no criminal record for recent years from the countries of residence."
+						},
+						"legalStatus": {
+							"title": "Legal status",
+							"text": "The applicant must have no violations of Spanish immigration law."
 						}
 					},
 					"family": {
 						"spouse": {
 							"title": "Spouse",
-							"text": "Included in the case provided there is a marriage certificate with an apostille."
+							"text": "Joint filing is possible with an official marriage certificate."
 						},
 						"children": {
-							"title": "Minor Children",
-							"text": "Children under 18 are processed as dependents of the main applicant."
+							"title": "Children under 18",
+							"text": "Included in the application. School-age children need proof of enrollment in a Spanish school."
 						},
-						"students": {
-							"title": "Student Children",
-							"text": "Adult children dependent upon verification of active enrollment."
+						"dependence": {
+							"title": "Financial dependence",
+							"text": "All family members are sponsored solely from the main applicant's passive income."
+						}
+					},
+					"finances": {
+						"capital": {
+							"title": "Capital in the account",
+							"text": "You need to show at least €30,000 in a personal Spanish bank account for the applicant, plus €7,500 for each family member."
 						},
-						"financeCondition": {
-							"title": "Financial Condition per Person",
-							"text": "Verified income is calculated for all included family members."
+						"passiveIncome": {
+							"title": "Passive income",
+							"text": "Stable remote income not tied to employment (rent, dividends, interest, business shares)."
+						},
+						"regularity": {
+							"title": "Regularity of payments",
+							"text": "Official confirmation of legal income sources for the past 3 years."
+						}
+					},
+					"documents": {
+						"housing": {
+							"title": "Housing in Spain",
+							"text": "A long-term lease agreement (1+ year) or a certificate of ownership of residential property."
+						},
+						"insurance": {
+							"title": "Health insurance",
+							"text": "A full private health insurance policy from a Spanish company with no copayments (sin copagos)."
+						},
+						"legalization": {
+							"title": "Document legalization",
+							"text": "All foreign certificates and certificates must be apostilled and translated by a sworn translator."
+						}
+					}
+				},
+				"roadmap": {
+					"eyebrow": "Roadmap",
+					"title": "From file preparation to the TIE card — step by step.",
+					"additionalInfo": "The process shown is for a typical non-lucrative residency case in Spain.",
+					"steps": [
+						{
+							"title": "Consultation and Strategy",
+							"text": "We break down your case and check your passive income sources and asset structure against the 400% IPREM criteria."
+						},
+						{
+							"title": "Document Preparation",
+							"text": "We assemble the document package and arrange sworn translations (traducción jurada). We help you open a Spanish bank account and rent/buy housing."
+						},
+						{
+							"title": "Application Filing",
+							"text": "We file the completed dossier through the Spanish Consulate in your country of citizenship or permanent residence to obtain a 3-month national D visa."
+						},
+						{
+							"title": "Review",
+							"text": "We track the status, liaise with the migration authorities on the client's behalf, and prepare responses to any possible follow-up requests."
+						},
+						{
+							"title": "Receiving the TIE Card",
+							"text": "After entering Spain, we arrange the NIE, submit fingerprints to the police, and help you pick up your plastic TIE resident's card."
+						}
+					]
+				},
+				"faq": {
+					"ipremCalc": {
+						"title": "How do I calculate the required amount under IPREM for Spain in 2026?",
+						"text": "Migration law requires demonstrating passive income of at least 400% of the Spanish IPREM indicator for the main applicant, plus 100% for each dependent family member. Amounts are indexed annually by the government. Besides monthly income, approval also requires showing liquid funds in a bank account — from €30,000 for the first resident card, to demonstrate absolute financial solvency."
+					},
+					"rentalIncome": {
+						"title": "Does rental income qualify for non-lucrative residency in Spain?",
+						"text": "Yes, income from long-term leasing of residential or commercial property is one of the most reliable and well-accepted forms of passive income for the Spanish Consulate. The key condition is providing an officially registered lease agreement, a certificate of ownership (registry extract), and bank statements confirming regular and lawful receipt of rent over the past 3 years."
+					},
+					"renewalDocs": {
+						"title": "What documents are needed to renew Spanish No Lucrativa residency after a year?",
+						"text": "For the first renewal (issued for 2 years at once), you'll need to prove you met the residency requirement of staying in Spain for at least 182 days. You'll also need to show updated statements from a Spanish bank (this time, the balance must cover 2 years of residence — meaning at least €60,000 for the main applicant), a valid private health insurance policy with no copayments, and confirmation of no outstanding tax debts."
+					},
+					"schoolRequirement": {
+						"title": "Will I need to enroll my children in a local school when applying for financially independent residency?",
+						"text": "Yes, if you're applying for Spanish residency for the whole family and have school-age children (6 to 16), the Consulate strictly enforces compulsory education law. The document package for children must include official proof (matrícula) of enrollment or a reserved place in a public, semi-public (concertado), or private Spanish school."
+					},
+					"dividendsIncome": {
+						"title": "Do dividends from a business in Russia or the CIS qualify as passive income?",
+						"text": "Dividends from owning shares in a business or stock in major companies qualify for this immigration program. For a successful case, you'll need to provide the company's tax returns, an official shareholder meeting resolution on dividend payments for the past 3 years, income tax certificates (or their local equivalents), and bank records proving the actual receipt of these funds into your personal account."
+					},
+					"wealthTax": {
+						"title": "Do I need to pay property and worldwide income tax with No Lucrativa residency?",
+						"text": "Since this type of residency requires you to spend more than 183 days a year in the kingdom, you automatically become a Spanish tax resident. This means you're obligated to declare and pay taxes on your worldwide income (including profits from business, rent, and investments outside Spain). We recommend a preliminary tax consultation with Aurion to lawfully structure and optimize your assets before filing."
+					},
+					"bankAccountRemote": {
+						"title": "Can I open a Spanish bank account remotely for immigration purposes?",
+						"text": "Today, opening a Spanish bank account entirely remotely without a personal visit or a notarized power of attorney to a qualified Spanish lawyer is practically impossible due to strict KYC and AML (anti-money-laundering) protocols. Aurion's experts help clients remotely prepare and legalize a compliance document package for Spanish compliance departments, so the account-opening process goes quickly and without refusals."
+					},
+					"rejectionReasons": {
+						"title": "What are the main reasons for refusal of non-lucrative residency in Spain?",
+						"text": "The most common reasons for refusal are an unclear origin of funds, the consul's doubts about the \"passive\" nature of the income (for example, if hidden employment is suspected), or an insufficient bank account balance. Another common mistake is submitting a cheap health insurance policy with a copayment (copago) instead of a full annual policy. Aurion's lawyers conduct a thorough audit of every case, fully eliminating such risks before filing."
+					},
+					"rentOutProperty": {
+						"title": "Does No Lucrativa residency allow me to buy and rent out property in Spain?",
+						"text": "Yes, despite not being able to work as an employee or run an operating business, this status doesn't restrict you from investing. You have the full legal right to buy residential or commercial property in Spain, register it in your name, and officially rent it out, earning lawful passive income into your Spanish bank account."
+					},
+					"goldVisaDiff": {
+						"title": "How does non-work residency differ from Spain's Golden Visa investor program?",
+						"text": "The main difference is the financial entry threshold and obligations. The \"Golden Visa\" requires a non-refundable property investment from €500,000, but doesn't require you to live in the country permanently (no 183-day requirement). Non-work residency (No Lucrativa) doesn't require investment at all — renting housing and showing savings is enough — but it does require you to spend more than half the year in Spain and become its tax resident."
+					}
+				}
+			}
+		},
+		"serbia": {
+			"real-estate": {
+				"intro": {
+					"eyebrow": "Serbia Residency · Property Purchase",
+					"title": "Serbia Residency Through Property Purchase in 2026",
+					"info": "A residence permit for the whole family through a property purchase, with no minimum property value requirement. Full legal support for the purchase transaction from Aurion, and online residency filing in 21 days.",
+					"firstButton": { "text": "Book a Consultation" }
+				},
+				"overview": {
+					"title": "Your own home in Europe and stable status with no hidden conditions.",
+					"firstText": "Buying property in Serbia is the most reliable and straightforward way to immigrate. You're not just spending money on fees — you're investing in a liquid asset in an actively developing European country. The program places no limits on your choice: it can be a budget studio in Niš or a premium apartment in Belgrade.",
+					"secondText": "Residency status grants free entry into the country, the right to open accounts, access to healthcare, the right to work for the whole family, and — after 3 years of continuous residence — the right to permanent residency. We take care of the full property audit, notarial support for the transaction, and filing the dossier.",
+					"card": {
+						"title": "Key Parameters",
+						"typeLabel": "Type",
+						"typeValue": "Residency Through Real Estate",
+						"processingLabel": "Processing Time",
+						"processingValue": "from 21 days to 1.5 months",
+						"financeLabel": "Minimum Investment",
+						"financeValue": "None (any value)",
+						"validityLabel": "Residency Validity",
+						"validityValue": "Up to 3 years right away",
+						"pathLabel": "Path to PR",
+						"pathValue": "after 3 years",
+						"familyLabel": "Family",
+						"familyValue": "filed together with the applicant"
+					}
+				},
+				"tariffs": {
+					"eyebrow": "Cost of Services",
+					"title": "Transparent Pricing",
+					"additionalText": "The cost of Aurion's legal support for the transaction and residency processing.",
+					"full": {
+						"badge": "Popular",
+						"title": "\"Owner\" Package",
+						"price": "€2,200",
+						"additional": "Full legal support for the property purchase and residency processing for the main applicant.",
+						"priceDetail": "per package",
+						"points": {
+							"point1": "Legal audit of the property and verification of the owners",
+							"point2": "Notarial support for the transaction and help opening an account",
+							"point3": "Document translation by a Serbian sworn translator",
+							"point4": "Filing the residency case through the online portal and fee management",
+							"point5": "Support through fingerprinting at the MUP up until you receive the ID card"
+						}
+					},
+					"family": {
+						"title": "\"Family\" Package",
+						"price": "€400",
+						"additional": "Adding family members (spouse/children) to the owner's case through reunification.",
+						"priceDetail": "per person",
+						"points": {
+							"point1": "Review and sworn translation of relationship documents",
+							"point2": "Preparation and filing of the family case on the online portal",
+							"point3": "Verification of health insurance and fees for co-applicants",
+							"point4": "Coordination and assembly of the family document package",
+							"point5": "Support at the MUP for fingerprinting and receiving the cards"
+						}
+					}
+				},
+				"requirements": {
+					"eyebrow": "Purchase Requirements",
+					"title": "Who qualifies and what's required.",
+					"tabs": {
+						"mainApplicant": "Owner",
+						"family": "Family Members",
+						"finances": "Finances",
+						"documents": "Documents"
+					},
+					"main-applicant": {
+						"anyValue": {
+							"title": "Any property value",
+							"text": "Unlike Spain or Greece, Serbia has no minimum limit on the value of an apartment or house. The main requirement is that the property must be residential and fit for habitation."
+						},
+						"ownership": {
+							"title": "Property ownership",
+							"text": "The foreigner must be officially registered in the cadastre as the sole owner (or hold a confirmed purchase agreement)."
+						},
+						"whiteCard": {
+							"title": "\"White card\"",
+							"text": "Mandatory registration at the address of the purchased property within 24 hours of each entry into the country."
+						},
+						"validity": {
+							"title": "Residency validity",
+							"text": "Property-based residency is issued for up to 3 years right away, with the option of annual or three-year renewal."
+						}
+					},
+					"family": {
+						"spouse": {
+							"title": "Spouses and children",
+							"text": "A legal spouse and minor children under 18 automatically obtain residency on the basis of \"family reunification.\""
+						},
+						"finSupport": {
+							"title": "Financial support",
+							"text": "The owner confirms that their financial means are sufficient to support all relocating family members."
+						},
+						"workRight": {
+							"title": "Family work rights",
+							"text": "The family of a foreigner who obtains property-based residency also has the full right to lawful employment in Serbia."
+						},
+						"familyDocs": {
+							"title": "Required documents",
+							"text": "Marriage and birth certificates of co-applicants, with a mandatory apostille and sworn translation into Serbian."
+						}
+					},
+					"finances": {
+						"personalAccount": {
+							"title": "Personal bank account",
+							"text": "An open account with a Serbian bank holding an amount sufficient to support the applicant and their family (typically from a few thousand euros)."
+						},
+						"purchaseTaxes": {
+							"title": "Purchase taxes",
+							"text": "Payment of a one-time property transfer tax (2.5%) or VAT (10% for new construction), plus an annual property tax."
+						},
+						"livingExpenses": {
+							"title": "Living costs",
+							"text": "The cost of maintaining property and utilities in Serbia is significantly lower than the EU average."
+						},
+						"fees": {
+							"title": "Processing fees",
+							"text": "Mandatory state fees for the online residency application (~€140–190 per person)."
+						}
+					},
+					"documents": {
+						"cadastreExtract": {
+							"title": "Cadastre extract",
+							"text": "A property sheet (List nepokretnosti) or a purchase agreement officially certified by a Serbian notary."
+						},
+						"passportDoc": {
+							"title": "Valid international passport",
+							"text": "Original and copy of the passport, valid with a margin of 3–6 months beyond the requested residency's expiry."
+						},
+						"courtTranslation": {
+							"title": "Sworn document translation",
+							"text": "All foreign certificates and personal documents are translated by a licensed sworn (court) translator in Serbia."
+						},
+						"insuranceDoc": {
+							"title": "Health insurance",
+							"text": "A health insurance policy issued by a Serbian insurance company for the entire requested residency period."
+						}
+					}
+				},
+				"roadmap": {
+					"eyebrow": "Roadmap",
+					"title": "From property selection to the ID card — step by step.",
+					"additionalInfo": "The process shown is for a typical property purchase and residency case in Serbia.",
+					"steps": [
+						{
+							"title": "Selection and Due Diligence",
+							"text": "Property search, legal-purity audit of the property by Aurion's lawyers, and opening a personal account with a Serbian bank."
+						},
+						{
+							"title": "Transaction and Cadastre",
+							"text": "Signing the purchase agreement with a notary, paying for the property, and filing documents for cadastre registration."
+						},
+						{
+							"title": "Online Residency Filing",
+							"text": "Uploading the complete document package (agreement, extract, \"white card,\" insurance) to the government portal and paying the fees."
+						},
+						{
+							"title": "Fingerprinting at the MUP",
+							"text": "Receiving official approval from the authority (up to 21 days) and visiting the police for biometric fingerprinting."
+						},
+						{
+							"title": "Receiving the ID Card",
+							"text": "Successful issuance of the plastic biometric smart resident's card (Unified Permit) for up to 3 years."
+						}
+					]
+				},
+				"faq": {
+					"minPriceRequirements": {
+						"title": "What's the minimum property value in Serbia for obtaining residency?",
+						"text": "Serbian law sets no minimum property value for Serbia residency. You can buy any residential apartment or house, whether on the secondary market or a new build. The main requirement is that the property is officially registered in the cadastre and fit for permanent habitation, since the police can verify that you actually live at the address."
+					},
+					"hiddenThreshold": {
+						"title": "Is there a hidden minimum property value threshold not written into the law?",
+						"text": "Officially, Serbia's Foreign Nationals Act sets no value limit — you can buy a modest cottage for €15,000 and file your documents. In practice, however, there's an unwritten filter applied by the MUP: the property must be fit for full, permanent habitation. If you buy a derelict village house with no utilities (electricity, water, heating) or a tiny share in an apartment, a migration service inspector will come to check (and they do visit in person to verify residence) and refuse the residency, citing the property as purchased purely for documentation purposes (a sham basis). We recommend focusing on genuinely livable apartments or move-in-ready houses."
+					},
+					"commercialRealEstate": {
+						"title": "Does buying commercial property qualify for Serbia residency?",
+						"text": "No, the law clearly states that the basis for Serbia residency is buying residential property specifically (a house or apartment). Commercial premises (offices, warehouses, shops) do not grant residency rights under this program. If you want to invest in the commercial sector, it's better to use the \"company registration (DOO)\" basis instead."
+					},
+					"taxObligations": {
+						"title": "Is a foreigner required to pay taxes when buying property, and how does it affect residency?",
+						"text": "When buying property, an investor is subject to taxes, and payment receipts may be checked during residency renewal. When buying on the secondary market, an absolute rights transfer tax (Porez na prenos apsolutnih prava) of 2.5% of the assessed value is paid. When buying a new-build apartment from a developer entity, VAT (PDV) of 10% is paid instead (the 2.5% tax does not apply in this case). Providing a registered purchase agreement automatically triggers the taxation process."
+					},
+					"rentalPossibility": {
+						"title": "Can I rent out the purchased property while keeping my residency?",
+						"text": "Absolutely not. The basis for this type of residency is specifically \"ownership of property in which the foreigner personally resides.\" If a police inspector, during a routine check, finds that other people (tenants) are living in the apartment while the owner is renting elsewhere or absent from the country, the residency will be revoked on the spot. Renting out is only possible if the owner switches to a different residency basis (for example, opening a sole proprietorship) or has already obtained permanent residency (after 3 years)."
+					},
+					"reciprocityAndCitizenship": {
+						"title": "Can any Russian/Belarusian citizen buy property in Serbia? How does the reciprocity principle work?",
+						"text": "Foreigners can acquire property in Serbia only where a reciprocity principle (Ugovor o reciprocitetu) exists between the countries. Serbia has a full reciprocity agreement with Russia and Belarus — citizens of these countries can buy apartments and houses without restriction. An important limitation for all foreigners: buying agricultural land in Serbia is prohibited (farmland, forests, border zones). A foreigner may only own the plot on which their residential house directly stands (plus the surrounding yard/grounds), but not a farm field."
+					},
+					"workAuthorization": {
+						"title": "Does property-based residency grant the right to work in Serbia?",
+						"text": "Yes. Since 2024, Serbia has had a Unified Permit law (Jedinstvena dozvola) combining residency and work permits. When obtaining property-based residency, the applicant and their family members (who obtained status through reunification) have the right to apply for work authorization without needing to open a legal entity or obtain an invitation from an employer. This makes buying property a highly advantageous alternative to opening a sole proprietorship if your goal is simply to be employed by a Serbian or international company."
+					},
+					"prAndPassport": {
+						"title": "Can I obtain permanent residency and Serbian citizenship through property?",
+						"text": "Buying a home is a direct path to permanent status. You can obtain Serbian permanent residency through property after 3 years of continuous residence in the country under residency status. It's important to meet the residence requirements: you can be absent from Serbia for no more than 6 consecutive months and no more than 10 months total across the entire 3-year period. After obtaining permanent residency, you have the right to apply for Serbian citizenship."
+					}
+				}
+			},
+			"business": {
+				"intro": {
+					"eyebrow": "Serbia Residency — Business Registration",
+					"title": "Serbia Residency Through Opening a Sole Proprietorship or Company in 2026",
+					"info": "Obtain a Unified Residence and Work Permit (RVP) in 21 days for the whole family. We register a sole proprietorship or DOO remotely, open multi-currency accounts at Serbian banks, and prepare a turnkey residency case.",
+					"firstButton": {
+						"text": "Book a Consultation"
+					}
+				},
+				"overview": {
+					"title": "Launch an international business in a stable, sanctions-free jurisdiction.",
+					"firstText": "Opening a business or sole proprietorship in Serbia is the fastest, most reliable, and fully legal way to enter the European economic space. Serbia maintains neutrality: Visa/Mastercard cards work here, international payments are available, and Serbian companies easily partner with counterparts from the US, EU, and Asia.",
+					"secondText": "By obtaining business resident status, you gain full rights in the country, access to quality healthcare, education for your children, and the right to permanent residency after just 3 years of your company operating.",
+					"card": {
+						"title": "Key Parameters",
+						"typeLabel": "Business Form",
+						"typeValue": "Sole Proprietorship (Preduzetnik) or DOO (LLC)",
+						"processingLabel": "Business Setup Time",
+						"processingValue": "Up to 5–7 business days",
+						"financeLabel": "Residency Review Time",
+						"financeValue": "Up to 21 calendar days",
+						"validityLabel": "Unified Permit Validity",
+						"validityValue": "Up to 3 years right away",
+						"pathLabel": "Profit Tax",
+						"pathValue": "From 10% to 15% (or a flat-rate scheme)",
+						"familyLabel": "Path to PR",
+						"familyValue": "After 3 years of business activity"
+					}
+				},
+				"tariffs": {
+					"eyebrow": "Cost of Services",
+					"title": "Transparent Pricing",
+					"additionalText": "The cost of Aurion's full support for business registration and residency processing.",
+					"full": {
+						"badge": "Popular",
+						"title": "\"Turnkey Sole Proprietorship\" Package",
+						"additional": "The full sole proprietorship setup process (remote or in person) and residency processing for the main applicant.",
+						"priceDetail": "per package",
+						"points": {
+							"point1": "Selection of the optimal activity codes and document preparation",
+							"point2": "Sole proprietorship registration in the state APR registry",
+							"point3": "Opening corporate and personal multi-currency accounts at a Serbian bank",
+							"point4": "Filing the residency case (Unified Permit) through the online portal",
+							"point5": "Document translation by a Serbian sworn translator",
+							"point6": "Support through fingerprinting up until you receive the plastic card"
+						}
+					},
+					"family": {
+						"title": "\"Family\" Package",
+						"additional": "Full support for reuniting family with the business owner.",
+						"priceDetail": "per person",
+						"points": {
+							"point1": "Review of relationship documents and sworn translation",
+							"point2": "Preparation and online filing of the family residency case",
+							"point3": "Health insurance verification and fee payments",
+							"point4": "Scheduling and support at the MUP for fingerprinting",
+							"point5": "Support at every stage through to receiving the ID card"
+						}
+					}
+				},
+				"requirements": {
+					"eyebrow": "Business Requirements",
+					"title": "Who qualifies and what's required.",
+					"tabs": {
+						"mainApplicant": "Business / Sole Proprietorship",
+						"family": "Family Members",
+						"finances": "Finances",
+						"documents": "Documents"
+					},
+					"main-applicant": {
+						"age": {
+							"title": "Choice of form (sole proprietorship or DOO)",
+							"text": "A sole proprietorship (Preduzetnik) opens the fastest. A DOO (equivalent to an LLC) suits larger projects and partnership businesses."
+						},
+						"cleanRecord": {
+							"title": "A genuine business profile",
+							"text": "The firm must be registered with the Business Registers Agency (APR). Genuine remote activity (IT, consulting, marketing) is permitted."
+						},
+						"passport": {
+							"title": "Legal address",
+							"text": "A confirmed legal address in Serbia is needed to register the business and open company accounts."
+						},
+						"remote": {
+							"title": "Residency validity",
+							"text": "Since 2023, the Unified Permit is issued for up to 3 years right away, with no need for annual renewal."
+						}
+					},
+					"family": {
+						"spouse": {
+							"title": "Family filing",
+							"text": "Spouses and minor children obtain residency on the \"family reunification\" basis, for the same duration as the main applicant."
+						},
+						"children": {
+							"title": "Fast processing",
+							"text": "Family documents can be filed at the same time as the main applicant, or right after they receive their ID card."
+						},
+						"parents": {
+							"title": "Minimal package",
+							"text": "Only personal documents (marriage/birth certificates) with an apostille and sworn translation are required for the family."
+						},
+						"workRight": {
+							"title": "Work rights",
+							"text": "All family members reunited with the business resident automatically gain the right to legally work in Serbia."
 						}
 					},
 					"finances": {
 						"income": {
-							"title": "Verified Passive Income",
-							"text": "Dividends, rent, interest, or remote income — from €3,650 per year."
+							"title": "Low taxes",
+							"text": "Serbia's corporate tax rate is 15%. Sole proprietors can use the flat-rate scheme (Paušal) with a fixed monthly payment."
+						},
+						"allowance": {
+							"title": "Share capital",
+							"text": "The minimum share capital for a DOO is just 1 RSD (less than €1). No share capital is required for a sole proprietorship."
 						},
 						"statement": {
-							"title": "Bank Statement",
-							"text": "Funds movement over the last 12 months on a personal account."
+							"title": "Bank accounts",
+							"text": "You can open personal and corporate multi-currency accounts at Serbian banks with international SWIFT/SEPA transfer capability."
 						},
-						"housing": {
-							"title": "Housing in the Country",
-							"text": "A lease agreement or ownership rights for the residential address."
-						},
-						"insurance": {
-							"title": "Medical Insurance",
-							"text": "A policy covering the validity period of the requested residence permit."
+						"savings": {
+							"title": "Fee costs",
+							"text": "The unified state fee for online application review and issuance of the biometric card is around €155–205."
 						}
 					},
 					"documents": {
 						"cleanRecordDoc": {
-							"title": "Criminal Record Certificate",
-							"text": "With an apostille, issued no earlier than six months prior to submission."
+							"title": "APR certificate",
+							"text": "The official registration decision for your business (sole proprietorship or DOO) from Serbia's state registry."
 						},
 						"civilDocs": {
-							"title": "Civil Certificates",
-							"text": "Marriage and birth certificates for family applications."
+							"title": "White card",
+							"text": "The document for initial registration at your address of residence (hotel, rented apartment), issued within 24 hours of entry."
 						},
 						"notary": {
-							"title": "Translation and Notarization",
-							"text": "Sworn translation into the Montenegrin language and notary certification."
+							"title": "Serbian bank account",
+							"text": "A statement from a Serbian bank confirming funds are available to live on and run the business."
 						},
 						"incomeProof": {
-							"title": "Income Verification",
-							"text": "Documents regarding the source of funds and bank reference letters."
+							"title": "Sworn translations",
+							"text": "Translation of personal documents (diploma, certificate of no criminal record, where applicable) by a Serbian sworn translator."
+						}
+					}
+				},
+				"roadmap": {
+					"eyebrow": "Roadmap",
+					"title": "From company registration to the ID card — step by step.",
+					"additionalInfo": "The process shown is for remote business registration and residency processing in Serbia.",
+					"steps": [
+						{
+							"title": "Structure Design",
+							"text": "Choosing activity codes, preparing powers of attorney for remote business setup, and preparing documents."
+						},
+						{
+							"title": "APR Registration",
+							"text": "Filing documents with Serbia's business registry. Obtaining the official registration certificate for the sole proprietorship or DOO within 5–7 business days."
+						},
+						{
+							"title": "Banking and Housing",
+							"text": "Opening a corporate account, renting housing, and obtaining the \"white card\" upon arrival in Serbia."
+						},
+						{
+							"title": "Online Filing",
+							"text": "Uploading the complete document package to the government's unified permit portal and paying the fees."
+						},
+						{
+							"title": "Fingerprinting and ID Card",
+							"text": "Visiting the MUP in Belgrade or Novi Sad for fingerprinting and receiving the completed biometric resident's card."
+						}
+					]
+				},
+				"faq": {
+					"incomeRequirements": {
+						"title": "Can Russian citizens open a bank account in Serbia in 2026?",
+						"text": "Yes, Serbia remains one of the few European countries where a Russian citizen can freely open a bank account. For personal needs, an account is opened once you have a \"white card\" (registration); for business, it's opened after officially registering a sole proprietorship or DOO in the APR registry. Local Serbian banks offer multi-currency accounts (RSD, EUR, USD) to Russian clients, support incoming and outgoing international SWIFT transfers, and issue Visa and Mastercard cards that work worldwide."
+					},
+					"whoCanGet": {
+						"title": "How do I open a sole proprietorship in Serbia to obtain residency?",
+						"text": "To open a sole proprietorship in Serbia for residency purposes (the so-called Preduzetnik status), you need to file an application with Serbia's Business Registers Agency (APR). This can be done either in person upon arrival or remotely via power of attorney through Aurion's lawyers. After registering the business in Serbia, you open a checking account at a bank and can immediately file an online application for a unified residence and work permit."
+					},
+					"requiredDocuments": {
+						"title": "What is the \"white card\" in Serbia, and how do I get it?",
+						"text": "The \"white card\" in Serbia (beli karton) is a mandatory initial registration document showing a foreigner's temporary place of stay. It must be arranged within 24 hours of crossing the Serbian border. If you're staying at a hotel or hostel, the administration registers you automatically. If you're renting an apartment or buying your own home, you need to visit the local police department (MUP) together with the property owner, or fill out an online form through the government services portal to register as a foreigner in Serbia."
+					},
+					"processingTime": {
+						"title": "How does residency renewal work in Serbia?",
+						"text": "The Serbian residency renewal procedure (Privremeni boravak) is done entirely online through the unified permits portal. It's recommended to file your renewal application no earlier than 30 days before your current status expires. For a successful renewal, you'll need to confirm your basis is still valid (provide a current APR extract for a sole proprietorship, or a current property sheet for homeowners), show funds in a Serbian account, and provide valid health insurance."
+					},
+					"familyApplication": {
+						"title": "Can I obtain residency for the family of a business resident?",
+						"text": "Yes, the spouse and minor children of the main applicant have the right to obtain residency on the basis of family reunification. Documents can be filed either at the same time as the main applicant, or after they receive their resident's ID card. An important benefit is that reunited family members automatically gain the right to legally work in Serbia."
+					},
+					"taxation": {
+						"title": "What is the tax patent (Paušal) in Serbia, and who does it suit?",
+						"text": "The Paušal is a special tax regime in Serbia with a fixed monthly tax rate that doesn't require complex bookkeeping or filing returns. It's ideal for freelancers, developers, and consultants earning up to 6 million dinars a year (~€50,000). The exact tax amount for a sole proprietorship in Serbia is calculated individually by the tax service and depends on the chosen activity code and the municipality where the business is registered."
+					},
+					"stayRequirement": {
+						"title": "What are the mandatory-stay requirements for business owners in Serbia?",
+						"text": "There's no strict requirement to spend more than 183 days a year in the country to renew business-based residency. However, if your goal is Serbian permanent residency after 3 years, you need to live in the country almost continuously. Absences of no more than 10 months total over the entire three-year period, or no more than 6 months per single trip, are permitted."
+					},
+					"consulateVsInside": {
+						"title": "Do I need to pay taxes when buying an apartment in Serbia?",
+						"text": "When purchasing housing, a foreign buyer takes on certain tax obligations. If you buy on the secondary market, an absolute rights transfer tax (Poreza na prenos apsolutnih prava) of 2.5% of the assessed value is paid. If you buy a new-build apartment from a developer, VAT (PDV) of 10% is paid instead (usually already included in the property price). Notary and sworn translator fees are also paid when signing the agreement."
+					},
+					"localCompanies": {
+						"title": "What are the real costs of maintaining property in Serbia?",
+						"text": "Serbia attracts immigrants with low living and housing maintenance costs compared to the EU. Monthly utility bills in Belgrade (heating, electricity, water, waste collection) for a standard 50–60 sq. m apartment average from €80 to €150 (depending on the season). Serbia's annual property tax is calculated individually based on the property's size and location, and typically ranges from €100 to €300 per year."
+					},
+					"prAndCitizenship": {
+						"title": "Can I obtain Serbian permanent residency through business in 3 years?",
+						"text": "Yes, Serbia offers one of the fastest paths to permanent residency in Europe. By running an active business and paying taxes on time, you're entitled to apply for Serbian permanent residency through business after just 3 years of continuous residence in the country under residency status. Permanent residency status fully exempts you from having to renew Serbian residency annually and opens a direct path to citizenship."
+					}
+				}
+			}
+		},
+		"armenia": {
+			"business": {
+				"intro": {
+					"eyebrow": "Armenia Residency — Business Registration",
+					"title": "Armenia Residency Through Company or Sole Proprietorship Registration",
+					"info": "A working path to residency without buying property. We register a sole proprietorship or LLC, open accounts, and manage the case through to the residency card. On the ground in Armenia.",
+					"firstButton": {
+						"text": "Book a Consultation"
+					}
+				},
+				"overview": {
+					"title": "A working path to residency without buying property",
+					"firstText": "Residency through business or sole proprietorship registration in Armenia is a reliable and fast basis for entrepreneurs and remote professionals who want to establish themselves legally in the country and operate on the international market.",
+					"secondText": "No property purchase or large investment is required — a housing lease agreement and a registered business are enough. We register the business, open accounts, and fully manage the case through to the residency card. For renewal, the company must show minimal activity and pay taxes. After 3 years of continuous residence under this status, you gain the right to apply for Armenian citizenship.",
+					"card": {
+						"title": "Key Parameters",
+						"typeLabel": "Status Type",
+						"typeValue": "Temporary Residency",
+						"processingLabel": "Processing Time",
+						"processingValue": "1.5–2 months",
+						"financeLabel": "Basis",
+						"financeValue": "Sole proprietorship or LLC registration",
+						"validityLabel": "Card Validity",
+						"validityValue": "1 year (with annual renewal)",
+						"pathLabel": "Path to Citizenship",
+						"pathValue": "After 3 years of residence",
+						"familyLabel": "Family",
+						"familyValue": "Through the family reunification procedure"
+					}
+				},
+				"tariffs": {
+					"eyebrow": "Cost of Services",
+					"title": "Transparent Pricing",
+					"additionalText": "The cost of full support for business registration and obtaining residency in Armenia.",
+					"PS": "State fees, sworn translations, notarizations, and health insurance are paid separately.",
+					"full": {
+						"badge": "Popular",
+						"title": "Turnkey Sole Proprietorship Residency",
+						"additional": "Residence permit processing for independent professionals based on sole proprietorship registration.",
+						"priceDetail": "€3,200 per applicant",
+						"points": {
+							"point1": "Registration of sole proprietorship status with the tax authorities (all fees included)",
+							"point2": "Obtaining a social card (SSN) and taxpayer ID",
+							"point3": "Audit of personal documents, case preparation, and certified translations",
+							"point4": "Filing residency documents with the Migration Service, accompanied by our specialist",
+							"point5": "Monitoring and tracking case review through to receiving the residency card",
+							"point6": "Assistance opening a personal bank account in Armenia"
+						}
+					},
+					"family": {
+						"title": "Family Reunification",
+						"additional": "Legalization of spouses and children based on the main applicant's existing residency (via sole proprietorship or LLC).",
+						"priceDetail": "€1,500 per person",
+						"points": {
+							"point1": "Notarized translation of family members' documents (marriage/birth certificates)",
+							"point2": "Preparation of document packages for each dependent applicant",
+							"point3": "Payment of state fees and medical certificates",
+							"point4": "Support during document filing with the authority",
+							"point5": "Monitoring the case through to receiving the residency cards"
+						}
+					}
+				},
+				"requirements": {
+					"eyebrow": "Business Requirements",
+					"title": "Who qualifies and what's required.",
+					"tabs": {
+						"mainApplicant": "Business / Sole Proprietorship",
+						"family": "Family Members",
+						"finances": "Finances",
+						"documents": "Documents"
+					},
+					"main-applicant": {
+						"age": {
+							"title": "Age 18 and over",
+							"text": "The application is filed by adults. Children and other dependent relatives are included later through the family reunification procedure."
+						},
+						"cleanRecord": {
+							"title": "Basis — your own business",
+							"text": "Registering as a Sole Proprietor, or setting up a Limited Liability Company (LLC) in Armenia."
+						},
+						"passport": {
+							"title": "Genuine activity",
+							"text": "To obtain and later renew residency, the company must conduct genuine economic activity, pay taxes, and show turnover."
+						},
+						"remote": {
+							"title": "Legal entry",
+							"text": "No active entry bans to the Republic of Armenia, open criminal cases, or deportations."
+						}
+					},
+					"family": {
+						"spouse": {
+							"title": "Right to reunification",
+							"text": "Spouses, minor children, and, in some cases, financially dependent parents are entitled to obtain residency."
+						},
+						"children": {
+							"title": "Filing timeline",
+							"text": "Family members' documents are filed after the main applicant (sole proprietor/LLC director) successfully receives their plastic residency card."
+						},
+						"parents": {
+							"title": "Proof of relationship",
+							"text": "Official certificates (marriage, children's birth certificates) must be provided with the required apostille/legalization and a notarized translation into Armenian."
+						},
+						"workRight": {
+							"title": "Financial support",
+							"text": "The main applicant acts as sponsor for their family members and confirms the ability to financially support them in the country."
+						}
+					},
+					"finances": {
+						"income": {
+							"title": "Account turnover",
+							"text": "To be approved, you need to show business activity and regular movement in the bank account of your sole proprietorship or LLC."
+						},
+						"allowance": {
+							"title": "Recommended balance",
+							"text": "It's recommended to show turnover or a balance of at least 1,000,000 AMD (about $2,600) on the business account over the 60 days before filing."
+						},
+						"statement": {
+							"title": "Tax rates",
+							"text": "A favorable turnover tax of 1.5% to 5%, plus the possibility of reducing the income tax rate to 0% for the IT sector upon obtaining a special certificate."
+						},
+						"savings": {
+							"title": "Mandatory contributions",
+							"text": "Fixed monthly social and military contributions average $25 to $40 per month for registered sole proprietors."
+						}
+					},
+					"documents": {
+						"cleanRecordDoc": {
+							"title": "Passport and SSN",
+							"text": "International passport (original + notarized translation into Armenian). The social card (SSN) is issued locally."
+						},
+						"civilDocs": {
+							"title": "Business registration",
+							"text": "A sole proprietorship registration certificate, or a state registry extract for an LLC."
+						},
+						"notary": {
+							"title": "Proof of activity",
+							"text": "Contracts with counterparties, invoices, and bank statements confirming business activity."
+						},
+						"incomeProof": {
+							"title": "Medical certificate",
+							"text": "A health certificate (issued by a certified medical center in Armenia). 3 color photographs (3.5 × 4.5 cm)."
+						}
+					}
+				},
+				"roadmap": {
+					"eyebrow": "Roadmap",
+					"title": "From arrival to the residency card — step by step",
+					"additionalInfo": "The process shown is for a typical case of business/sole proprietorship registration in Armenia.",
+					"steps": [
+						{
+							"title": "I. Consultation and Strategy",
+							"text": "We break down your situation, choose the optimal business form (sole proprietorship with simplified taxation, or LLC), and calculate the tax burden before you start. We set a realistic timeline."
+						},
+						{
+							"title": "II. Business Registration",
+							"text": "We register the sole proprietorship or legal entity in Armenia's State Registry, obtain a taxpayer ID, arrange a social card (SSN), open accounts at a local bank, and help with a lease agreement."
+						},
+						{
+							"title": "III. Application Filing",
+							"text": "We prepare the complete document package, including medical certificates and certified notarized translations. We submit the case to Armenia's Migration Service."
+						},
+						{
+							"title": "IV. Receiving the Card and Settling In",
+							"text": "You pass a security check and, within 30–45 days, receive your plastic Armenian residency card. We help you get set up with your first reporting and taxes."
+						},
+						{
+							"title": "V. Taxes and Renewal",
+							"text": "We help with bookkeeping, paying minimal taxes, and renewing your residency status on time. After 3 years of continuous residence, you gain the right to apply for citizenship."
+						}
+					]
+				},
+				"faq": {
+					"incomeRequirements": {
+						"title": "Do I need to show real turnover on my sole proprietorship's account for residency approval?",
+						"text": "Yes, Armenia's Migration Service and National Security Service (NSS) now strictly check that businesses are genuine. To be approved, you need to show movement in your sole proprietorship's bank account. It's recommended to demonstrate turnover or a balance of at least 1,000,000 AMD (about $2,600) on the business account over the 60 days before filing, as well as have active contracts with clients."
+					},
+					"whoCanGet": {
+						"title": "Who is eligible for Armenian residency through sole proprietorship registration?",
+						"text": "Any foreign national aged 18 or older who has registered a sole proprietorship (or opened an LLC) in Armenia and conducts genuine business activity can obtain temporary residency. There are no citizenship restrictions for most countries. The main requirements are legal entry into the country, no legal issues, and the ability to demonstrate business activity."
+					},
+					"requiredDocuments": {
+						"title": "What documents should I prepare in my home country before flying to Armenia?",
+						"text": "For the main applicant, an international passport is enough (valid for at least 1.5–2 years). If you plan to file documents for family members, be sure to bring the original marriage certificate and children's birth certificates. These documents need an Apostille (or legalization, depending on the issuing country). All translations into Armenian and notarization are done locally, in Armenia."
+					},
+					"processingTime": {
+						"title": "How long does the turnkey Armenian residency process take?",
+						"text": "The entire process, from your arrival in Yerevan to receiving your plastic residency card, takes on average 1.5 to 2 months (45–60 days). Registering the sole proprietorship, obtaining the taxpayer ID and social card (SSN), and opening accounts takes 5–7 business days. Review of the residency application by the Migration Service and the NSS check take up to 30–45 days."
+					},
+					"familyApplication": {
+						"title": "Can I bring my family to Armenia under business residency?",
+						"text": "Yes, the main applicant's family members (spouse, minor children, and in some cases financially dependent parents) have the full right to obtain residency through the family reunification procedure. Documents for relatives can be filed right after the main applicant (the sole proprietorship owner) receives their plastic residency card."
+					},
+					"taxation": {
+						"title": "What taxes does a sole proprietor pay in Armenia when applying for residency?",
+						"text": "Most IT professionals, marketers, and freelancers choose the turnover tax (similar to a simplified tax regime), with a rate from 1.5% to 5% (depending on the field of activity). There are also fixed social and military contributions (around $25–$40 per month). For certain types of IT activity, upon obtaining a special certificate, the income tax rate can be reduced to 0%, making Armenia one of the most attractive tax havens in the CIS."
+					},
+					"stayRequirement": {
+						"title": "Do I need to buy or rent property to obtain residency?",
+						"text": "Buying property in Armenia is not required for this type of residency. However, you'll need a registration address in Armenia. An official apartment lease agreement (certified at a notary or the cadastre), or the owner's consent for you to register at their address at the passport office, will work. We help resolve this as part of our support."
+					},
+					"consulateVsInside": {
+						"title": "What's the validity of business residency, and how do I renew it?",
+						"text": "Initial temporary residency is issued for 1 year. To renew it for another year, you'll need to file a similar document package 30 days before the card expires, and prove that your sole proprietorship continued operating, filed its reports on time, and paid taxes into Armenia's budget over the past year."
+					},
+					"localCompanies": {
+						"title": "Can I open a bank account in Armenia without residency, just with a sole proprietorship?",
+						"text": "Yes, a registered sole proprietorship is solid grounds for opening a business account and a personal account at Armenian banks (such as ID Bank, Ameriabank, Acba Bank, and others). Banks run a compliance (KYC) process, checking your contracts and sources of funds. Having an open account with activity on it becomes a key argument when later filing for residency."
+					},
+					"prAndCitizenship": {
+						"title": "Does Armenian residency lead to citizenship?",
+						"text": "Yes. Under Armenian law, a foreign national who legally and continuously resides in the country under residency status for 3 years has the right to apply for Armenian citizenship. This also requires passing a basic test on knowledge of the Armenian Constitution, in the Armenian language."
+					}
+				}
+			},
+			"work": {
+				"intro": {
+					"eyebrow": "Armenia Residency",
+					"title": "Armenia Residency Through Employment and a Work Permit",
+					"info": "A working path to residency without buying property or opening a business. We fully handle the processing of the unified residency card and official work permit in Armenia.",
+					"firstButton": {
+						"text": "Get a Consultation"
+					}
+				},
+				"overview": {
+					"title": "Key Parameters",
+					"firstText": "Employment-based residency in Armenia is an ideal option for expats relocating to Armenian offices of international companies, local professionals, and citizens of the EAEU. The process has been fully digitized since 2022, eliminating bureaucracy and long lines at migration centers.",
+					"secondText": "You receive a single plastic card (Work Permit + Residence Card), granting the right to legally live, work, and access medical and financial services in Armenia. To keep your status, you simply need to remain employed by the company — the employer pays your income tax and social contributions.",
+					"card": {
+						"title": "Program Parameters",
+						"typeLabel": "Status Type",
+						"typeValue": "Unified Residency and Work Permit Card",
+						"processingLabel": "Processing Time",
+						"processingValue": "1.5–2 months (for EAEU citizens — up to 3–4 weeks)",
+						"basisLabel": "Basis",
+						"basisValue": "Official employment contract",
+						"validityLabel": "Card Validity",
+						"validityValue": "For the duration of the contract (up to 1 year, renewable)",
+						"pathLabel": "Path to Citizenship",
+						"pathValue": "After 3 years of continuous residence",
+						"familyLabel": "Family",
+						"familyValue": "Through the family reunification procedure"
+					}
+				},
+				"tariffs": {
+					"eyebrow": "Cost of Services",
+					"title": "Transparent Pricing",
+					"additionalText": "The cost of Aurion's legal support services.",
+					"thirdCountries": {
+						"title": "Residency Through Employment",
+						"additional": "(for citizens of third countries)",
+						"badge": "Popular",
+						"priceDetail": "per applicant",
+						"points": {
+							"point1": "Registration and management of the employer's account on the workpermit.am platform.",
+							"point2": "Passing the labor market test with Armenia's Ministry of Labor and Social Affairs.",
+							"point3": "Assistance obtaining the social card (SSN) and completing the medical exam.",
+							"point4": "Preparing and translating documents and submitting the case to the Migration Service.",
+							"point5": "Specialist support when receiving the completed plastic card."
+						}
+					},
+					"eaec": {
+						"title": "Residency for EAEU Citizens",
+						"additional": "(Russia, Belarus, Kazakhstan, Kyrgyzstan)",
+						"priceDetail": "per applicant",
+						"points": {
+							"point1": "Online registration of the employment contract on the workpermit.am portal (no labor market test).",
+							"point2": "Fast processing of the social card (SSN).",
+							"point3": "Preparation of the document package and obtaining official confirmation of residence rights.",
+							"point4": "Full consulting support at every stage."
+						}
+					},
+					"family": {
+						"title": "Family Reunification for Employees",
+						"additional": "(spouses, children)",
+						"priceDetail": "per person",
+						"points": {
+							"point1": "Notarized translation of marriage/birth certificates into Armenian.",
+							"point2": "Preparation and filing of reunification document packages.",
+							"point3": "Payment of state fees and support at government offices.",
+							"point4": "Monitoring the case through to card issuance for family members."
+						}
+					}
+				},
+				"requirements": {
+					"eyebrow": "Requirements and Documents",
+					"title": "Who can obtain this status?",
+					"tabs": {
+						"mainApplicant": "Main Applicant",
+						"family": "Family Members",
+						"documents": "Documents"
+					},
+					"main-applicant": {
+						"age": {
+							"title": "Age 18 and over",
+							"text": "The application is filed by adult foreign nationals holding an official employment contract."
+						},
+						"basis": {
+							"title": "Basis — official employment",
+							"text": "A signed (or preliminary) employment contract with an Armenian employer (legal entity)."
+						},
+						"submission": {
+							"title": "Filing through the employer",
+							"text": "The residency application is initiated by the employer in the workpermit.am electronic system using their digital signature."
+						},
+						"entry": {
+							"title": "Legal entry",
+							"text": "No active entry bans to Armenia, deportations, or open criminal cases in the country of citizenship."
+						},
+						"vacancy": {
+							"title": "Vacancy compliance",
+							"text": "The position must pass a labor market test with Armenia's Ministry of Labor (except for highly qualified specialists and EAEU citizens)."
+						},
+						"nss": {
+							"title": "NSS screening",
+							"text": "A mandatory check of the candidate by Armenia's National Security Service (conducted electronically)."
+						}
+					},
+					"family": {
+						"reunion": {
+							"title": "Right to reunification",
+							"text": "Spouses, minor children, and financially dependent parents have the right to reside in the country on the basis of your contract."
+						},
+						"timeline": {
+							"title": "Filing timeline",
+							"text": "Family members' documents are uploaded to the system and filed after the main employee's application is approved."
+						},
+						"relations": {
+							"title": "Proof of relationship",
+							"text": "Original marriage and birth certificates must be apostilled (or legalized) and translated into Armenian."
+						},
+						"eaecBenefits": {
+							"title": "Benefits for EAEU citizens",
+							"text": "Family members of employees from EAEU countries (Russia, Belarus, Kazakhstan, Kyrgyzstan) are exempt from obtaining work permits and process their status under a simplified scheme."
+						}
+					},
+					"documents": {
+						"passport": {
+							"title": "International passport",
+							"text": "The original document plus a certified notarized translation into Armenian."
+						},
+						"ssn": {
+							"title": "Armenian social card (SSN)",
+							"text": "The taxpayer identification number (issued locally in Yerevan)."
+						},
+						"contract": {
+							"title": "Employment contract",
+							"text": "A copy of the contract or preliminary agreement, with the salary and position clearly stated."
+						},
+						"diploma": {
+							"title": "Proof of qualification",
+							"text": "An education diploma or certificates (with apostille/legalization and translation as required)."
+						},
+						"medical": {
+							"title": "Medical certificate",
+							"text": "A medical board's report in the established format (issued at a clinic in Yerevan)."
+						},
+						"photos": {
+							"title": "Photographs",
+							"text": "3 color passport-format photographs (3.5 × 4.5 cm) on a light background."
+						}
+					}
+				},
+				"roadmap": {
+					"eyebrow": "Processing Stages",
+					"title": "Process Roadmap",
+					"additionalInfo": "The process is digitized and runs through the official portal of Armenia's Migration Service.",
+					"steps": {
+						"0": {
+							"title": "Consultation and Employer Verification",
+							"text": "We analyze your employment contract. We check the employer company for compliance with migration law requirements. We register the company's profile on the workpermit.am portal."
+						},
+						"1": {
+							"title": "Publishing the Vacancy and Documents",
+							"text": "The employer posts the vacancy on the platform for a labor market check. Meanwhile, we help the employee arrange their social card (SSN), pass the medical exam, and get certified document translations."
+						},
+						"2": {
+							"title": "Electronic Filing and NSS Review",
+							"text": "We upload the employee's complete document package to the system. The application goes for approval to the Ministry of Labor, the Migration Service, and Armenia's NSS. The entire process is tracked online."
+						},
+						"3": {
+							"title": "Receiving the Unified Card",
+							"text": "Once the application is approved, you sign the final employment contract, and the authority issues a single plastic card that serves as both a work permit and residency. We collect the card in Yerevan."
 						}
 					}
 				},
 				"faq": {
-					"property": {
-						"title": "Is it necessary to buy real estate of a certain value for this residence permit?",
-						"text": "No, Montenegrin legislation does not establish a minimum value threshold for the property. The primary condition is that the property must be residential (apartment, house) or commercial and belong to you by right of ownership. Shared ownership stakes are also eligible for processing."
+					"cardDefinition": {
+						"title": "What is the unified employment residency card in Armenia?",
+						"text": "It's a single plastic document that combines both an official work permit and temporary residency. It confirms your right to legally stay in the country and work for a specific employer."
 					},
-					"duration": {
-						"title": "For what period is the residence permit issued and how is it renewed?",
-						"text": "A residence permit (boravak) based on real estate is issued for exactly 1 year. It can be renewed annually an unlimited number of times as long as the property remains in your ownership. The renewal procedure is simpler than the initial submission but requires updating local certificates and insurance."
+					"eaecRequirement": {
+						"title": "Are EAEU citizens required to obtain a work permit?",
+						"text": "No, citizens of EAEU countries (Russia, Belarus, Kazakhstan, Kyrgyzstan) are exempt from obtaining a standard work permit. However, they and their employers are still required to register the employment contract on the workpermit.am portal to confirm their legal residency status."
 					},
-					"taxes": {
-						"title": "What additional expenses and taxes will arise during the purchase?",
-						"text": "When buying secondary real estate, a turnover tax of 3% to 5% is paid depending on the property's value (primary properties from a developer who is a VAT payer are exempt from this tax). Also account for the costs of notary services, a court translator, and the annual real estate tax."
+					"employerChange": {
+						"title": "Can I change employers while holding a work-based residency?",
+						"text": "Yes, but your current residency is tied to a specific employer. Upon termination, the old residency is revoked. You'll have a limited time to find a new employer, who must re-initiate your registration process on the workpermit.am platform."
 					},
-					"permanent": {
-						"title": "Does this type of residence permit lead to permanent residency and citizenship?",
-						"text": "According to the current Law on Foreigners of Montenegro, a residence permit based on property ownership is temporary and does not directly count toward the 5-year residency history required to obtain permanent residency (stalni boravak) or citizenship. A residence permit via company formation is typically used for these purposes."
+					"stateFees": {
+						"title": "What state fees apply to work-based residency?",
+						"text": "The state fee for reviewing the application and issuing an employment-based residency card is 105,000 AMD (about $270) per year. The fee is usually paid by the employer or the employee themselves at the time of filing."
 					},
-					"residencyTime": {
-						"title": "Is it mandatory to stay in Montenegro continuously after receiving the residence permit?",
-						"text": "To maintain a residence permit based on real estate, there are currently no strict requirements for a mandatory 11-month physical presence in the country (unlike a work-based residence permit). However, prolonged absence may raise additional questions during the annual card renewal."
+					"diplomaRequirements": {
+						"title": "What are the requirements for an employee's education diploma?",
+						"text": "For some positions, the Migration Service requests proof of qualification. The diploma must be translated into Armenian and notarized. For citizens of certain countries, apostille or consular legalization of the diploma may be required."
+					},
+					"nssCheck": {
+						"title": "Does an employed applicant go through an NSS screening?",
+						"text": "Yes. Armenia's National Security Service checks all foreign nationals filing for residency (including employees). The check runs in the background after the documents are submitted through the online portal."
+					},
+					"remoteWork": {
+						"title": "Can I get residency while working remotely for a foreign company?",
+						"text": "Work-based residency is only issued with a contract from an Armenian legal entity (branch, representative office, or local company). If you work remotely for a company in another country, residency through registering your own sole proprietorship in Armenia would suit you better."
+					},
+					"validityPeriod": {
+						"title": "What's the validity period of work-based residency?",
+						"text": "Temporary employment-based residency is issued for the duration of your employment contract, but no more than 1 year. Each year, as the employment contract is renewed, the residency is renewed for another year through the same online platform."
+					},
+					"terminationRisk": {
+						"title": "Can my employer fire me and cause me to lose my residency?",
+						"text": "Yes, in the event of contract termination, the employer must notify the Migration Service via the workpermit.am portal. After that, your work permit and residency are revoked. You'll need to either find a new job, switch to a different residency basis (for example, opening a sole proprietorship), or leave the country."
+					},
+					"bankAccount": {
+						"title": "Does work-based residency let me open an account at an Armenian bank?",
+						"text": "Yes, having an official employment contract in Armenia and approved work-based residency significantly simplifies the bank compliance process. You'll be able to easily open personal accounts in dram, dollars, or euros at the country's leading banks."
+					}
+				}
+			}
+		},
+		"greece": {
+			"golden-visa": {
+				"intro": {
+					"eyebrow": "Greece Golden Visa · Investment",
+					"title": "Greece Golden Visa Through Property Purchase",
+					"info": "A working path to residency in the EU and visa-free Schengen access. We help select a liquid property under the new thresholds (€250,000, €400,000, or €800,000), open accounts, and arrange a five-year residency permit, turnkey, with no requirement to live in the country.",
+					"firstButton": { "text": "Book a Consultation" }
+				},
+				"overview": {
+					"title": "The most popular way to get European residency without relocating.",
+					"firstText": "Greece's \"Golden Visa\" program is the best solution for those who want a reliable European \"backup base\" without changing their tax residency or living abroad full-time.",
+					"secondText": "There's no residence requirement at all: you only need to visit once, for fingerprinting. We handle the whole process: from a full audit of the developer and running a secure transaction, to filing documents with Greece's Migration Ministry. The property can be legally rented out for passive income in euros.",
+					"card": {
+						"title": "Key Parameters",
+						"typeLabel": "Residency Type",
+						"typeValue": "Golden Visa",
+						"processingLabel": "Processing Time",
+						"processingValue": "2–4 months",
+						"basisLabel": "Basis",
+						"basisValue": "Property purchase",
+						"validityLabel": "Validity",
+						"validityValue": "5 years (renewed every 5 years)",
+						"pathLabel": "Path to PR",
+						"pathValue": "After 7 years of continuous residence",
+						"stayLabel": "Time in Country",
+						"stayValue": "0 days per year (not required)",
+						"familyLabel": "Family",
+						"familyValue": "Included (spouses, children up to 21, parents)"
+					}
+				},
+				"tariffs": {
+					"eyebrow": "Cost of Services",
+					"title": "Transparent Pricing",
+					"additionalText": "The cost of Aurion's support services.",
+					"commercial": {
+						"badge": "Minimum",
+						"title": "Residency Through Commercial Properties",
+						"price": "€3,500",
+						"priceDetail": "per applicant",
+						"additional": "Turnkey residency processing based on the conversion of commercial property into residential use. The most accessible entry threshold.",
+						"points": {
+							"point1": "Selection of commercial properties for conversion from €250,000",
+							"point2": "Full legal due diligence of the transaction",
+							"point3": "Obtaining a Greek tax number (AFM) and opening accounts",
+							"point4": "Filing residency documents and obtaining the Blue Slip",
+							"point5": "Monitoring the case through to receiving the 5-year card"
+						}
+					},
+					"residential": {
+						"badge": "Popular",
+						"title": "Residency Through Residential Properties",
+						"price": "€4,500",
+						"priceDetail": "per applicant",
+						"additional": "Full support for a residential property purchase transaction in any region of Greece, under the new thresholds (€400k or €800k).",
+						"points": {
+							"point1": "Selection of residential properties in Athens, Thessaloniki, or the islands",
+							"point2": "Compliance check against the '120 sq. m minimum' rule",
+							"point3": "Full transaction management by Aurion's Greek lawyers",
+							"point4": "Filing documents with the Migration Service",
+							"point5": "Support for fingerprinting in Greece",
+							"point6": "Receiving and courier delivery of the completed ID cards"
+						}
+					},
+					"family": {
+						"title": "Family Reunification",
+						"price": "€1,500",
+						"priceDetail": "per person",
+						"additional": "Processing of family members. Legalization of spouses, children, and parents based on the main applicant's investment.",
+						"points": {
+							"point1": "Review of documents for compliance with relationship requirements",
+							"point2": "Notarized translations and certifications in Greece",
+							"point3": "Preparation of the family case for a joint filing",
+							"point4": "Support for the family during fingerprinting",
+							"point5": "Receiving residency cards for each family member"
+						}
+					}
+				},
+				"requirements": {
+					"eyebrow": "Requirements",
+					"title": "Who qualifies and what's required.",
+					"tabs": {
+						"mainApplicant": "Main Applicant",
+						"family": "Family Members",
+						"documents": "Documents"
+					},
+					"main-applicant": {
+						"age": {
+							"title": "Age 18 and over",
+							"text": "Only an adult investor can be the applicant. Family is included in a single application."
+						},
+						"funds": {
+							"title": "Legal source of funds",
+							"text": "You must confirm the legal origin of the money used to purchase the property."
+						},
+						"investment": {
+							"title": "Property investment",
+							"text": "Purchase of a property (or properties) worth from €250,000, €400,000, or €800,000, depending on the region."
+						},
+						"cleanRecord": {
+							"title": "No criminal record",
+							"text": "A certificate of no criminal record from the country of citizenship and the country of actual residence."
+						},
+						"insurance": {
+							"title": "Health insurance",
+							"text": "A health insurance policy issued by a certified Greek company."
+						},
+						"legalEntry": {
+							"title": "Legal entry",
+							"text": "No Schengen visa violations and no active EU entry bans."
+						}
+					},
+					"family": {
+						"spouse": {
+							"title": "Spouse",
+							"text": "An official marriage recognized under Greek law."
+						},
+						"children": {
+							"title": "Children up to age 21",
+							"text": "The couple's joint children who are dependent on the main applicant (and unmarried)."
+						},
+						"parents": {
+							"title": "Parents on both sides",
+							"text": "The parents of both the main applicant and their spouse (without strict dependency requirements)."
+						}
+					},
+					"documents": {
+						"passport": {
+							"title": "International passport",
+							"text": "Valid for at least 1.5 years."
+						},
+						"civilDocs": {
+							"title": "Marriage and birth certificates",
+							"text": "With an official apostille and certified translation."
+						},
+						"cleanRecordDoc": {
+							"title": "Certificate of no criminal record",
+							"text": "Provided with an apostille and translation."
+						},
+						"contract": {
+							"title": "Notarized purchase agreement",
+							"text": "A notarized purchase agreement and an official extract from Greece's property registry."
+						},
+						"paymentProof": {
+							"title": "Proof of full payment",
+							"text": "Official confirmation of payment for the property, made directly from the investor's personal account."
+						}
+					}
+				},
+				"roadmap": {
+					"eyebrow": "Roadmap",
+					"title": "From property selection to the residency card — step by step.",
+					"additionalInfo": "The process shown is for a typical property purchase case in Greece.",
+					"steps": [
+						{
+							"title": "Consultation and Property Selection",
+							"text": "We analyze your goals. We select property under the new thresholds (€250k / €400k / €800k). Our lawyers verify the property's legal standing."
+						},
+						{
+							"title": "Opening Accounts and the Transaction",
+							"text": "We obtain a Greek tax number (AFM) and open bank accounts. We handle the payment and sign the final purchase agreement."
+						},
+						{
+							"title": "Filing the Application (Blue Slip)",
+							"text": "We prepare the document package and file the application online. The investor receives a temporary residence permit (Blue Slip) allowing legal presence in Greece."
+						},
+						{
+							"title": "Fingerprinting and Receiving the Card",
+							"text": "Within 6 months, we travel to Greece for fingerprinting. Within 1.5–2 months, we collect the completed plastic residency cards, valid for 5 years."
+						}
+					]
+				},
+				"faq": {
+					"minInvestment": {
+						"title": "What's the minimum investment amount for the Golden Visa?",
+						"text": "Since autumn 2024, the minimum threshold is €800,000 in premium zones (Athens, Thessaloniki, Mykonos, Santorini) and €400,000 in other regions. However, a discounted option of €250,000 remains available when purchasing commercial properties for conversion into residential use, or when restoring architectural landmarks."
+					},
+					"stayRequirement": {
+						"title": "Do I need to live in Greece permanently?",
+						"text": "No. There is no mandatory residence requirement. You can be absent from the country entirely and still retain your resident status."
+					},
+					"rentPossibility": {
+						"title": "Can I rent out the property I purchased?",
+						"text": "Yes, you have the full right to rent out the property (either long-term or short-term via platforms like Airbnb) and earn income in euros."
+					},
+					"workRight": {
+						"title": "Does the Golden Visa grant the right to work in Greece?",
+						"text": "The Golden Visa doesn't grant the right to be employed in Greece, but you can own a business, set up companies, and receive dividends."
+					},
+					"citizenshipPath": {
+						"title": "Can I obtain Greek citizenship through the Golden Visa?",
+						"text": "Yes, but this requires actually living in Greece for at least 7 years, paying taxes there, and passing a language and culture exam."
+					},
+					"cardValidity": {
+						"title": "How long is the residency card valid for?",
+						"text": "The card is issued for 5 years right away. It can be renewed an unlimited number of times, every 5 years, as long as the property remains in your ownership."
 					}
 				}
 			}
 		}
 	},
-	"Privacy": {
-		"title": "Privacy Policy",
-		"subtitle": "Effective Date: July 17, 2026",
-		"description": "This Privacy Policy describes how our project collects, uses, transfers, and protects the personal data of users who submit inquiries to receive relocation consultations.",
-		"sections": {
-			"data": {
-				"title": "1. What Data We Collect",
-				"text": "We collect exclusively the data that you voluntarily provide in the feedback form: your name, country of interest, preferred contact method, and contact details (phone number or messenger username)."
-			},
-			"purpose": {
-				"title": "2. Purposes of Data Processing",
-				"text": "All received data is used solely to contact you, respond to your inquiry, and conduct an initial consultation regarding B2B services and relocation."
-			},
-			"transit": {
-				"title": "3. Data Transfer and Security",
-				"text": "Our website is static and does not store your data on the server. Upon form submission, the data is encrypted via HTTPS protocol and securely transmitted through a transit gateway directly to our secure corporate email. We guarantee that your contact details will never be disclosed to third parties."
-			},
-			"rights": {
-				"title": "4. Your Rights",
-				"text": "You have the full right to request the complete deletion of your data from our database/email at any time. To do so, simply contact us via the email address provided in the contacts section below."
-			},
-			"contacts": {
-				"title": "5. Contact Information",
-				"text": "If you have any questions regarding the confidentiality of your data, you can contact us directly:"
-			}
-		}
-	},
 	"blog": {
-		"title": "Blog on Immigration and Relocation",
+		"title": "Immigration and Relocation Blog",
 		"filters": {
 			"all": "All",
-			"spain": "Spain",
-			"montenegro": "Montenegro",
-			"france": "France",
-			"hungary": "Hungary",
-			"greece": "Greece",
-			"UAE": "UAE",
-			"us": "USA"
-		},
-		"tags": {
-			"spain": "#Spain",
-			"cyprus": "#Cyprus",
-			"uae": "#UAE",
-			"portugal": "#Portugal",
-			"startup": "#Startup",
-			"citizenship": "#Second Citizenship",
-			"france": "#France",
+			"armenia": "#Armenia",
 			"serbia": "#Serbia",
-			"usa": "#USA",
-			"argentina": "#Argentina",
-			"italy": "#Italy",
-			"taxes": "#Investments"
+			"montenegro": "#Montenegro",
+			"greece": "#Greece",
+			"spain": "#Spain"
 		},
+		"tags": { "spain": "#Spain" },
 		"articles": {
 			"spainNomad": {
-				"title": "Digital Nomad Visa in Spain: A Complete Guide to Acquisition in 2026",
-				"createdAt": "May 15, 2026",
-				"timeToRead": "7 min read"
+				"title": "Spain Residency 2026: Digital Nomad Visa — the Complete Guide",
+				"timeToRead": "12 min"
 			},
-			"cyprusPms": {
-				"title": "Permanent Residency in Cyprus by Investment: New Rules and Limits",
-				"createdAt": "May 12, 2026",
-				"timeToRead": "5 min read"
+			"dnv-income": {
+				"title": "Income Requirements for Spain's Digital Nomad Residency in 2026: How to Calculate It Correctly",
+				"timeToRead": "7 min"
 			},
-			"uaeInvest": {
-				"title": "UAE Golden Visa: How to Obtain Residency via Property Purchase in Dubai",
-				"createdAt": "May 08, 2026",
-				"timeToRead": "6 min read"
-			},
-			"portugalD7": {
-				"title": "D7 Visa to Portugal for Passive Income: Bank and Housing Requirements",
-				"createdAt": "April 30, 2026",
-				"timeToRead": "8 min read"
-			},
-			"startupVisa": {
-				"title": "How to Move to Europe with Your Business Project: Overview of the Best Startup Visas",
-				"createdAt": "April 24, 2026",
-				"timeToRead": "10 min read"
-			},
-			"vanuatuPassport": {
-				"title": "Vanuatu Citizenship by Investment: The Fastest Passport in the World in 1 Month",
-				"createdAt": "April 18, 2026",
-				"timeToRead": "4 min read"
-			},
-			"franceTalent": {
-				"title": "Talent Passport to France: Relocation for Founders, IT Specialists, and Artists",
-				"createdAt": "April 11, 2026",
-				"timeToRead": "9 min read"
-			},
-			"serbiaRelocation": {
-				"title": "Residence Permit in Serbia by Company Formation: The Most Budget-Friendly Way to Settle in Europe",
-				"createdAt": "April 05, 2026",
-				"timeToRead": "5 min read"
-			},
-			"usaEb5": {
-				"title": "EB-5 Investor Visa in the US: How to Legally Get a Green Card for the Whole Family",
-				"createdAt": "March 28, 2026",
-				"timeToRead": "12 min read"
-			},
-			"argentinaBirth": {
-				"title": "Giving Birth in Argentina: A Legal Path to Obtaining a Second Passport for Parents",
-				"createdAt": "March 22, 2026",
-				"timeToRead": "7 min read"
-			},
-			"italyResidence": {
-				"title": "Italy Residence Permit for Elective Residence (Residenza Elettiva): Processing Nuances",
-				"createdAt": "March 15, 2026",
-				"timeToRead": "6 min read"
-			},
-			"nomadTaxes": {
-				"title": "Nomad Tax Optimizer: Where to Pay Less While Living Across Multiple Countries",
-				"createdAt": "March 03, 2026",
-				"timeToRead": "8 min read"
+			"where-to-move": {
+				"title": "Income Requirements for Spain's Digital Nomad Residency in 2026: How to Calculate It Correctly",
+				"timeToRead": "9 min"
 			}
 		}
 	}

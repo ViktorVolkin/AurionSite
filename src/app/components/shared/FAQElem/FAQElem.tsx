@@ -12,7 +12,6 @@ export default function FaqElem({
 	as = "p",
 	children,
 }: FaqItemProps) {
-	const t = useTranslations();
 	const [isOpen, setIsOpen] = useState(false);
 
 	const ComponentTag = as;
@@ -24,7 +23,7 @@ export default function FaqElem({
 				className={styles.button}
 				onClick={() => setIsOpen(!isOpen)}
 				aria-expanded={isOpen}>
-				<span className={styles.question}>{t(titleKey)}</span>
+				<span className={styles.question}>{titleKey}</span>
 
 				<div
 					className={styles.icons}
@@ -48,7 +47,7 @@ export default function FaqElem({
 					<div className={styles.text}>{children}</div>
 				) : (
 					textKey && (
-						<ComponentTag className={styles.text}>{t(textKey)}</ComponentTag>
+						<ComponentTag className={styles.text}>{textKey}</ComponentTag>
 					)
 				)}
 			</motion.div>
