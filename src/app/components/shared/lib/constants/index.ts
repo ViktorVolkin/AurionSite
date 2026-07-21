@@ -17,6 +17,13 @@ export {
 	CasesBlockSEO,
 } from "./SEO";
 
+export {
+	BusinessFinalCTAContent,
+	BusinessFirstCTAContent,
+	BusinessIntroBlockContent,
+	BusinessRoadmapContent,
+	BusinessPossiblitiesBlock,
+} from "./ForBusinessContent";
 export { romanNumerals } from "./constants";
 
 export { BLOG_FILTERS } from "./BlogContent";

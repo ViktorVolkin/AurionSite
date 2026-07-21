@@ -1,0 +1,7 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 120px;
+	max-width: clamp(0px, 100%, 1280px);
+	margin: 0 auto;
+}

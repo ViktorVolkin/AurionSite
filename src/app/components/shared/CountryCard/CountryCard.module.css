@@ -40,6 +40,7 @@
 	color: rgb(245, 242, 236);
 	line-height: 1.1;
 	margin: 0;
+	text-wrap: nowrap;
 }
 
 .important {
@@ -87,6 +88,9 @@
 	font-weight: 600;
 	white-space: nowrap;
 	text-align: right;
+}
+.highlight {
+	color: var(--accent-2);
 }
 
 .experience {

@@ -19,7 +19,11 @@ export default async function CountryCard({
 					<Link
 						href={href}
 						className={styles.main__link}>
-						{t(title)}
+						{t.rich(title, {
+							highlight: (text) => (
+								<span className={styles.highlight}>{text}</span>
+							),
+						})}
 					</Link>
 				</h3>
 				<p className={styles.important}>{t(importantText)}</p>
